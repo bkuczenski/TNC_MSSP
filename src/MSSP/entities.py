@@ -3,7 +3,8 @@ Created on Oct 28, 2015
 
 @author: brandon
 
-Base entity class is just a set of attributes
+Base Classes:
+Attribute -- text from the header region of the spreadsheet.
 
 
 Four kinds of entities:
@@ -26,4 +27,5 @@ class MyClass(object):
         '''
         Constructor
         '''
-        
+        pass
+
