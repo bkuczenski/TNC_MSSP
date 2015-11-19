@@ -20,6 +20,22 @@ MSSP_FILES = {
 
 M = xl.load_workbook(WORKING_DIR + MSSP_FILES['Monitoring'])
 
+
+# get color specification
+def get_real_color(color_obj, workbook=None):
+    if color_obj.type == 'rgb':
+        return color_obj.rgb
+    elif color_obj.type == 'indexed':
+        if workbook is None:
+            raise Exception("indexed type and workbook not defined")
+        else:
+            return workbook._colors[color_obj.indexed]
+    else:
+        raise NotImplementedError("color type {0} not supported".format(color_obj.type))
+
+
+
+
 # find the number of nonempty cells in a given row?
 def num_cells(worksheet, row):
     pass

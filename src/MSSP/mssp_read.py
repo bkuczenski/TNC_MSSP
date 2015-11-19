@@ -40,9 +40,19 @@ From that come the entity types:
 
 import openpyxl as xl
 
-grid_start = { "Monitoring":'F8',
+grid_start = {"Monitoring":'F8',
               "Assessment":'D37',
-              "HCR":'E9'}
+              "ControlRules":'E9'}
+
+default_MSSP_FILES = {
+    'Assessment': 'MSSP Assessment_OCT28 2015.xlsx',
+    'ControlRules': 'MSSP Harvest Control Rules_OCT28 2015.xlsx',
+    'Monitoring': 'MSSP Monitoring_OCT28 2015.xlsx',
+}
+
+class MSSPFile(object):
+    def __init__(self, files=default_MSSP_FILES,)
+
 
 class MSSPSet(object):
     '''
@@ -61,4 +71,4 @@ class MSSPSet(object):
         
         '''
         self.version = version
-        
+
