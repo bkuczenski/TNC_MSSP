@@ -1,4 +1,4 @@
-'''
+"""
 Created on Oct 28, 2015
 
 @author: brandon
@@ -36,7 +36,8 @@ From that come the entity types:
  - questions
  - criteria
     
-'''
+"""
+
 
 import openpyxl as xl
 

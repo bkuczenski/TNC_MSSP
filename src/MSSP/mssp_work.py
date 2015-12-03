@@ -10,6 +10,8 @@ here permanently.
 import os
 import openpyxl as xl
 
+from openpyxl.styles.colors import COLOR_INDEX
+
 WORKING_DIR = os.path.expanduser('~') + '/Dropbox/2015/TNCWebTool/Working/'
 
 MSSP_FILES = {
@@ -17,8 +19,6 @@ MSSP_FILES = {
     'ControlRules': 'MSSP Harvest Control Rules_OCT28 2015.xlsx',
     'Monitoring': 'MSSP Monitoring_OCT28 2015.xlsx',
 }
-
-M = xl.load_workbook(WORKING_DIR + MSSP_FILES['Monitoring'])
 
 
 # get color specification
@@ -29,11 +29,9 @@ def get_real_color(color_obj, workbook=None):
         if workbook is None:
             raise Exception("indexed type and workbook not defined")
         else:
-            return workbook._colors[color_obj.indexed]
+            return COLOR_INDEX[color_obj.indexed]
     else:
         raise NotImplementedError("color type {0} not supported".format(color_obj.type))
-
-
 
 
 # find the number of nonempty cells in a given row?
@@ -50,4 +48,6 @@ def compare(cell1, cell2):
             print " "
 
 
+def gimme_an_m(choice='Monitoring'):
+    return xl.load_workbook(WORKING_DIR + MSSP_FILES[choice])
 
