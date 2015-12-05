@@ -20,6 +20,10 @@ MSSP_FILES = {
     'Monitoring': 'MSSP Monitoring_OCT28 2015.xlsx',
 }
 
+grid_start = {"Monitoring":'F8',
+              "Assessment":'D37',
+              "ControlRules":'E9'}
+
 
 # get color specification
 def get_real_color(color_obj, workbook=None):

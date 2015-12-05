@@ -1,4 +1,4 @@
-'''
+"""
 Created on Oct 28, 2015
 
 @author: brandon
@@ -39,7 +39,24 @@ The second step in populating an MSSP instance is to generate a
    
  * Monitoring
 
-'''
+suggestion from Owen: use "factories" instead of a constructor
+
+class Element(object):
+    @classmethod
+    def cell(cls, cell):
+        ... checks from line 89 ...
+        text = cell.value
+        text_color = getattr(cell.font.color, cell.font.color.type)
+        text_color_type = cell.font.color.type
+        ... more attributes ...
+        return cls(text, text_color, text_color_type, ...more attributes...)
+
+    def __init__(self, text, text_color, text_color_type, ...)
+        self.text = text
+        self.text_color = text_color
+        self.text_color_type = text_color_type
+
+"""
 
 from openpyxl.cell.cell import Cell
 
@@ -61,44 +78,47 @@ class Element(object):
     bg_color = ''
     ref = None
 
-    def __init__(self, cell=None, worksheet=None, ref=None):
+    @classmethod
+    def from_worksheet(cls, worksheet, ref):
+        if worksheet is None or ref is None:
+            raise MsspError("Both worksheet+ref arguments required")
+
+        if isinstance(ref, str):
+            cell = worksheet[ref]
+        else:
+            cell = worksheet.cell(None, ref[0], ref[1])
+
+        return cls(cell)
+
+    def __init__(self, cell=None):
         """
-        Element() constructor accepts two types of inputs:
-         -- an openpyxl.cell.cell.Cell object (cell=cell)
-         -- an openpyxl.worksheet.worksheet.Worksheet object and a cell reference
-            (worksheet=worksheet, ref=ref)
-            The 'ref' can either be a string or a (row,column) tuple
-        If the user passes both a cell and a worksheet+ref, the cell wins.
+        Element() constructor accepts an openpyxl.cell.cell.Cell object and returns
+        an Element.
 
-        For now, everything is done using kwargs- why bother with implicit positional
-        arg parsing?
+        Use .from_worksheet(worksheet,ref) to create an Element by reference.
 
-        :param cell:
-        :return:
+        :param cell: an openpyxl.cell.cell.Cell object
+        :return: an Element
         """
         if cell is None:
-            if worksheet is None or ref is None:
-                raise MsspError("Either cell or worksheet+ref arguments required")
+            raise MsspError("No cell input found")
 
-            if isinstance(ref,str):
-                cell = worksheet[ref]
-            else:
-                cell=worksheet.cell(None, ref[0], ref[1])
-
-        if cell is not None:
+        else:
             if cell.value is None:
                 raise EmptyCellError
 
             self.text = cell.value
             self.text_color = getattr(cell.font.color, cell.font.color.type)
-            self.text_color_type = cell.font.color.type
+            # TODO: convert indexed colors to RGB-
+            # probably in a special function in an openpyxl interfacing module
+
+            # self.text_color_type = cell.font.color.type  # don't need this
 
             self.bg_color = getattr(cell.fill.bgColor, cell.fill.bgColor.type)
+            # TODO: convert indexed colors to RGB-
+            # probably in a special function in an openpyxl interfacing module
 
             self.ref = cell.parent.title + '!' + cell.column + str(cell.row)
-
-        else:
-            raise MsspError("No cell input found")
 
     def __hash__(self):
         return hash((self.text, self.text_color, self.bg_color))
@@ -111,16 +131,12 @@ class Element(object):
     def __str__(self):
         return "%s: %s [text %s | fill %s]" % (self.ref,self.text, self.text_color, self.bg_color)
 
-    # self is not allowed to be empty- that throws an exception
-    # def isempty(self):
-    #     return self.text is None
-
 
 class ElementSet(object):
     """
     An ordered set of unique elements.
     Elements have __hash__ and __eq__ defined, which allows them to be used
-    in sets. This class accepts an element as input and returns its index in
+    in dicts. This class accepts an element as input and returns its index in
     the ordered set, appending if it does not exist and doing a lookup if it
     does.
     """
@@ -156,6 +172,38 @@ class ElementSet(object):
     def __getitem__(self, item):
         return self.elements[item]
 
+    def __iter__(self):
+        return iter(self.elements)
 
 
+class Question(object):
+    """
+    A Question is a column in M, or a row in A or C. A question contains a collection of
+    QuestionAttributes, a set of valid answer values, and a type which is either 'Criterion'
+    or 'Caveat'.
 
+    Answer values must be explicitly specified in the spreadsheet in a specially formatted
+    cell which contains semicolon-delimited options in increasing order of stringency (if
+    order applies to the question) (in other words, the index into the answer value list
+    must be ordinal so they can be compared meaningfully to a threshold value).
+
+    for the time being, answer values must be listed in a designated row.
+
+    Default set of answer values is ['no','yes']
+
+    The Question can be presented to a user with the set of answers, and the user selects
+    the answer that applies to their situation.  User answers are stored as integer indices
+    into the answer list, to enable ordinal comparison.
+
+    Current open question: how to determine the set of valid answers automagically.
+
+    """
+
+    def __init__(self, *args, **kwargs):
+        """
+
+        :param args:
+        :param kwargs:
+        :return:
+        """
+        pass

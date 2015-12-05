@@ -40,36 +40,51 @@ From that come the entity types:
 
 
 import openpyxl as xl
+import entities
 
-grid_start = {"Monitoring":'F8',
-              "Assessment":'D37',
-              "ControlRules":'E9'}
 
-default_MSSP_FILES = {
-    'Assessment': 'MSSP Assessment_OCT28 2015.xlsx',
-    'ControlRules': 'MSSP Harvest Control Rules_OCT28 2015.xlsx',
-    'Monitoring': 'MSSP Monitoring_OCT28 2015.xlsx',
-}
 
 class MSSPFile(object):
     def __init__(self, files=default_MSSP_FILES,)
 
 
-class MSSPSet(object):
-    '''
-    classdocs
-    '''
+class MSSP(object):
+    """
+    Tools for extracting and refactoring information contained in MSSP spreadsheets
+
+    MSSP = Management Strategy Selection Process
+    Consists of a collection of 3 static spreadsheets that each contain a set of questions
+    and a set of targets.
+
+    An Element is the basic unit of spreadsheet content. It consists of a cell's value,
+    text color, and background color. Every element within an ElementSet is unique across
+    all three of these characteristics. Each element may have multiple references.
+
+    The routines create four ElementSets:
+     - QuestionAttributes - text annotations of questions
+     - TargetAttributes - text annotations of targets
+     - Criteria - table data pertaining to criteria questions
+     - Caveats - table data pertaining to caveat questions
+
+    The routines construct
+
+    The MSSP class itself
+
+    """
     def read_monitoring(self, filepath, start=grid_start["Monitoring"]):
         M = xl.load_workbook(filepath)
         
 
     def __init__(self, version='default'):
-        '''
+        """
         Constructor.
         version number is a text string to indicate the source of the files.
         There should probably also be a directory specification- but that can
         be contextual.
-        
-        '''
+        """
         self.version = version
 
+        self.QuestionAttributes = entities.ElementSet()
+        self.TargetAttributes = entities.ElementSet()
+        self.Criteria = entities.ElementSet()
+        self.Caveats = entities.ElementSet()

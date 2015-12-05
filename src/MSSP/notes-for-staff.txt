@@ -1,0 +1,8 @@
+Notes for SNAP project staff:
+
+ 1. Every spreadsheet needs a specially designated row/column designating
+    "Valid Answers" for each question. Answers must be semicolon-delimited
+    (i.e. "low; low-medium; medium..."). The "Valid Answers" cell may be
+    left blank to use the default set, which is "no; yes".
+
+ 2. Spreadsheets should be FROZEN.
