@@ -58,15 +58,9 @@ class Element(object):
 
 """
 
-from openpyxl.cell.cell import Cell
-
-
-class MsspError(Exception):
-    pass
-
-
-class EmptyCellError(MsspError):
-    pass
+# from openpyxl.cell.cell import Cell
+from .exceptions import *
+import re
 
 
 class Element(object):
@@ -84,6 +78,8 @@ class Element(object):
             raise MsspError("Both worksheet+ref arguments required")
 
         if isinstance(ref, str):
+            if ':' in ref:
+                ref = re.split(':', ref)[0]
             cell = worksheet[ref]
         else:
             cell = worksheet.cell(None, ref[0], ref[1])
@@ -100,12 +96,18 @@ class Element(object):
         :param cell: an openpyxl.cell.cell.Cell object
         :return: an Element
         """
+        if isinstance(cell, Element):
+            return cell
+
         if cell is None:
             raise MsspError("No cell input found")
 
         else:
+            if cell.value == 'N/A':
+                cell.value = None
+
             if cell.value is None:
-                raise EmptyCellError
+                raise EmptyInputError
 
             self.text = cell.value
             self.text_color = getattr(cell.font.color, cell.font.color.type)
@@ -129,7 +131,15 @@ class Element(object):
                 (self.bg_color == other.bg_color))
 
     def __str__(self):
-        return "%s: %s [text %s | fill %s]" % (self.ref,self.text, self.text_color, self.bg_color)
+        return "%s: %s [text %s | fill %s]" % (self.ref, self.text, self.text_color, self.bg_color)
+
+    def search(self, string):
+        """
+        returns true if string (regex) is found in self.text
+        :param string: regex
+        :return: bool
+        """
+        return bool(re.match(string, str(self.text), flags=re.IGNORECASE))
 
 
 class ElementSet(object):
@@ -141,11 +151,10 @@ class ElementSet(object):
     does.
     """
 
-    index = dict()
-    elements = list()
-    refs = list()
-
     def _append(self, element):
+        if element is None:
+            return
+
         if element in self.index:
             k = self.index[element]
             if element.ref not in self.refs[k]:
@@ -160,50 +169,80 @@ class ElementSet(object):
     def add(self, *args, **kwargs):
         try:
             element = Element(*args, **kwargs)
-        except EmptyCellError:
+        except EmptyInputError:
             # quit without errors if cell has no text
             return
 
-        self._append(element)
+        return self._append(element)
 
     def add_element(self, element):
-        self._append(element)
+        return self._append(element)
+
+    def add_elements(self, elements):
+        """
+        :param elements: list of elements or Nones
+        :return:
+        """
+        ind = []
+        for element in elements:
+            if element is not None:
+                k = self._append(element)
+                if k not in ind:
+                    ind.append(k)
+        return ind
 
     def __getitem__(self, item):
+        """
+        Lookup item by index
+        :param item:
+        :return:
+        """
         return self.elements[item]
+
+    def get_index(self, elt):
+        """
+        Lookup index by item
+        :param elt:
+        :return:
+        """
+        if isinstance(elt, Element):
+            return self.index[elt]
+        else:
+            return self.index[Element(elt)]
 
     def __iter__(self):
         return iter(self.elements)
 
+    def __len__(self):
+        return len(self.elements)
 
-class Question(object):
-    """
-    A Question is a column in M, or a row in A or C. A question contains a collection of
-    QuestionAttributes, a set of valid answer values, and a type which is either 'Criterion'
-    or 'Caveat'.
+    def __init__(self):
+        self.index = dict()
+        self.elements = list()
+        self.refs = list()
 
-    Answer values must be explicitly specified in the spreadsheet in a specially formatted
-    cell which contains semicolon-delimited options in increasing order of stringency (if
-    order applies to the question) (in other words, the index into the answer value list
-    must be ordinal so they can be compared meaningfully to a threshold value).
+    def __str__(self):
+        st = ""
+        for i in self.elements:
+            st += str(i) + "\n"
+        return st
 
-    for the time being, answer values must be listed in a designated row.
-
-    Default set of answer values is ['no','yes']
-
-    The Question can be presented to a user with the set of answers, and the user selects
-    the answer that applies to their situation.  User answers are stored as integer indices
-    into the answer list, to enable ordinal comparison.
-
-    Current open question: how to determine the set of valid answers automagically.
-
-    """
-
-    def __init__(self, *args, **kwargs):
+    def search(self, string, idx):
         """
-
-        :param args:
-        :param kwargs:
+        Search the element set for a plain string or regex. returns a list of indices
+        :param string:
         :return:
         """
-        pass
+        ind = []
+        type(string)
+        for elt in self.elements:
+            if elt.search(string) is True:
+                ind.append(self.index[elt])
+
+        if idx is None:
+            return ind
+
+        return list(set(ind).intersection(idx))
+
+
+
