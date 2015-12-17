@@ -181,15 +181,15 @@ class ElementSet(object):
     def add_elements(self, elements):
         """
         :param elements: list of elements or Nones
-        :return:
+        :return: list of unique indices into the ElementSet corresponding to input list
         """
-        ind = []
+        seq = []
         for element in elements:
             if element is not None:
                 k = self._append(element)
-                if k not in ind:
-                    ind.append(k)
-        return ind
+                seq.append(k)
+
+        return list(set(seq))  # uniquify seq
 
     def __getitem__(self, item):
         """

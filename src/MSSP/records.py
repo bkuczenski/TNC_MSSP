@@ -1,41 +1,76 @@
-from mssp import MSSP
 
-class Question(object):
+# from mssp import MSSP
+from .elements import Element
+
+
+class Record(object):
     """
-    A Question is a column in M, or a row in A or C. A question contains a collection of
-    QuestionAttributes, a set of valid answer values, and a type which is either 'Criterion'
-    or 'Caveat'.
+    A record is a spreadsheet row or column- either a question or a target.
 
-    Current open question: relation between MSSP class and Question class.  An MSSP has a
-    set of Questions as an attribute- but the Questions also need to know about the MSSP
-    QuestionAttributes.
+    Common code goes here.
+
+    A record has a selector, which is one of the valid MSSP.selectors;
+    an orientation, which is either (None, x) for columns or (x, None) for rows;
+    and a set of attributes, which are elements from the MSSP object's QuestionAttributes
+    or TargetAttributes.
+
+    Records can be populated with a lookup table of orient counterpart (i.e. the None in
+    the orient tuple) which returns a member of a Criteria or Caveats EntitySet.
+
+    In the case of questions, or at least criteria questions, that response can be
+    compared with the question's answer value set to return an index into it.
+
+
     """
 
-    @classmethod
-    def by_columns(cls, mssp, sel, col, attrs):
-        """
-        Create a question entity from a set of attributes read from a column
-        :param sel:
-        :param col:
-        :param attrs:
-        :return:
-        """
-        return cls(mssp, sel, (None, col), attrs)
+    @staticmethod
+    def is_element_list(tup):
+        return all(isinstance(i, Element) for i in tup)
 
-    def __init__(self, mssp, sel, orient, attrs):
+    def __init__(self, sel, orient, attrs):
         """
-        Create a question.
+        Create a record.
         :param sel: one of the valid MSSP.selectors
         :param orient: a 2-tuple indicating (None, x) for col or (x, None) for row
         :param attrs: a set of indices into the parent's QuestionAttributes ElementSet
         :return:
         """
-        self.mssp = mssp
         self.selector = sel
         self.orient = orient
+        assert self.is_element_list(attrs), "Attributes argument must be a list of Elements"
         self.attrs = attrs
-        self.criterion = False
 
-        if len(self.mssp.QuestionAttributes.search('criteri', self.attrs)) > 0:
-            self.criterion = True
+
+class Question(Record):
+    """
+    A Question is a column in M, or a row in A or C.
+
+    In addition to the normal Record properties, a Question contains a collection of
+    valid answer values, and a flag indicating whether the question is a 'Criterion'
+    or 'Caveat' question.
+
+    Questions have a lookup table of orient counterpart -> answer value, which can be
+    used to index into a complementary set of targets in the MSSP object.
+
+
+    """
+
+    def __init__(self, *args, **kwargs):
+        super(Question, self).__init__(*args, **kwargs)
+
+        self.criterion = any(i.search('criteri') for i in self.attrs)
+
+
+class Target(Record):
+    """
+    A Target is a row in M, or a column in A or C.
+
+    In addition to the normal Record properties, a Target doesn't have anything at present.
+
+    Targets have a lookup table of orient counterpart ->
+    """
+
+    def __init__(self, *args, **kwargs):
+        super(Target, self).__init__(*args, **kwargs)
+
 

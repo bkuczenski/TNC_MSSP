@@ -40,8 +40,9 @@ From that come the entity types:
 
 
 import openpyxl as xl
-from openpyxl.utils import range_boundaries, coordinate_from_string
+from openpyxl.utils import range_boundaries
 from .exceptions import *
+from .records import Question, Target
 import elements
 import mssp_work
 
@@ -112,8 +113,8 @@ class MSSP(object):
         self.Criteria = elements.ElementSet()
         self.Caveats = elements.ElementSet()
 
-        self.Questions = []
-        self.Targets = []
+        self.Questions = {}
+        self.Targets = {}
 
         if workdir is None:
             self.working_dir = expanduser('~') + '/Dropbox/' + str(datetime.today().year) + '/TNCWebTool/Working/'
@@ -133,59 +134,14 @@ class MSSP(object):
         self.valid_answers = valid_answers  # this one is ok to be None
 
     @staticmethod
-    def _find_row_attributes(sheet, start):
-        """
-        returns a list of Elements in the row-attribute region of a spreadsheet
-        :param sheet: the output of _open_worksheet
-        :param sel: selector string
-        :return:
-        """
-        last_col = sheet[start].col_idx
-        first_row = sheet[start].row
-        last_row = sheet.max_row
-
-        elts=[]
-        for col in range(1, last_col):
-            for row in range(first_row, last_row+1):
-                try:
-                    elts.append(elements.Element(sheet.cell(None, row, col)))
-                except EmptyInputError:
-                    pass
-
-        return elts
-
-    @staticmethod
-    def _find_column_attributes(sheet, start):
-        """
-        returns a list of Elements in the column-attribute region of a spreadsheet
-
-        :param sheet:
-        :param sel:
-        :return:
-        """
-        last_row = sheet[start].row
-        first_col = sheet[start].col_idx
-        last_col = sheet.max_column
-
-        elts = []
-        for col in range(first_col, last_col):
-            for row in range(1, last_row):
-                try:
-                    elts.append(elements.Element(sheet.cell(None, row, col)))
-                except EmptyInputError:
-                    pass
-
-        return elts
-
-    @staticmethod
-    def cell_in_range(row, col, range):
+    def cell_in_range(row, col, rng):
         """
         :param row: row index
         :param col: column index
-        :param range: a string describing a range
+        :param rng: a string describing a range
         :return:
         """
-        rn_coords = range_boundaries(range)
+        rn_coords = range_boundaries(rng)
         return ((rn_coords[0] <= col <= rn_coords[2]) &
                 (rn_coords[1] <= row <= rn_coords[3]))
 
@@ -193,7 +149,8 @@ class MSSP(object):
         """
         If ref is contained within a merged range on sheet, returns the element describing the range
         :param sheet:
-        :param ref:
+        :param row:
+        :param col:
         :return:
         """
         for rn in sheet.merged_cell_ranges:
@@ -228,7 +185,7 @@ class MSSP(object):
         including merged cells if applicable
         :param sheet:
         :param start:
-        :param col:
+        :param row:
         :return:
         """
         last_col = start.col_idx
@@ -242,6 +199,33 @@ class MSSP(object):
                 # Nones in the element list will get ignored by the ElementSet
         return elts
 
+    def _grid_elements(self, sheet, start, orient):
+        """
+
+        :param sheet:
+        :param start:
+        :param orient:
+        :return:
+        """
+        elts = []
+        mapping = []
+        if orient[0] is None:
+            # column-spec
+            for row in range(start.row, sheet.max_row+1):
+                try:
+                    elt = elements.Element(sheet.cell(None, row, orient[1]))
+                except EmptyInputError: continue
+                elts.append(elt)
+                mapping.append((row, elt))
+        else:  # row-spec
+            for col in range(start.col_idx, sheet.max_column+1):
+                try:
+                    elt = elements.Element(sheet.cell(None, orient[0], col))
+                except EmptyInputError: continue
+                elts.append(elt)
+                mapping.append((col, elt))
+        return elts, mapping
+
     def parse_file(self, sel, q_rows=True):
         """
         Method to parse the monitoring spreadsheet automagically.
@@ -249,13 +233,10 @@ class MSSP(object):
 
         First step: create new questions, each one having only QuestionAttributes
           - here we have to deal with the merging
-        Third step: create new targets
+        Second step: create new targets
           - here we have to deal with the merging
-        Fourth step: determine which questions are criteria via text-mining
-        Fifth step: read in Criteria and Caveats
-        Sixth step: populate elements
-          - Criteria questions get tagged with criteria
-          - Targets get tagged with Caveats
+        Third step: read in Criteria from Criteria questions; associate
+        Fourth step: read in
 
         :param sel:
         :param q_rows: whether questions are in rows (default) or columns
@@ -267,33 +248,60 @@ class MSSP(object):
         sheet = self._open_worksheet(sel)
         start = sheet[self.grid_start[sel]]  # a cell
 
-        """
-        if q_rows is True:  # questions in rows [Assessment, ControlRules]
+        if q_rows is True:
+            # There is probably a cleaner way to do this with less repeating
             print "adding questions in rows"
-            for elt in self._find_row_attributes(sheet, start):
-                self.QuestionAttributes.add_element(elt)
-            for elt in self._find_column_attributes(sheet, start):
-                self.TargetAttributes.add_element(elt)
-
-        else:  # questions in columns [Monitoring]
-        """
-        if q_rows is False:
-            print "adding questions in columns"
-            for col in range(start.col_idx, sheet.max_column+1):
-                q_attrs = self._attributes_of_column(sheet, start, col)
+            for row in range(start.row, sheet.max_row+1):
+                _attrs = self._attributes_of_row(sheet, start, row)
 
                 # register the attributes we find
-                q_inds = self.QuestionAttributes.add_elements(q_attrs)
+                _inds = self.QuestionAttributes.add_elements(_attrs)
 
+                mapped_attrs = [self.QuestionAttributes[i] for i in _inds]
                 # create a new question with those attributes
-                self.Questions.append(question.Question.by_column(sel, col, q_inds))
+                self.Questions[(sel, (row, None))] = Question(sel, (row, None), mapped_attrs)
 
-            for elt in self._find_row_attributes(sheet, start):
-                self.TargetAttributes.add_element(elt)
-            for elt in self._find_column_attributes(sheet, start):
-                self.QuestionAttributes.add_element(elt)
+            print "adding targets in columns"
+            for col in range(start.col_idx, sheet.max_column+1):
+                _attrs = self._attributes_of_column(sheet, start, col)
 
-            # now create new questions, one for each column, and assign all relevant attributes
+                # register the attributes we find
+                _inds = self.TargetAttributes.add_elements(_attrs)
+
+                mapped_attrs = [self.TargetAttributes[i] for i in _inds]
+                # create a new question with those attributes
+                self.Targets[(sel, (None, col))] = Target(sel, (None, col), mapped_attrs)
+
+        else:
+            print "adding questions in columns"
+            for col in range(start.col_idx, sheet.max_column+1):
+                _attrs = self._attributes_of_column(sheet, start, col)
+
+                # register the attributes we find
+                _inds = self.QuestionAttributes.add_elements(_attrs)
+
+                mapped_attrs = [self.QuestionAttributes[i] for i in _inds]
+                # create a new question with those attributes
+                self.Questions[(sel, (None, col))] = Question(sel, (None, col), mapped_attrs)
+
+            print "adding targets in rows"
+            for row in range(start.row, sheet.max_row+1):
+                _attrs = self._attributes_of_row(sheet, start, row)
+
+                # register the attributes we find
+                _inds = self.TargetAttributes.add_elements(_attrs)
+
+                mapped_attrs = [self.TargetAttributes[i] for i in _inds]
+                # create a new target with those attributes
+                self.Targets[(sel, (row, None))] = Target(sel, (row, None), mapped_attrs)
+
+        # handle criteria questions
+        for q in self.Questions:
+            if q.criterion is True:
+                # index all grid elements, add to Criteria ElementSet;
+                _attrs, mapping = self._grid_elements(sheet, start, q.orient)
+                
+
 
 
 
