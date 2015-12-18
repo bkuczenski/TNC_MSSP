@@ -69,7 +69,7 @@ class Element(object):
     """
     text = ''
     text_color = ''
-    bg_color = ''
+    fill_color = ''
     ref = None
 
     @classmethod
@@ -116,22 +116,22 @@ class Element(object):
 
             # self.text_color_type = cell.font.color.type  # don't need this
 
-            self.bg_color = getattr(cell.fill.bgColor, cell.fill.bgColor.type)
+            self.fill_color = getattr(cell.fill.fgColor, cell.fill.fgColor.type)
             # TODO: convert indexed colors to RGB-
             # probably in a special function in an openpyxl interfacing module
 
             self.ref = cell.parent.title + '!' + cell.column + str(cell.row)
 
     def __hash__(self):
-        return hash((self.text, self.text_color, self.bg_color))
+        return hash((self.text, self.text_color, self.fill_color))
 
     def __eq__(self, other):
         return ((self.text == other.text) &
                 (self.text_color == other.text_color) &
-                (self.bg_color == other.bg_color))
+                (self.fill_color == other.fill_color))
 
     def __str__(self):
-        return "%s: %s [text %s | fill %s]" % (self.ref, self.text, self.text_color, self.bg_color)
+        return "%s: %s [text %s | fill %s]" % (self.ref, self.text, self.text_color, self.fill_color)
 
     def search(self, string):
         """
