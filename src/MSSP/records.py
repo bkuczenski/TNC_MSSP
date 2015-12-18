@@ -49,7 +49,10 @@ class Question(Record):
     valid answer values, and a flag indicating whether the question is a 'Criterion'
     or 'Caveat' question.
 
-    Questions have a lookup table of orient counterpart -> answer value, which can be
+    Questions have a lookup table of orient counterindex -> answer value (indexed into
+    the question's list of valid answer values), which can be used to select counterindices
+    that match a given answer value.
+    by indexing into the
     used to index into a complementary set of targets in the MSSP object.
 
 
@@ -59,6 +62,31 @@ class Question(Record):
         super(Question, self).__init__(*args, **kwargs)
 
         self.criterion = any(i.search('criteri') for i in self.attrs)
+        self.valid_answers = {}
+        self.mappings = []
+
+    def create_answers(self, answer_list):
+        """
+        Populates self.valid_answers with all values in the answer list, sequentially
+        :param answer_list:
+        :return: nothing
+        """
+        for i in range(0, len(answer_list)):
+            self.valid_answers[answer_list[i]] = i
+
+    def encode(self, attributes, mappings):
+        """
+
+        :param attributes:
+        :param mapping: list of 2-tuples of (cross-index, element)
+        :return:
+        """
+        if len(self.valid_answers) == 0:
+            answer_list = list(set([att.text for att in attributes]))
+            self.create_answers(answer_list)
+
+        for mapping in mappings:
+            self.mappings.append((mapping[0], self.valid_answers[mapping[1].text]))
 
 
 class Target(Record):
@@ -73,4 +101,7 @@ class Target(Record):
     def __init__(self, *args, **kwargs):
         super(Target, self).__init__(*args, **kwargs)
 
+        self.mappings = []
 
+    def add_mapping(self, mapping):
+        self.mappings.append(mapping)

@@ -5,6 +5,13 @@ put them into classes.
 
 Other aspects, like the lists of active spreadsheet files, can live
 here permanently.
+
+Questions / Policies for TNC personnel:
+
+ 1- CAVEAT questions: are they all yes/no?
+ 2- CAVEAT questions: do the caveats for a given question all apply to the same SENSE of the question?
+ 3- Assessment worksheet: M
+
 """
 
 import os
