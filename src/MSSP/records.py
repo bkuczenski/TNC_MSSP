@@ -35,6 +35,7 @@ class Record(object):
         :param attrs: a set of indices into the parent's QuestionAttributes ElementSet
         :return:
         """
+        # print 'Adding record ({0},{1})'.format(sel, orient)
         self.selector = sel
         self.orient = orient
         assert self.is_element_list(attrs), "Attributes argument must be a list of Elements"
@@ -61,7 +62,7 @@ class Question(Record):
     def __init__(self, *args, **kwargs):
         super(Question, self).__init__(*args, **kwargs)
 
-        self.criterion = any(i.search('criteri') for i in self.attrs)
+        self.criterion = any(i.search(u'criteri') for i in self.attrs)
         self.valid_answers = {}
         self.mappings = []
 

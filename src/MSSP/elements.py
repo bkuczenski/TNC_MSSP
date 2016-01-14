@@ -139,7 +139,7 @@ class Element(object):
         :param string: regex
         :return: bool
         """
-        return bool(re.match(string, str(self.text), flags=re.IGNORECASE))
+        return bool(re.match(string, unicode(self.text), flags=re.IGNORECASE | re.U))
 
 
 class ElementSet(object):
