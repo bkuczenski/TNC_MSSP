@@ -27,17 +27,17 @@ class Record(object):
     def is_element_list(tup):
         return all(isinstance(i, Element) for i in tup)
 
-    def __init__(self, sel, orient, attrs):
+    def __init__(self, sel, record, attrs):
         """
         Create a record.
         :param sel: one of the valid MSSP.selectors
-        :param orient: a 2-tuple indicating (None, x) for col or (x, None) for row
+        :param record: a 2-tuple indicating (None, x) for col or (x, None) for row
         :param attrs: a set of indices into the parent's QuestionAttributes ElementSet
         :return:
         """
-        # print 'Adding record ({0},{1})'.format(sel, orient)
+        # print 'Adding record ({0},{1})'.format(sel, record)
         self.selector = sel
-        self.orient = orient
+        self.record = record
         assert self.is_element_list(attrs), "Attributes argument must be a list of Elements"
         self.attrs = attrs
 
@@ -75,19 +75,31 @@ class Question(Record):
         for i in range(0, len(answer_list)):
             self.valid_answers[answer_list[i]] = i
 
-    def encode(self, attributes, mappings):
+    def encode_criteria(self, attributes, mappings):
         """
 
         :param attributes:
-        :param mapping: list of 2-tuples of (cross-index, element)
-        :return:
+        :param mappings: list of 2-tuples of (cross-index, element)
+        :return: nothing
         """
+        assert self.criterion is True, "encode_criteria() only operates on criterion questions"
+        answer_list = list(set([att.text for att in attributes]))
         if len(self.valid_answers) == 0:
-            answer_list = list(set([att.text for att in attributes]))
             self.create_answers(answer_list)
+        else:
+            # valid answers already populated - validate them? later
+            pass
 
         for mapping in mappings:
-            self.mappings.append((mapping[0], self.valid_answers[mapping[1].text]))
+            self.mappings.append(mapping)
+
+    def encode_caveats(self, mappings, answer_sense):
+        assert self.criterion is False, "encode_caveats() only operates on non-criterion questions"
+        if answer_sense not in self.valid_answers:
+            self.valid_answers[answer_sense] = 0
+
+        for mapping in mappings:
+            self.mappings.append(mapping)
 
 
 class Target(Record):

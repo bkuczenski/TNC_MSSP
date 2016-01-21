@@ -50,7 +50,14 @@ from os.path import expanduser
 from datetime import datetime
 
 
-class MSSP(object):
+selectors = ('Monitoring', 'Assessment', 'ControlRules')
+
+
+def check_sel(sel):
+    return sel in selectors
+
+
+class SpreadsheetData(object):
     """
     Tools for extracting and refactoring information contained in MSSP spreadsheets
 
@@ -74,14 +81,8 @@ class MSSP(object):
 
     """
 
-    selectors = ('Monitoring', 'Assessment', 'ControlRules')
-
-    @staticmethod
-    def check_sel(sel):
-        return sel in MSSP.selectors
-
     def _open_worksheet(self, sel):
-        if self.check_sel(sel):
+        if check_sel(sel):
             x = xl.load_workbook(self.working_dir + self.files[sel])
             if 'Master' in x.get_sheet_names():
                 return x['Master']
@@ -89,7 +90,7 @@ class MSSP(object):
                 return x.active
 
     def __init__(self, version='default', workdir=None,
-                 files=mssp_work.MSSP_FILES, grid_start=mssp_work.grid_start, valid_answers=None):
+                 files=mssp_work.MSSP_FILES, grid_start=mssp_work.grid_start, answer_senses=None):
         """
         Constructor.
         Creates an MSSP object which can be used as a base to perform read-in functions.
@@ -99,7 +100,8 @@ class MSSP(object):
          workdir - working directory (default '~/Dropbox/YYYY/TNCWebTool/Working')
          files - dictionary maps selector strings to excel files
          grid_start - dictionary maps selector strings to cell references- top-left of data region
-         valid_answers - dictionary maps selector strings to row/column reference with valid answer set
+         answer_senses - dictionary maps selector strings to record reference containing
+         applicable answer (for 'caveat' questions only - required) (record is (None, col) or (row, None))
 
          files and grid_start are required; valid_answers can be None
 
@@ -108,11 +110,11 @@ class MSSP(object):
         """
         self.version = version
 
-        self.QuestionAttributes = elements.ElementSet()
-        self.TargetAttributes = elements.ElementSet()
-        self.Criteria = elements.ElementSet()
-        self.Caveats = elements.ElementSet()
+        self.Attributes = elements.ElementSet()  # these appear in the header regions of the spreadsheets
+        self.Notations = elements.ElementSet()   # these appear in the data regions of the spreadsheets
 
+        # Questions and Targets are dicts where key is 2-tuple: (sel, record)
+        # where record is either (None, col) or (row, None)
         self.Questions = {}
         self.Targets = {}
 
@@ -131,7 +133,9 @@ class MSSP(object):
 
         self.grid_start = grid_start
 
-        self.valid_answers = valid_answers  # this one is ok to be None
+        if answer_senses is None:
+            print("No answer_senses provided; using last attribute row/column for question_sense")
+        self.answer_senses = answer_senses
 
     @staticmethod
     def cell_in_range(row, col, rng):
@@ -155,91 +159,121 @@ class MSSP(object):
         :return:
         """
         for rn in sheet.merged_cell_ranges:
-            if MSSP.cell_in_range(row, col, rn):
+            if SpreadsheetData.cell_in_range(row, col, rn):
                 return elements.Element.from_worksheet(sheet, rn)
 
         return None
 
     @staticmethod
-    def _attributes_of_column(sheet, start, col, element_set):
+    def _expand_attribute_refs(start, record):
         """
-        Returns a list of elements belonging to the attribute range of the column,
-        including merged cells if applicable
-        :param sheet:
-        :param start:
-        :param col:
-        :param element_set: the ElementSet to which the attributes are added/indexed
-        :return: a list of unique entries in the ElementSet, referred to in the column
+        generates a list of 2-tuples of attribute cells for a given record
+        :param start: the start of the table grid
+        :param record: 2-tuple (None, col) or (row, None)
+        :return: list of (row,col) tuples
         """
-        last_row = start.row
+        if record[0] is None:  # columnwise definition
+            refs = [(row, record[1]) for row in range(1, start.row)]
+        elif record[1] is None:  # row-wise definition
+            refs = [(record[0], col) for col in range(1, start.col_idx)]
+        else:
+            raise MsspError('bad record definition {}'.format(record))
+        return refs
+
+    def _attributes_of_record(self, sheet, start, record):
+        """
+        Returns a list of elements belonging to the attribute range of a given record, including merged
+        cells if applicable
+        :param sheet: worksheet
+        :param start: grid data start
+        :param record: (None, col) or (row, None)
+        :return: list of unique entries in the Attributes ElementSet
+        """
         elts = []
-        for row in range(1, last_row):
+        refs = self._expand_attribute_refs(start, record)
+        for row, col in refs:
             try:
                 elts.append(elements.Element(sheet.cell(None, row, col)))
             except EmptyInputError:
                 # if empty, it may be part of a range
-                elts.append(MSSP._in_merged_range(sheet, row, col))
+                elts.append(SpreadsheetData._in_merged_range(sheet, row, col))
                 # Nones in the element list will get ignored by the ElementSet
 
-        inds = element_set.add_elements(elts)
-        return [element_set[i] for i in inds]
+        inds = self.Attributes.add_elements(elts)
+        return [self.Attributes[i] for i in inds]
 
     @staticmethod
-    def _attributes_of_row(sheet, start, row, element_set):
+    def _expand_record_refs(sheet, start, q_rows):
         """
-        Returns a list of elements belonging to the attribute range of the row,
-        including merged cells if applicable
+        Returns iterable question_records, target_records
         :param sheet:
         :param start:
-        :param row:
-        :param element_set: the ElementSet to which the attributes are added/indexed
-        :return: a list of unique entries in the ElementSet, referred to in the row
+        :param q_rows: flag indicating questions in rows
+        :return:
         """
-        last_col = start.col_idx
-        elts = []
-        for col in range(1, last_col):
-            try:
-                elts.append(elements.Element(sheet.cell(None, row, col)))
-            except EmptyInputError:
-                # if empty, it may be part of a range
-                elts.append(MSSP._in_merged_range(sheet, row, col))
-                # Nones in the element list will get ignored by the ElementSet
+        row_records = [(row, None) for row in range(start.row, sheet.max_row+1)]
+        col_records = [(None, col) for col in range(start.col_idx, sheet.max_column+1)]
+        if q_rows is True:
+            return row_records, col_records
+        else:
+            return col_records, row_records
 
-        inds = element_set.add_elements(elts)
-        return [element_set[i] for i in inds]
-
-    @staticmethod
-    def _grid_elements(sheet, start, orient, element_set):
+    def _grid_elements(self, sheet, start, record):
         """
-        Returns a list of data elements for a given reference, given in orient
+        Returns a list of data elements for a given reference, given in record
         :param sheet:
         :param start:
-        :param orient:
-        :param element_set: the ElementSet to which the data elements are added/indexed
-        :return: (elts, mapping) where elts is a list of unique entries in the ElementSet, and
+        :param record: record specification (None, col) or (row, None)
+        :return: (elts, mapping) where elts is a list of unique entries in the Notations ElementSet, and
                  mapping is a list of (index, element) tuples
         """
         elts = []
         mapping = []
-        if orient[0] is None:
+        if record[0] is None:
             # column-spec
             for row in range(start.row, sheet.max_row+1):
                 try:
-                    elt = elements.Element(sheet.cell(None, row, orient[1]))
-                except EmptyInputError: continue
+                    elt = elements.Element(sheet.cell(None, row, record[1]))
+                except EmptyInputError:
+                    continue
                 elts.append(elt)
                 mapping.append(((row, None), elt))
         else:  # row-spec
             for col in range(start.col_idx, sheet.max_column+1):
                 try:
-                    elt = elements.Element(sheet.cell(None, orient[0], col))
-                except EmptyInputError: continue
+                    elt = elements.Element(sheet.cell(None, record[0], col))
+                except EmptyInputError:
+                    continue
                 elts.append(elt)
                 mapping.append(((None, col), elt))
 
-        inds = element_set.add_elements(elts)
-        mapped_elts = [element_set[i] for i in inds]
+        inds = self.Notations.add_elements(elts)
+        mapped_elts = [self.Notations[i] for i in inds]
         return mapped_elts, mapping
+
+    def _get_answer_sense(self, sheet, sel, record):
+        """
+        Extract the correct answer sense for a given question record from the specified answer_sense reference if
+        present, or from the final attribute row/column if not.
+        :param sheet: open worksheet
+        :param sel: valid selector
+        :param record: question for which answer sense is sought
+        :return: cell contents containing the answer sense
+        """
+        if self.answer_senses is None:
+            start = sheet[self.grid_start[sel]]  # a cell
+            # select last attribute cross-record
+            answer_record = (start.row-1, start.col_idx-1)
+        else:
+            # select specified cross-record
+            answer_record = self.answer_senses[sel]
+
+        if record[0] is not None:  # column-wise
+            return sheet.cell(None, record[0], answer_record[1])
+        elif record[1] is not None:  # row-wise
+            return sheet.cell(None, answer_record[0], record[1])
+        else:
+            raise MsspError('bad record reference {}'.format(record))
 
     def parse_file(self, sel, q_rows=True):
         """
@@ -257,82 +291,46 @@ class MSSP(object):
         :param q_rows: whether questions are in rows (default) or columns
         :return:
         """
-        if not self.check_sel(sel):
+        if not check_sel(sel):
             raise BadSelectorError
 
         sheet = self._open_worksheet(sel)
         start = sheet[self.grid_start[sel]]  # a cell
+        q_records, t_records = self._expand_record_refs(sheet, start, q_rows)
 
-        if q_rows is True:
-            # There maybe a yet cleaner way to do this
-            print "adding questions in rows"
-            for row in range(start.row, sheet.max_row+1):
-                mapped_attrs = self._attributes_of_row(sheet, start, row, self.QuestionAttributes)
-                # create a new question with those attributes
-                self.Questions[(sel, (row, None))] = Question(sel, (row, None), mapped_attrs)
+        print "adding questions"
+        for record in q_records:
+            mapped_attrs = self._attributes_of_record(sheet, start, record)
+            # create a new question with those attributes
+            self.Questions[(sel, record)] = Question(sel, record, mapped_attrs)
 
-            print "adding targets in columns"
-            for col in range(start.col_idx, sheet.max_column+1):
-                mapped_attrs = self._attributes_of_column(sheet, start, col, self.TargetAttributes)
-                # create a new question with those attributes
-                self.Targets[(sel, (None, col))] = Target(sel, (None, col), mapped_attrs)
+        print "adding targets"
+        for record in t_records:
+            mapped_attrs = self._attributes_of_record(sheet, start, record)
+            # create a new target with those attributes
+            self.Targets[(sel, record)] = Target(sel, record, mapped_attrs)
 
-            print "populating questions by row"
-            for row in range(start.row, sheet.max_row+1):
+        print "populating questions"
+        for record in q_records:
+            try:
+                q = self.Questions[(sel, record)]
+            except KeyError:
+                continue
+            if q.criterion is True:
+                # index all grid elements, add to Criteria ElementSet;
+                mapped_attrs, mappings = self._grid_elements(sheet, start, record)
+                q.encode_criteria(mapped_attrs, mappings)
+            else:
+                mapped_attrs, mappings = self._grid_elements(sheet, start, record)
+                answer_sense = self._get_answer_sense(sheet, sel, record)
+                q.encode_caveats(mappings, answer_sense)
+
+            for mapping in mappings:
                 try:
-                    q = self.Questions[(sel, (row, None))]
-                except KeyError: continue
-                if q.criterion is True:
-                    # index all grid elements, add to Criteria ElementSet;
-                    mapped_attrs, mappings = MSSP._grid_elements(sheet, start, q.orient, self.Criteria)
-                else:
-                    mapped_attrs, mappings = MSSP._grid_elements(sheet, start, q.orient, self.Caveats)
-
-                q.encode(mapped_attrs, mappings)
-
-                # now add cross-mappings to the targets
-                for mapping in mappings:
-                    try:
-                        t = self.Targets[(sel, mapping[0])]
-                    except KeyError: continue
-                    t.add_mapping(((row, None), mapping[1]))
-
-        else:
-            print "adding questions in columns"
-            for col in range(start.col_idx, sheet.max_column+1):
-                mapped_attrs = self._attributes_of_column(sheet, start, col, self.QuestionAttributes)
-                # create a new question with those attributes
-                self.Questions[(sel, (None, col))] = Question(sel, (None, col), mapped_attrs)
-
-            print "adding targets in rows"
-            for row in range(start.row, sheet.max_row+1):
-                mapped_attrs = self._attributes_of_row(sheet, start, row, self.TargetAttributes)
-                # create a new target with those attributes
-                self.Targets[(sel, (row, None))] = Target(sel, (row, None), mapped_attrs)
-
-            print "populating questions by column"
-            for col in range(start.col_idx, sheet.max_column+1):
-                try:
-                    q = self.Questions[(sel, (None, col))]
-                except KeyError: continue
-
-                # pre-populate valid_answers if specification is given in MSSP object
-                # if self.valid_answers is not None:
-
-                if q.criterion is True:
-                    # index all grid elements, add to Criteria ElementSet;
-                    mapped_attrs, mappings = MSSP._grid_elements(sheet, start, q.orient, self.Criteria)
-                else:
-                    mapped_attrs, mappings = MSSP._grid_elements(sheet, start, q.orient, self.Caveats)
-
-                q.encode(mapped_attrs, mappings)
-
-                # now add cross-mappings to the targets
-                for mapping in mappings:
-                    try:
-                        t = self.Targets[(sel, mapping[0])]
-                    except KeyError: continue
-                    t.add_mapping(((None, col), mapping[1]))
+                    t = self.Targets[(sel, mapping[0])]
+                except KeyError:
+                    continue
+                t.add_mapping((record, mapping[1]))
 
         return True
 
