@@ -269,9 +269,9 @@ class SpreadsheetData(object):
             answer_record = self.answer_senses[sel]
 
         if record[0] is not None:  # column-wise
-            return sheet.cell(None, record[0], answer_record[1])
+            return sheet.cell(None, record[0], answer_record[1]).value
         elif record[1] is not None:  # row-wise
-            return sheet.cell(None, answer_record[0], record[1])
+            return sheet.cell(None, answer_record[0], record[1]).value
         else:
             raise MsspError('bad record reference {}'.format(record))
 
