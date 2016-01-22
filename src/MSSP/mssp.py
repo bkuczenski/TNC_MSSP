@@ -90,7 +90,8 @@ class SpreadsheetData(object):
                 return x.active
 
     def __init__(self, version='default', workdir=None,
-                 files=mssp_work.MSSP_FILES, grid_start=mssp_work.grid_start, answer_senses=None):
+                 files=mssp_work.MSSP_FILES, grid_start=mssp_work.grid_start,
+                 answer_senses=mssp_work.answer_senses):
         """
         Constructor.
         Creates an MSSP object which can be used as a base to perform read-in functions.
@@ -330,7 +331,10 @@ class SpreadsheetData(object):
                     t = self.Targets[(sel, mapping[0])]
                 except KeyError:
                     continue
-                t.add_mapping((record, mapping[1]))
+                if q.criterion is True:
+                    t.add_criteria_mapping((record, mapping[1]))
+                else:
+                    t.add_caveat_mapping((record, mapping[1]))
 
         return True
 
@@ -339,3 +343,10 @@ class SpreadsheetData(object):
         :return:
         """
         return self.parse_file('Monitoring', q_rows=False)
+
+    def parse_assessment_sheet(self):
+        return self.parse_file('Assessment', q_rows=True)
+
+    def parse_controlrules_sheet(self):
+        return self.parse_file('ControlRules', q_rows=True)
+

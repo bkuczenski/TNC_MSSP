@@ -19,18 +19,31 @@ import openpyxl as xl
 
 from openpyxl.styles.colors import COLOR_INDEX
 
-WORKING_DIR = os.path.expanduser('~') + '/Dropbox/2015/TNCWebTool/Working/'
-
-MSSP_FILES = {
-    'Assessment': 'MSSP Assessment_OCT28 2015.xlsx',
-    'ControlRules': 'MSSP Harvest Control Rules_OCT28 2015.xlsx',
-    'Monitoring': 'MSSP Monitoring_OCT28 2015.xlsx',
+VERSIONS = {
+    'January': {
+        'files': {
+            'Assessment': 'MSSP Assessment_NOV 2015.xlsx',
+            'ControlRules': 'MSSP Harvest Control Rules_NOV 2015_fixed.xlsx',
+            'Monitoring': 'MSSP Monitoring_OCT28 2015.xlsx'
+            },
+        'grid_start': {
+            "Monitoring": 'F8',
+            "Assessment": 'G40',
+            "ControlRules": 'E9'
+            },
+        'answer_senses': {
+            "Monitoring": (7, None),
+            "Assessment": (None, 2),
+            "ControlRules": (None, 4)
+        }
+    }
 }
 
-grid_start = {"Monitoring":'F8',
-              "Assessment":'D37',
-              "ControlRules":'E9'}
+Version = 'January'
 
+MSSP_FILES = VERSIONS[Version]['files']
+grid_start = VERSIONS[Version]['grid_start']
+answer_senses = VERSIONS[Version]['answer_senses']
 
 # get color specification
 def get_real_color(color_obj, workbook=None):
@@ -58,7 +71,4 @@ def compare(cell1, cell2):
             print " C2: {}".format(getattr(cell2,attr))
             print " "
 
-
-def gimme_an_m(choice='Monitoring'):
-    return xl.load_workbook(WORKING_DIR + MSSP_FILES[choice])
 

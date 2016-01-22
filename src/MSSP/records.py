@@ -40,6 +40,8 @@ class Record(object):
         self.record = record
         assert self.is_element_list(attrs), "Attributes argument must be a list of Elements"
         self.attrs = attrs
+        self.criteria_mappings = []
+        self.caveat_mappings = []
 
 
 class Question(Record):
@@ -64,7 +66,6 @@ class Question(Record):
 
         self.criterion = any(i.search(u'criteri') for i in self.attrs)
         self.valid_answers = {}
-        self.mappings = []
 
     def create_answers(self, answer_list):
         """
@@ -91,7 +92,7 @@ class Question(Record):
             pass
 
         for mapping in mappings:
-            self.mappings.append(mapping)
+            self.criteria_mappings.append(mapping)
 
     def encode_caveats(self, mappings, answer_sense):
         assert self.criterion is False, "encode_caveats() only operates on non-criterion questions"
@@ -99,7 +100,7 @@ class Question(Record):
             self.valid_answers[answer_sense] = 0
 
         for mapping in mappings:
-            self.mappings.append(mapping)
+            self.caveat_mappings.append((answer_sense, mapping))
 
 
 class Target(Record):
@@ -116,5 +117,8 @@ class Target(Record):
 
         self.mappings = []
 
-    def add_mapping(self, mapping):
-        self.mappings.append(mapping)
+    def add_criteria_mapping(self, mapping):
+        self.criteria_mappings.append(mapping)
+
+    def add_caveat_mapping(self, mapping):
+        self.caveat_mappings.append(mapping)

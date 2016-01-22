@@ -58,7 +58,7 @@ class Element(object):
 
 """
 
-# from openpyxl.cell.cell import Cell
+#from openpyxl.styles.colors import COLOR_INDEX
 from .exceptions import *
 import re
 
@@ -119,6 +119,9 @@ class Element(object):
             self.fill_color = getattr(cell.fill.fgColor, cell.fill.fgColor.type)
             # TODO: convert indexed colors to RGB-
             # probably in a special function in an openpyxl interfacing module
+            # also TODO: convert theme colors to RGB-
+            # no help here; requires xml
+            self.color_type = cell.fill.fgColor.type
 
             self.ref = cell.parent.title + '!' + cell.column + str(cell.row)
 
