@@ -1,0 +1,36 @@
+A listing of data types used to serialize the Monitoring, Assessment, and
+Harvest Control Rules spreadsheets.
+
+Attributes -- an enumeration of unique text strings- the vocabulary
+describing the entities.
+
+Targets -- easy-to-create enumeration of target entities, their type
+(Monitoring, Assessment, ControlRule) and a list of attributes- since
+attributes are just text strings anyway.
+
+
+Questions -- de-duplicated enumeration of questions with ordered lists of
+valid answers. The order will be initially populated arbitrarily (by
+order encountered) and will be corrected by hand.
+
+Generating the de-duplicated question list requires using the spreadsheets
+plus a list of synonym and satisfies statements (themselves indexed with
+literal spreadsheet references). This in turn will require the "satisfies"
+predicates to be created and their ancestral references removed.
+
+Notations -- an enumeration of unique SCORED notation strings that appear
+in the table data.  The scores are determined from background color
+according to a predefined rubric.
+
+Criteria -- a table of foreign keys: Question-ID, Target-ID, threshold,
+where threshold is one of the valid_answers to the referenced question.
+
+Caveats -- a table of grid data: Question-ID, question-sense, Target-ID,
+note-ID (or more usefully for the serialization note-text, note-score)
+
+And that's it.
+
+
+External resources required:
+ - mapping of 'synonym' and 'satisfies' questions
+ - mapping of RGB color specs to scores
