@@ -350,3 +350,10 @@ class SpreadsheetData(object):
     def parse_controlrules_sheet(self):
         return self.parse_file('ControlRules', q_rows=True)
 
+    def parse_all_sheets(self):
+        print mssp_work.MSSP_FILES['Monitoring']
+        self.parse_monitoring_sheet()
+        print mssp_work.MSSP_FILES['Assessment']
+        self.parse_assessment_sheet()
+        print mssp_work.MSSP_FILES['ControlRules']
+        self.parse_controlrules_sheet()

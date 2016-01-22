@@ -121,4 +121,4 @@ class Target(Record):
         self.criteria_mappings.append(mapping)
 
     def add_caveat_mapping(self, mapping):
-        self.caveat_mappings.append(mapping)
+        self.caveat_mappings.append((None,mapping))
