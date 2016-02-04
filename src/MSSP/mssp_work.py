@@ -36,10 +36,29 @@ VERSIONS = {
             "Assessment": (None, 2),
             "ControlRules": (None, 4)
         }
+    },
+    'February': {
+        'files': {
+            'Assessment': 'MSSP Assessment_JAN 2016.xlsx',
+            'ControlRules': 'MSSP Harvest Control Rules_JAN 2016_fixed.xlsx',
+            'Monitoring': 'MSSP Monitoring_JAN 2016.xlsx'
+            },
+        'grid_start': {
+            "Monitoring": 'F8',
+            "Assessment": 'G40',
+            "ControlRules": 'E9'
+            },
+        'answer_senses': {
+            "Monitoring": (7, None),
+            "Assessment": (None, 2),
+            "ControlRules": (None, 4)
+        }
     }
 }
 
-Version = 'January'
+Version = 'February'
+
+QUESTION_MAP = 'QuestionsAndColors.xlsx'
 
 MSSP_FILES = VERSIONS[Version]['files']
 grid_start = VERSIONS[Version]['grid_start']
