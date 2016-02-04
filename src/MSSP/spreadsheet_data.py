@@ -225,11 +225,9 @@ class SpreadsheetData(object):
         :param sheet:
         :param start:
         :param record: record specification (None, col) or (row, None)
-        :return: (elts, mapping) where elts is a list of unique entries in the Notations ElementSet, and
-                 mapping is a list of (index, element) tuples
+        :return: a list of (cross-record, element) tuples
         """
-        elts = []
-        mapping = []
+        mapping = []  # a list of cross-record-to-element mappings
         if record[0] is None:
             # column-spec
             for row in range(start.row, sheet.max_row+1):
@@ -237,20 +235,18 @@ class SpreadsheetData(object):
                     elt = elements.Element(sheet.cell(None, row, record[1]))
                 except EmptyInputError:
                     continue
-                elts.append(elt)
-                mapping.append(((row, None), elt))
+                i = self.Notations.add_element(elt)
+                mapping.append(((row, None), self.Notations[i]))
         else:  # row-spec
             for col in range(start.col_idx, sheet.max_column+1):
                 try:
                     elt = elements.Element(sheet.cell(None, record[0], col))
                 except EmptyInputError:
                     continue
-                elts.append(elt)
-                mapping.append(((None, col), elt))
+                i = self.Notations.add_element(elt)
+                mapping.append(((None, col), self.Notations[i]))
 
-        inds = self.Notations.add_elements(elts)
-        mapped_elts = [self.Notations[i] for i in inds]
-        return mapped_elts, mapping
+        return mapping
 
     def _get_answer_sense(self, sheet, sel, record):
         """
@@ -319,10 +315,10 @@ class SpreadsheetData(object):
                 continue
             if q.criterion is True:
                 # index all grid elements, add to Criteria ElementSet;
-                mapped_attrs, mappings = self._grid_elements(sheet, start, record)
-                q.encode_criteria(mapped_attrs, mappings)
+                mappings = self._grid_elements(sheet, start, record)
+                q.encode_criteria(mappings)
             else:
-                mapped_attrs, mappings = self._grid_elements(sheet, start, record)
+                mappings = self._grid_elements(sheet, start, record)
                 answer_sense = self._get_answer_sense(sheet, sel, record)
                 q.encode_caveats(mappings, answer_sense)
 

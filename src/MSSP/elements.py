@@ -152,6 +152,7 @@ class ElementSet(object):
     in dicts. This class accepts an element as input and returns its index in
     the ordered set, appending if it does not exist and doing a lookup if it
     does.
+    Returns the index into the ElementSet of the original element
     """
 
     def _append(self, element):
@@ -179,6 +180,10 @@ class ElementSet(object):
         return self._append(element)
 
     def add_element(self, element):
+        """
+        :param element:
+        :return: the index into the ElementSet corresponding to the added element
+        """
         return self._append(element)
 
     def add_elements(self, elements):

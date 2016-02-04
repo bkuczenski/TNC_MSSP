@@ -76,15 +76,14 @@ class Question(Record):
         for i in range(0, len(answer_list)):
             self.valid_answers[answer_list[i]] = i
 
-    def encode_criteria(self, attributes, mappings):
+    def encode_criteria(self, mappings):
         """
 
-        :param attributes:
         :param mappings: list of 2-tuples of (cross-index, element)
         :return: nothing
         """
         assert self.criterion is True, "encode_criteria() only operates on criterion questions"
-        answer_list = list(set([att.text for att in attributes]))
+        answer_list = list(set([att[1].text for att in mappings]))
         if len(self.valid_answers) == 0:
             self.create_answers(answer_list)
         else:
@@ -121,4 +120,4 @@ class Target(Record):
         self.criteria_mappings.append(mapping)
 
     def add_caveat_mapping(self, mapping):
-        self.caveat_mappings.append((None,mapping))
+        self.caveat_mappings.append((None, mapping))
