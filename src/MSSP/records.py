@@ -1,6 +1,6 @@
 
 # from mssp import MSSP
-from .elements import Element
+from MSSP.elements import Element
 
 
 class Record(object):

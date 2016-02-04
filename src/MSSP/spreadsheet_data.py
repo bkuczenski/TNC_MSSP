@@ -41,10 +41,10 @@ From that come the entity types:
 
 import openpyxl as xl
 from openpyxl.utils import range_boundaries
-from .exceptions import *
-from .records import Question, Target
-import elements
-import mssp_work
+from MSSP.exceptions import *
+from MSSP.records import Question, Target
+from MSSP.elements import *
+from MSSP import mssp_work
 
 from os.path import expanduser
 from datetime import datetime
@@ -83,6 +83,7 @@ class SpreadsheetData(object):
 
     def _open_worksheet(self, sel):
         if check_sel(sel):
+            print mssp_work.MSSP_FILES[sel]
             x = xl.load_workbook(self.working_dir + self.files[sel])
             if 'Master' in x.get_sheet_names():
                 return x['Master']
@@ -111,8 +112,8 @@ class SpreadsheetData(object):
         """
         self.version = version
 
-        self.Attributes = elements.ElementSet()  # these appear in the header regions of the spreadsheets
-        self.Notations = elements.ElementSet()   # these appear in the data regions of the spreadsheets
+        self.Attributes = ElementSet()  # these appear in the header regions of the spreadsheets
+        self.Notations = ElementSet()   # these appear in the data regions of the spreadsheets
 
         # Questions and Targets are dicts where key is 2-tuple: (sel, record)
         # where record is either (None, col) or (row, None)
@@ -161,7 +162,7 @@ class SpreadsheetData(object):
         """
         for rn in sheet.merged_cell_ranges:
             if SpreadsheetData.cell_in_range(row, col, rn):
-                return elements.Element.from_worksheet(sheet, rn)
+                return Element.from_worksheet(sheet, rn)
 
         return None
 
@@ -194,7 +195,7 @@ class SpreadsheetData(object):
         refs = self._expand_attribute_refs(start, record)
         for row, col in refs:
             try:
-                elts.append(elements.Element(sheet.cell(None, row, col)))
+                elts.append(Element(sheet.cell(None, row, col)))
             except EmptyInputError:
                 # if empty, it may be part of a range
                 elts.append(SpreadsheetData._in_merged_range(sheet, row, col))
@@ -232,7 +233,7 @@ class SpreadsheetData(object):
             # column-spec
             for row in range(start.row, sheet.max_row+1):
                 try:
-                    elt = elements.Element(sheet.cell(None, row, record[1]))
+                    elt = Element(sheet.cell(None, row, record[1]))
                 except EmptyInputError:
                     continue
                 i = self.Notations.add_element(elt)
@@ -240,7 +241,7 @@ class SpreadsheetData(object):
         else:  # row-spec
             for col in range(start.col_idx, sheet.max_column+1):
                 try:
-                    elt = elements.Element(sheet.cell(None, record[0], col))
+                    elt = Element(sheet.cell(None, record[0], col))
                 except EmptyInputError:
                     continue
                 i = self.Notations.add_element(elt)
@@ -347,9 +348,6 @@ class SpreadsheetData(object):
         return self.parse_file('ControlRules', q_rows=True)
 
     def parse_all_sheets(self):
-        print mssp_work.MSSP_FILES['Monitoring']
         self.parse_monitoring_sheet()
-        print mssp_work.MSSP_FILES['Assessment']
         self.parse_assessment_sheet()
-        print mssp_work.MSSP_FILES['ControlRules']
         self.parse_controlrules_sheet()

@@ -59,7 +59,7 @@ class Element(object):
 """
 
 #from openpyxl.styles.colors import COLOR_INDEX
-from .exceptions import *
+from MSSP.exceptions import *
 import re
 
 
