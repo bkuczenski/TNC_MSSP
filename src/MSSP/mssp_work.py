@@ -77,11 +77,6 @@ def get_real_color(color_obj, workbook=None):
         raise NotImplementedError("color type {0} not supported".format(color_obj.type))
 
 
-# find the number of nonempty cells in a given row?
-def num_cells(worksheet, row):
-    pass
-
-
 def compare(cell1, cell2):
     for attr in cell1.__slots__:
         if getattr(cell1,attr) != getattr(cell2,attr):
@@ -89,5 +84,4 @@ def compare(cell1, cell2):
             print " C1: {}".format(getattr(cell1,attr))
             print " C2: {}".format(getattr(cell2,attr))
             print " "
-
 
