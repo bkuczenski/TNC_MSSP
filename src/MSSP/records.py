@@ -66,6 +66,8 @@ class Question(Record):
 
         self.criterion = any(i.search(u'criteri') for i in self.attrs)
         self.valid_answers = {}
+        self.synonyms = set()
+        self.satisfied_by = set()
 
     def create_answers(self, answer_list):
         """
@@ -100,6 +102,12 @@ class Question(Record):
 
         for mapping in mappings:
             self.caveat_mappings.append((answer_sense, mapping))
+
+    def add_synonyms(self, synonym_set):
+        self.synonyms = self.synonyms.union(synonym_set)
+
+    def add_satisfied(self, satisfied_by):
+        self.satisfied_by.add(satisfied_by)
 
 
 class Target(Record):

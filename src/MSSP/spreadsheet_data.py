@@ -45,16 +45,12 @@ from MSSP.exceptions import *
 from MSSP.records import Question, Target
 from MSSP.elements import *
 from MSSP import mssp_work
+from MSSP.utils import *
 
 from os.path import expanduser
 from datetime import datetime
 
-
-selectors = ('Monitoring', 'Assessment', 'ControlRules')
-
-
-def check_sel(sel):
-    return sel in selectors
+import pandas as pd
 
 
 class SpreadsheetData(object):
@@ -110,7 +106,10 @@ class SpreadsheetData(object):
          These variables should be defined in the script that calls the constructor
 
         """
-        self.version = version
+        try:
+            version = mssp_work.Version
+        finally:
+            self.version = version
 
         self.Attributes = ElementSet()  # these appear in the header regions of the spreadsheets
         self.Notations = ElementSet()   # these appear in the data regions of the spreadsheets
@@ -138,6 +137,8 @@ class SpreadsheetData(object):
         if answer_senses is None:
             print("No answer_senses provided; using last attribute row/column for question_sense")
         self.answer_senses = answer_senses
+
+        self.colormap = None
 
     @staticmethod
     def cell_in_range(row, col, rng):
@@ -351,3 +352,24 @@ class SpreadsheetData(object):
         self.parse_monitoring_sheet()
         self.parse_assessment_sheet()
         self.parse_controlrules_sheet()
+
+    def load_mappings(self, qmap_file):
+        self.colormap = pd.read_excel(self.working_dir + qmap_file, 'COLORMAP')
+
+        qmap = pd.read_excel(self.working_dir + qmap_file, self.version)
+        # now load synonym and satisfies relations into Question objects
+
+        for i,v in qmap.iterrows():
+            subj = convert_subject_to_reference(v['Subject'])
+            obj = convert_subject_to_reference(v['Object'])
+            if v['Relation'] == 'synonym':
+                synonyms = set([subj, obj])
+                synonyms = synonyms.union(self.Questions[subj].synonyms)
+                synonyms = synonyms.union(self.Questions[obj].synonyms)
+                for k in synonyms:
+                    self.Questions[k].add_synonyms(synonyms)
+
+            if v['Relation'] == 'satisfies':
+                self.Questions[obj].add_satisfied(subj)
+
+
