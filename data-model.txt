@@ -1,3 +1,49 @@
+MSSP ENGINE DATA MODEL
+
+In-Memory:
+
+ * ElementSet of Attributes
+ * ElementSet of Notes
+
+ * pd.Series of questions with references and valid answers and satisfied
+ * pd.Series of targets with reference and type
+
+ * pd.DataFrame of QuestionID:AttributeID
+ * pd.DataFrame of TargetID:AttributeID
+
+ * pd.DataFrame of QuestionID:ordinal threshold:TargetID (criteria)
+ * pd.DataFrame of QuestionID:TargetID:ordinal index:NoteID (caveats)
+
+What about "satisfies"? Questions have satisfied pointer- if not null, then follow it. 
+
+Serialized:
+ * List of Questions
+   - ID
+   - attributes spelled out
+   - answers written out in sequence
+ * List of Targets
+   - ID
+   - type specified
+   - attributes spelled out
+ * List of Criteria
+   - QID
+   - TID
+   - threshold spelled out
+ * List of Caveats
+   group by: 
+   - QID
+   - TID
+   [ 
+     - answer sense
+     - Note + color + score
+   ]
+
+De-serialized:
+ * load all files into e.g. data frames
+ * collect all listed attributes in an element set
+ * collect all listed notes in an element set
+ * 
+
 A listing of data types used to serialize the Monitoring, Assessment, and
 Harvest Control Rules spreadsheets.
 
