@@ -129,9 +129,14 @@ class Element(object):
         return hash((self.text, self.text_color, self.fill_color))
 
     def __eq__(self, other):
+        if other is None:
+            return False
         return ((self.text == other.text) &
-                (self.text_color == other.text_color) &
+                # (self.text_color == other.text_color) &  # compare on text color -> false negatives (libreoffice)
                 (self.fill_color == other.fill_color))
+
+    def __ne__(self, other):
+        return not self.__eq__(other)
 
     def __str__(self):
         return "%s: %s [text %s | fill %s]" % (self.ref, self.text, self.text_color, self.fill_color)
@@ -253,4 +258,48 @@ class ElementSet(object):
         return list(set(ind).intersection(idx))
 
 
+def compare_sheets(file1, sheet1, file2, sheet2):
+    import openpyxl as xl
+    x1 = xl.load_workbook(file1)
+    s1 = x1[sheet1]
+    x2 = xl.load_workbook(file2)
+    s2 = x2[sheet2]
+
+    if s1.max_row != s2.max_row:
+        print "Sheets have different numbers of rows: S1: {0} S2: {1}".format(s1.max_row, s2.max_row)
+    if s1.max_column != s2.max_column:
+        print "Sheets have different numbers of columns: S1: {0} S2: {1}".format(s1.max_column, s2.max_column)
+
+    max_row = min(s1.max_row, s2.max_row)
+    max_col = min(s1.max_column, s2.max_column)
+
+    print "Comparing from [1,1] to [{0},{1}]...".format(max_row, max_col)
+
+    dif_list1 = []
+    dif_list2 = []
+
+    for row in range(0, max_row):
+        for col in range(0, max_col):
+            try:
+                E1 = Element(cell=s1.cell(None, row+1, col+1))
+            except EmptyInputError:
+                E1 = None
+            try:
+                E2 = Element(cell=s2.cell(None, row+1, col+1))
+            except EmptyInputError:
+                E2 = None
+
+            if E1 != E2:
+                dif_list1.append(E1)
+                dif_list2.append(E2)
+
+    print "{0} differences found.".format(len(dif_list1))
+
+    if len(dif_list1) < 50:
+        for i in range(0,len(dif_list1)):
+            print "{0}\n{1}\n---".format(dif_list1[i], dif_list2[i])
+    else:
+        print "Suppressing long output."
+
+    return dif_list1, dif_list2
 
