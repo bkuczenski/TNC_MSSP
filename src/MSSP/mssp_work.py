@@ -68,6 +68,7 @@ answer_senses = VERSIONS[Version]['answer_senses']
 
 working_dir = expanduser('~') + '/Dropbox/' + str(datetime.today().year) + '/TNCWebTool/'
 
+
 # get color specification
 def get_real_color(color_obj, workbook=None):
     if color_obj.type == 'rgb':
