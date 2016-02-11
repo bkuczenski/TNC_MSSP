@@ -31,7 +31,8 @@ Questions = collection of Attributes and valid answer strings (default to Yes/No
 """
 
 import pandas as pd
-# from MSSP.utils import *
+from MSSP.utils import defaultdir, convert_reference_to_subject
+from MSSP.exceptions import MsspError
 
 
 def indices(vec, func):
@@ -139,10 +140,10 @@ class MsspTarget(object):
         self.record = target.record
 
     def reference(self):
-        return [(self.type, self.record)]
+        return (self.type, self.record)
 
     def references(self):
-        return self.reference()
+        return [self.reference()]
 
 
 class MsspEngine(object):
@@ -316,6 +317,161 @@ class MsspEngine(object):
         return cls(attribute_set, note_set, question_enum, target_enum,
                    question_attributes, target_attributes, criteria, caveats,
                    spreadsheet_data.colormap)
+
+    def make_attr_list(self, mapping, index):
+        """
+        List of attributes associated with a given record
+        :param mapping: self.question_attributes or self.target_attributes
+        :param index:
+        :return:
+        """
+        if mapping is self.question_attributes:
+            key = 'QuestionID'
+        elif mapping is self.target_attributes:
+            key = 'TargetID'
+        else:
+            raise MsspError
+        return [self.attributes[k['AttributeID']].text
+                for i, k in mapping.iterrows()
+                if k[key] == index]
+
+    def serialize(self, out=None):
+        """
+        Serializes the MsspEngine object out to a collection of dictionaries.
+
+        The serialization includes the following files:
+
+         - questions.json: an enumeration of questions with spreadsheet refs, explicit attributes, ordered valid
+        answers, and list of satisfied_by keys.
+
+         - targets.json: an enumeration of targets with spreadsheet ref and explicit attributes
+
+         - criteria.json: a collection of question ID, explicit answer threshold, and target ID
+
+         - caveats.json: a collection of question ID, explicit answer, target ID, note string and note colorname
+
+         - colormap.json: a collection of colorname, RGB value, and score (or scoring mechanism)
+
+        They could conceivably all be placed into a single file, but that would not be useful for human-readability.
+
+        :return: bool
+        """
+
+        questions = []
+        targets = []
+        criteria = []
+        caveats = []
+        colormap = []
+
+        print "Creating {0} questions...".format(len(self.questions))
+        for k in range(len(self.questions)):
+            v = self.questions[k]
+            attr_list = self.make_attr_list(self.question_attributes, k)
+            if len(attr_list) == 0:
+                continue
+            add = {
+                "QuestionID": k,
+                "References": [convert_reference_to_subject(i) for i in v.references],
+                "ValidAnswers": v.valid_answers,
+                "Attributes": attr_list
+            }
+            if len(v.satisfied_by) > 0:
+                add["SatisfiedBy"] = list(v.satisfied_by)
+            questions.append(add)
+
+        print "Creating {0} targets...".format(len(self.targets))
+        for k in range(len(self.targets)):
+            v = self.targets[k]
+            attr_list = self.make_attr_list(self.target_attributes, k)
+            if len(attr_list) == 0:
+                continue
+            add = {
+                "TargetID": k,
+                "Reference": convert_reference_to_subject(v.reference()),
+                "Attributes": attr_list
+            }
+            targets.append(add)
+
+        print "Creating {0} criteria...".format(len(self.criteria))
+        for i, k in self.criteria.iterrows():
+            threshold = self.questions[k['QuestionID']].valid_answers[k['Threshold']]
+            add = {
+                "QuestionID": k['QuestionID'],
+                "Threshold": threshold,
+                "TargetID": k['TargetID']
+            }
+            criteria.append(add)
+
+        print "Creating {0} caveats...".format(len(self.caveats))
+        for i, k in self.caveats.iterrows():
+            answer = self.questions[k['QuestionID']].valid_answers[k['Answer']]
+            note = self.notes[k['NoteID']]
+            color = self.colormap[self.colormap['RGB'] == note.fill_color]['ColorName']
+            if len(color) < 1:
+                raise MsspError
+            add = {
+                "QuestionID": k['QuestionID'],
+                "Answer": answer,
+                "TargetID": k['TargetID'],
+                "Color": color.iloc[0],
+                "Note": note.text
+            }
+            caveats.append(add)
+
+        print "Creating colormap..."
+        for i, k in self.colormap.iterrows():
+            add = {
+                "RGB": k['RGB'],
+                "Color": k['ColorName'],
+                "Score": k['Score']
+            }
+            colormap.append(add)
+
+        json_out = {
+            "colormap": colormap,
+            "questions": questions,
+            "targets": targets,
+            "criteria": criteria,
+            "caveats": caveats
+        }
+        return json_out
+
+    @staticmethod
+    def write_json(json_out, out=None, onefile=False):
+        """
+        Routine to write json output to file(s)
+        :param json_out: the output of serialize()
+        :param out: directory name relative to defaultdir to use for writing files.
+        :param onefile: (bool) whether to write all content to a single json file (default: false)
+        :return:
+        """
+        import os
+        import json
+
+        write_file = 'mssp_engine.json'
+        if out is None:
+            write_dir = os.path.join(defaultdir, 'JSON_OUT')
+        else:
+            if os.path.isabs(out):
+                write_dir = out
+            else:
+                write_dir = os.path.join(defaultdir, out)
+
+        if not os.path.exists(write_dir):
+            os.makedirs(write_dir)
+
+        if onefile:
+            f = open(os.path.join(write_dir, write_file), mode='w')
+            f.write(json.dumps(json_out, indent=4))
+            f.close()
+            print "Output written as {0}.".format(write_file)
+        else:
+            for i in ('colormap', 'questions', 'targets', 'criteria', 'caveats'):
+                f = open(os.path.join(write_dir, i + '.json'), mode='w')
+                f.write(json.dumps(json_out[i], indent=4))
+                f.close()
+            print "Output written to folder {0}.".format(write_dir)
+        return True
 
 
 

@@ -3,7 +3,7 @@ from re import match
 from os.path import expanduser
 from datetime import datetime
 
-from openpyxl.utils import column_index_from_string
+from openpyxl.utils import column_index_from_string, get_column_letter
 
 selectors = ('Monitoring', 'Assessment', 'ControlRules')
 
@@ -40,4 +40,22 @@ def convert_subject_to_reference(subject):
 
     reference = (sel, record)
     return reference
+
+
+def convert_reference_to_subject(reference):
+    """
+
+    :param reference: (sel, record)
+    :return:
+    """
+    sel, record = reference
+    suffix = ':'
+    if record[0] is None:
+        # col ref
+        suffix += get_column_letter(record[1])
+    elif record[1] is None:
+        # row ref
+        suffix += unicode(record[0])
+    return sel + suffix
+
 
