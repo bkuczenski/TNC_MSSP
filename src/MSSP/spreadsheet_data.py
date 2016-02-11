@@ -47,9 +47,6 @@ from MSSP.elements import *
 from MSSP import mssp_work
 from MSSP.utils import *
 
-from os.path import expanduser
-from datetime import datetime
-
 import pandas as pd
 
 
@@ -120,7 +117,7 @@ class SpreadsheetData(object):
         self.Targets = {}
 
         if workdir is None:
-            self.working_dir = expanduser('~') + '/Dropbox/' + str(datetime.today().year) + '/TNCWebTool/Working/'
+            self.working_dir = defaultdir + 'Working/'
         else:
             self.working_dir = workdir
 

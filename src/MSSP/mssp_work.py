@@ -14,11 +14,6 @@ Questions / Policies for TNC personnel:
 
 """
 
-import openpyxl as xl
-
-from os.path import expanduser
-from datetime import datetime
-
 from openpyxl.styles.colors import COLOR_INDEX
 
 VERSIONS = {
@@ -65,8 +60,6 @@ QUESTION_MAP = 'QuestionsAndColors.xlsx'
 MSSP_FILES = VERSIONS[Version]['files']
 grid_start = VERSIONS[Version]['grid_start']
 answer_senses = VERSIONS[Version]['answer_senses']
-
-working_dir = expanduser('~') + '/Dropbox/' + str(datetime.today().year) + '/TNCWebTool/'
 
 
 # get color specification

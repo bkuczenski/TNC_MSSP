@@ -1,9 +1,13 @@
 from exceptions import *
 from re import match
+from os.path import expanduser
+from datetime import datetime
 
 from openpyxl.utils import column_index_from_string
 
 selectors = ('Monitoring', 'Assessment', 'ControlRules')
+
+defaultdir = expanduser('~') + '/Dropbox/' + str(datetime.today().year) + '/TNCWebTool/'
 
 
 def check_sel(sel):
@@ -27,10 +31,12 @@ def convert_subject_to_reference(subject):
     if len(g.groups()[1]) > 0:
         # column ref
         record = (None, column_index_from_string(g.groups()[1]))
-
-    if len(g.groups()[2]) > 0:
+    elif len(g.groups()[2]) > 0:
         # row ref
         record = (int(g.groups()[2]), None)
+    else:
+        print "Regex did not match input string."
+        record = (None, None)
 
     reference = (sel, record)
     return reference
