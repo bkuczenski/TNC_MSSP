@@ -31,7 +31,7 @@ Questions = collection of Attributes and valid answer strings (default to Yes/No
 """
 
 import pandas as pd
-from MSSP.utils import defaultdir, convert_reference_to_subject
+from MSSP.utils import defaultdir, convert_reference_to_subject, convert_subject_to_reference
 from MSSP.exceptions import MsspError
 
 
@@ -67,19 +67,7 @@ def cast_answer(text):
         return text
 
 
-def useful_answers(answer_list):
-    """
-    Returns true if answer_list contains content-ful answers that differ substantially from the
-    'yes/no' default
-    :param answer_list: list of discovered answers from spreadsheet
-    :return: bool - True indicates answer_list contains answers that are meaningfully different
-    from yes/no; False indicates answer_list is either empty or equivalent to yes/no
-    """
-    if len(answer_list) == 0:
-        return False
-    if all([is_yes_or_no(k) for k in answer_list]):
-        return False
-    return True
+json_parts = ('colormap', 'questions', 'targets', 'criteria', 'caveats')
 
 
 class MsspQuestion(object):
@@ -110,23 +98,49 @@ class MsspQuestion(object):
 
         # handle valid answers
         valid_answers = question.valid_answers.keys()
+        useful_answers = []
+        for i in range(len(valid_answers)):
+            if is_yes(valid_answers[i]):
+                useful_answers.append('Yes')
+            elif is_no(valid_answers[i]):
+                useful_answers.append('No')
+            else:
+                useful_answers.append(valid_answers[i])
 
-        if useful_answers(valid_answers):
+        if len(useful_answers) > 0:
             if self.default_answers:
-                # replace default answers with supplied answers
-                # note: this will fail for questions that have both "Yes / No" and other valid answers -
-                # Y/N will get squashed. so don't do that.
-                self.valid_answers = valid_answers
+                # replace default answers with useful answers
+                self.valid_answers = useful_answers
                 self.default_answers = False
             else:
                 # add supplied answers to existing answers
-                for item in valid_answers:
+                for item in useful_answers:
                     if item not in self.valid_answers:
                         self.valid_answers.append(item)
 
         # handle satisfied_by
         for ref in question.satisfied_by:
             self.satisfied_by.add(q_dict[ref])  # add index into question enum
+
+    @classmethod
+    def from_json(cls, question):
+        """
+
+        :param question:
+        :return:
+        """
+        mssp_question = cls()
+        for r in question['References']:
+            mssp_question.references.append(convert_subject_to_reference(r))
+        mssp_question.valid_answers = question['ValidAnswers']
+        if (len(mssp_question.valid_answers) == 2 &
+            all([not is_yes_or_no(k) for k in mssp_question.valid_answers])):
+            mssp_question.default_answers = True
+            mssp_question.valid_answers = ['No','Yes']
+        if 'SatisfiedBy' in question:
+            mssp_question.satisfied_by = set(question['SatisfiedBy'])
+
+        return mssp_question
 
 
 class MsspTarget(object):
@@ -138,6 +152,16 @@ class MsspTarget(object):
         """
         self.type = target.selector
         self.record = target.record
+
+    @classmethod
+    def from_json(cls, target):
+        from MSSP.records import Record
+
+        # ref is sel, record
+        ref = convert_subject_to_reference(target['Reference'])
+
+        t = Record(ref[0], ref[1], [])
+        return cls(t)
 
     def reference(self):
         return (self.type, self.record)
@@ -171,6 +195,144 @@ class MsspEngine(object):
         self.caveats = caveats
 
         self.colormap = colormap
+
+    @classmethod
+    def from_json(cls, json_in):
+        """
+
+        The parts are ('questions', 'targets', 'criteria', 'caveats', 'colormap)
+        :param json_in: JSON dictionary containing all the parts
+        :return:
+        """
+        # first thing to do is build the attribute and note lists
+        from .elements import Element, ElementSet
+
+        attribute_set = ElementSet()
+        note_set = ElementSet()
+        colormap = pd.DataFrame(json_in['colormap'])
+
+        question_enum = [None] * (1 + max([i['QuestionID'] for i in json_in['questions']]))
+        target_enum = [None] * (1 + max([i['TargetID'] for i in json_in['targets']]))
+
+        t_a_targets = []
+        t_a_attrs = []
+
+        q_a_questions = []
+        q_a_attrs = []
+
+        cri_questions = []
+        cri_thresholds = []
+        cri_targets = []
+
+        cav_questions = []
+        cav_targets = []
+        cav_answers = []
+        cav_notes = []
+
+        for t in json_in['targets']:
+            # need to preserve IDs because of criteria and caveat maps
+            t_index = t['TargetID']
+            try:
+                target_enum[t_index] = MsspTarget.from_json(t)
+            except IndexError:
+                print 'Index error at {0}'.format(t_index)
+                print t
+
+            # add attributes to element set and build mapping
+            for a in t['Attributes']:
+                # a is a text string
+                a_index = attribute_set.add_element(Element(a))  # don't care about attribute colors
+                t_a_targets.append(t_index)
+                t_a_attrs.append(a_index)
+
+        for q in json_in['questions']:
+            # need to preserve IDs because of criteria and caveat maps
+            q_index = q['QuestionID']
+            question_enum[q_index] = MsspQuestion.from_json(q)
+
+            # add attributes to element set and build mapping
+            for a in q['Attributes']:
+                # a is a text string
+                a_index = attribute_set.add_element(Element(a))  # don't care about attribute colors
+                q_a_questions.append(q_index)
+                q_a_attrs.append(a_index)
+
+        for cri in json_in['criteria']:
+            # the threshold is a literal entry from the question's valid_answers-
+            # needs to be converted into an index
+            q_index = cri['QuestionID']
+            t_index = cri['TargetID']
+            thresh = indices(question_enum[q_index].valid_answers, lambda k: cri['Threshold'] == k)
+            if len(thresh) == 0:
+                    print "QuestionID {0}, TargetID {1}, text {2}: no threshold found.".format(
+                        q_index, t_index, cri['Threshold'])
+                    thresh = [None]
+
+            cri_questions.append(q_index)
+            cri_targets.append(t_index)
+            cri_thresholds.append(thresh[0])
+
+        for cav in json_in['caveats']:
+            # the answer is a literal entry from the question's valid answers-
+            # needs to be converted into an index.
+            # the color needs to be converted into a colormap RGB.
+            q_index = cav['QuestionID']
+            t_index = cav['TargetID']
+
+            rgb = colormap[colormap['Color'] == cav['Color']]['RGB'].iloc[0]
+            note_id = note_set.add_element(Element(cav['Note'], 0, rgb))  # add to note set or find if exists
+
+            if question_enum[q_index] is None:
+                print "Question {0} is none!".format(q_index)
+                ans_i = [None]
+            else:
+                ans_i = indices(question_enum[q_index].valid_answers, lambda k: cav['Answer'] == k)
+
+            if len(ans_i) == 0:
+                print "QuestionID {0}, TargetID {1}, valid answer '{2}' unparsed.".format(
+                        q_index, t_index, cav['Answer'])
+                ans_i = [None]
+
+            cav_questions.append(q_index)
+            cav_targets.append(t_index)
+            cav_answers.append(ans_i[0])
+            cav_notes.append(note_id)
+
+        # create pandas tables
+        question_attributes = pd.DataFrame(
+            {
+                "QuestionID": q_a_questions,
+                "AttributeID": q_a_attrs
+            }
+            ).drop_duplicates()
+
+        target_attributes = pd.DataFrame(
+            {
+                "TargetID": t_a_targets,
+                "AttributeID": t_a_attrs
+            }
+        )
+
+        criteria = pd.DataFrame(
+            {
+                "QuestionID": cri_questions,
+                "Threshold": cri_thresholds,
+                "TargetID": cri_targets
+            }
+        )
+
+        caveats = pd.DataFrame(
+            {
+                "QuestionID": cav_questions,
+                "TargetID": cav_targets,
+                "Answer": cav_answers,
+                "NoteID": cav_notes
+            }
+        )
+
+        return cls(attribute_set, note_set, question_enum, target_enum,
+                   question_attributes, target_attributes, criteria, caveats,
+                   colormap)
 
     @classmethod
     def from_spreadsheet(cls, spreadsheet_data):
@@ -288,7 +450,7 @@ class MsspEngine(object):
                 "QuestionID": q_a_questions,
                 "AttributeID": q_a_attrs
             }
-        )
+            ).drop_duplicates()
 
         target_attributes = pd.DataFrame(
             {
@@ -335,7 +497,7 @@ class MsspEngine(object):
                 for i, k in mapping.iterrows()
                 if k[key] == index]
 
-    def serialize(self, out=None):
+    def serialize(self):
         """
         Serializes the MsspEngine object out to a collection of dictionaries.
 
@@ -466,12 +628,40 @@ class MsspEngine(object):
             f.close()
             print "Output written as {0}.".format(write_file)
         else:
-            for i in ('colormap', 'questions', 'targets', 'criteria', 'caveats'):
+            for i in json_parts:
                 f = open(os.path.join(write_dir, i + '.json'), mode='w')
                 f.write(json.dumps(json_out[i], indent=4))
                 f.close()
             print "Output written to folder {0}.".format(write_dir)
         return True
 
+    @staticmethod
+    def read_json(json_in):
+        """
 
+        :param json_in: pointer to directory or file
+        :return: mssp_engine object in JSON serialized form
+        """
+        import os
+        import json
+
+        if os.path.isabs(json_in):
+            read_path = json_in
+        else:
+            read_path = os.path.join(defaultdir, json_in)
+
+        if not os.path.exists(read_path):
+            raise IOError("File not found: {0}".format(read_path))
+        if os.path.isdir(read_path):
+            json_out = {}
+            for f in json_parts:
+                fp = open(os.path.join(read_path, f + '.json'), mode='r')
+                json_out[f] = json.load(fp)
+                fp.close()
+        else:
+            fp = open(read_path, mode='r')
+            json_out = json.load(fp)
+            fp.close()
+
+        return json_out
 
