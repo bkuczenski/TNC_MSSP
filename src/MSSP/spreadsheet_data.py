@@ -193,7 +193,7 @@ class SpreadsheetData(object):
         refs = self._expand_attribute_refs(start, record)
         for row, col in refs:
             try:
-                elts.append(Element(sheet.cell(None, row, col)))
+                elts.append(Element.from_cell(sheet.cell(None, row, col)))
             except EmptyInputError:
                 # if empty, it may be part of a range
                 elts.append(SpreadsheetData._in_merged_range(sheet, row, col))
@@ -231,7 +231,7 @@ class SpreadsheetData(object):
             # column-spec
             for row in range(start.row, sheet.max_row+1):
                 try:
-                    elt = Element(sheet.cell(None, row, record[1]))
+                    elt = Element.from_cell(sheet.cell(None, row, record[1]))
                 except EmptyInputError:
                     continue
                 i = self.Notations.add_element(elt)
@@ -239,7 +239,7 @@ class SpreadsheetData(object):
         else:  # row-spec
             for col in range(start.col_idx, sheet.max_column+1):
                 try:
-                    elt = Element(sheet.cell(None, record[0], col))
+                    elt = Element.from_cell(sheet.cell(None, record[0], col))
                 except EmptyInputError:
                     continue
                 i = self.Notations.add_element(elt)

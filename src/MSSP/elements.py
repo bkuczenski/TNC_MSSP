@@ -67,13 +67,15 @@ class Element(object):
     """
     A decorated text string that appears in the spreadsheet
     """
-    text = ''
-    text_color = ''
-    fill_color = ''
-    ref = None
 
-    @classmethod
-    def from_worksheet(cls, worksheet, ref):
+    def __init__(self, text, text_color=0, fill_color='00000000', ref=None):
+        self.text = text
+        self.text_color = text_color
+        self.fill_color = fill_color
+        self.ref = ref
+
+    @staticmethod
+    def from_worksheet(worksheet, ref):
         if worksheet is None or ref is None:
             raise MsspError("Both worksheet+ref arguments required")
 
@@ -84,9 +86,10 @@ class Element(object):
         else:
             cell = worksheet.cell(None, ref[0], ref[1])
 
-        return cls(cell)
+        return Element.from_cell(cell)
 
-    def __init__(self, cell=None):
+    @classmethod
+    def from_cell(cls, cell):
         """
         Element() constructor accepts an openpyxl.cell.cell.Cell object and returns
         an Element.
@@ -109,21 +112,22 @@ class Element(object):
             if cell.value is None:
                 raise EmptyInputError
 
-            self.text = cell.value
-            self.text_color = getattr(cell.font.color, cell.font.color.type)
+            text = cell.value
+            text_color = getattr(cell.font.color, cell.font.color.type)
             # TODO: convert indexed colors to RGB-
             # probably in a special function in an openpyxl interfacing module
 
             # self.text_color_type = cell.font.color.type  # don't need this
 
-            self.fill_color = getattr(cell.fill.fgColor, cell.fill.fgColor.type)
+            fill_color = getattr(cell.fill.fgColor, cell.fill.fgColor.type)
             # TODO: convert indexed colors to RGB-
             # probably in a special function in an openpyxl interfacing module
             # also TODO: convert theme colors to RGB-
             # no help here; requires xml
-            self.color_type = cell.fill.fgColor.type
+            ##self.color_type = cell.fill.fgColor.type
 
-            self.ref = cell.parent.title + '!' + cell.column + str(cell.row)
+            ref = cell.parent.title + '!' + cell.column + str(cell.row)
+            return cls(text, text_color, fill_color, ref)
 
     def __hash__(self):
         return hash((self.text, self.text_color, self.fill_color))
@@ -139,7 +143,10 @@ class Element(object):
         return not self.__eq__(other)
 
     def __str__(self):
-        return "%s: %s [text %s | fill %s]" % (self.ref, self.text, self.text_color, self.fill_color)
+        try:
+            return "{0}: {1} [text {2} | fill {3}]".format(self.ref, self.text, self.text_color, self.fill_color)
+        except UnicodeEncodeError:
+            return "unicode problem with {0}".format(self.ref)
 
     def search(self, string):
         """
@@ -175,14 +182,14 @@ class ElementSet(object):
 
         return self.index[element]
 
-    def add(self, *args, **kwargs):
-        try:
-            element = Element(*args, **kwargs)
-        except EmptyInputError:
-            # quit without errors if cell has no text
-            return
-
-        return self._append(element)
+    #def add(self, *args, **kwargs):
+    #    try:
+    #        element = Element(*args, **kwargs)
+    #    except EmptyInputError:
+    #        # quit without errors if cell has no text
+    #        return
+    #
+    #    return self._append(element)
 
     def add_element(self, element):
         """
@@ -281,11 +288,11 @@ def compare_sheets(file1, sheet1, file2, sheet2):
     for row in range(0, max_row):
         for col in range(0, max_col):
             try:
-                E1 = Element(cell=s1.cell(None, row+1, col+1))
+                E1 = Element.from_cell(s1.cell(None, row+1, col+1))
             except EmptyInputError:
                 E1 = None
             try:
-                E2 = Element(cell=s2.cell(None, row+1, col+1))
+                E2 = Element.from_cell(s2.cell(None, row+1, col+1))
             except EmptyInputError:
                 E2 = None
 
