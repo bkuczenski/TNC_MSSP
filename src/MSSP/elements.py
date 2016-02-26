@@ -265,7 +265,18 @@ class ElementSet(object):
         return list(set(ind).intersection(idx))
 
 
-def compare_sheets(file1, sheet1, file2, sheet2):
+def row_col_from_cell(cell):
+    """
+
+    :param cell: a cell string e.g. 'B12'
+    :return: row, col in numerical index
+    """
+    from openpyxl.utils import column_index_from_string, coordinate_from_string
+    (col,row) = coordinate_from_string(cell)
+    return row, column_index_from_string(col)
+
+
+def compare_sheets(file1, sheet1, file2, sheet2, start='A1'):
     import openpyxl as xl
     x1 = xl.load_workbook(file1)
     s1 = x1[sheet1]
@@ -277,16 +288,18 @@ def compare_sheets(file1, sheet1, file2, sheet2):
     if s1.max_column != s2.max_column:
         print "Sheets have different numbers of columns: S1: {0} S2: {1}".format(s1.max_column, s2.max_column)
 
+    min_row, min_col = row_col_from_cell(start)
+
     max_row = min(s1.max_row, s2.max_row)
     max_col = min(s1.max_column, s2.max_column)
 
-    print "Comparing from [1,1] to [{0},{1}]...".format(max_row, max_col)
+    print "Comparing from [{0},{1}] to [{2},{3}]...".format(min_row, min_col, max_row, max_col)
 
     dif_list1 = []
     dif_list2 = []
 
-    for row in range(0, max_row):
-        for col in range(0, max_col):
+    for row in range(min_row-1, max_row):
+        for col in range(min_col-1, max_col):
             try:
                 E1 = Element.from_cell(s1.cell(None, row+1, col+1))
             except EmptyInputError:

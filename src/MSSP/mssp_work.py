@@ -50,10 +50,27 @@ VERSIONS = {
             "Assessment": (None, 2),
             "ControlRules": (None, 4)
         }
+    },
+    'Feb_Txfr': {
+        'files': {
+            'Assessment': 'MSSP Assessment_FEB 2016 bk.xlsx',
+            'ControlRules': 'MSSP Harvest Control Rules_FEB 2016 bk.xlsx',
+            'Monitoring': 'MSSP Monitoring_FEB 2016 bk.xlsx'
+        },
+        'grid_start': {
+            "Monitoring": 'F9',
+            "Assessment": 'G40',
+            "ControlRules": 'E9'
+            },
+        'answer_senses': {
+            "Monitoring": (6, None),
+            "Assessment": (None, 2),
+            "ControlRules": (None, 4)
+        }
     }
 }
 
-Version = 'February'
+Version = 'Feb_Txfr'
 
 QUESTION_MAP = 'QuestionsAndColors.xlsx'
 
