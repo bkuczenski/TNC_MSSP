@@ -71,7 +71,67 @@ class MsspDataStore(object):
         self._criteria = criteria
         self._caveats = caveats
 
-        self.colormap = colormap
+        # compute 'satisfies' list from 'satisfied_by'
+        [self._set_satisfies(k) for k in range(len(self._questions))]
+
+        self.colormap = colormap  # let the user manipulate the colormap directly
+
+    def _set_satisfies(self, satisfied_by):
+        """
+        Sets 'satisfies' for questions that appear in another question's 'satisfied_by'
+
+        :param satisfied_by: index into questions enum for satisfied question
+        :return: nothing
+        """
+        sb = self._questions[satisfied_by].satisfied_by
+        if len(sb) > 0:
+            for q in sb:
+                self._questions[q].satisfies.add(satisfied_by)
+
+    def _replace_field_with_answer(self, df, field='Threshold'):
+        """
+
+        :param df:
+        :param field:
+        :return:
+        """
+        def lookup(rec):
+            return self._questions[rec['QuestionID']].valid_answers[rec[field]]
+
+        df['AnswerValue'] = df.apply(lookup, axis=1)
+        df.drop(field, axis=1, inplace=True)
+
+    def _print_object(self, index, mapping):
+        if mapping is self._question_attributes:
+            fieldname = 'QuestionID'
+            obj = self._questions[index]
+            print('Question ID: %d' % index)
+        else:
+            fieldname = 'TargetID'
+            obj = self._targets[index]
+            print('Target ID: %d' % index)
+
+        obj.attributes = [k for k in self._make_attr_list(mapping, index)]
+        obj.criteria = None
+        obj.caveats = None
+        for k in obj.attributes:
+            print(k)
+        print(obj)
+        criteria = self._criteria[self._criteria[fieldname] == index].copy()
+        caveats = self._criteria[self._caveats[fieldname] == index].copy()
+        if len(criteria) > 0:
+            self._replace_field_with_answer(criteria)
+            print('Has Criteria:')
+            print(criteria)
+            obj.criteria = criteria
+
+        if len(caveats) > 0:
+            self._replace_field_with_answer(caveats, field='Answer')
+            print('Has Caveats:')
+            print(caveats)
+            obj.caveats = caveats
+
+        return obj
 
     def question(self, index):
         """
@@ -79,9 +139,17 @@ class MsspDataStore(object):
         :param index: index into the question enum
         :return:
         """
-        q = self._questions[index]
+        return self._print_object(index, self._question_attributes)
 
-    def make_attr_list(self, mapping, index):
+    def target(self, index):
+        """
+
+        :param index:
+        :return:
+        """
+        return self._print_object(index, self._target_attributes)
+
+    def _make_attr_list(self, mapping, index):
         """
         List of attributes associated with a given record
         :param mapping: self.question_attributes or self.target_attributes
@@ -129,7 +197,7 @@ class MsspDataStore(object):
         print "Creating {0} questions...".format(len(self._questions))
         for k in range(len(self._questions)):
             v = self._questions[k]
-            attr_list = self.make_attr_list(self._question_attributes, k)
+            attr_list = self._make_attr_list(self._question_attributes, k)
             if len(attr_list) == 0:
                 continue
             add = {
@@ -145,7 +213,7 @@ class MsspDataStore(object):
         print "Creating {0} targets...".format(len(self._targets))
         for k in range(len(self._targets)):
             v = self._targets[k]
-            attr_list = self.make_attr_list(self._target_attributes, k)
+            attr_list = self._make_attr_list(self._target_attributes, k)
             if len(attr_list) == 0:
                 continue
             add = {

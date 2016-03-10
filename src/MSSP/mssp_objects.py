@@ -36,6 +36,7 @@ class MsspQuestion(object):
         self.valid_answers = ['No', 'Yes']
         self.default_answers = True
         self.satisfied_by = set()
+        self.satisfies = set()  # not serialized
 
     def append(self, question, q_dict):
         """
@@ -96,6 +97,13 @@ class MsspQuestion(object):
 
         return mssp_question
 
+    def __str__(self):
+        return ' Valid Answers: {0}\n Satisfied By: {1}\n Satisfies: {2}'.format(
+            self.valid_answers,
+            (None, list(self.satisfied_by))[len(self.satisfied_by) > 0],
+            (None, list(self.satisfies))[len(self.satisfies) > 0 ]
+        )
+
 
 class MsspTarget(object):
     def __init__(self, target):
@@ -122,4 +130,8 @@ class MsspTarget(object):
 
     def references(self):
         return [self.reference()]
+
+    def __str__(self):
+        return ' Reference: {0}'.format(self.reference())
+
 
