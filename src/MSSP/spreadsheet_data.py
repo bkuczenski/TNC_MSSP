@@ -50,6 +50,14 @@ from MSSP.utils import *
 import pandas as pd
 
 
+def load_default_set():
+    m = SpreadsheetData()
+    m.parse_all_sheets()
+    m.load_mappings(mssp_work.QUESTION_MAP)
+
+    return m
+
+
 class SpreadsheetData(object):
     """
     Tools for extracting and refactoring information contained in MSSP spreadsheets

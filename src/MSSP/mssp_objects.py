@@ -89,6 +89,8 @@ class MsspQuestion(object):
             all([not is_yes_or_no(k) for k in mssp_question.valid_answers])):
             mssp_question.default_answers = True
             mssp_question.valid_answers = ['No','Yes']
+        else:
+            mssp_question.default_answers = False
         if 'SatisfiedBy' in question:
             mssp_question.satisfied_by = set(question['SatisfiedBy'])
 
