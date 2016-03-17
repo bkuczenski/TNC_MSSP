@@ -154,7 +154,7 @@ class Element(object):
         :param string: regex
         :return: bool
         """
-        return bool(re.match(string, unicode(self.text), flags=re.IGNORECASE | re.U))
+        return bool(re.search(string, unicode(self.text), flags=re.IGNORECASE | re.U))
 
 
 class ElementSet(object):
@@ -217,6 +217,8 @@ class ElementSet(object):
         :param item:
         :return:
         """
+        if type(item) is list:
+            return [self.elements[k] for k in item]
         return self.elements[item]
 
     def get_index(self, elt):
@@ -247,10 +249,11 @@ class ElementSet(object):
             st += str(i) + "\n"
         return st
 
-    def search(self, string, idx):
+    def search(self, string, idx=None):
         """
         Search the element set for a plain string or regex. returns a list of indices
-        :param string:
+        :param string: the search term
+        :param idx: (default:None) a set of indices to search within-- returns the intersection
         :return:
         """
         ind = []
