@@ -1,7 +1,7 @@
 
 # from mssp import MSSP
 from MSSP.elements import Element
-
+import re
 
 class Record(object):
     """
@@ -49,8 +49,8 @@ class Question(Record):
     A Question is a column in M, or a row in A or C.
 
     In addition to the normal Record properties, a Question contains a collection of
-    valid answer values, and a flag indicating whether the question is a 'Criterion'
-    or 'Caveat' question.
+    valid answer values, and an 'answer sense' which indicates "criterion" if the question is a Criterion question,
+    or the proper sense for interpreting the data if the question is a Caveat question.
 
     Questions have a lookup table of orient counterindex -> answer value (indexed into
     the question's list of valid answer values), which can be used to select counterindices
@@ -62,9 +62,12 @@ class Question(Record):
     """
 
     def __init__(self, *args, **kwargs):
-        super(Question, self).__init__(*args, **kwargs)
+        super(Question, self).__init__(*args)
 
-        self.criterion = any(i.search(u'criteri') for i in self.attrs)
+        answer_sense = kwargs['answer_sense']
+
+        self.criterion = bool(re.search(u'criteri', unicode(answer_sense), flags=re.IGNORECASE | re.UNICODE))
+        self.answer_sense = answer_sense
         self.valid_answers = {}
         self.synonyms = set()
         self.satisfied_by = set()
@@ -95,7 +98,8 @@ class Question(Record):
         for mapping in mappings:
             self.criteria_mappings.append(mapping)
 
-    def encode_caveats(self, mappings, answer_sense):
+    def encode_caveats(self, mappings):
+        answer_sense = self.answer_sense
         assert self.criterion is False, "encode_caveats() only operates on non-criterion questions"
         if answer_sense not in self.valid_answers:
             self.valid_answers[answer_sense] = 0

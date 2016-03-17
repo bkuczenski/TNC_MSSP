@@ -158,9 +158,10 @@ class SpreadsheetData(object):
                 (rn_coords[1] <= row <= rn_coords[3]))
 
     @staticmethod
-    def _in_merged_range(sheet, row, col):
+    def _element_or_merged_range(sheet, row, col):
         """
-        If ref is contained within a merged range on sheet, returns the element describing the range
+        If ref is contained within a merged range on sheet, returns the element describing the range.
+        Otherwise, returns the element referenced.
         :param sheet:
         :param row:
         :param col:
@@ -170,7 +171,10 @@ class SpreadsheetData(object):
             if SpreadsheetData.cell_in_range(row, col, rn):
                 return Element.from_worksheet(sheet, rn)
 
-        return None
+        try:
+            return Element.from_worksheet(sheet, (row, col))
+        except EmptyInputError:
+            return Element.empty_element()
 
     @staticmethod
     def _expand_attribute_refs(start, record):
@@ -201,11 +205,9 @@ class SpreadsheetData(object):
         refs = self._expand_attribute_refs(start, record)
         for row, col in refs:
             try:
-                elts.append(Element.from_cell(sheet.cell(None, row, col)))
+                elts.append(SpreadsheetData._element_or_merged_range(sheet, row, col))
             except EmptyInputError:
-                # if empty, it may be part of a range
-                elts.append(SpreadsheetData._in_merged_range(sheet, row, col))
-                # Nones in the element list will get ignored by the ElementSet
+                continue
 
         inds = self.Attributes.add_elements(elts)
         return [self.Attributes[i] for i in inds]
@@ -273,9 +275,9 @@ class SpreadsheetData(object):
             answer_record = self.answer_senses[sel]
 
         if record[0] is not None:  # column-wise
-            return sheet.cell(None, record[0], answer_record[1]).value
+            return self._element_or_merged_range(sheet, record[0], answer_record[1]).text
         elif record[1] is not None:  # row-wise
-            return sheet.cell(None, answer_record[0], record[1]).value
+            return self._element_or_merged_range(sheet, answer_record[0], record[1]).text
         else:
             raise MsspError('bad record reference {}'.format(record))
 
@@ -305,8 +307,9 @@ class SpreadsheetData(object):
         print "adding questions"
         for record in q_records:
             mapped_attrs = self._attributes_of_record(sheet, start, record)
+            answer_sense = self._get_answer_sense(sheet, sel, record)
             # create a new question with those attributes
-            self.Questions[(sel, record)] = Question(sel, record, mapped_attrs)
+            self.Questions[(sel, record)] = Question(sel, record, mapped_attrs, answer_sense=answer_sense)
 
         print "adding targets"
         for record in t_records:
@@ -326,8 +329,7 @@ class SpreadsheetData(object):
                 q.encode_criteria(mappings)
             else:
                 mappings = self._grid_elements(sheet, start, record)
-                answer_sense = self._get_answer_sense(sheet, sel, record)
-                q.encode_caveats(mappings, answer_sense)
+                q.encode_caveats(mappings)
 
             for mapping in mappings:
                 try:

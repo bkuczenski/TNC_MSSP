@@ -89,6 +89,10 @@ class Element(object):
         return Element.from_cell(cell)
 
     @classmethod
+    def empty_element(cls):
+        return cls(None)
+
+    @classmethod
     def from_cell(cls, cell):
         """
         Element() constructor accepts an openpyxl.cell.cell.Cell object and returns
