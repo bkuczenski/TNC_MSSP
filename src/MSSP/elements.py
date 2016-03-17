@@ -130,7 +130,7 @@ class Element(object):
             return cls(text, text_color, fill_color, ref)
 
     def __hash__(self):
-        return hash((self.text, self.text_color, self.fill_color))
+        return hash((self.text, self.fill_color))  # formerly included text_color
 
     def __eq__(self, other):
         if other is None:

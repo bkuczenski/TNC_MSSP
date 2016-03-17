@@ -122,6 +122,14 @@ class MsspDataStore(object):
                 for i, k in mapping.iterrows()
                 if k[key] == index]
 
+    def _color_of_cell(self, element):
+        """
+        Return the color encoded by the element's fill_color
+        :param element:
+        :return:
+        """
+        return self.colormap[self.colormap['RGB'] == element.fill_color]['ColorName'].iloc[0]
+
     def _print_object(self, index, mapping):
         """
         Common functions for printing question + target records.
@@ -186,6 +194,31 @@ class MsspDataStore(object):
         :return:
         """
         return self._print_object(index, self._target_attributes)
+
+    def attributes(self, index):
+        """
+        Print out the attribute(s) listed in the index (or list)
+        :param index:
+        :return:
+        """
+        if not isinstance(index, list):
+            index = [index]
+
+        for i in index:
+            print 'AttributeID %5d: %s' % (i, self._attributes[i].text)
+
+    def notes(self, index):
+        """
+        print out the note(s) listed in the index (or list)
+        :param index:
+        :return:
+        """
+        if not isinstance(index, list):
+            index = [index]
+
+        for i in index:
+            n = self._notes[i]
+            print 'NoteID %5d [%s]: %s' % (i, self._color_of_cell(n), n.text)
 
     def search(self, terms, search_notes=False, match_any=False):
         """
