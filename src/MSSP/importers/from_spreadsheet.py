@@ -75,7 +75,7 @@ class XlsImporter(MsspDataStore):
         for k, v in spreadsheet_data.Questions.iteritems():
             q_i = q_dict[k]
             question_enum[q_i].append(v, q_dict)
-            my_valid_answers = question_enum[q_i].valid_answers
+            my_valid_answers = [cast_answer(ans) for ans in question_enum[q_i].valid_answers]
 
             for attr in v.attrs:
                 q_a_questions.append(q_i)
@@ -91,6 +91,7 @@ class XlsImporter(MsspDataStore):
                 if len(thresh) == 0:
                     print "QuestionID {0}, TargetID {1}, text {2}: no threshold found.".format(
                         q_i, t_i, element.text)
+                    print "  valid answers: %s" % my_valid_answers
                     thresh = [None]
 
                 cri_questions.append(q_i)
@@ -112,8 +113,9 @@ class XlsImporter(MsspDataStore):
                 if len(ans_i) > 0:
                     cav_answers.append(ans_i[0])
                 else:
-                    print "QuestionID {0}, TargetID {1}, valid answer '{2}' unparsed.".format(
+                    print "QuestionID {0}, TargetID {1}, cast answer '{2}' unparsed.".format(
                         q_i, t_i, answer)
+                    print "  valid answers: %s" % my_valid_answers
                     cav_answers.append(None)
                 cav_notes.append(n_i)
 

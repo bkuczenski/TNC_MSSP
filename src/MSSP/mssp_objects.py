@@ -33,10 +33,23 @@ class MsspQuestion(object):
         :return: an empty MsspQuestion
         """
         self.references = []
-        self.valid_answers = ['No', 'Yes']
-        self.default_answers = True
+        self.valid_answers = []  # this gets constructed from _yes_no_included and _external_answers
+        self._external_answers = []
+        self._yes_no_included = False
         self.satisfied_by = set()
         self.satisfies = set()  # not serialized
+
+    def _update_valid_answers(self):
+        """
+        Construct self.valid_answers based on object content
+        :return: none
+        """
+        if self._yes_no_included:
+            self.valid_answers = ['No', 'Yes']
+        else:
+            self.valid_answers = []
+
+        self.valid_answers.extend(self._external_answers)
 
     def append(self, question, q_dict):
         """
@@ -49,27 +62,23 @@ class MsspQuestion(object):
         # handle reference
         self.references.append((question.selector, question.record))
 
-        # handle valid answers
-        valid_answers = question.valid_answers.keys()
+        # handle new incoming answers
+        new_answers = question.valid_answers.keys()
         useful_answers = []
-        for i in range(len(valid_answers)):
-            if is_yes(valid_answers[i]):
-                useful_answers.append('Yes')
-            elif is_no(valid_answers[i]):
-                useful_answers.append('No')
-            else:
-                useful_answers.append(valid_answers[i])
 
-        if len(useful_answers) > 0:
-            if self.default_answers:
-                # replace default answers with useful answers
-                self.valid_answers = useful_answers
-                self.default_answers = False
+        for ans in new_answers:
+            if is_yes_or_no(ans):
+                self._yes_no_included = True
             else:
-                # add supplied answers to existing answers
-                for item in useful_answers:
-                    if item not in self.valid_answers:
-                        self.valid_answers.append(item)
+                useful_answers.append(ans)
+
+        if len(useful_answers) > 0:  # add new useful answers to the object (in the order encountered)
+            for ans in useful_answers:
+                if ans not in self._external_answers:
+                    self._external_answers.append(ans)
+
+        # reconstruct valid_answers
+        self._update_valid_answers()
 
         # handle satisfied_by
         for ref in question.satisfied_by:
@@ -85,13 +94,16 @@ class MsspQuestion(object):
         mssp_question = cls()
         for r in question['References']:
             mssp_question.references.append(convert_subject_to_reference(r))
-        mssp_question.valid_answers = question['ValidAnswers']
-        if (len(mssp_question.valid_answers) == 2 &
-            all([not is_yes_or_no(k) for k in mssp_question.valid_answers])):
-            mssp_question.default_answers = True
-            mssp_question.valid_answers = ['No','Yes']
-        else:
-            mssp_question.default_answers = False
+
+        for ans in question['ValidAnswers']:
+            if is_yes_or_no(ans):
+                mssp_question._yes_no_included = True
+            else:
+                if ans not in mssp_question._external_answers:
+                    mssp_question._external_answers.append(ans)
+
+        mssp_question._update_valid_answers()
+
         if 'SatisfiedBy' in question:
             mssp_question.satisfied_by = set(question['SatisfiedBy'])
 
