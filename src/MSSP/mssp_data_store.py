@@ -101,6 +101,23 @@ class MsspDataStore(object):
         df['AnswerValue'] = df.apply(lookup, axis=1)
         df.drop(field, axis=1, inplace=True)
 
+    def _make_attr_list(self, mapping, index):
+        """
+        List of attributes associated with a given record
+        :param mapping: self.question_attributes or self.target_attributes
+        :param index:
+        :return:
+        """
+        if mapping is self._question_attributes:
+            key = 'QuestionID'
+        elif mapping is self._target_attributes:
+            key = 'TargetID'
+        else:
+            raise MsspError('Argument to _make_attr_list is not an object-attribute mapping')
+        return [self._attributes[k['AttributeID']].text
+                for i, k in mapping.iterrows()
+                if k[key] == index]
+
     def _print_object(self, index, mapping):
         """
         Common functions for printing question + target records.
@@ -149,6 +166,7 @@ class MsspDataStore(object):
         """
         return set(mapping[mapping['AttributeID'].isin(attrs)][mapping.columns[1]])
 
+    # user-facing functions begin here
     def question(self, index):
         """
         Print out a question, in terms of its attributes, possible answers, and impacted targets
@@ -164,23 +182,6 @@ class MsspDataStore(object):
         :return:
         """
         return self._print_object(index, self._target_attributes)
-
-    def _make_attr_list(self, mapping, index):
-        """
-        List of attributes associated with a given record
-        :param mapping: self.question_attributes or self.target_attributes
-        :param index:
-        :return:
-        """
-        if mapping is self._question_attributes:
-            key = 'QuestionID'
-        elif mapping is self._target_attributes:
-            key = 'TargetID'
-        else:
-            raise MsspError('Argument to _make_attr_list is not an object-attribute mapping')
-        return [self._attributes[k['AttributeID']].text
-                for i, k in mapping.iterrows()
-                if k[key] == index]
 
     def search(self, terms, search_notes=False, questions=False, targets=False, match_any=False):
         """
