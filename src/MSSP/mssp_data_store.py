@@ -102,6 +102,12 @@ class MsspDataStore(object):
         df.drop(field, axis=1, inplace=True)
 
     def _print_object(self, index, mapping):
+        """
+        Common functions for printing question + target records.
+        :param index: the ID of the object
+        :param mapping: an input to self._make_attr_list
+        :return:
+        """
         if mapping is self._question_attributes:
             fieldname = 'QuestionID'
             obj = self._questions[index]
@@ -118,7 +124,7 @@ class MsspDataStore(object):
             print(k)
         print(obj)
         criteria = self._criteria[self._criteria[fieldname] == index].copy()
-        caveats = self._criteria[self._caveats[fieldname] == index].copy()
+        caveats = self._caveats[self._caveats[fieldname] == index].copy()
         if len(criteria) > 0:
             self._replace_field_with_answer(criteria)
             print('Has Criteria:')
@@ -132,6 +138,16 @@ class MsspDataStore(object):
             obj.caveats = caveats
 
         return obj
+
+    @staticmethod
+    def _search_mapping(attrs, mapping):
+        """
+        Atomic search- returns records containing an attribute that matches the search term.
+        :param attrs:
+        :param mapping:
+        :return: a set of indices into the specified record list
+        """
+        return set(mapping[mapping['AttributeID'].isin(attrs)][mapping.columns[1]])
 
     def question(self, index):
         """
@@ -161,10 +177,80 @@ class MsspDataStore(object):
         elif mapping is self._target_attributes:
             key = 'TargetID'
         else:
-            raise MsspError
+            raise MsspError('Argument to _make_attr_list is not an object-attribute mapping')
         return [self._attributes[k['AttributeID']].text
                 for i, k in mapping.iterrows()
                 if k[key] == index]
+
+    def search(self, terms, search_notes=False, questions=False, targets=False, match_any=False):
+        """
+        Find records that contain attributes [or notes] matching the search terms.  'terms' should be a single
+        string or a list of strings.  If a list is provided, the search will return entries that match all terms
+        (i.e. the intersection of result sets).  This can be changed to 'match_any' to return the union of result
+        sets.
+
+        By default, searches on attributes Search notes instead by specifying notes=True.
+
+        By default, returns a list of indices into self._attributes (or self._notes if notes=True).
+
+        To retrieve a list of questions whose attributes [notes] match the terms, use questions=True.
+
+        To retrieve a list of questions whose attributes [notes] match the terms, use targets=True.
+
+        If both questions=True and targets=True, returns a 2-tuple:
+        list_of_questions, list_of_targets.
+
+        :param terms: string or list of strings to search on
+        :param search_notes: (bool) search on notes (i.e. "caveats") instead of attributes (default False)
+        :param questions: (bool) return questions that match? (default True)
+        :param targets: (bool) return targets that match? (default True)
+        :param match_any: (bool) match any search term (default False is to match all search terms)
+        :return:
+        """
+        if isinstance(terms, basestring):
+            terms = [terms]
+        if match_any:
+            q_results = set()
+            t_results = set()
+            a_results = set()
+            operation = set.union
+        else:
+            q_results = set(range(len(self._questions)))
+            t_results = set(range(len(self._targets)))
+            if search_notes:
+                a_results = set(range(len(self._notes)))
+            else:
+                a_results = set(range(len(self._attributes)))
+            operation = set.intersection
+
+        for term in terms:
+            if search_notes:
+                notes = self._notes.search(term)
+                a_results = operation(a_results, notes)
+
+                n_results = self._caveats[self._caveats['NoteID'].isin(notes)]
+
+                q_results = operation(q_results, set(n_results['QuestionID']))
+                t_results = operation(t_results, set(n_results['TargetID']))
+
+            else:
+                attrs = self._attributes.search(term)
+                a_results = operation(a_results, attrs)
+
+                if questions:
+                    q_results = operation(q_results, self._search_mapping(attrs, self._question_attributes))
+
+                if targets:
+                    t_results = operation(t_results, self._search_mapping(attrs, self._target_attributes))
+
+        if questions & targets:
+            return sorted(list(q_results)), sorted(list(t_results))
+        elif questions & ~targets:
+            return sorted(list(q_results))
+        elif ~questions & targets:
+            return sorted(list(t_results))
+        else:  # ~questions & ~targets: return indices into the ElementSet, for either notes or attributes
+            return sorted(list(a_results))
 
     def serialize(self):
         """
