@@ -30,9 +30,13 @@ Questions = collection of Attributes and valid answer strings (default to Yes/No
 
 """
 
+from collections import namedtuple
+
 from MSSP.utils import convert_reference_to_subject
 from MSSP.exceptions import MsspError
 
+searchAttributes = namedtuple('searchAttributes', ['attributes', 'questions', 'targets'])
+searchNotes = namedtuple('searchNotes', ['notes', 'questions', 'targets'])
 
 class MsspDataStore(object):
     """
@@ -183,28 +187,20 @@ class MsspDataStore(object):
         """
         return self._print_object(index, self._target_attributes)
 
-    def search(self, terms, search_notes=False, questions=False, targets=False, match_any=False):
+    def search(self, terms, search_notes=False, match_any=False):
         """
         Find records that contain attributes [or notes] matching the search terms.  'terms' should be a single
         string or a list of strings.  If a list is provided, the search will return entries that match all terms
         (i.e. the intersection of result sets).  This can be changed to 'match_any' to return the union of result
         sets.
 
-        By default, searches on attributes Search notes instead by specifying notes=True.
+        By default, searches on attributes Search notes instead by specifying search_notes=True.
 
-        By default, returns a list of indices into self._attributes (or self._notes if notes=True).
-
-        To retrieve a list of questions whose attributes [notes] match the terms, use questions=True.
-
-        To retrieve a list of questions whose attributes [notes] match the terms, use targets=True.
-
-        If both questions=True and targets=True, returns a 2-tuple:
-        list_of_questions, list_of_targets.
+        By default, returns a namedtuple with names 'attributes' [or 'notes'], 'questions', and 'targets', with each
+        field containing a list of indices into _attributes or _notes and the record enums.
 
         :param terms: string or list of strings to search on
         :param search_notes: (bool) search on notes (i.e. "caveats") instead of attributes (default False)
-        :param questions: (bool) return questions that match? (default True)
-        :param targets: (bool) return targets that match? (default True)
         :param match_any: (bool) match any search term (default False is to match all search terms)
         :return:
         """
@@ -224,8 +220,9 @@ class MsspDataStore(object):
                 a_results = set(range(len(self._attributes)))
             operation = set.intersection
 
-        for term in terms:
-            if search_notes:
+        if search_notes:
+            rt = searchNotes
+            for term in terms:
                 notes = self._notes.search(term)
                 a_results = operation(a_results, notes)
 
@@ -234,24 +231,16 @@ class MsspDataStore(object):
                 q_results = operation(q_results, set(n_results['QuestionID']))
                 t_results = operation(t_results, set(n_results['TargetID']))
 
-            else:
+        else:
+            rt = searchAttributes
+            for term in terms:
                 attrs = self._attributes.search(term)
                 a_results = operation(a_results, attrs)
 
-                if questions:
-                    q_results = operation(q_results, self._search_mapping(attrs, self._question_attributes))
+                q_results = operation(q_results, self._search_mapping(attrs, self._question_attributes))
+                t_results = operation(t_results, self._search_mapping(attrs, self._target_attributes))
 
-                if targets:
-                    t_results = operation(t_results, self._search_mapping(attrs, self._target_attributes))
-
-        if questions & targets:
-            return sorted(list(q_results)), sorted(list(t_results))
-        elif questions & ~targets:
-            return sorted(list(q_results))
-        elif ~questions & targets:
-            return sorted(list(t_results))
-        else:  # ~questions & ~targets: return indices into the ElementSet, for either notes or attributes
-            return sorted(list(a_results))
+        return rt(*(sorted(list(k)) for k in (a_results, q_results, t_results)))
 
     def serialize(self):
         """
