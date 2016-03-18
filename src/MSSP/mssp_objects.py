@@ -1,5 +1,5 @@
 
-from MSSP.utils import convert_subject_to_reference
+from MSSP.utils import convert_subject_to_reference, convert_record_to_label
 
 def is_yes(answer):
     return answer in ('y', 'Y', 'yes', 'YES', 'Yes', 'if yes', 'if Yes', 'if YES', 'IF YES')
@@ -136,6 +136,9 @@ class MsspTarget(object):
 
         t = Record(ref[0], ref[1], [])
         return cls(t)
+
+    def label(self):
+        return self.type + ' ' + convert_record_to_label(self.record)
 
     def reference(self):
         return self.type, self.record

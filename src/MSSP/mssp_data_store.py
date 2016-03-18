@@ -31,8 +31,9 @@ Questions = collection of Attributes and valid answer strings (default to Yes/No
 """
 
 from collections import namedtuple
+from numpy import isnan
 
-from MSSP.utils import convert_reference_to_subject
+from MSSP.utils import convert_reference_to_subject, check_sel, selectors
 from MSSP.exceptions import MsspError
 
 searchAttributes = namedtuple('searchAttributes', ['attributes', 'questions', 'targets'])
@@ -102,8 +103,12 @@ class MsspDataStore(object):
         def lookup(rec):
             return self._questions[rec['QuestionID']].valid_answers[rec[field]]
 
-        df['AnswerValue'] = df.apply(lookup, axis=1)
+        df['AnswerValue'] = df.apply(lookup, axis=1, reduce=True)
         df.drop(field, axis=1, inplace=True)
+
+    def _replace_note_id_with_note(self, df):
+        df['Note'] = df['NoteID'].map(lambda x: self._notes[int(x)].text)
+        df.drop('NoteID', axis=1, inplace=True)
 
     def _make_attr_list(self, mapping, index):
         """
@@ -130,6 +135,18 @@ class MsspDataStore(object):
         """
         return self.colormap[self.colormap['RGB'] == element.fill_color]['ColorName'].iloc[0]
 
+    def _cri_for_record(self, index, fieldname='QuestionID'):
+        criteria = self._criteria[self._criteria[fieldname] == index].copy()
+        self._replace_field_with_answer(criteria)
+        # TODO: make this return 'satisfies' entries as well
+        return criteria
+
+    def _cavs_for_record(self, index, fieldname='QuestionID'):
+        caveats = self._caveats[self._caveats[fieldname] == index].copy()
+        self._replace_field_with_answer(caveats, field='Answer')
+        self._replace_note_id_with_note(caveats)
+        return caveats
+
     def _print_object(self, index, mapping):
         """
         Common functions for printing question + target records.
@@ -153,15 +170,14 @@ class MsspDataStore(object):
             print(k)
         print(obj)
         criteria = self._criteria[self._criteria[fieldname] == index].copy()
-        caveats = self._caveats[self._caveats[fieldname] == index].copy()
         if len(criteria) > 0:
             self._replace_field_with_answer(criteria)
             print('Has Criteria:')
             print(criteria)
             obj.criteria = criteria
 
+        caveats = self._cavs_for_record(index, fieldname=fieldname)
         if len(caveats) > 0:
-            self._replace_field_with_answer(caveats, field='Answer')
             print('Has Caveats:')
             print(caveats)
             obj.caveats = caveats
@@ -201,7 +217,7 @@ class MsspDataStore(object):
         :param index:
         :return:
         """
-        if not isinstance(index, list):
+        if isinstance(index, int):
             index = [index]
 
         for i in index:
@@ -219,6 +235,53 @@ class MsspDataStore(object):
         for i in index:
             n = self._notes[i]
             print 'NoteID %5d [%s]: %s' % (i, self._color_of_cell(n), n.text)
+
+    def questions_with_attribute(self, index):
+        qs = set([v['QuestionID'] for k, v in self._question_attributes.iterrows() if v['AttributeID'] == index])
+        return sorted(list(qs))
+
+    def targets_with_attribute(self, index):
+        ts = set([v['TargetID'] for k, v in self._question_attributes.iterrows() if v['AttributeID'] == index])
+        return sorted(list(ts))
+
+    def caveats(self, question):
+        """
+        return a table of caveats by target for valid answers to a question. pd = brilliant.
+        :param question: question ID
+        :return: fancy pivoted pd
+        """
+        cavs = self._cavs_for_record(question)
+        cavs = cavs.pivot(index='TargetID', columns='AnswerValue', values='Note')
+        cavs['Reference'] = cavs.index.map(lambda x: self._targets[int(x)].label())
+        return cavs
+
+    def criteria(self, question):
+        """
+        return a table of criteria by target for valid answers to a question. pd = brilliant.
+        :param question: question ID
+        :return: fancy pivoted pd
+        """
+        cri = self._cri_for_record(question)
+        cri = cri.pivot(index='TargetID', columns='AnswerValue')
+        cri['Reference'] = cri.index.map(lambda x: self._targets[int(x)].label())
+        return cri
+
+    def criteria_for_set(self, sel):
+        """
+        Returns a list of criteria questions limiting a given selector type
+        :param sel:
+        :return:
+        """
+        if check_sel(sel):
+            cri_filter = self._criteria[['QuestionID', 'TargetID']]
+            cri_filter['Domain'] = cri_filter['TargetID'].map(lambda x: self._targets[int(x)].reference()[0])
+            qs = list(set(
+                [v['QuestionID'] for k, v in cri_filter.iterrows() if v['Domain'] == sel]))
+            qs = sorted([k for k in qs if len(self._questions[k].satisfied_by) == 0])
+            return qs
+
+        else:
+            print('Selector must be one of %s' % selectors)
 
     def search(self, terms, search_notes=False, match_any=False):
         """
@@ -362,7 +425,7 @@ class MsspDataStore(object):
         for i, k in self.colormap.iterrows():
             add = {
                 "RGB": k['RGB'],
-                "Color": k['ColorName'],
+                "ColorName": k['ColorName'],
                 "Score": k['Score']
             }
             colormap.append(add)

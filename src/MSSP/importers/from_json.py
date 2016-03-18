@@ -91,7 +91,7 @@ class JsonImporter(MsspDataStore):
             q_index = cav['QuestionID']
             t_index = cav['TargetID']
 
-            rgb = colormap[colormap['Color'] == cav['Color']]['RGB'].iloc[0]
+            rgb = colormap[colormap['ColorName'] == cav['Color']]['RGB'].iloc[0]
             note_id = note_set.add_element(Element(cav['Note'], 0, rgb))  # add to note set or find if exists
 
             if question_enum[q_index] is None:

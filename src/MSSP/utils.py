@@ -42,6 +42,17 @@ def convert_subject_to_reference(subject):
     return reference
 
 
+def grab_suffix(record):
+    suffix = ''
+    if record[0] is None:
+        # col ref
+        suffix += get_column_letter(record[1])
+    if record[1] is None:
+        # row ref
+        suffix += unicode(record[0])
+    return suffix
+
+
 def convert_reference_to_subject(reference):
     """
 
@@ -49,13 +60,20 @@ def convert_reference_to_subject(reference):
     :return:
     """
     sel, record = reference
-    suffix = ':'
+    suffix = grab_suffix(record)
+    return sel + ':' + suffix
+
+
+def convert_record_to_label(record):
+    """
+    returns either "Row ##" or "Col XX"
+    :param record:
+    :return:
+    """
     if record[0] is None:
-        # col ref
-        suffix += get_column_letter(record[1])
+        label = 'Col '
     elif record[1] is None:
-        # row ref
-        suffix += unicode(record[0])
-    return sel + suffix
-
-
+        label = 'Row '
+    else:
+        label = 'Cell '
+    return label + grab_suffix(record)
