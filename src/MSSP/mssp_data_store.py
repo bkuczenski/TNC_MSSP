@@ -31,13 +31,15 @@ Questions = collection of Attributes and valid answer strings (default to Yes/No
 """
 
 from collections import namedtuple
-from numpy import isnan
+# from numpy import isnan
 
 from MSSP.utils import convert_reference_to_subject, check_sel, selectors
 from MSSP.exceptions import MsspError
+from MSSP.importers import indices
 
 searchAttributes = namedtuple('searchAttributes', ['attributes', 'questions', 'targets'])
 searchNotes = namedtuple('searchNotes', ['notes', 'questions', 'targets'])
+
 
 class MsspDataStore(object):
     """
@@ -110,19 +112,21 @@ class MsspDataStore(object):
         df['Note'] = df['NoteID'].map(lambda x: self._notes[int(x)].text)
         df.drop('NoteID', axis=1, inplace=True)
 
-    def _make_attr_list(self, mapping, index):
+    def _make_attr_list(self, index, record='question'):
         """
         List of attributes associated with a given record
-        :param mapping: self.question_attributes or self.target_attributes
+        :param record: 'question' or 'target'
         :param index:
         :return:
         """
-        if mapping is self._question_attributes:
+        if record == 'question':
+            mapping = self._question_attributes
             key = 'QuestionID'
-        elif mapping is self._target_attributes:
+        elif record == 'target':
+            mapping = self._target_attributes
             key = 'TargetID'
         else:
-            raise MsspError('Argument to _make_attr_list is not an object-attribute mapping')
+            raise MsspError('Invalid record specifier %s' % record)
         return [self._attributes[k['AttributeID']].text
                 for i, k in mapping.iterrows()
                 if k[key] == index]
@@ -135,35 +139,64 @@ class MsspDataStore(object):
         """
         return self.colormap[self.colormap['RGB'] == element.fill_color]['ColorName'].iloc[0]
 
-    def _cri_for_record(self, index, fieldname='QuestionID'):
+    def _cri_for_record(self, index, record='question', answer=None):
+        fieldname = {
+            'question': 'QuestionID',
+            'target': 'TargetID'
+        }[record]
         criteria = self._criteria[self._criteria[fieldname] == index].copy()
-        self._replace_field_with_answer(criteria)
         # TODO: make this return 'satisfies' entries as well
+        if answer is not None:
+            if record == 'target':
+                print('Ignoring answer value for target-based query')
+            else:
+                answer_value = indices(self._questions[index].valid_answers, lambda x: x == answer)
+                if len(answer_value) != 1:
+                    print('Got spurious answer matching results: %s' % answer_value)
+                else:
+                    # filter to only passing answers
+                    criteria = criteria[criteria['Threshold'] >= answer_value]
+
+        # re-encode answer value with answer text (and call it Answer Value)
+        self._replace_field_with_answer(criteria)
         return criteria
 
-    def _cavs_for_record(self, index, fieldname='QuestionID'):
+    def _cavs_for_record(self, index, record='question', answer=None):
+        fieldname = {
+            'question': 'QuestionID',
+            'target': 'TargetID'
+        }[record]
         caveats = self._caveats[self._caveats[fieldname] == index].copy()
         self._replace_field_with_answer(caveats, field='Answer')
+        if answer is not None:
+            if record == 'target':
+                print('Ignoring answer value for target-based query')
+            else:
+                # filter to only matching answers
+                caveats = caveats[caveats['AnswerValue'] == answer]
+
         self._replace_note_id_with_note(caveats)
         return caveats
 
-    def _print_object(self, index, mapping):
+    def _print_object(self, index, record='question'):
         """
         Common functions for printing question + target records.
         :param index: the ID of the object
-        :param mapping: an input to self._make_attr_list
+        :param record: 'question' or 'target'
         :return:
         """
-        if mapping is self._question_attributes:
+        if record == 'question':
             fieldname = 'QuestionID'
             obj = self._questions[index]
             print('Question ID: %d' % index)
-        else:
+        elif record == 'target':
             fieldname = 'TargetID'
             obj = self._targets[index]
             print('Target ID: %d' % index)
+        else:
+            raise MsspError('Invalid record specifier %s' % record)
 
-        obj.attributes = [k for k in self._make_attr_list(mapping, index)]
+        obj.attributes = [k for k in self._make_attr_list(index, record=record)]
         obj.criteria = None
         obj.caveats = None
         for k in obj.attributes:
@@ -176,23 +209,13 @@ class MsspDataStore(object):
             print(criteria)
             obj.criteria = criteria
 
-        caveats = self._cavs_for_record(index, fieldname=fieldname)
+        caveats = self._cavs_for_record(index, record=record)
         if len(caveats) > 0:
             print('Has Caveats:')
             print(caveats)
             obj.caveats = caveats
 
         return obj
-
-    @staticmethod
-    def _search_mapping(attrs, mapping):
-        """
-        Atomic search- returns records containing an attribute that matches the search term.
-        :param attrs:
-        :param mapping:
-        :return: a set of indices into the specified record list
-        """
-        return set(mapping[mapping['AttributeID'].isin(attrs)][mapping.columns[1]])
 
     # user-facing functions begin here
     def question(self, index):
@@ -201,7 +224,17 @@ class MsspDataStore(object):
         :param index: index into the question enum
         :return:
         """
-        return self._print_object(index, self._question_attributes)
+        return self._print_object(index, record='question')
+
+    def questions(self, index):
+        """
+        Simple indexer- return one or a list of MsspQuestion objects
+        :param index:
+        :return:
+        """
+        if isinstance(index, int):
+            index = [index]
+        return [self._questions[i] for i in index]
 
     def target(self, index):
         """
@@ -209,7 +242,17 @@ class MsspDataStore(object):
         :param index:
         :return:
         """
-        return self._print_object(index, self._target_attributes)
+        return self._print_object(index, record='target')
+
+    def targets(self, index):
+        """
+        Simple indexer- return one or a list of MsspTarget objects
+        :param index:
+        :return:
+        """
+        if isinstance(index, int):
+            index = [index]
+        return [self._targets[i] for i in index]
 
     def attributes(self, index):
         """
@@ -229,7 +272,7 @@ class MsspDataStore(object):
         :param index:
         :return:
         """
-        if not isinstance(index, list):
+        if isinstance(index, int):
             index = [index]
 
         for i in index:
@@ -241,30 +284,52 @@ class MsspDataStore(object):
         return sorted(list(qs))
 
     def targets_with_attribute(self, index):
-        ts = set([v['TargetID'] for k, v in self._question_attributes.iterrows() if v['AttributeID'] == index])
+        ts = set([v['TargetID'] for k, v in self._target_attributes.iterrows() if v['AttributeID'] == index])
         return sorted(list(ts))
 
-    def caveats(self, question):
+    def caveats(self, question=None, target=None, answer=None):
         """
         return a table of caveats by target for valid answers to a question. pd = brilliant.
         :param question: question ID
+        :param target: target ID
+        :param answer: answer value (only valid if question is not None
         :return: fancy pivoted pd
         """
-        cavs = self._cavs_for_record(question)
-        cavs = cavs.pivot(index='TargetID', columns='AnswerValue', values='Note')
-        cavs['Reference'] = cavs.index.map(lambda x: self._targets[int(x)].label())
-        return cavs
+        if question is not None:
+            cavs = self._cavs_for_record(question, record='question', answer=answer)
+            if target is not None:
+                cavs = cavs[cavs['TargetID'] == target]
+            cavs = cavs.pivot(index='TargetID', columns='AnswerValue', values='Note').fillna('')
+            cavs['Reference'] = cavs.index.map(lambda x: self._targets[int(x)].label())
+            return cavs
+        elif question is None and target is not None:
+            cavs = self._cavs_for_record(target, record='target')
+            cavs = cavs.pivot(index='QuestionID', columns='AnswerValue', values='Note').fillna('')
+            return cavs
+        else:
+            return None
 
-    def criteria(self, question):
+    def criteria(self, question=None, target=None, answer=None):
         """
         return a table of criteria by target for valid answers to a question. pd = brilliant.
         :param question: question ID
+        :param target: target ID
+        :param answer: answer threshold (only valid if question is not None)
         :return: fancy pivoted pd
         """
-        cri = self._cri_for_record(question)
-        cri = cri.pivot(index='TargetID', columns='AnswerValue')
-        cri['Reference'] = cri.index.map(lambda x: self._targets[int(x)].label())
-        return cri
+        if question is not None:
+            cri = self._cri_for_record(question, record='question', answer=answer)
+            if target is not None:
+                cri = cri[cri['TargetID'] == target]
+            cri = cri.pivot(index='TargetID', columns='AnswerValue').fillna('')
+            cri['Reference'] = cri.index.map(lambda x: self._targets[int(x)].label())
+            return cri
+        elif question is None and target is not None:
+            cri = self._cri_for_record(target, record='target')
+            cri = cri.pivot(index='QuestionID', columns='AnswerValue').fillna('')
+            return cri
+        else:
+            return None
 
     def criteria_for_set(self, sel):
         """
@@ -281,7 +346,17 @@ class MsspDataStore(object):
             return qs
 
         else:
-            print('Selector must be one of %s' % selectors)
+            print('Selector must be one of %s' % list(selectors))
+
+    @staticmethod
+    def _search_mapping(attrs, mapping):
+        """
+        Atomic search- returns records containing an attribute that matches the search term.
+        :param attrs: list of attribute IDs
+        :param mapping: either a
+        :return: a set of indices into the specified record list
+        """
+        return set(mapping[mapping['AttributeID'].isin(attrs)][mapping.columns[1]])
 
     def search(self, terms, search_notes=False, match_any=False):
         """
@@ -290,10 +365,10 @@ class MsspDataStore(object):
         (i.e. the intersection of result sets).  This can be changed to 'match_any' to return the union of result
         sets.
 
-        By default, searches on attributes Search notes instead by specifying search_notes=True.
+        By default, searches on attributes.  Search notes instead by specifying search_notes=True.
 
         By default, returns a namedtuple with names 'attributes' [or 'notes'], 'questions', and 'targets', with each
-        field containing a list of indices into _attributes or _notes and the record enums.
+        field containing a list of indices into self.{attributes|notes|questions|targets}
 
         :param terms: string or list of strings to search on
         :param search_notes: (bool) search on notes (i.e. "caveats") instead of attributes (default False)
@@ -369,7 +444,7 @@ class MsspDataStore(object):
         print "Creating {0} questions...".format(len(self._questions))
         for k in range(len(self._questions)):
             v = self._questions[k]
-            attr_list = self._make_attr_list(self._question_attributes, k)
+            attr_list = self._make_attr_list(k, record='question')
             if len(attr_list) == 0:
                 continue
             add = {
@@ -385,7 +460,7 @@ class MsspDataStore(object):
         print "Creating {0} targets...".format(len(self._targets))
         for k in range(len(self._targets)):
             v = self._targets[k]
-            attr_list = self._make_attr_list(self._target_attributes, k)
+            attr_list = self._make_attr_list(k, record='target')
             if len(attr_list) == 0:
                 continue
             add = {
