@@ -1,0 +1,1457 @@
+[
+    {
+        "Attributes": [
+            null, 
+            "NO REFERENCE POINTS ", 
+            "is there any sense of where things are at?", 
+            "Move directly to decision rules"
+        ], 
+        "TargetID": 0, 
+        "Reference": "Assessment:G"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "NO REFERENCE POINTS ", 
+            "is there any sense of where things are at?", 
+            "Discourse/expert judgement"
+        ], 
+        "TargetID": 1, 
+        "Reference": "Assessment:H"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "NO REFERENCE POINTS ", 
+            "is there any sense of where things are at?", 
+            "Corral/explore data via descriptive statistics"
+        ], 
+        "TargetID": 2, 
+        "Reference": "Assessment:I"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "NO REFERENCE POINTS ", 
+            "Ecosystem risk assessment for the effects of fishing", 
+            "info needs vary depending on whether a PSA is included", 
+            "Harm/no harm"
+        ], 
+        "TargetID": 3, 
+        "Reference": "Assessment:J"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "NO REFERENCE POINTS ", 
+            "Comprehensive assessment of risk to ecosystems (CARE)", 
+            "info needs vary depending on whether a PSA is included", 
+            "Harm/no harm"
+        ], 
+        "TargetID": 4, 
+        "Reference": "Assessment:K"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "NO REFERENCE POINTS ", 
+            "Ecosystem threshold analysis (coral reefs only)", 
+            "Harm/no harm"
+        ], 
+        "TargetID": 5, 
+        "Reference": "Assessment:L"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "NO REFERENCE POINTS ", 
+            "PSA to estimate risk of overfishing", 
+            "Harm/no harm"
+        ], 
+        "TargetID": 6, 
+        "Reference": "Assessment:M"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "NO REFERENCE POINTS ", 
+            "Sustainability indicators (per Cope and Punt (2009) based on Froese's size-based indicators)", 
+            "Should this have same requirements as catch/CPUE by size indicators, and hierarchical decision trees?", 
+            "Harm/no harm"
+        ], 
+        "TargetID": 7, 
+        "Reference": "Assessment:N"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "NO REFERENCE POINTS ", 
+            "Change of dominant species", 
+            "NB These may be used in isolation, incorporated in frameworks (to the right), OR used to augment/complement more quantitative assesments (to the far right). For the latter, augmenting is especially useful if the below indicators are indepednent to those used in the more formal assessment, AND/OR where uncertainty in more formal assessments is high, AND/OR where local changes (and hence management measures) may be of importance.", 
+            "Changes worthy of some management response"
+        ], 
+        "TargetID": 8, 
+        "Reference": "Assessment:O"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "NO REFERENCE POINTS ", 
+            "Change in species composition ratios", 
+            "NB These may be used in isolation, incorporated in frameworks (to the right), OR used to augment/complement more quantitative assesments (to the far right). For the latter, augmenting is especially useful if the below indicators are indepednent to those used in the more formal assessment, AND/OR where uncertainty in more formal assessments is high, AND/OR where local changes (and hence management measures) may be of importance.", 
+            "Changes worthy of some management response"
+        ], 
+        "TargetID": 9, 
+        "Reference": "Assessment:P"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "NO REFERENCE POINTS ", 
+            "Changes in spatial distribution of effort", 
+            "NB These may be used in isolation, incorporated in frameworks (to the right), OR used to augment/complement more quantitative assesments (to the far right). For the latter, augmenting is especially useful if the below indicators are indepednent to those used in the more formal assessment, AND/OR where uncertainty in more formal assessments is high, AND/OR where local changes (and hence management measures) may be of importance.", 
+            "Changes worthy of some management response"
+        ], 
+        "TargetID": 10, 
+        "Reference": "Assessment:Q"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "NO REFERENCE POINTS ", 
+            "Changes in spatial distribution of catch", 
+            "NB These may be used in isolation, incorporated in frameworks (to the right), OR used to augment/complement more quantitative assesments (to the far right). For the latter, augmenting is especially useful if the below indicators are indepednent to those used in the more formal assessment, AND/OR where uncertainty in more formal assessments is high, AND/OR where local changes (and hence management measures) may be of importance.", 
+            "Changes worthy of some management response"
+        ], 
+        "TargetID": 11, 
+        "Reference": "Assessment:R"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "NO REFERENCE POINTS ", 
+            "Changes in gear type or manner of deployment", 
+            "NB These may be used in isolation, incorporated in frameworks (to the right), OR used to augment/complement more quantitative assesments (to the far right). For the latter, augmenting is especially useful if the below indicators are indepednent to those used in the more formal assessment, AND/OR where uncertainty in more formal assessments is high, AND/OR where local changes (and hence management measures) may be of importance.", 
+            "Changes worthy of some management response"
+        ], 
+        "TargetID": 12, 
+        "Reference": "Assessment:S"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "NB These may be used in isolation, incorporated in frameworks (to the right), OR used to augment/complement more quantitative assesments (to the far right). For the latter, augmenting is especially useful if the below indicators are indepednent to those used in the more formal assessment, AND/OR where uncertainty in more formal assessments is high, AND/OR where local changes (and hence management measures) may be of importance.", 
+            "Also requires explanatory variables - e.g. oceanographic, vessel type, area, time of year, moon phase etc., capturing changes in how fishery has operated.", 
+            " Fisher targeting confounds interpretation of CPUE trend as proxy for abundance. ", 
+            "PROXY REFERENCE POINTS", 
+            "Time series-based, ideally with reference point (e.g. slope-to-target)", 
+            "Standardised CPUE", 
+            "Proxy index of abundance"
+        ], 
+        "TargetID": 13, 
+        "Reference": "Assessment:T"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "NB These may be used in isolation, incorporated in frameworks (to the right), OR used to augment/complement more quantitative assesments (to the far right). For the latter, augmenting is especially useful if the below indicators are indepednent to those used in the more formal assessment, AND/OR where uncertainty in more formal assessments is high, AND/OR where local changes (and hence management measures) may be of importance.", 
+            "PROXY REFERENCE POINTS", 
+            "Time series-based, ideally with reference point (e.g. slope-to-target)", 
+            "Catch, CPUE by size indicators (per Froese)", 
+            "Indirect notion of stock status/ proxy fishing mortality"
+        ], 
+        "TargetID": 14, 
+        "Reference": "Assessment:U"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "NB These may be used in isolation, incorporated in frameworks (to the right), OR used to augment/complement more quantitative assesments (to the far right). For the latter, augmenting is especially useful if the below indicators are indepednent to those used in the more formal assessment, AND/OR where uncertainty in more formal assessments is high, AND/OR where local changes (and hence management measures) may be of importance.", 
+            "PROXY REFERENCE POINTS", 
+            "Time series-based, ideally with reference point (e.g. slope-to-target)", 
+            "Changes in mean length/weight or length/weight percentiles", 
+            "Indirect notion of temporal abundance trend"
+        ], 
+        "TargetID": 15, 
+        "Reference": "Assessment:V"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "NB These may be used in isolation, incorporated in frameworks (to the right), OR used to augment/complement more quantitative assesments (to the far right). For the latter, augmenting is especially useful if the below indicators are indepednent to those used in the more formal assessment, AND/OR where uncertainty in more formal assessments is high, AND/OR where local changes (and hence management measures) may be of importance.", 
+            "PROXY REFERENCE POINTS", 
+            "Time series-based, ideally with reference point (e.g. slope-to-target)", 
+            "Linear regression to recent time series of CPUE", 
+            "Indirect notion of stock status"
+        ], 
+        "TargetID": 16, 
+        "Reference": "Assessment:W"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "NB These may be used in isolation, incorporated in frameworks (to the right), OR used to augment/complement more quantitative assesments (to the far right). For the latter, augmenting is especially useful if the below indicators are indepednent to those used in the more formal assessment, AND/OR where uncertainty in more formal assessments is high, AND/OR where local changes (and hence management measures) may be of importance.", 
+            "PROXY REFERENCE POINTS", 
+            "Time series-based, ideally with reference point (e.g. slope-to-target)", 
+            "Within-season management. Suits short-lived, highly productive life history", 
+            "Depletion analysis", 
+            "Estimate of abundance"
+        ], 
+        "TargetID": 17, 
+        "Reference": "Assessment:X"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "NB These may be used in isolation, incorporated in frameworks (to the right), OR used to augment/complement more quantitative assesments (to the far right). For the latter, augmenting is especially useful if the below indicators are indepednent to those used in the more formal assessment, AND/OR where uncertainty in more formal assessments is high, AND/OR where local changes (and hence management measures) may be of importance.", 
+            "PROXY REFERENCE POINTS", 
+            "Time series-based, ideally with reference point (e.g. slope-to-target)", 
+            "Size relative to size at maturity", 
+            "Indirect stock status, fishing mortality"
+        ], 
+        "TargetID": 18, 
+        "Reference": "Assessment:Y"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Localised estimate of abundance", 
+            "NB These may be used in isolation, incorporated in frameworks (to the right), OR used to augment/complement more quantitative assesments (to the far right). For the latter, augmenting is especially useful if the below indicators are indepednent to those used in the more formal assessment, AND/OR where uncertainty in more formal assessments is high, AND/OR where local changes (and hence management measures) may be of importance.", 
+            "PROXY REFERENCE POINTS", 
+            "Time series-based, ideally with reference point (e.g. slope-to-target)", 
+            "Ratio of density inside:outside MPAs (per Babcack and MacCall; McGilliard et al.)", 
+            "Babcock and MacCall (2011) and McGilliard et al. (2011) evaluated the use of the ratio of the density of fish outside a marine protected area to that inside it each year (the density ratio, DR) in a decision rule to determine the direction and magnitude of change in fishing effort in the next year. "
+        ], 
+        "TargetID": 19, 
+        "Reference": "Assessment:Z"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Use of biomass surveys to inform spatial management", 
+            "Snapshot estimate of local abundance to inform open/closed areas, rotational harvesting, etc.", 
+            "NB These may be used in isolation, incorporated in frameworks (to the right), OR used to augment/complement more quantitative assesments (to the far right). For the latter, augmenting is especially useful if the below indicators are indepednent to those used in the more formal assessment, AND/OR where uncertainty in more formal assessments is high, AND/OR where local changes (and hence management measures) may be of importance.", 
+            "PROXY REFERENCE POINTS", 
+            "Time series-based, ideally with reference point (e.g. slope-to-target)"
+        ], 
+        "TargetID": 20, 
+        "Reference": "Assessment:AA"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Size-specific catch rate indicators for fish sampled inside and outside of MPAs, and per-recuit (per Wilson)", 
+            "Provides the size composition when fishing at the target rate, in a decision tree framework to adjust the allowable catch", 
+            "NB These may be used in isolation, incorporated in frameworks (to the right), OR used to augment/complement more quantitative assesments (to the far right). For the latter, augmenting is especially useful if the below indicators are indepednent to those used in the more formal assessment, AND/OR where uncertainty in more formal assessments is high, AND/OR where local changes (and hence management measures) may be of importance.", 
+            "PROXY REFERENCE POINTS", 
+            "Time series-based, ideally with reference point (e.g. slope-to-target)", 
+            "Indirect notion of stock status/ proxy fishing mortality"
+        ], 
+        "TargetID": 21, 
+        "Reference": "Assessment:AB"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Can be based on any single indicator (size, catch, effort) or multiples thereof.", 
+            "EMPIRICAL INDICATOR-BASED FRAMEWORKS", 
+            "Useful where multiple reliable, independent indicators are available, but these may be fragmented or disparate. Also, \"quasi assessments\", as per those to the left of these, may be incorporated in frameworks. For hierarchical appraoches, there is a primary and then a secondary control rule(s)", 
+            "CUSUM Control Charts", 
+            "Indirect notion of stock status across multiple indicators and/or \"quasi\" assessments"
+        ], 
+        "TargetID": 22, 
+        "Reference": "Assessment:AC"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Can be based on any single indicator (size, catch, effort) or multiples thereof.", 
+            "EMPIRICAL INDICATOR-BASED FRAMEWORKS", 
+            "Useful where multiple reliable, independent indicators are available, but these may be fragmented or disparate. Also, \"quasi assessments\", as per those to the left of these, may be incorporated in frameworks. For hierarchical appraoches, there is a primary and then a secondary control rule(s)", 
+            "Indirect notion of stock status across multiple indicators and/or \"quasi\" assessments", 
+            "Traffic lights", 
+            "This can be like a hierarchical decision tree, and a sequential trigger framework, but unlike the former, you don't have to consider indicator combinations, and unlike the latter, the system can operate as a simple sum of the numbers of lights hit across a set of indicators"
+        ], 
+        "TargetID": 23, 
+        "Reference": "Assessment:AD"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "EMPIRICAL INDICATOR-BASED FRAMEWORKS", 
+            "Useful where multiple reliable, independent indicators are available, but these may be fragmented or disparate. Also, \"quasi assessments\", as per those to the left of these, may be incorporated in frameworks. For hierarchical appraoches, there is a primary and then a secondary control rule(s)", 
+            "Indirect notion of stock status across multiple indicators and/or \"quasi\" assessments", 
+            "indicators should remain fixed so that analyses are comparable", 
+            "RAPFISH (Multi-dimensional scaling)", 
+            "The indicators are derived from the FAO Code of Conduct for Responsible Fishing and cover ecological, technological, economic and social dimensions, and are scored by expert judgement or quantitative information. The process of application clarifies which indicators perform poorly and so which aspects of management need to be improved. To track fishery performance through time the indicators should remain fixed so that analyses are comparable (Murillas et al., 2008; Pitcher et al., 2008; Pitcher et al., 2013). The methodology could be used as a harvest strategy framework if, for example, it was used to identify a monitoring program to support future updates of the analysis, and if the indicator or integrated MDS scores were linked to specific triggered management actions."
+        ], 
+        "TargetID": 24, 
+        "Reference": "Assessment:AE"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "EMPIRICAL INDICATOR-BASED FRAMEWORKS", 
+            "Useful where multiple reliable, independent indicators are available, but these may be fragmented or disparate. Also, \"quasi assessments\", as per those to the left of these, may be incorporated in frameworks. For hierarchical appraoches, there is a primary and then a secondary control rule(s)", 
+            "Indirect notion of stock status across multiple indicators and/or \"quasi\" assessments", 
+            "Indicators need to be independent", 
+            "Hierachical decision trees", 
+            "Decision trees can be on any indicator combinations of two or more, but these need to be independent. Hierarchical decision trees are about unique stock-status based interpretations based on the indicator combinations - e.g. low fishery-dep density estimate and high catch = suggested depletion; high density with high catch might be okay, low catch low density = possibly overfished; high density low catch = possibly underexploited. Hierarchical Decision Trees allow for a decision to be reached by a sequential series of intermediate decisions. The most important decision criteria are in the upper part of the tree and applied first. Hierarchical Decision Trees provide a useful framework for harvest strategies when different decision rules are appropriate in different circumstances (Basson and Dowling, 2008; Davies et al. 2007; Prince et al. 2011; Venables and Ripley 2002; Wilson et al. 2010;). They often combine the assessment and decision rule aspects of a harvest strategy into a hierarchy of decisions that may be considered a quasi-assessment."
+        ], 
+        "TargetID": 25, 
+        "Reference": "Assessment:AF"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "EMPIRICAL INDICATOR-BASED FRAMEWORKS", 
+            "Useful where multiple reliable, independent indicators are available, but these may be fragmented or disparate. Also, \"quasi assessments\", as per those to the left of these, may be incorporated in frameworks. For hierarchical appraoches, there is a primary and then a secondary control rule(s)", 
+            "Size-based sequential trigger system", 
+            "A trigger system represents a harvest strategy framework where the assessment essentially equates to specifying particular reference values or triggers based on whatever monitoring is included in the harvest strategy. The reference values can range from proxies for biomass or fishing mortality targets and limits, through to fishery situations that are identified by expert judgement to require management intervention. They are termed triggers because they invoke pre-defined management responses if the measure passes through them. The management responses can include reductions to catches, seasonal or spatial closures, as well as increased monitoring if the observed changes relate to an expansion in the fishery. NB these systems were developed (Dowling et al 2008) in the context of small-scale, arguably low impact fisheries that had the potential to expand and/or for latent effort to be activated, and the notion was to put checks and balances in place to avoid uncontrolled expansion. Typically, there are 3 trigger levels, and the notion is that level 2 equates to the need to move to a more defensible assessment. There is high risk around setting trigger level values in a way that purports to correspond to formal reference points.\nTrigger systems often include multiple triggers that invoke stronger management responses at increasing levels of catch or effort", 
+            "Very loose assumption that some trigger level value corresponds to some status of the underlying stock, with higher trigger levels invoking stronger management responses "
+        ], 
+        "TargetID": 26, 
+        "Reference": "Assessment:AG"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "EMPIRICAL INDICATOR-BASED FRAMEWORKS", 
+            "Useful where multiple reliable, independent indicators are available, but these may be fragmented or disparate. Also, \"quasi assessments\", as per those to the left of these, may be incorporated in frameworks. For hierarchical appraoches, there is a primary and then a secondary control rule(s)", 
+            "A trigger system represents a harvest strategy framework where the assessment essentially equates to specifying particular reference values or triggers based on whatever monitoring is included in the harvest strategy. The reference values can range from proxies for biomass or fishing mortality targets and limits, through to fishery situations that are identified by expert judgement to require management intervention. They are termed triggers because they invoke pre-defined management responses if the measure passes through them. The management responses can include reductions to catches, seasonal or spatial closures, as well as increased monitoring if the observed changes relate to an expansion in the fishery. NB these systems were developed (Dowling et al 2008) in the context of small-scale, arguably low impact fisheries that had the potential to expand and/or for latent effort to be activated, and the notion was to put checks and balances in place to avoid uncontrolled expansion. Typically, there are 3 trigger levels, and the notion is that level 2 equates to the need to move to a more defensible assessment. There is high risk around setting trigger level values in a way that purports to correspond to formal reference points.\nTrigger systems often include multiple triggers that invoke stronger management responses at increasing levels of catch or effort", 
+            "Sequential effort triggers", 
+            "Very loose assumption that some trigger level value corresponds to some status of the underlying stock, with higher trigger levels invoking stronger management responses"
+        ], 
+        "TargetID": 27, 
+        "Reference": "Assessment:AH"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "EMPIRICAL INDICATOR-BASED FRAMEWORKS", 
+            "Useful where multiple reliable, independent indicators are available, but these may be fragmented or disparate. Also, \"quasi assessments\", as per those to the left of these, may be incorporated in frameworks. For hierarchical appraoches, there is a primary and then a secondary control rule(s)", 
+            "A trigger system represents a harvest strategy framework where the assessment essentially equates to specifying particular reference values or triggers based on whatever monitoring is included in the harvest strategy. The reference values can range from proxies for biomass or fishing mortality targets and limits, through to fishery situations that are identified by expert judgement to require management intervention. They are termed triggers because they invoke pre-defined management responses if the measure passes through them. The management responses can include reductions to catches, seasonal or spatial closures, as well as increased monitoring if the observed changes relate to an expansion in the fishery. NB these systems were developed (Dowling et al 2008) in the context of small-scale, arguably low impact fisheries that had the potential to expand and/or for latent effort to be activated, and the notion was to put checks and balances in place to avoid uncontrolled expansion. Typically, there are 3 trigger levels, and the notion is that level 2 equates to the need to move to a more defensible assessment. There is high risk around setting trigger level values in a way that purports to correspond to formal reference points.\nTrigger systems often include multiple triggers that invoke stronger management responses at increasing levels of catch or effort", 
+            "Very loose assumption that some trigger level value corresponds to some status of the underlying stock, with higher trigger levels invoking stronger management responses", 
+            " For multispecies fisheries, can include i) species-specific catch trigger values for high risk/vulnerable and \u201ckey\u201d species; ii) species-specific catch trigger values for  \u201ckey\u201d (e.g. most frequently caught/most valuable) species; iii) total catch triggers for all species combined, or for a subset of \"key\" species", 
+            "Sequential catch triggers"
+        ], 
+        "TargetID": 28, 
+        "Reference": "Assessment:AI"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Can be based on any single indicator (size, catch, effort) or multiples thereof.", 
+            "EMPIRICAL INDICATOR-BASED FRAMEWORKS", 
+            "Useful where multiple reliable, independent indicators are available, but these may be fragmented or disparate. Also, \"quasi assessments\", as per those to the left of these, may be incorporated in frameworks. For hierarchical appraoches, there is a primary and then a secondary control rule(s)", 
+            "A trigger system represents a harvest strategy framework where the assessment essentially equates to specifying particular reference values or triggers based on whatever monitoring is included in the harvest strategy. The reference values can range from proxies for biomass or fishing mortality targets and limits, through to fishery situations that are identified by expert judgement to require management intervention. They are termed triggers because they invoke pre-defined management responses if the measure passes through them. The management responses can include reductions to catches, seasonal or spatial closures, as well as increased monitoring if the observed changes relate to an expansion in the fishery. NB these systems were developed (Dowling et al 2008) in the context of small-scale, arguably low impact fisheries that had the potential to expand and/or for latent effort to be activated, and the notion was to put checks and balances in place to avoid uncontrolled expansion. Typically, there are 3 trigger levels, and the notion is that level 2 equates to the need to move to a more defensible assessment. There is high risk around setting trigger level values in a way that purports to correspond to formal reference points.\nTrigger systems often include multiple triggers that invoke stronger management responses at increasing levels of catch or effort", 
+            "Very loose assumption that some trigger level value corresponds to some status of the underlying stock, with higher trigger levels invoking stronger management responses", 
+            "Sequential trigger framework involving catch and/or effort, CPUE, size, sex ratio etc."
+        ], 
+        "TargetID": 29, 
+        "Reference": "Assessment:AJ"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "ELIMINATE", 
+            "estimating life history attributes ", 
+            "Modal analysis to estimate growth rates", 
+            "Growth rates - ??? This is not strictly an assesment of stock status, but this can then be used in a stock assessment"
+        ], 
+        "TargetID": 30, 
+        "Reference": "Assessment:AK"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Catch curves", 
+            "Estimate of F", 
+            "STOCK-STATUS-BASED REFERENCE POINTS", 
+            "estimating F"
+        ], 
+        "TargetID": 31, 
+        "Reference": "Assessment:AL"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "requires 2 samples of size structure (temporal snapshots)", 
+            "Estimate lifetime egg production per O'Farrell & Botsford", 
+            "Proxy for SPR", 
+            "STOCK-STATUS-BASED REFERENCE POINTS", 
+            "estimating F"
+        ], 
+        "TargetID": 32, 
+        "Reference": "Assessment:AM"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Estimate of F", 
+            "Estimating F (YPR)", 
+            "STOCK-STATUS-BASED REFERENCE POINTS", 
+            "estimating F"
+        ], 
+        "TargetID": 33, 
+        "Reference": "Assessment:AN"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Estimate of F", 
+            "Need at least some notion of species distribution, even if indirect e.g. by habitat map.", 
+            "SAFE (Zhou)", 
+            "NB a poor quality SAFE can be conducted with effort data only (FMSY may be biased). Need at least some notion of species distribution, even if indirect e.g. by habitat map. Won't tell you if overfished or when stock goes below BLIM. Only gives F-based reference point and FMSY. Enhanced SAFE uses shot-by-shot data so that can estimate both q and heterogeneity of species distribution.", 
+            "STOCK-STATUS-BASED REFERENCE POINTS", 
+            "estimating F"
+        ], 
+        "TargetID": 34, 
+        "Reference": "Assessment:AO"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "estimate sustainable yield", 
+            "Zhou's catch-only method (estimates MSY)", 
+            "MSY", 
+            "STOCK-STATUS-BASED REFERENCE POINTS"
+        ], 
+        "TargetID": 35, 
+        "Reference": "Assessment:AP"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "estimate sustainable yield", 
+            "Requires mean or median catches; ", 
+            "ORCS (Only Reliable Catch Series)", 
+            "?MSY", 
+            "STOCK-STATUS-BASED REFERENCE POINTS"
+        ], 
+        "TargetID": 36, 
+        "Reference": "Assessment:AQ"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "estimate sustainable yield", 
+            "MSY", 
+            "STOCK-STATUS-BASED REFERENCE POINTS", 
+            "DCAC (MacCall)"
+        ], 
+        "TargetID": 37, 
+        "Reference": "Assessment:AR"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "estimate sustainable yield", 
+            "DB-SRA", 
+            "For model-based assessments, ultimately provide \"library\" of options that will guide the user to the appropriate application of the approach, and lay out variations/alternatives (e.g. Carruthers has 6 or so variants on DB-SRA)", 
+            "MSY, abundance", 
+            "STOCK-STATUS-BASED REFERENCE POINTS"
+        ], 
+        "TargetID": 38, 
+        "Reference": "Assessment:AS"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "estimate sustainable yield", 
+            "Assumes age- and time-independent mortality. ", 
+            "Assumes equilibrium dynamics", 
+            "Length-based SPR assessment (Prince and Hordyk)", 
+            "SPR", 
+            "STOCK-STATUS-BASED REFERENCE POINTS"
+        ], 
+        "TargetID": 39, 
+        "Reference": "Assessment:AT"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "estimate sustainable yield", 
+            "Assumes equilibrium dynamics", 
+            "Requires adequate \"contrast\" reflecting higher and lower relative abundance. ", 
+            "Assessment has the ability to explictly consider uncertainty (unless parameters fixed)", 
+            "Production model", 
+            "estimates MSY, abundance", 
+            "STOCK-STATUS-BASED REFERENCE POINTS"
+        ], 
+        "TargetID": 40, 
+        "Reference": "Assessment:AU"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "estimate sustainable yield", 
+            "MSY", 
+            "Assumes equilibrium dynamics", 
+            "Assessment has the ability to explictly consider uncertainty", 
+            "Stock synthesis using only a time series of catch SS-CO (Cope 2013)", 
+            "STOCK-STATUS-BASED REFERENCE POINTS"
+        ], 
+        "TargetID": 41, 
+        "Reference": "Assessment:AV"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "estimate sustainable yield", 
+            "MSY, abundance", 
+            "Stochastic SRA (User Guide Lombardi and Walters)", 
+            "STOCK-STATUS-BASED REFERENCE POINTS"
+        ], 
+        "TargetID": 42, 
+        "Reference": "Assessment:AW"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "estimate sustainable yield", 
+            "MSY", 
+            "Assumes equilibrium dynamics", 
+            "STOCK-STATUS-BASED REFERENCE POINTS", 
+            "Assessment has the ability to explictly consider uncertainty", 
+            "Catch-MSY (Martel and Froese 2013)"
+        ], 
+        "TargetID": 43, 
+        "Reference": "Assessment:AX"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Trajectories of stock biomass", 
+            "estimate sustainable yield", 
+            "Assumes equilibrium dynamics", 
+            "Assessment has the ability to explictly consider uncertainty", 
+            "STOCK-STATUS-BASED REFERENCE POINTS", 
+            "Feasible stock trajectories (Bentley and Langley 2012; Can J.)"
+        ], 
+        "TargetID": 44, 
+        "Reference": "Assessment:AY"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Requires specificaiton of the number of times mortality is thought to change, and initial guesses of the years during which mortality is thougth to change", 
+            "Estimating life-history attributes", 
+            "Mortality estimates from length data in nonequilibrium situations (Gedamke and Hoenig 2006) -see https://cran.r-project.org/web/packages/fishmethods/fishmethods.pdf", 
+            "Estimate of F (via Z)", 
+            "Assessment has the ability to explictly consider uncertainty", 
+            "STOCK-STATUS-BASED REFERENCE POINTS"
+        ], 
+        "TargetID": 45, 
+        "Reference": "Assessment:AZ"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Percent of fishable population that have spawned", 
+            "Estimating proportion spawned", 
+            "Escapement: Samples of catch; ensure 30% have spawned (per squid fishery in California)", 
+            "PROXY REFERENCE POINTS"
+        ], 
+        "TargetID": 46, 
+        "Reference": "Assessment:BA"
+    }, 
+    {
+        "Attributes": [
+            null
+        ], 
+        "TargetID": 47, 
+        "Reference": "Assessment:BB"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Catch-based method for classifying stock status (Hilborn 2014 - Nature)"
+        ], 
+        "TargetID": 48, 
+        "Reference": "Assessment:BC"
+    }, 
+    {
+        "Attributes": [
+            null
+        ], 
+        "TargetID": 49, 
+        "Reference": "Assessment:BD"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "IF THEN -> red, orange, green? Ie work on exclusion basis. If one red, this one is out. If green, then this one is particularly suitable", 
+            "1 Catch limits", 
+            "adjust by fixed proportions up or down (no feedback control rule)"
+        ], 
+        "TargetID": 50, 
+        "Reference": "ControlRules:E"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "1 Catch limits", 
+            "according to assessment outcomes (feedback control rule): i)  target- or trend based, no F- or biomass-based reference point - empirical target only"
+        ], 
+        "TargetID": 51, 
+        "Reference": "ControlRules:F"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "1 Catch limits", 
+            "according to assessment outcomes (feedback): ii) target based with F- or biomass-based reference point"
+        ], 
+        "TargetID": 52, 
+        "Reference": "ControlRules:G"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "from monitoring closed areas or marine protected areas (e.g. Babcock and MacCall (2011); McGilliard et al. (2011) ; Wilson et al. (2010))", 
+            "1 Catch limits"
+        ], 
+        "TargetID": 53, 
+        "Reference": "ControlRules:H"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Catch restrictions by area (whether informed by formal assessment or not)", 
+            "1 Catch limits"
+        ], 
+        "TargetID": 54, 
+        "Reference": "ControlRules:I"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Catch restrictions by time (e.g. seasons) (whether informed by formal assessment or not)", 
+            "1 Catch limits"
+        ], 
+        "TargetID": 55, 
+        "Reference": "ControlRules:J"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Daily trip limit; with or without TAC", 
+            "1 Catch limits"
+        ], 
+        "TargetID": 56, 
+        "Reference": "ControlRules:K"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Limit  per gear unit (e.g. maximum catch per trap); with or without TAC", 
+            "1 Catch limits"
+        ], 
+        "TargetID": 57, 
+        "Reference": "ControlRules:L"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "2 Effort limits (includes # days fishing/# hooks/# fishing hours) (daily, seasonal, annual) ", 
+            "adjust by fixed proportions up or down (no feedback control rule)"
+        ], 
+        "TargetID": 58, 
+        "Reference": "ControlRules:M"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "2 Effort limits (includes # days fishing/# hooks/# fishing hours) (daily, seasonal, annual) ", 
+            "according to assessment outcomes (feedback control rule): i)  target- or trend based, no F- or biomass-based reference point - empirical target only"
+        ], 
+        "TargetID": 59, 
+        "Reference": "ControlRules:N"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "2 Effort limits (includes # days fishing/# hooks/# fishing hours) (daily, seasonal, annual) ", 
+            "according to assessment outcomes (feedback): ii) target based with F- or biomass-based reference point"
+        ], 
+        "TargetID": 60, 
+        "Reference": "ControlRules:O"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "from monitoring closed areas or marine protected areas (e.g. Babcock and MacCall (2011); McGilliard et al. (2011) ; Wilson et al. (2010))", 
+            "2 Effort limits (includes # days fishing/# hooks/# fishing hours) (daily, seasonal, annual) "
+        ], 
+        "TargetID": 61, 
+        "Reference": "ControlRules:P"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "2 Effort limits (includes # days fishing/# hooks/# fishing hours) (daily, seasonal, annual) ", 
+            "Effort restrictions by area (whether informed by formal assessment or not)"
+        ], 
+        "TargetID": 62, 
+        "Reference": "ControlRules:Q"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "2 Effort limits (includes # days fishing/# hooks/# fishing hours) (daily, seasonal, annual) ", 
+            "Effort restrictions by time (e.g. seasons) (whether informed by formal assessment or not)"
+        ], 
+        "TargetID": 63, 
+        "Reference": "ControlRules:R"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Daily effort limit; with or without TAE", 
+            "2 Effort limits (includes # days fishing/# hooks/# fishing hours) (daily, seasonal, annual) "
+        ], 
+        "TargetID": 64, 
+        "Reference": "ControlRules:S"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Fixed gear unit limits not adjusted in response to performance measures ", 
+            "2 Effort limits (includes # days fishing/# hooks/# fishing hours) (daily, seasonal, annual) "
+        ], 
+        "TargetID": 65, 
+        "Reference": "ControlRules:T"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Maxmimum soak time for hooks/traps/other gear", 
+            "2 Effort limits (includes # days fishing/# hooks/# fishing hours) (daily, seasonal, annual) "
+        ], 
+        "TargetID": 66, 
+        "Reference": "ControlRules:U"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Limited entry", 
+            "2 Effort limits (includes # days fishing/# hooks/# fishing hours) (daily, seasonal, annual) "
+        ], 
+        "TargetID": 67, 
+        "Reference": "ControlRules:V"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "3 Gear restrictions: managing by selectivity (gear DESIGN restrictions)", 
+            "e.g. mesh/hook sizes; trap escape rings; use of light sticks, cod ends, escape hatches"
+        ], 
+        "TargetID": 68, 
+        "Reference": "ControlRules:W"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "4 Other gear controls not related to selectivity (gear TYPE restrictions)", 
+            "NB these are focussed on avoiding limits rather than on achieving targets; may be related to avoiding capture of vulnerable/at risk bycatch species, or related to selectivity (e.g. avoid catching juveniles). e.g. removal of seines, dredges, destrcutive gears  (remove non-selective techniques)"
+        ], 
+        "TargetID": 69, 
+        "Reference": "ControlRules:X"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "5 Spatial restrictions (can be invoked or modified by HCRs)", 
+            "Permanent no-take zones"
+        ], 
+        "TargetID": 70, 
+        "Reference": "ControlRules:Y"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "5 Spatial restrictions (can be invoked or modified by HCRs)", 
+            "Fixed seasonal closure on (for e.g.) spawning grounds"
+        ], 
+        "TargetID": 71, 
+        "Reference": "ControlRules:Z"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "5 Spatial restrictions (can be invoked or modified by HCRs)", 
+            "Closures invoked in response to some perceived stock status (feedback-driven): rotational/in response to trigger being reached/stock status indicating overfished"
+        ], 
+        "TargetID": 72, 
+        "Reference": "ControlRules:AA"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "5 Spatial restrictions (can be invoked or modified by HCRs)", 
+            "move-on provisions"
+        ], 
+        "TargetID": 73, 
+        "Reference": "ControlRules:AB"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "6 Temporal restrictions (can be invoked or modified by HCRs)", 
+            "Adjust time of day allowed to fish (e.g. no day setting of longlines to avoid capturing seabirds)"
+        ], 
+        "TargetID": 74, 
+        "Reference": "ControlRules:AC"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "6 Temporal restrictions (can be invoked or modified by HCRs)", 
+            "Adjust season duration (e.g. for highly productive, short-lived species subject to management by a fishing season of fixed duration, real-time within-season management may be applied to adjust season duration)"
+        ], 
+        "TargetID": 75, 
+        "Reference": "ControlRules:AD"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Seasonal closure", 
+            "6 Temporal restrictions (can be invoked or modified by HCRs)"
+        ], 
+        "TargetID": 76, 
+        "Reference": "ControlRules:AE"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Closure in response to trigger being reached/stock status indicating overfished (feedback-driven)", 
+            "6 Temporal restrictions (can be invoked or modified by HCRs)"
+        ], 
+        "TargetID": 77, 
+        "Reference": "ControlRules:AF"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Fixed season length or number of fishing days, independent of performance measures", 
+            "6 Temporal restrictions (can be invoked or modified by HCRs)"
+        ], 
+        "TargetID": 78, 
+        "Reference": "ControlRules:AG"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "7 Size limits (NB may be achieved via gear/spatial/temporal restrictions) - pertaining to controlling selectivity (e.g. protecting juveniles, or oldest (largest) fish that have highest reproductive contribution)", 
+            "Minimum Legal Size"
+        ], 
+        "TargetID": 79, 
+        "Reference": "ControlRules:AH"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "7 Size limits (NB may be achieved via gear/spatial/temporal restrictions) - pertaining to controlling selectivity (e.g. protecting juveniles, or oldest (largest) fish that have highest reproductive contribution)", 
+            "Size slot"
+        ], 
+        "TargetID": 80, 
+        "Reference": "ControlRules:AI"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "7 Size limits (NB may be achieved via gear/spatial/temporal restrictions) - pertaining to controlling selectivity (e.g. protecting juveniles, or oldest (largest) fish that have highest reproductive contribution)", 
+            "Maximum legal size"
+        ], 
+        "TargetID": 81, 
+        "Reference": "ControlRules:AJ"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Take of one gender (usualy females) prohibited", 
+            "8 Sex regulations"
+        ], 
+        "TargetID": 82, 
+        "Reference": "ControlRules:AK"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Gender-specific size limits", 
+            "8 Sex regulations"
+        ], 
+        "TargetID": 83, 
+        "Reference": "ControlRules:AL"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Restrictions or prohibitions on taking gravid females", 
+            "8 Sex regulations"
+        ], 
+        "TargetID": 84, 
+        "Reference": "ControlRules:AM"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "9 Invoke data collection", 
+            "This does not confer the necessity to immediately analyse the collected data. Data may be archived against a time when required and/or the GVP/capability exists to analyse it."
+        ], 
+        "TargetID": 85, 
+        "Reference": "ControlRules:AN"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "10 Apply additional (precautionary) buffers/adjustments to chosen measure (e.g. catch, effort, size limits, closures)", 
+            "These measures can be applied to the existing control rules (e.g. ramp catch down even further over that suggested by assessment outcomes), AND/OR applied as a separate measure (e.g. impose some spatial closures in additon to having size limits)"
+        ], 
+        "TargetID": 86, 
+        "Reference": "ControlRules:AO"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "(could argue that these should be included in all harvest strategies, on the proviso they are scientifically defensible)", 
+            "11 Overrides in case of exceptional circumstances"
+        ], 
+        "TargetID": 87, 
+        "Reference": "ControlRules:AP"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "12 Retain status quo"
+        ], 
+        "TargetID": 88, 
+        "Reference": "ControlRules:AQ"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "13 Levies, taxes (e.g. as incentives to avoid areas)"
+        ], 
+        "TargetID": 89, 
+        "Reference": "ControlRules:AR"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Additional Caveats"
+        ], 
+        "TargetID": 90, 
+        "Reference": "ControlRules:AS"
+    }, 
+    {
+        "Attributes": [
+            null
+        ], 
+        "TargetID": 91, 
+        "Reference": "ControlRules:AT"
+    }, 
+    {
+        "Attributes": [
+            null
+        ], 
+        "TargetID": 92, 
+        "Reference": "ControlRules:AU"
+    }, 
+    {
+        "Attributes": [
+            null
+        ], 
+        "TargetID": 93, 
+        "Reference": "ControlRules:AV"
+    }, 
+    {
+        "Attributes": [
+            null
+        ], 
+        "TargetID": 94, 
+        "Reference": "ControlRules:AW"
+    }, 
+    {
+        "Attributes": [
+            null
+        ], 
+        "TargetID": 95, 
+        "Reference": "ControlRules:AX"
+    }, 
+    {
+        "Attributes": [
+            null
+        ], 
+        "TargetID": 96, 
+        "Reference": "ControlRules:AY"
+    }, 
+    {
+        "Attributes": [
+            null
+        ], 
+        "TargetID": 97, 
+        "Reference": "ControlRules:AZ"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Market surveys", 
+            "Species ID, species composition, ", 
+            "Fishery (basic understanding of how fishery operates)"
+        ], 
+        "TargetID": 98, 
+        "Reference": "Monitoring:9"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Market surveys", 
+            "Sustainability (trend analysis) - e.g. more temporal", 
+            " broad temporal changes in catch characteristics"
+        ], 
+        "TargetID": 99, 
+        "Reference": "Monitoring:10"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Market surveys", 
+            "Biological information - leads to analysis such as length analysis, SPR-type etc.", 
+            "size data, maturity/reproductive state, sex ratios,"
+        ], 
+        "TargetID": 100, 
+        "Reference": "Monitoring:11"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Market surveys", 
+            "Unlikely to provide meaningful information", 
+            "Reference points/stock status"
+        ], 
+        "TargetID": 101, 
+        "Reference": "Monitoring:12"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Port/landing site monitoring by trained enumerators", 
+            "Species ID, species composition, location", 
+            "Fishery (basic understanding of how fishery operates)"
+        ], 
+        "TargetID": 102, 
+        "Reference": "Monitoring:13"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Port/landing site monitoring by trained enumerators", 
+            "Sustainability (trend analysis) - e.g. more temporal", 
+            "broad temporal changes in catch characteristics, landed catch, effort (trip duration)"
+        ], 
+        "TargetID": 103, 
+        "Reference": "Monitoring:14"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Port/landing site monitoring by trained enumerators", 
+            "Biological information - leads to analysis such as length analysis, SPR-type etc.", 
+            "size data, maturity/reproductive state, sex ratios"
+        ], 
+        "TargetID": 104, 
+        "Reference": "Monitoring:15"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Port/landing site monitoring by trained enumerators", 
+            "Possibly estimates of CPUE but likely unreliable", 
+            "Reference points/stock status"
+        ], 
+        "TargetID": 105, 
+        "Reference": "Monitoring:16"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Fishery (basic understanding of how fishery operates)", 
+            "Species ID, species composition,", 
+            "Processor monitoring by trained enumerators"
+        ], 
+        "TargetID": 106, 
+        "Reference": "Monitoring:17"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Sustainability (trend analysis) - e.g. more temporal", 
+            " broad temporal changes in catch characteristics", 
+            "Processor monitoring by trained enumerators"
+        ], 
+        "TargetID": 107, 
+        "Reference": "Monitoring:18"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            " size data, maturity/reproductive state, sex ratios,", 
+            "Biological information - leads to analysis such as length analysis, SPR-type etc.", 
+            "Processor monitoring by trained enumerators"
+        ], 
+        "TargetID": 108, 
+        "Reference": "Monitoring:19"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Unlikely to provide meaningful information", 
+            "Reference points/stock status", 
+            "Processor monitoring by trained enumerators"
+        ], 
+        "TargetID": 109, 
+        "Reference": "Monitoring:20"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Fishery (basic understanding of how fishery operates)", 
+            "Interviews - not specific to a trip/fishing event", 
+            "nature of operations; identifying target/key species; identifying key habitat/fishing grounds; understanding drivers behind historical changes; understanding recent (rapid) changes - local knowledge; broad understanding of size composition/prime or market size; nature of fisher interactions wrt information sharing, competition; understanding of behavioural drivers; market supply chain; "
+        ], 
+        "TargetID": 110, 
+        "Reference": "Monitoring:21"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Interviews - not specific to a trip/fishing event", 
+            "Sustainability (trend analysis) - e.g. more temporal", 
+            "? If fishers have own records - catch, effort; ? Location; with appropriate questioning approach, may also elicit selective harvesting/biases; Categories of fisher efficiency (useful ito evaluating value of information from specific individuals more than as information in and of itself)"
+        ], 
+        "TargetID": 111, 
+        "Reference": "Monitoring:22"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Interviews - not specific to a trip/fishing event", 
+            "Biological information - leads to analysis such as length analysis, SPR-type etc.", 
+            "Unlikely to provide more than anecdotal information unless fishers have maintained private records of (for e.g.) size data"
+        ], 
+        "TargetID": 112, 
+        "Reference": "Monitoring:23"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Unlikely to provide meaningful information", 
+            "Interviews - not specific to a trip/fishing event", 
+            "Reference points/stock status"
+        ], 
+        "TargetID": 113, 
+        "Reference": "Monitoring:24"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Fishery (basic understanding of how fishery operates)", 
+            "Species ID, species composition, size data, landed catch, ? Effort, ? Fishing location", 
+            "Snapshot data gathering - fishery dependent info (e.g. student sampling; (creel) port-sampling)"
+        ], 
+        "TargetID": 114, 
+        "Reference": "Monitoring:25"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Information may not be gathered regularly", 
+            "Sustainability (trend analysis) - e.g. more temporal", 
+            "Snapshot data gathering - fishery dependent info (e.g. student sampling; (creel) port-sampling)"
+        ], 
+        "TargetID": 115, 
+        "Reference": "Monitoring:26"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Unlikely to provide meaningful information", 
+            "Reference points/stock status", 
+            "Snapshot data gathering - fishery dependent info (e.g. student sampling; (creel) port-sampling)"
+        ], 
+        "TargetID": 116, 
+        "Reference": "Monitoring:27"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Snapshot data gathering - biology/life history geared", 
+            "Biological information - leads to analysis such as length analysis, SPR-type etc.", 
+            "Size data; maturity/reproductive state; sex ratios"
+        ], 
+        "TargetID": 117, 
+        "Reference": "Monitoring:28"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "size data; maturity/ reproductive state; sex ratios", 
+            "Independent surveys (could include one-offs, pre-seasons, annual, monitoring on reserves) (i.e. visual surveys, charters, independent RVs)", 
+            "irregular, undertaken by fishers", 
+            "Biological information - leads to analysis such as length analysis, SPR-type etc."
+        ], 
+        "TargetID": 118, 
+        "Reference": "Monitoring:29"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "biomass estimates by time and space; density ratio (within and outside of reserves)", 
+            "Independent surveys (could include one-offs, pre-seasons, annual, monitoring on reserves) (i.e. visual surveys, charters, independent RVs)", 
+            "irregular, undertaken by fishers", 
+            "Reference points/stock status"
+        ], 
+        "TargetID": 119, 
+        "Reference": "Monitoring:30"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "regular, undertaken by fishers", 
+            "size data; maturity/ reproductive state; sex ratios", 
+            "Independent surveys (could include one-offs, pre-seasons, annual, monitoring on reserves) (i.e. visual surveys, charters, independent RVs)", 
+            "Biological information - leads to analysis such as length analysis, SPR-type etc."
+        ], 
+        "TargetID": 120, 
+        "Reference": "Monitoring:31"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "regular, undertaken by fishers", 
+            "Independent surveys (could include one-offs, pre-seasons, annual, monitoring on reserves) (i.e. visual surveys, charters, independent RVs)", 
+            "biomass estimates by time and space; density ratio (within and outside of reserves)", 
+            "Reference points/stock status"
+        ], 
+        "TargetID": 121, 
+        "Reference": "Monitoring:32"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "snapshot or regular but not annual, undertaken by independent practitioners", 
+            "size data; maturity/ reproductive state; sex ratios", 
+            "Independent surveys (could include one-offs, pre-seasons, annual, monitoring on reserves) (i.e. visual surveys, charters, independent RVs)", 
+            "Biological information - leads to analysis such as length analysis, SPR-type etc."
+        ], 
+        "TargetID": 122, 
+        "Reference": "Monitoring:33"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "biomass estimates by time and space; density ratio (within and outside of reserves)", 
+            "snapshot or regular but not annual, undertaken by independent practitioners", 
+            "Independent surveys (could include one-offs, pre-seasons, annual, monitoring on reserves) (i.e. visual surveys, charters, independent RVs)", 
+            "Reference points/stock status"
+        ], 
+        "TargetID": 123, 
+        "Reference": "Monitoring:34"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "size data; maturity/ reproductive state; sex ratios", 
+            "regular (annually), undertaken by independent practitioners", 
+            "Independent surveys (could include one-offs, pre-seasons, annual, monitoring on reserves) (i.e. visual surveys, charters, independent RVs)", 
+            "Biological information - leads to analysis such as length analysis, SPR-type etc."
+        ], 
+        "TargetID": 124, 
+        "Reference": "Monitoring:35"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "biomass estimates by time and space; density ratio (within and outside of reserves)", 
+            "regular (annually), undertaken by independent practitioners", 
+            "Independent surveys (could include one-offs, pre-seasons, annual, monitoring on reserves) (i.e. visual surveys, charters, independent RVs)", 
+            "Reference points/stock status"
+        ], 
+        "TargetID": 125, 
+        "Reference": "Monitoring:36"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Automated information gathering (e.g. VMS or cool proxies; cameras)", 
+            "Fishery (basic understanding of how fishery operates)", 
+            "Catch location; distance between points - travel/steamer time; processing time, handling time; discarding vs what is offloaded; validation/verification; selective harvesting wrt size; ? species identification; ? species composition"
+        ], 
+        "TargetID": 126, 
+        "Reference": "Monitoring:37"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Across-fleet catch by species, (possibly) discarding", 
+            "Fishery (basic understanding of how fishery operates)", 
+            "Logbooks: informal"
+        ], 
+        "TargetID": 127, 
+        "Reference": "Monitoring:38"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Sustainability (trend analysis) - e.g. more temporal", 
+            "Across-fleet catch by species, time and space; across-fleet effort by time and space;", 
+            "Logbooks: informal"
+        ], 
+        "TargetID": 128, 
+        "Reference": "Monitoring:39"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            " (possibly) size data;", 
+            "Biological information - leads to analysis such as length analysis, SPR-type etc.", 
+            "Logbooks: informal"
+        ], 
+        "TargetID": 129, 
+        "Reference": "Monitoring:40"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Reference points/stock status", 
+            "CPUE (NB will likely be more robust for FORMAL logbooks as per below)", 
+            "Logbooks: informal"
+        ], 
+        "TargetID": 130, 
+        "Reference": "Monitoring:41"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Across-fleet catch by species, (possibly) discarding", 
+            "Logbooks: formal government (licensing) requirement", 
+            "Fishery (basic understanding of how fishery operates)"
+        ], 
+        "TargetID": 131, 
+        "Reference": "Monitoring:42"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Across-fleet catch by species, time and space; across-fleet effort by time and space;", 
+            "Sustainability (trend analysis) - e.g. more temporal", 
+            "Logbooks: formal government (licensing) requirement"
+        ], 
+        "TargetID": 132, 
+        "Reference": "Monitoring:43"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            " (possibly) size data;", 
+            "Logbooks: formal government (licensing) requirement", 
+            "Biological information - leads to analysis such as length analysis, SPR-type etc."
+        ], 
+        "TargetID": 133, 
+        "Reference": "Monitoring:44"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "CPUE (likely more robust than informal logbooks)", 
+            "Logbooks: formal government (licensing) requirement", 
+            "Reference points/stock status"
+        ], 
+        "TargetID": 134, 
+        "Reference": "Monitoring:45"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Catch disposal records/sales docket/traceability", 
+            "Fishery (basic understanding of how fishery operates)", 
+            "Across-fleet aggregated catch by species, (possibly) across-fleet aggregated effort;"
+        ], 
+        "TargetID": 135, 
+        "Reference": "Monitoring:46"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Catch disposal records/sales docket/traceability", 
+            "Across-fleet aggregated catch by species, (possibly) across-fleet aggregated effort;", 
+            "Sustainability (trend analysis) - e.g. more temporal"
+        ], 
+        "TargetID": 136, 
+        "Reference": "Monitoring:47"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Catch disposal records/sales docket/traceability", 
+            " (possibly) size data; ", 
+            "Biological information - leads to analysis such as length analysis, SPR-type etc."
+        ], 
+        "TargetID": 137, 
+        "Reference": "Monitoring:48"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Catch disposal records/sales docket/traceability", 
+            "Broad-scale CPUE", 
+            "Reference points/stock status"
+        ], 
+        "TargetID": 138, 
+        "Reference": "Monitoring:49"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Spatial information;  discarding; species identification; species composition; distance between points - travel/steamer time; processing time, handling time; can draw attention to specifics (e.g. behaviour such as discarding) that might otherwise be oblivious to; validation/verification; selective harvesting wrt size", 
+            "Observers - industrial or high-artisinal on-board", 
+            "Less so for fishery characterisation", 
+            "Fishery (basic understanding of how fishery operates)"
+        ], 
+        "TargetID": 139, 
+        "Reference": "Monitoring:50"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Catch (limited by coverage); effort (limited by coverage)", 
+            "Sustainability (trend analysis) - e.g. more temporal", 
+            "Observers - industrial or high-artisinal on-board", 
+            "NEED TO REFINE MINIMUM GVP REQUIREMENT based on nature of observer program (easier for some fleets than others) and proposed regularity"
+        ], 
+        "TargetID": 140, 
+        "Reference": "Monitoring:51"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "size data; maturity/ reproductive state; sex ratios;", 
+            "Biological information - leads to analysis such as length analysis, SPR-type etc.", 
+            "Observers - industrial or high-artisinal on-board"
+        ], 
+        "TargetID": 141, 
+        "Reference": "Monitoring:52"
+    }, 
+    {
+        "Attributes": [
+            null, 
+            "Reference points/stock status", 
+            "Well collected, fine-scale information on all aspects, but to undertake reference-point based analysis requires large observer coverage", 
+            "Observers - industrial or high-artisinal on-board"
+        ], 
+        "TargetID": 142, 
+        "Reference": "Monitoring:53"
+    }
+]

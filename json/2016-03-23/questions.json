@@ -1,0 +1,3034 @@
+[
+    {
+        "QuestionID": 0, 
+        "ValidAnswers": [
+            1
+        ], 
+        "References": [
+            "Assessment:40"
+        ], 
+        "Attributes": [
+            null, 
+            "Criteria", 
+            "Biology", 
+            "General population biology"
+        ]
+    }, 
+    {
+        "QuestionID": 1, 
+        "ValidAnswers": [
+            1, 
+            " "
+        ], 
+        "References": [
+            "Assessment:41"
+        ], 
+        "Attributes": [
+            null, 
+            "Criteria", 
+            "Biology", 
+            "Life-history ratios M/K (can be borrowed)"
+        ]
+    }, 
+    {
+        "QuestionID": 2, 
+        "ValidAnswers": [
+            1, 
+            " "
+        ], 
+        "References": [
+            "Assessment:42"
+        ], 
+        "Attributes": [
+            null, 
+            "Natural Mortality", 
+            "Criteria", 
+            "Biology"
+        ]
+    }, 
+    {
+        "QuestionID": 3, 
+        "ValidAnswers": [
+            1, 
+            2
+        ], 
+        "References": [
+            "Assessment:43"
+        ], 
+        "Attributes": [
+            null, 
+            "Maturity ogive/ size at maturity", 
+            "Criteria", 
+            "Biology"
+        ]
+    }, 
+    {
+        "QuestionID": 4, 
+        "ValidAnswers": [
+            1
+        ], 
+        "References": [
+            "Assessment:44"
+        ], 
+        "Attributes": [
+            null, 
+            "Relationship between length and fecundity", 
+            "Criteria", 
+            "Biology"
+        ]
+    }, 
+    {
+        "QuestionID": 5, 
+        "ValidAnswers": [
+            1
+        ], 
+        "References": [
+            "Assessment:45"
+        ], 
+        "Attributes": [
+            null, 
+            "Stock-recruitment steepness", 
+            "Criteria", 
+            "Biology"
+        ]
+    }, 
+    {
+        "QuestionID": 6, 
+        "ValidAnswers": [
+            1
+        ], 
+        "References": [
+            "Assessment:46"
+        ], 
+        "Attributes": [
+            null, 
+            "Recruitment deviations", 
+            "Criteria", 
+            "Biology"
+        ]
+    }, 
+    {
+        "QuestionID": 7, 
+        "ValidAnswers": [
+            1
+        ], 
+        "References": [
+            "Assessment:47"
+        ], 
+        "Attributes": [
+            null, 
+            "Criteria", 
+            "Biology", 
+            "Length-weight relationship"
+        ]
+    }, 
+    {
+        "QuestionID": 8, 
+        "ValidAnswers": [
+            2
+        ], 
+        "References": [
+            "Assessment:48"
+        ], 
+        "Attributes": [
+            null, 
+            "Criteria", 
+            "Biology", 
+            "Length-at-first-capture"
+        ]
+    }, 
+    {
+        "QuestionID": 9, 
+        "ValidAnswers": [
+            1, 
+            3
+        ], 
+        "References": [
+            "Assessment:49"
+        ], 
+        "Attributes": [
+            null, 
+            "Criteria", 
+            "Biology", 
+            "Von Bertalanffy parameters"
+        ]
+    }, 
+    {
+        "QuestionID": 10, 
+        "ValidAnswers": [], 
+        "References": [
+            "Assessment:50"
+        ], 
+        "Attributes": [
+            null, 
+            "Criteria"
+        ]
+    }, 
+    {
+        "QuestionID": 11, 
+        "ValidAnswers": [
+            2
+        ], 
+        "References": [
+            "Assessment:51"
+        ], 
+        "Attributes": [
+            null, 
+            "Indices", 
+            "Criteria", 
+            "Species composition"
+        ]
+    }, 
+    {
+        "QuestionID": 12, 
+        "ValidAnswers": [
+            1, 
+            2, 
+            3, 
+            " "
+        ], 
+        "References": [
+            "Assessment:52"
+        ], 
+        "Attributes": [
+            null, 
+            "Indices", 
+            "Length composition", 
+            "Criteria"
+        ]
+    }, 
+    {
+        "QuestionID": 13, 
+        "ValidAnswers": [], 
+        "References": [
+            "Assessment:53"
+        ], 
+        "Attributes": [
+            null, 
+            "Indices", 
+            "Age composition", 
+            "Criteria"
+        ]
+    }, 
+    {
+        "QuestionID": 14, 
+        "ValidAnswers": [
+            3
+        ], 
+        "References": [
+            "Assessment:54"
+        ], 
+        "Attributes": [
+            null, 
+            "Indices", 
+            "Mean length or length percentiles", 
+            "Criteria"
+        ]
+    }, 
+    {
+        "QuestionID": 15, 
+        "ValidAnswers": [
+            " "
+        ], 
+        "References": [
+            "Assessment:55"
+        ], 
+        "Attributes": [
+            null, 
+            "Indices", 
+            "Criteria", 
+            "Mean weight or weight percentiles"
+        ]
+    }, 
+    {
+        "QuestionID": 16, 
+        "ValidAnswers": [
+            1, 
+            2, 
+            3
+        ], 
+        "References": [
+            "Assessment:56"
+        ], 
+        "Attributes": [
+            null, 
+            "Indices", 
+            "Criteria", 
+            "Catch"
+        ]
+    }, 
+    {
+        "QuestionID": 17, 
+        "ValidAnswers": [
+            1
+        ], 
+        "References": [
+            "Assessment:57"
+        ], 
+        "Attributes": [
+            null, 
+            "Indices", 
+            "Criteria", 
+            "Effort"
+        ]
+    }, 
+    {
+        "QuestionID": 18, 
+        "ValidAnswers": [
+            1, 
+            2, 
+            3
+        ], 
+        "References": [
+            "Assessment:58"
+        ], 
+        "Attributes": [
+            null, 
+            "Indices", 
+            "Catch-Per-Unit-Effort", 
+            "Criteria"
+        ]
+    }, 
+    {
+        "QuestionID": 19, 
+        "ValidAnswers": [], 
+        "References": [
+            "Assessment:59"
+        ], 
+        "Attributes": [
+            null, 
+            "Indices", 
+            "Criteria", 
+            "Sex composition"
+        ]
+    }, 
+    {
+        "QuestionID": 20, 
+        "ValidAnswers": [], 
+        "References": [
+            "Assessment:60"
+        ], 
+        "Attributes": [
+            null, 
+            "Indices", 
+            "Fishery dependent density", 
+            "Criteria"
+        ]
+    }, 
+    {
+        "QuestionID": 21, 
+        "ValidAnswers": [
+            1
+        ], 
+        "References": [
+            "Assessment:61"
+        ], 
+        "Attributes": [
+            null, 
+            "Indices", 
+            "Fishery independent abundance", 
+            "Criteria"
+        ]
+    }, 
+    {
+        "QuestionID": 22, 
+        "ValidAnswers": [
+            1
+        ], 
+        "References": [
+            "Assessment:62"
+        ], 
+        "Attributes": [
+            null, 
+            "Indices", 
+            "Inside:outside No-Take Zones/MPA ", 
+            "Criteria"
+        ]
+    }, 
+    {
+        "QuestionID": 23, 
+        "ValidAnswers": [], 
+        "References": [
+            "Assessment:63"
+        ], 
+        "Attributes": [
+            null, 
+            "Criteria"
+        ]
+    }, 
+    {
+        "QuestionID": 24, 
+        "ValidAnswers": [
+            1, 
+            2
+        ], 
+        "References": [
+            "Assessment:64"
+        ], 
+        "Attributes": [
+            null, 
+            "Criteria", 
+            "Expert Judgement", 
+            "Expert judgement/common knowledge of stock status/depletion"
+        ]
+    }, 
+    {
+        "QuestionID": 25, 
+        "ValidAnswers": [
+            1, 
+            2
+        ], 
+        "References": [
+            "Assessment:65"
+        ], 
+        "Attributes": [
+            null, 
+            "Criteria", 
+            "Expert Judgement", 
+            "Expert judgement re: fishery operations and interaction with broader environment"
+        ]
+    }, 
+    {
+        "QuestionID": 26, 
+        "ValidAnswers": [
+            1, 
+            2
+        ], 
+        "References": [
+            "Assessment:66"
+        ], 
+        "Attributes": [
+            null, 
+            "Expert judgement re: non-fishing threats, ecosystem services, threat interactions", 
+            "Criteria", 
+            "Expert Judgement"
+        ]
+    }, 
+    {
+        "QuestionID": 27, 
+        "ValidAnswers": [
+            1, 
+            2
+        ], 
+        "References": [
+            "Assessment:67"
+        ], 
+        "Attributes": [
+            null, 
+            "Expert judgement re: MPA and habitat status", 
+            "Criteria", 
+            "Expert Judgement"
+        ]
+    }, 
+    {
+        "QuestionID": 28, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "Assessment:68"
+        ], 
+        "Attributes": [
+            null
+        ]
+    }, 
+    {
+        "QuestionID": 29, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "Assessment:69"
+        ], 
+        "Attributes": [
+            null
+        ]
+    }, 
+    {
+        "SatisfiedBy": [
+            11, 
+            14, 
+            15, 
+            16, 
+            17, 
+            18, 
+            19, 
+            20, 
+            21, 
+            22
+        ], 
+        "QuestionID": 30, 
+        "ValidAnswers": [
+            1
+        ], 
+        "References": [
+            "Assessment:70"
+        ], 
+        "Attributes": [
+            null, 
+            "Descriptive Data Catch-all", 
+            "Satisfied by above", 
+            "=\"Rows \"&ROW(F51)&\" or \"&ROW(F54)&\"-\"&ROW(F62)", 
+            "Criteria"
+        ]
+    }, 
+    {
+        "SatisfiedBy": [
+            16, 
+            18
+        ], 
+        "QuestionID": 31, 
+        "ValidAnswers": [
+            2
+        ], 
+        "References": [
+            "Assessment:71"
+        ], 
+        "Attributes": [
+            null, 
+            "Satisfied by above", 
+            "Criteria", 
+            "=\"Rows \"&ROW(F56)&\" or \"&ROW(F58)", 
+            "Catch or CPUE"
+        ]
+    }, 
+    {
+        "SatisfiedBy": [
+            14, 
+            15
+        ], 
+        "QuestionID": 32, 
+        "ValidAnswers": [
+            1, 
+            2
+        ], 
+        "References": [
+            "Assessment:72"
+        ], 
+        "Attributes": [
+            null, 
+            "Length or Weight", 
+            "Satisfied by above", 
+            "Criteria", 
+            "=\"Rows \"&ROW(F54)&\" or \"&ROW(F55)"
+        ]
+    }, 
+    {
+        "SatisfiedBy": [
+            12, 
+            14, 
+            15
+        ], 
+        "QuestionID": 33, 
+        "ValidAnswers": [
+            1
+        ], 
+        "References": [
+            "Assessment:73"
+        ], 
+        "Attributes": [
+            null, 
+            "=\"Rows \"&ROW(F52)&\" or \"&ROW(F54)&\" or \"&ROW(F55)", 
+            "Satisfied by above", 
+            "Criteria", 
+            "Length or Length or Weight"
+        ]
+    }, 
+    {
+        "SatisfiedBy": [
+            20, 
+            21, 
+            22
+        ], 
+        "QuestionID": 34, 
+        "ValidAnswers": [
+            1
+        ], 
+        "References": [
+            "Assessment:74"
+        ], 
+        "Attributes": [
+            null, 
+            "Density or Abundance or No-Take", 
+            "Satisfied by above", 
+            "=\"Rows \"&ROW(F60)&\" or \"&ROW(F61)&\" or \"&ROW(F62)", 
+            "Criteria"
+        ]
+    }, 
+    {
+        "SatisfiedBy": [
+            16, 
+            17, 
+            18, 
+            20, 
+            21
+        ], 
+        "QuestionID": 35, 
+        "ValidAnswers": [
+            1
+        ], 
+        "References": [
+            "Assessment:75"
+        ], 
+        "Attributes": [
+            null, 
+            "Satisfied by above", 
+            "Criteria", 
+            "=\"Rows \"&ROW(F56)&\" or \"&ROW(F57)&\" or \"&ROW(F58)&\" or \"&ROW(F60)&\" or \"&ROW(F61)", 
+            "Catch or Effort or Density"
+        ]
+    }, 
+    {
+        "SatisfiedBy": [
+            0, 
+            1, 
+            2, 
+            3
+        ], 
+        "QuestionID": 36, 
+        "ValidAnswers": [
+            1
+        ], 
+        "References": [
+            "Assessment:76"
+        ], 
+        "Attributes": [
+            null, 
+            "Biology Catch-all", 
+            "Satisfied by above", 
+            "Criteria", 
+            "=\"Rows \"&ROW(F40)&\"-\"&ROW(F43)"
+        ]
+    }, 
+    {
+        "QuestionID": 37, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "Assessment:77"
+        ], 
+        "Attributes": [
+            null
+        ]
+    }, 
+    {
+        "QuestionID": 38, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "Assessment:78"
+        ], 
+        "Attributes": [
+            null, 
+            "Additional requirements (not elsewhere included). These are not included in the vector matching but should pop up as warnings depending on the response.", 
+            "Where size data exists, is selectivity at least able to be inferred? IF NO"
+        ]
+    }, 
+    {
+        "QuestionID": 39, 
+        "ValidAnswers": [
+            1
+        ], 
+        "References": [
+            "Assessment:79"
+        ], 
+        "Attributes": [
+            null, 
+            "Criterion", 
+            "!!!!!MAKE THIS A MINIMUM DATA REQUIREMENT!! i.e. to include in \"vector matching\" exercise. ", 
+            "Selectivity ogive (0= unknown; 1= able to be inferred; 2 = known)"
+        ]
+    }, 
+    {
+        "QuestionID": 40, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Assessment:80"
+        ], 
+        "Attributes": [
+            null, 
+            "Additional requirements (not elsewhere included). These are not included in the vector matching but should pop up as warnings depending on the response.", 
+            "Has the selectivity pattern changed over time? IF YES", 
+            "Caveat", 
+            "Yes"
+        ]
+    }, 
+    {
+        "QuestionID": 41, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Assessment:81"
+        ], 
+        "Attributes": [
+            null, 
+            "Additional requirements (not elsewhere included). These are not included in the vector matching but should pop up as warnings depending on the response.", 
+            "If there are multiple fleets, are the selectivity ogives different for each? IF YES", 
+            "Caveat", 
+            "Yes"
+        ]
+    }, 
+    {
+        "QuestionID": 42, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Monitoring:AK", 
+            "Assessment:82"
+        ], 
+        "Attributes": [
+            null, 
+            "Spatial coverage/ spatial cooperation", 
+            "If there is <100% spatial coverage, is the existing coverage representative of the entire fleet/geographic range of fishery? (SEE ALSO COLUMN BD)", 
+            "CAVEATS - Second, refine the shortlist of monitoring options according to the below range of criteria", 
+            "IF NO", 
+            "Additional requirements (not elsewhere included). These are not included in the vector matching but should pop up as warnings depending on the response.", 
+            "Is the data representative of the fleet as a whole? (Y = this is required)", 
+            "Criterion"
+        ]
+    }, 
+    {
+        "QuestionID": 43, 
+        "ValidAnswers": [
+            "No", 
+            "Yes", 
+            "spatial consistency preferred; if changes in effort together with spatial changes, this is also important", 
+            "Y if spatial variation in size structure suspected", 
+            "spatial consistency preferred; if changes in effort together with spatial changes, this is also important."
+        ], 
+        "References": [
+            "Assessment:83"
+        ], 
+        "Attributes": [
+            null, 
+            "Additional requirements (not elsewhere included). These are not included in the vector matching but should pop up as warnings depending on the response.", 
+            "Criterion", 
+            "Is the data representative of the spatial extent of the fishing? (Y = this is required)"
+        ]
+    }, 
+    {
+        "QuestionID": 44, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Assessment:84"
+        ], 
+        "Attributes": [
+            null, 
+            "Additional requirements (not elsewhere included). These are not included in the vector matching but should pop up as warnings depending on the response.", 
+            "Criterion", 
+            "Is the species being actively targeted? (Y = this is required)"
+        ]
+    }, 
+    {
+        "QuestionID": 45, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Assessment:85"
+        ], 
+        "Attributes": [
+            null, 
+            "Additional requirements (not elsewhere included). These are not included in the vector matching but should pop up as warnings depending on the response.", 
+            "No", 
+            "Caveat", 
+            "IF TEMPORAL CHANGES HAVE OCCURRED (.e. is what happened x years ago relevant to today's landscape?) If historical or recent changes have occurred in how the fishery is operating, apply caution to assessment approaches requiring time series or temporally representative data (here, \"N\" = assessment method unable to be applied)"
+        ]
+    }, 
+    {
+        "QuestionID": 46, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Assessment:86"
+        ], 
+        "Attributes": [
+            null, 
+            "Additional requirements (not elsewhere included). These are not included in the vector matching but should pop up as warnings depending on the response.", 
+            "No", 
+            "Caveat", 
+            "Is the species highly migratory, and the fishery does not embrace spatial extent of the stock? (here, \"N\" = assessment method unable to be applied)"
+        ]
+    }, 
+    {
+        "QuestionID": 47, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "Assessment:87"
+        ], 
+        "Attributes": [
+            null, 
+            "STAGNANT ATTRIBUTE WHOSE RESPONSES SHOULD POP UP AS WARNINGS", 
+            "Caveat", 
+            "(Not a question): Given that there exist conditions (e.g. environmental, oceanographic, weather temperature) that affect either FISH AVAILABILITY or ABILITY TO FISH, consider the following (i.e. within-cell) caveats (re: assumptions around catchability):"
+        ]
+    }, 
+    {
+        "QuestionID": 48, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "Assessment:88"
+        ], 
+        "Attributes": [
+            null
+        ]
+    }, 
+    {
+        "QuestionID": 49, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Assessment:89", 
+            "ControlRules:69"
+        ], 
+        "Attributes": [
+            null, 
+            "Additional requirements (not elsewhere included). These are not included in the vector matching but should pop up as warnings depending on the response.", 
+            "Caveats", 
+            "Y", 
+            "Have there been operational changes in the fishery? IF YES", 
+            "Socio-economic", 
+            "IF YES", 
+            "Is the nature of fishing operations (e.g. target species, gear types, fishing locations, markets) changing?"
+        ]
+    }, 
+    {
+        "QuestionID": 50, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Assessment:90"
+        ], 
+        "Attributes": [
+            null, 
+            "Additional requirements (not elsewhere included). These are not included in the vector matching but should pop up as warnings depending on the response.", 
+            "Caveats", 
+            "N", 
+            "Is effort data available by location? IF NO"
+        ]
+    }, 
+    {
+        "QuestionID": 51, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Assessment:91"
+        ], 
+        "Attributes": [
+            null, 
+            "Additional requirements (not elsewhere included). These are not included in the vector matching but should pop up as warnings depending on the response.", 
+            "Caveats", 
+            "N", 
+            "Is catch data available by location? IF NO"
+        ]
+    }, 
+    {
+        "QuestionID": 52, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Assessment:92"
+        ], 
+        "Attributes": [
+            null, 
+            "Additional requirements (not elsewhere included). These are not included in the vector matching but should pop up as warnings depending on the response.", 
+            "Caveats", 
+            "Are gears and deployment manners known? IF NO", 
+            "N"
+        ]
+    }, 
+    {
+        "QuestionID": 53, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Assessment:93"
+        ], 
+        "Attributes": [
+            null, 
+            "Additional requirements (not elsewhere included). These are not included in the vector matching but should pop up as warnings depending on the response.", 
+            "Caveats", 
+            "Y", 
+            "Is the number of participants low? IF YES"
+        ]
+    }, 
+    {
+        "QuestionID": 54, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Assessment:94"
+        ], 
+        "Attributes": [
+            null, 
+            "Additional requirements (not elsewhere included). These are not included in the vector matching but should pop up as warnings depending on the response.", 
+            "Caveats", 
+            "N", 
+            "Is there a time series of data? IF NO"
+        ]
+    }, 
+    {
+        "QuestionID": 55, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Assessment:95"
+        ], 
+        "Attributes": [
+            null, 
+            "Additional requirements (not elsewhere included). These are not included in the vector matching but should pop up as warnings depending on the response.", 
+            "Caveats", 
+            "Is/are there an MPA/s, and if so, are these well enforced and do they represent unfished size and density dynamics? IF NO", 
+            "N"
+        ]
+    }, 
+    {
+        "QuestionID": 56, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Assessment:96"
+        ], 
+        "Attributes": [
+            null, 
+            "Additional requirements (not elsewhere included). These are not included in the vector matching but should pop up as warnings depending on the response.", 
+            "Caveats", 
+            " Is there some estimate of assumed depletion? IF NO", 
+            "N"
+        ]
+    }, 
+    {
+        "QuestionID": 57, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Assessment:97"
+        ], 
+        "Attributes": [
+            null, 
+            "Additional requirements (not elsewhere included). These are not included in the vector matching but should pop up as warnings depending on the response.", 
+            "Caveats", 
+            "N", 
+            "Is there some estimate of assumed abundance? IF NO"
+        ]
+    }, 
+    {
+        "QuestionID": 58, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Assessment:98"
+        ], 
+        "Attributes": [
+            null, 
+            "Additional requirements (not elsewhere included). These are not included in the vector matching but should pop up as warnings depending on the response.", 
+            "Caveats", 
+            "N", 
+            "Is there a starting estimate of MSY? IF NO"
+        ]
+    }, 
+    {
+        "QuestionID": 59, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Assessment:99"
+        ], 
+        "Attributes": [
+            null, 
+            "Additional requirements (not elsewhere included). These are not included in the vector matching but should pop up as warnings depending on the response.", 
+            "Caveats", 
+            "N", 
+            "Is there a starting estimate of annual exploitation rate producing MSYat equilibrium (Umsy) IF NO"
+        ]
+    }, 
+    {
+        "QuestionID": 60, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Assessment:100"
+        ], 
+        "Attributes": [
+            null, 
+            "Additional requirements (not elsewhere included). These are not included in the vector matching but should pop up as warnings depending on the response.", 
+            "Caveats", 
+            "Are there prior ranges for r (population intrinsic growth rate) and k (carrying capacity) IF NO", 
+            "N"
+        ]
+    }, 
+    {
+        "QuestionID": 61, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Assessment:101"
+        ], 
+        "Attributes": [
+            null, 
+            "Additional requirements (not elsewhere included). These are not included in the vector matching but should pop up as warnings depending on the response.", 
+            "Caveats", 
+            "N", 
+            "Is there a starting estimate of Z? IF NO"
+        ]
+    }, 
+    {
+        "QuestionID": 62, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "Assessment:102"
+        ], 
+        "Attributes": [
+            null, 
+            "ULTIMATELY WILL BE A COST ATTRIBUTE FROM THE COST DATABASE", 
+            "What is the cost of the assessment? - along with rules of thumb - e.g. if >10% of GVP, think twice."
+        ]
+    }, 
+    {
+        "QuestionID": 63, 
+        "ValidAnswers": [
+            "high (due to intensive within-season updating)", 
+            "low-modearate", 
+            "moderate-high", 
+            "high", 
+            "low-moderate", 
+            "low", 
+            "moderate", 
+            "moderate BUT can be low if lower number of participants"
+        ], 
+        "References": [
+            "Assessment:103", 
+            "ControlRules:80", 
+            "ControlRules:82", 
+            "Monitoring:I", 
+            "ControlRules:81"
+        ], 
+        "Attributes": [
+            null, 
+            "STAGNANT ATTRIBUTE WHOSE RESPONSES SHOULD POP UP AS WARNINGS", 
+            "Criterion", 
+            "What is the research capacity required?", 
+            "Research capacity", 
+            "low", 
+            "Governance", 
+            "high", 
+            "CRITERIA: begin here. These will provide a first-cut shortlist of monitoring options based on the MINIMUM requirements for each form of monitoring.", 
+            "Research capacity/ institution capability. Options: low, low-moderate, moderate, moderate-high, high", 
+            "criteria", 
+            "Strength of governance (range):", 
+            "moderate"
+        ]
+    }, 
+    {
+        "QuestionID": 64, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Assessment:104"
+        ], 
+        "Attributes": [
+            null, 
+            "Additional requirements (not elsewhere included). These are not included in the vector matching but should pop up as warnings depending on the response.", 
+            "Y", 
+            "Is there local knowledge of suitable targets for indicators? E.g. historically, this level of catch corresponded to a \"good\" stock status IF YES", 
+            "Caveat"
+        ]
+    }, 
+    {
+        "QuestionID": 65, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Assessment:105"
+        ], 
+        "Attributes": [
+            null, 
+            "Additional requirements (not elsewhere included). These are not included in the vector matching but should pop up as warnings depending on the response.", 
+            "N", 
+            "Caveat", 
+            "Are there gear considerations that would preclude the use of the assessment? (e.g. per purse seine) IF YES"
+        ]
+    }, 
+    {
+        "QuestionID": 66, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "Assessment:106"
+        ], 
+        "Attributes": [
+            null, 
+            "Additional requirements (not elsewhere included). These are not included in the vector matching but should pop up as warnings depending on the response.", 
+            "Is the species part of a multispecies fishery within which the assessment should consider the fishery and/or ecosystem as a whole? IF YES"
+        ]
+    }, 
+    {
+        "QuestionID": 67, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "Assessment:107"
+        ], 
+        "Attributes": [
+            null, 
+            "Additional requirements (not elsewhere included). These are not included in the vector matching but should pop up as warnings depending on the response.", 
+            "Are species within a multispecies fishery being assessed collectively, whether because of lack of data on each, or whether there is lack of species identification (i.e. \"basket species\") ? IF YES"
+        ]
+    }, 
+    {
+        "QuestionID": 68, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "Assessment:108"
+        ], 
+        "Attributes": [
+            null
+        ]
+    }, 
+    {
+        "QuestionID": 69, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "Assessment:109"
+        ], 
+        "Attributes": [
+            null
+        ]
+    }, 
+    {
+        "QuestionID": 70, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "Assessment:110"
+        ], 
+        "Attributes": [
+            null
+        ]
+    }, 
+    {
+        "QuestionID": 71, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "Assessment:111"
+        ], 
+        "Attributes": [
+            null
+        ]
+    }, 
+    {
+        "QuestionID": 72, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "Assessment:112"
+        ], 
+        "Attributes": [
+            null
+        ]
+    }, 
+    {
+        "QuestionID": 73, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "Assessment:113"
+        ], 
+        "Attributes": [
+            null
+        ]
+    }, 
+    {
+        "QuestionID": 74, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "ControlRules:9", 
+            "Monitoring:AB"
+        ], 
+        "Attributes": [
+            null, 
+            "Biophysical/life history", 
+            "Highly migratory?", 
+            "IF YES", 
+            "Is the species is highly migratory?", 
+            "CAVEATS - Second, refine the shortlist of monitoring options according to the below range of criteria", 
+            "Biology/life history"
+        ]
+    }, 
+    {
+        "QuestionID": 75, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "ControlRules:10"
+        ], 
+        "Attributes": [
+            null, 
+            "Biophysical/life history", 
+            "Largely sedentary/sessile?", 
+            "IF YES"
+        ]
+    }, 
+    {
+        "QuestionID": 76, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "ControlRules:11"
+        ], 
+        "Attributes": [
+            null, 
+            "Biophysical/life history", 
+            "IF YES", 
+            "Determinate growth?"
+        ]
+    }, 
+    {
+        "QuestionID": 77, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "ControlRules:12"
+        ], 
+        "Attributes": [
+            null, 
+            "Biophysical/life history", 
+            "IF YES", 
+            "\"Periodic strategist\" species? (slow-growing, long-lived, steady state population, but with variable recruitment)"
+        ]
+    }, 
+    {
+        "QuestionID": 78, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "ControlRules:13", 
+            "Monitoring:AC"
+        ], 
+        "Attributes": [
+            null, 
+            "Biophysical/life history", 
+            "IF YES", 
+            "Highly productive, short-lived (\"boom and bust\") species?", 
+            "Does the species follow a boom-and-bust cycle? ", 
+            "CAVEATS - Second, refine the shortlist of monitoring options according to the below range of criteria", 
+            "Biology/life history"
+        ]
+    }, 
+    {
+        "QuestionID": 79, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "ControlRules:14"
+        ], 
+        "Attributes": [
+            null, 
+            "Biophysical/life history", 
+            "IF YES", 
+            "Sexually dimorphic growth?"
+        ]
+    }, 
+    {
+        "QuestionID": 80, 
+        "ValidAnswers": [
+            "IF LOW"
+        ], 
+        "References": [
+            "ControlRules:15"
+        ], 
+        "Attributes": [
+            "Survivorship on release?", 
+            "Biophysical/life history", 
+            null, 
+            "IF LOW"
+        ]
+    }, 
+    {
+        "QuestionID": 81, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "ControlRules:16"
+        ], 
+        "Attributes": [
+            null, 
+            "Biophysical/life history", 
+            "Biomass-based reference points meaningful? (e.g. for a boom-and-bust species, equilibrium dynamics may not be appropriate and so biomass-based reference points are not meaningful)", 
+            "IF NO"
+        ]
+    }, 
+    {
+        "QuestionID": 82, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "ControlRules:17"
+        ], 
+        "Attributes": [
+            null, 
+            "Biophysical/life history", 
+            "Nursery grounds vulnerable to gear?", 
+            "IF YES"
+        ]
+    }, 
+    {
+        "QuestionID": 83, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "ControlRules:18"
+        ], 
+        "Attributes": [
+            null, 
+            "Biophysical/life history", 
+            "IF YES", 
+            "Nursery grounds in distinct area?"
+        ]
+    }, 
+    {
+        "QuestionID": 84, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "ControlRules:19"
+        ], 
+        "Attributes": [
+            null, 
+            "Biophysical/life history", 
+            "IF YES", 
+            "Spawning grounds, aggregations?"
+        ]
+    }, 
+    {
+        "QuestionID": 85, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "ControlRules:20"
+        ], 
+        "Attributes": [
+            null, 
+            "Biophysical/life history", 
+            "IF YES", 
+            "Spawning seasons?"
+        ]
+    }, 
+    {
+        "QuestionID": 86, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "ControlRules:21"
+        ], 
+        "Attributes": [
+            null, 
+            "Biophysical/life history", 
+            "IF YES", 
+            "Threatened or vulnerable species/habitat locations?"
+        ]
+    }, 
+    {
+        "QuestionID": 87, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "ControlRules:22"
+        ], 
+        "Attributes": [
+            "Is species susceptible to barotrauma, and/or has low survivorship on release?", 
+            "Biophysical/life history", 
+            "IF YES", 
+            null
+        ]
+    }, 
+    {
+        "QuestionID": 88, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "ControlRules:23"
+        ], 
+        "Attributes": [
+            null, 
+            "Data availability", 
+            "Does a target reference point, or proxy, exist? ", 
+            "IF NO"
+        ]
+    }, 
+    {
+        "QuestionID": 89, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Monitoring:AG", 
+            "ControlRules:24"
+        ], 
+        "Attributes": [
+            null, 
+            "IF YES", 
+            "CAVEATS - Second, refine the shortlist of monitoring options according to the below range of criteria", 
+            "Are there multiple species targeted, or no fixed target species?", 
+            "Operational characteristics", 
+            "Data availability", 
+            "Fishing opportunistic/no fixed target species?"
+        ]
+    }, 
+    {
+        "QuestionID": 90, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "ControlRules:25"
+        ], 
+        "Attributes": [
+            null, 
+            "Data availability", 
+            "IF YES", 
+            "Is monitoring difficult?"
+        ]
+    }, 
+    {
+        "QuestionID": 91, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "ControlRules:26"
+        ], 
+        "Attributes": [
+            null, 
+            "Data availability", 
+            "IF YES", 
+            "High level of uncertainty?"
+        ]
+    }, 
+    {
+        "QuestionID": 92, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "ControlRules:27"
+        ], 
+        "Attributes": [
+            null, 
+            "Data availability", 
+            "IF YES", 
+            "No knowledge"
+        ]
+    }, 
+    {
+        "QuestionID": 93, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "ControlRules:28"
+        ], 
+        "Attributes": [
+            null, 
+            "Data availability", 
+            "IF YES", 
+            "If only effort data are available"
+        ]
+    }, 
+    {
+        "QuestionID": 94, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "ControlRules:29"
+        ], 
+        "Attributes": [
+            "If only size data and/or species composition data are available", 
+            "Data availability", 
+            "IF YES", 
+            null
+        ]
+    }, 
+    {
+        "QuestionID": 95, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "ControlRules:30"
+        ], 
+        "Attributes": [
+            null, 
+            "No immediate concerns re: stock status", 
+            "IF YES"
+        ]
+    }, 
+    {
+        "QuestionID": 96, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "ControlRules:31"
+        ], 
+        "Attributes": [
+            null, 
+            "Does assessment suggest overfishing is probable?", 
+            "IF YES"
+        ]
+    }, 
+    {
+        "QuestionID": 97, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "ControlRules:32"
+        ], 
+        "Attributes": [
+            null, 
+            "IF YES", 
+            "Does assessment suggest a certain form of decision rule? (PENDING OUTCOMES OF ASSESSMENT COMPONENT OF MSSP - 2nd layer?)"
+        ]
+    }, 
+    {
+        "QuestionID": 98, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "ControlRules:33"
+        ], 
+        "Attributes": [
+            null, 
+            "Does assessment suggest a certain form of decision rule? (PENDING OUTCOMES OF ASSESSMENT COMPONENT OF MSSP - 2nd layer?)", 
+            "Linear regression on CPUE time series"
+        ]
+    }, 
+    {
+        "QuestionID": 99, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "ControlRules:34"
+        ], 
+        "Attributes": [
+            null, 
+            "Does assessment suggest a certain form of decision rule? (PENDING OUTCOMES OF ASSESSMENT COMPONENT OF MSSP - 2nd layer?)", 
+            "Depletion analysis (CPUE versus cumulative catch)"
+        ]
+    }, 
+    {
+        "QuestionID": 100, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "ControlRules:35"
+        ], 
+        "Attributes": [
+            null, 
+            "Does assessment suggest a certain form of decision rule? (PENDING OUTCOMES OF ASSESSMENT COMPONENT OF MSSP - 2nd layer?)", 
+            "Use biomass surveys to inform spatial management (e.g. areas suitable to open/close under rotational spatial management)"
+        ]
+    }, 
+    {
+        "QuestionID": 101, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "ControlRules:36"
+        ], 
+        "Attributes": [
+            null, 
+            "Does assessment suggest a certain form of decision rule? (PENDING OUTCOMES OF ASSESSMENT COMPONENT OF MSSP - 2nd layer?)", 
+            "?? Zhou catch-only approach"
+        ]
+    }, 
+    {
+        "QuestionID": 102, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "ControlRules:37"
+        ], 
+        "Attributes": [
+            null, 
+            "ORCS", 
+            "Does assessment suggest a certain form of decision rule? (PENDING OUTCOMES OF ASSESSMENT COMPONENT OF MSSP - 2nd layer?)"
+        ]
+    }, 
+    {
+        "QuestionID": 103, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "ControlRules:38"
+        ], 
+        "Attributes": [
+            null, 
+            "DCAC", 
+            "Does assessment suggest a certain form of decision rule? (PENDING OUTCOMES OF ASSESSMENT COMPONENT OF MSSP - 2nd layer?)"
+        ]
+    }, 
+    {
+        "QuestionID": 104, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "ControlRules:39"
+        ], 
+        "Attributes": [
+            null, 
+            "Depletion-based SRA", 
+            "Does assessment suggest a certain form of decision rule? (PENDING OUTCOMES OF ASSESSMENT COMPONENT OF MSSP - 2nd layer?)"
+        ]
+    }, 
+    {
+        "QuestionID": 105, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "ControlRules:40"
+        ], 
+        "Attributes": [
+            null, 
+            "Length-based SPR", 
+            "Does assessment suggest a certain form of decision rule? (PENDING OUTCOMES OF ASSESSMENT COMPONENT OF MSSP - 2nd layer?)"
+        ]
+    }, 
+    {
+        "QuestionID": 106, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "ControlRules:41"
+        ], 
+        "Attributes": [
+            null, 
+            "Does assessment suggest a certain form of decision rule? (PENDING OUTCOMES OF ASSESSMENT COMPONENT OF MSSP - 2nd layer?)", 
+            "Production model"
+        ]
+    }, 
+    {
+        "QuestionID": 107, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "ControlRules:42"
+        ], 
+        "Attributes": [
+            null
+        ]
+    }, 
+    {
+        "QuestionID": 108, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "ControlRules:43"
+        ], 
+        "Attributes": [
+            null, 
+            "IF YES", 
+            "Operational", 
+            "Multiple fleets?"
+        ]
+    }, 
+    {
+        "QuestionID": 109, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "ControlRules:44"
+        ], 
+        "Attributes": [
+            null, 
+            "IF YES", 
+            "Operational", 
+            "Multispecies fishery?"
+        ]
+    }, 
+    {
+        "QuestionID": 110, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "ControlRules:45"
+        ], 
+        "Attributes": [
+            "Latent effort?", 
+            null, 
+            "IF YES", 
+            "Operational"
+        ]
+    }, 
+    {
+        "QuestionID": 111, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "ControlRules:46"
+        ], 
+        "Attributes": [
+            null, 
+            "Effort creep likely?", 
+            "IF YES", 
+            "Operational"
+        ]
+    }, 
+    {
+        "QuestionID": 112, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "ControlRules:47"
+        ], 
+        "Attributes": [
+            null, 
+            "Spatial concentrations of effort?", 
+            "IF YES", 
+            "Operational"
+        ]
+    }, 
+    {
+        "QuestionID": 113, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "ControlRules:48"
+        ], 
+        "Attributes": [
+            null, 
+            "IF YES", 
+            "Seasonal concentrations of effort?", 
+            "Operational"
+        ]
+    }, 
+    {
+        "QuestionID": 114, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "ControlRules:49"
+        ], 
+        "Attributes": [
+            null, 
+            "IF YES", 
+            "Additional species/habitat threatened by gear?", 
+            "Operational"
+        ]
+    }, 
+    {
+        "QuestionID": 115, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "ControlRules:50"
+        ], 
+        "Attributes": [
+            null, 
+            "IF YES", 
+            "Operational", 
+            "High discarding or illegal/unregulated/unreported activity known or suspected?"
+        ]
+    }, 
+    {
+        "QuestionID": 116, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "ControlRules:51"
+        ], 
+        "Attributes": [
+            "IF YES", 
+            "Operational", 
+            "Are there conditions (e.g. environmental, oceanographic, weather temperature) that affect either fish availability or ability to fish?", 
+            "NEW - KENYA"
+        ]
+    }, 
+    {
+        "QuestionID": 117, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "ControlRules:52"
+        ], 
+        "Attributes": [
+            null
+        ]
+    }, 
+    {
+        "QuestionID": 118, 
+        "ValidAnswers": [
+            "artisinal (commercial)", 
+            "Subsistence", 
+            "Artisinal - subsistance and local markets only", 
+            "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+            "Artisinal -commerical (large range of boats - may sell locally and/or for export) BUT if not Large-scale commercial/industrial, may require stronger governance/cooperation", 
+            "subsistence", 
+            "intermediate"
+        ], 
+        "References": [
+            "ControlRules:55", 
+            "Monitoring:G", 
+            "ControlRules:53", 
+            "ControlRules:54"
+        ], 
+        "Attributes": [
+            "Socio-economic", 
+            null, 
+            "artisinal (commercial)", 
+            "CRITERIA: begin here. These will provide a first-cut shortlist of monitoring options based on the MINIMUM requirements for each form of monitoring.", 
+            "criteria", 
+            "Nature of fishery  (range):", 
+            "Options: Subsistence; Artisinal - subsistance and local markets only; Artisinal -commerical (large range of boats - may sell locally and/or for export); Large-scale commercial/industrial", 
+            "Subsistence-recreational-Artisinal (subsistance and local markets only)-Artisinal (commerical)", 
+            "subsistence", 
+            "intermediate"
+        ]
+    }, 
+    {
+        "QuestionID": 119, 
+        "ValidAnswers": [
+            "moderate-high", 
+            "high", 
+            "low-moderate", 
+            "low", 
+            "moderate (NB less expensive if industry/company chartered, or via academia)", 
+            "moderate"
+        ], 
+        "References": [
+            "Monitoring:F", 
+            "ControlRules:57", 
+            "ControlRules:58", 
+            "ControlRules:56"
+        ], 
+        "Attributes": [
+            null, 
+            "CRITERIA: begin here. These will provide a first-cut shortlist of monitoring options based on the MINIMUM requirements for each form of monitoring.", 
+            "Gross value of production (range); current budget for monitoring: COMPARE/RECONCILE WITH COST DATABASE (and/or use cost database to inform categories?)", 
+            "Options: low, low-moderate, moderate, moderate-high, high", 
+            "criteria", 
+            "Socio-economic", 
+            "moderate", 
+            "high", 
+            "GVP", 
+            "low"
+        ]
+    }, 
+    {
+        "QuestionID": 120, 
+        "ValidAnswers": [
+            "high", 
+            1, 
+            2, 
+            3, 
+            4, 
+            "moderate", 
+            "low"
+        ], 
+        "References": [
+            "ControlRules:61", 
+            "Monitoring:H", 
+            "ControlRules:60", 
+            "ControlRules:59"
+        ], 
+        "Attributes": [
+            "Socio-economic", 
+            null, 
+            "high", 
+            "CRITERIA: begin here. These will provide a first-cut shortlist of monitoring options based on the MINIMUM requirements for each form of monitoring.", 
+            "criteria", 
+            "How culturally ingrained is cooperation to management? Categories 1) unwilling to share and unwilling to record, 2) willing to share info but unwilling to record info, 3) willing to share and record but may not do so reliably, 4) willing and reliable sharing and recording", 
+            "Fishery cooperation (wrt HS approach)", 
+            "moderate", 
+            "Level of fisher cooperation (includes cultural preferences)", 
+            "low"
+        ]
+    }, 
+    {
+        "QuestionID": 121, 
+        "ValidAnswers": [
+            "high", 
+            "low", 
+            "moderate"
+        ], 
+        "References": [
+            "ControlRules:64", 
+            "ControlRules:62", 
+            "ControlRules:63"
+        ], 
+        "Attributes": [
+            "Socio-economic", 
+            null, 
+            "high", 
+            "Level of community cooperation", 
+            "low", 
+            "moderate"
+        ]
+    }, 
+    {
+        "QuestionID": 122, 
+        "ValidAnswers": [
+            "moderate", 
+            "high", 
+            "low"
+        ], 
+        "References": [
+            "ControlRules:66", 
+            "ControlRules:67", 
+            "ControlRules:65"
+        ], 
+        "Attributes": [
+            "Socio-economic", 
+            null, 
+            "moderate", 
+            "high", 
+            "Resource dependency (low to high) ", 
+            "low"
+        ]
+    }, 
+    {
+        "QuestionID": 123, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "ControlRules:68"
+        ], 
+        "Attributes": [
+            "Socio-economic", 
+            null, 
+            "What management controls are familiar and can easily align with community management practices and processes?"
+        ]
+    }, 
+    {
+        "QuestionID": 124, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "ControlRules:70"
+        ], 
+        "Attributes": [
+            null
+        ]
+    }, 
+    {
+        "QuestionID": 125, 
+        "ValidAnswers": [
+            "No", 
+            "Yes", 
+            "open access", 
+            "limited entry", 
+            "intermediate"
+        ], 
+        "References": [
+            "ControlRules:71", 
+            "ControlRules:73", 
+            "ControlRules:72", 
+            "Monitoring:M"
+        ], 
+        "Attributes": [
+            null, 
+            "open access", 
+            "Governance", 
+            "Open access governance, to limited entry. (e.g.in an open access governance system the efficacy of tools like size , fishing season, or effort limits is often reduced by effort creep, but when access is limited this seems to be less of a problem and so the same tool would look more attractive)", 
+            "limited entry", 
+            "intermediate", 
+            "Is the fishery open access? (as opposed to limited entry)", 
+            "IF YES", 
+            "CAVEATS - Second, refine the shortlist of monitoring options according to the below range of criteria", 
+            "Strength of governance"
+        ]
+    }, 
+    {
+        "QuestionID": 126, 
+        "ValidAnswers": [
+            "high", 
+            "low", 
+            "moderate"
+        ], 
+        "References": [
+            "ControlRules:76", 
+            "ControlRules:74", 
+            "ControlRules:75"
+        ], 
+        "Attributes": [
+            null, 
+            "high", 
+            "Governance", 
+            "Enforcement capability", 
+            "low", 
+            "moderate"
+        ]
+    }, 
+    {
+        "QuestionID": 127, 
+        "ValidAnswers": [
+            "moderate", 
+            "low", 
+            "high"
+        ], 
+        "References": [
+            "ControlRules:78", 
+            "ControlRules:77", 
+            "ControlRules:79"
+        ], 
+        "Attributes": [
+            null, 
+            "Governance", 
+            "moderate", 
+            "low", 
+            "Strength of governance", 
+            "high"
+        ]
+    }, 
+    {
+        "QuestionID": 128, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "ControlRules:83"
+        ], 
+        "Attributes": [
+            null, 
+            "Biophysical/life history", 
+            "IF YES", 
+            "Does the species strongly aggregate?"
+        ]
+    }, 
+    {
+        "QuestionID": 129, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "ControlRules:84"
+        ], 
+        "Attributes": [
+            null
+        ]
+    }, 
+    {
+        "QuestionID": 130, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "ControlRules:85"
+        ], 
+        "Attributes": [
+            null
+        ]
+    }, 
+    {
+        "QuestionID": 131, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "ControlRules:86"
+        ], 
+        "Attributes": [
+            null
+        ]
+    }, 
+    {
+        "QuestionID": 132, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "ControlRules:87"
+        ], 
+        "Attributes": [
+            null
+        ]
+    }, 
+    {
+        "QuestionID": 133, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "ControlRules:88"
+        ], 
+        "Attributes": [
+            null
+        ]
+    }, 
+    {
+        "QuestionID": 134, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "ControlRules:89"
+        ], 
+        "Attributes": [
+            null
+        ]
+    }, 
+    {
+        "QuestionID": 135, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "ControlRules:90"
+        ], 
+        "Attributes": [
+            null
+        ]
+    }, 
+    {
+        "QuestionID": 136, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "ControlRules:91"
+        ], 
+        "Attributes": [
+            null
+        ]
+    }, 
+    {
+        "QuestionID": 137, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "ControlRules:92"
+        ], 
+        "Attributes": [
+            null
+        ]
+    }, 
+    {
+        "QuestionID": 138, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "ControlRules:93"
+        ], 
+        "Attributes": [
+            null
+        ]
+    }, 
+    {
+        "QuestionID": 139, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "ControlRules:94"
+        ], 
+        "Attributes": [
+            null
+        ]
+    }, 
+    {
+        "QuestionID": 140, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "ControlRules:95"
+        ], 
+        "Attributes": [
+            null
+        ]
+    }, 
+    {
+        "QuestionID": 141, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "ControlRules:96"
+        ], 
+        "Attributes": [
+            null
+        ]
+    }, 
+    {
+        "QuestionID": 142, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "ControlRules:97"
+        ], 
+        "Attributes": [
+            null
+        ]
+    }, 
+    {
+        "QuestionID": 143, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "ControlRules:98"
+        ], 
+        "Attributes": [
+            null
+        ]
+    }, 
+    {
+        "QuestionID": 144, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "ControlRules:99"
+        ], 
+        "Attributes": [
+            null
+        ]
+    }, 
+    {
+        "QuestionID": 145, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "ControlRules:100"
+        ], 
+        "Attributes": [
+            null
+        ]
+    }, 
+    {
+        "QuestionID": 146, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "ControlRules:101"
+        ], 
+        "Attributes": [
+            null
+        ]
+    }, 
+    {
+        "QuestionID": 147, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "ControlRules:102"
+        ], 
+        "Attributes": [
+            null
+        ]
+    }, 
+    {
+        "QuestionID": 148, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "ControlRules:103"
+        ], 
+        "Attributes": [
+            null
+        ]
+    }, 
+    {
+        "QuestionID": 149, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "ControlRules:104"
+        ], 
+        "Attributes": [
+            null
+        ]
+    }, 
+    {
+        "QuestionID": 150, 
+        "ValidAnswers": [
+            "high", 
+            "moderate", 
+            "low-moderate", 
+            "low", 
+            "moderate-high"
+        ], 
+        "References": [
+            "Monitoring:J"
+        ], 
+        "Attributes": [
+            null, 
+            "CRITERIA: begin here. These will provide a first-cut shortlist of monitoring options based on the MINIMUM requirements for each form of monitoring.", 
+            "Willingess to invest in data gathering. Options: low, low-moderate, moderate, moderate-high, high", 
+            "criteria", 
+            "Strength of governance (range):"
+        ]
+    }, 
+    {
+        "QuestionID": 151, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Monitoring:K"
+        ], 
+        "Attributes": [
+            null, 
+            "CAVEATS - Second, refine the shortlist of monitoring options according to the below range of criteria", 
+            "Strength of governance", 
+            "Are the jurisdiction boundaries matched to the spatial extent of the stock?", 
+            "IF NO"
+        ]
+    }, 
+    {
+        "QuestionID": 152, 
+        "ValidAnswers": [
+            "IF REGIONAL, STATE OR NATIONAL"
+        ], 
+        "References": [
+            "Monitoring:L"
+        ], 
+        "Attributes": [
+            null, 
+            "What is the dominant system of governance? (Community level, Regional, State, National) (SEE ALSO COLUMN AT)", 
+            "CAVEATS - Second, refine the shortlist of monitoring options according to the below range of criteria", 
+            "Strength of governance", 
+            "IF REGIONAL, STATE OR NATIONAL"
+        ]
+    }, 
+    {
+        "QuestionID": 153, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Monitoring:N"
+        ], 
+        "Attributes": [
+            null, 
+            "Is there strong governance leadership (as distinguished from community leadship) in place to support/faciliate monitoring? (SEE ALSO COLUMN AU)", 
+            "IF YES", 
+            "CAVEATS - Second, refine the shortlist of monitoring options according to the below range of criteria", 
+            "Strength of governance"
+        ]
+    }, 
+    {
+        "QuestionID": 154, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Monitoring:O"
+        ], 
+        "Attributes": [
+            null, 
+            "IF YES", 
+            "CAVEATS - Second, refine the shortlist of monitoring options according to the below range of criteria", 
+            "Strength of governance", 
+            "Are permits community based? (as opposed to individual-based)"
+        ]
+    }, 
+    {
+        "QuestionID": 155, 
+        "ValidAnswers": [
+            "IF HIGH"
+        ], 
+        "References": [
+            "Monitoring:P"
+        ], 
+        "Attributes": [
+            null, 
+            "IF HIGH", 
+            "CAVEATS - Second, refine the shortlist of monitoring options according to the below range of criteria", 
+            "Number of levels of buying/distribution (re: markets) (LOW <=3, or HIGH)", 
+            "Fishery cooperation (wrt HS approach)"
+        ]
+    }, 
+    {
+        "QuestionID": 156, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Monitoring:Q"
+        ], 
+        "Attributes": [
+            null, 
+            "Are there existing cooperatives or associations that could provide a starting point? (SEE ALSO COLUMN AV)", 
+            "IF YES", 
+            "CAVEATS - Second, refine the shortlist of monitoring options according to the below range of criteria", 
+            "Fishery cooperation (wrt HS approach)"
+        ]
+    }, 
+    {
+        "QuestionID": 157, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Monitoring:R"
+        ], 
+        "Attributes": [
+            null, 
+            "Are fishers incentivised/motivated/willing to be involved? (SEE ALSO COLUMN AW)", 
+            "IF YES", 
+            "CAVEATS - Second, refine the shortlist of monitoring options according to the below range of criteria", 
+            "Fishery cooperation (wrt HS approach)"
+        ]
+    }, 
+    {
+        "QuestionID": 158, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Monitoring:S"
+        ], 
+        "Attributes": [
+            null, 
+            "IF YES", 
+            "Enforcement capability", 
+            "Do local government officials hold power over fishing regulations? (SEE ALSO COLUMN AX)", 
+            "CAVEATS - Second, refine the shortlist of monitoring options according to the below range of criteria"
+        ]
+    }, 
+    {
+        "QuestionID": 159, 
+        "ValidAnswers": [
+            "IF ENFORCED, BUT NOT RESPECTED"
+        ], 
+        "References": [
+            "Monitoring:T"
+        ], 
+        "Attributes": [
+            null, 
+            "Are regulations enforced, AND, IF they are enforced, are regulations/governance trusted and respected?  (SEE ALSO COLUMNS AY,AZ)", 
+            "Enforcement capability", 
+            "CAVEATS - Second, refine the shortlist of monitoring options according to the below range of criteria", 
+            "IF ENFORCED, BUT NOT RESPECTED"
+        ]
+    }, 
+    {
+        "QuestionID": 160, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Monitoring:U"
+        ], 
+        "Attributes": [
+            null, 
+            "IF YES", 
+            "CAVEATS - Second, refine the shortlist of monitoring options according to the below range of criteria", 
+            "Operational characteristics", 
+            "Are home ports/landing sites and markets numerous/spatially disaggregated?"
+        ]
+    }, 
+    {
+        "QuestionID": 161, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Monitoring:V"
+        ], 
+        "Attributes": [
+            null, 
+            "Monitoring protocol", 
+            "IF NO", 
+            "CAVEATS - Second, refine the shortlist of monitoring options according to the below range of criteria", 
+            "Is protocol undertaken regularly? (SEE ALSO COLUMN BA)"
+        ]
+    }, 
+    {
+        "SatisfiedBy": [
+            112, 
+            113
+        ], 
+        "QuestionID": 162, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Monitoring:W"
+        ], 
+        "Attributes": [
+            null, 
+            "Is fishing highly spatially or temporally aggregated?", 
+            "IF YES", 
+            "CAVEATS - Second, refine the shortlist of monitoring options according to the below range of criteria", 
+            "Operational characteristics"
+        ]
+    }, 
+    {
+        "QuestionID": 163, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Monitoring:X"
+        ], 
+        "Attributes": [
+            null, 
+            "Monitoring protocol", 
+            "Can monitoring be conducted at the same time and in the same manner interannually and spatially? (SEE ALSO COLUMN BB)", 
+            "CAVEATS - Second, refine the shortlist of monitoring options according to the below range of criteria", 
+            "IF NO"
+        ]
+    }, 
+    {
+        "QuestionID": 164, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Monitoring:Y"
+        ], 
+        "Attributes": [
+            null, 
+            "Is the fishery area is geographically vast relative to entire coastline or EEZ? (>X km2) (SEE ALSO COLUMN BC)", 
+            "IF YES", 
+            "CAVEATS - Second, refine the shortlist of monitoring options according to the below range of criteria", 
+            "Operational characteristics"
+        ]
+    }, 
+    {
+        "QuestionID": 165, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Monitoring:Z"
+        ], 
+        "Attributes": [
+            null, 
+            "CAVEATS - Second, refine the shortlist of monitoring options according to the below range of criteria", 
+            "Do fishing activities (irrespective of management) correspond with the spatial extent of the stock?", 
+            "Operational characteristics", 
+            "IF NO"
+        ]
+    }, 
+    {
+        "QuestionID": 166, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Monitoring:AA"
+        ], 
+        "Attributes": [
+            null, 
+            "IF YES", 
+            "CAVEATS - Second, refine the shortlist of monitoring options according to the below range of criteria", 
+            "Biology/life history", 
+            "Is the species is highly cryptic?"
+        ]
+    }, 
+    {
+        "QuestionID": 167, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Monitoring:AD"
+        ], 
+        "Attributes": [
+            null, 
+            "Do known landing sites account for all fishing activity? (If not, could be for e.g. beach-based fishing, boat-based fishing where boats can be launched from any point)", 
+            "CAVEATS - Second, refine the shortlist of monitoring options according to the below range of criteria", 
+            "Operational characteristics", 
+            "IF NO"
+        ]
+    }, 
+    {
+        "QuestionID": 168, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Monitoring:AE"
+        ], 
+        "Attributes": [
+            null, 
+            "IF YES", 
+            "Is there illegal, unregulated, or unreported fishing?", 
+            "CAVEATS - Second, refine the shortlist of monitoring options according to the below range of criteria", 
+            "Operational characteristics"
+        ]
+    }, 
+    {
+        "QuestionID": 169, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Monitoring:AF"
+        ], 
+        "Attributes": [
+            null, 
+            "Are there multiple gears used?", 
+            "IF YES", 
+            "CAVEATS - Second, refine the shortlist of monitoring options according to the below range of criteria", 
+            "Operational characteristics"
+        ]
+    }, 
+    {
+        "QuestionID": 170, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Monitoring:AH"
+        ], 
+        "Attributes": [
+            null, 
+            "IF YES", 
+            "CAVEATS - Second, refine the shortlist of monitoring options according to the below range of criteria", 
+            "Is the nature of the fishery changing rapidly?", 
+            "Operational characteristics"
+        ]
+    }, 
+    {
+        "QuestionID": 171, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Monitoring:AI"
+        ], 
+        "Attributes": [
+            null, 
+            "IF YES", 
+            "CAVEATS - Second, refine the shortlist of monitoring options according to the below range of criteria", 
+            "Operational characteristics", 
+            "Are the fishing locations (if not boat-based) and ports variable?"
+        ]
+    }, 
+    {
+        "QuestionID": 172, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Monitoring:AJ"
+        ], 
+        "Attributes": [
+            null, 
+            "Spatial coverage/ spatial cooperation", 
+            "IF YES", 
+            "CAVEATS - Second, refine the shortlist of monitoring options according to the below range of criteria", 
+            "Is there strong spatial bias in the extent of data coverage and/or fisher cooperation?"
+        ]
+    }, 
+    {
+        "QuestionID": 173, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Monitoring:AL"
+        ], 
+        "Attributes": [
+            null, 
+            "Are ports and/or markets matched to managed area?", 
+            "CAVEATS - Second, refine the shortlist of monitoring options according to the below range of criteria", 
+            "IF NO"
+        ]
+    }, 
+    {
+        "QuestionID": 174, 
+        "ValidAnswers": [
+            null
+        ], 
+        "References": [
+            "Monitoring:AM"
+        ], 
+        "Attributes": [
+            null, 
+            "ADDITIONAL CAVEATS", 
+            "CAVEATS - Second, refine the shortlist of monitoring options according to the below range of criteria"
+        ]
+    }, 
+    {
+        "QuestionID": 175, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Monitoring:AN"
+        ], 
+        "Attributes": [
+            null, 
+            "IF YES", 
+            "Does the species strongly aggregate?", 
+            "NEW", 
+            "Biology/life history"
+        ]
+    }, 
+    {
+        "QuestionID": 176, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Monitoring:AO"
+        ], 
+        "Attributes": [
+            null, 
+            "IF YES", 
+            "NEW", 
+            "Biology/life history", 
+            "Is the species susceptible to disease and/or barotrauma if handled/captured and released?"
+        ]
+    }, 
+    {
+        "QuestionID": 177, 
+        "ValidAnswers": [
+            "IF COMMUNITY"
+        ], 
+        "References": [
+            "Monitoring:AP"
+        ], 
+        "Attributes": [
+            null, 
+            "FROM HERE AND TO THE RIGHT ARE \"EXPANDED\" CAVEAT CATEGORIES", 
+            "IF COMMUNITY", 
+            "Strength of governance", 
+            "What is the dominant system of governance? (Community level, Regional, State, National)"
+        ]
+    }, 
+    {
+        "QuestionID": 178, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Monitoring:AQ"
+        ], 
+        "Attributes": [
+            null, 
+            "Is there strong governance leadership (as distinguished from community leadship) in place to support/faciliate monitoring? ", 
+            "Strength of governance", 
+            "IF NO"
+        ]
+    }, 
+    {
+        "QuestionID": 179, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Monitoring:AR"
+        ], 
+        "Attributes": [
+            null, 
+            "IF NO", 
+            "Are there existing cooperatives or associations that could provide a starting point?", 
+            "Fishery cooperation (wrt HS approach)"
+        ]
+    }, 
+    {
+        "QuestionID": 180, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Monitoring:AS"
+        ], 
+        "Attributes": [
+            null, 
+            "IF NO", 
+            "Are fishers incentivised/motivated/willing to be involved?", 
+            "Fishery cooperation (wrt HS approach)"
+        ]
+    }, 
+    {
+        "QuestionID": 181, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Monitoring:AT"
+        ], 
+        "Attributes": [
+            null, 
+            "Enforcement capability", 
+            "Do local government officials hold power over fishing regulations? ", 
+            "IF NO"
+        ]
+    }, 
+    {
+        "QuestionID": 182, 
+        "ValidAnswers": [
+            "IF NOT ENFORCED"
+        ], 
+        "References": [
+            "Monitoring:AU"
+        ], 
+        "Attributes": [
+            null, 
+            "IF NOT ENFORCED", 
+            "Enforcement capability", 
+            "Are regulations enforced, AND, IF they are enforced, are regulations/governance trusted and respected? "
+        ]
+    }, 
+    {
+        "QuestionID": 183, 
+        "ValidAnswers": [
+            "IF ENFORCED, AND RESPECTED"
+        ], 
+        "References": [
+            "Monitoring:AV"
+        ], 
+        "Attributes": [
+            null, 
+            "IF ENFORCED, AND RESPECTED", 
+            "Enforcement capability", 
+            "Are regulations enforced, AND, IF they are enforced, are regulations/governance trusted and respected? "
+        ]
+    }, 
+    {
+        "QuestionID": 184, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Monitoring:AW"
+        ], 
+        "Attributes": [
+            null, 
+            "Monitoring protocol", 
+            "Is protocol undertaken regularly?", 
+            "IF YES"
+        ]
+    }, 
+    {
+        "QuestionID": 185, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Monitoring:AX"
+        ], 
+        "Attributes": [
+            null, 
+            "Monitoring protocol", 
+            "Can monitoring be conducted at the same time and in the same manner interannually and spatially?", 
+            "IF YES"
+        ]
+    }, 
+    {
+        "QuestionID": 186, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Monitoring:AY"
+        ], 
+        "Attributes": [
+            null, 
+            "Is the fishery area is geographically vast relative to entire coastline or EEZ? (>X km2)", 
+            "Operational characteristics", 
+            "IF NO"
+        ]
+    }, 
+    {
+        "QuestionID": 187, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Monitoring:AZ"
+        ], 
+        "Attributes": [
+            null, 
+            "Spatial coverage/ spatial cooperation", 
+            "IF YES", 
+            "If there is <100% spatial coverage, is the existing coverage representative of the entire fleet/geographic range of fishery? "
+        ]
+    }, 
+    {
+        "QuestionID": 188, 
+        "ValidAnswers": [
+            "No", 
+            "Yes"
+        ], 
+        "References": [
+            "Monitoring:BA"
+        ], 
+        "Attributes": [
+            null, 
+            "IF YES", 
+            "Operational characteristics", 
+            "Expanded Multi-species caveat", 
+            "Are multiple species targeted, with a portion of species destined towards markets, processors, subsistence, or other components of supply chain?"
+        ]
+    }
+]
