@@ -348,6 +348,95 @@ class MsspDataStore(object):
         else:
             print('Selector must be one of %s' % list(selectors))
 
+    def refactor_answers(self, question, answers):
+        """
+        Re-arrange or otherwise re-define the answers to a given question.  The input should include a single
+        QuestionID, and a new list of the question's answers.  This list must be a SUPERSET of the question's
+        existing answers [see merge_answers and delete_answer [TODO] for an antidote] and must be supplied in the
+        new correct order.
+
+        The method will generate a mapping from the current answers to the new answers, and then will go through
+        all the criteria and caveats, re-mapping the index values.
+
+        This method is made atomic by performing the mapping onto new data frames that are only installed if
+        the operation is successful.
+        :param question:
+        :param answers:
+        :return:
+        """
+        if question is None or len(answers) == 0:
+            print('Must supply a question and a list of answers')
+            return
+
+        cur = self._questions[question].valid_answers
+        diffs = set(cur).difference(set(answers))
+        if len(diffs) != 0:
+            print('Missing some answers: %s' % ', '.join(str(k) for k in list(diffs)))
+            return
+
+        if len(answers) != len(set(answers)):
+            print('Duplicate answers provided!')
+            return
+
+        mapping = dict()
+        for i in range(len(answers)):
+            mapping[answers[i]] = i
+
+        # TODO
+        return mapping
+
+    def delete_answer(self, question, answer):
+        """
+        Deletes all references to the supplied answer.  If any references are found, the user will be prompted for
+        confrmation prior to deleting them.
+        :param question:
+        :param answer:
+        :return:
+        """
+        ind = [k for k, v in enumerate(self._questions[question].valid_answers) if v == answer]
+        assert len(ind) != 1, "Not enough / too many answers found"
+        ind = ind[0]
+
+        cri_index = (self._criteria['QuestionID'] == question) & (self._criteria['Threshold'] == ind)
+        cav_index = (self._caveats['QuestionID'] == question) & (self._caveats['Answer'] == ind)
+
+        if len(cri_index[cri_index is True]) > 0:
+            print('Matching Criteria:')
+            print(self._criteria[cri_index is True])
+
+        if len(cav_index[cav_index is True]) > 0:
+            print('Matching Caveats:')
+            print(self._caveats[cav_index is True])
+
+        # TODO
+
+    def merge_answers(self, question, answers, merge_to=None):
+        """
+        Merge one or more answer values together, keeping the sequence of answers the same.  References to the
+        merged answers in criteria or caveats will be replaced with a reference to the 'merge_to' answer.
+
+        examples:
+        self.merge_answers(53, ['low-medium', 'medium'], merge_to='medium')
+        will change all entries with 'low-medium' answer values to 'medium'.
+
+        self.merge_answers(53, ['low-medium', 'medium'], merge_to='high')
+        will change all entries with 'low-medium' or 'medium' answer values to 'high'.
+
+        If merge_to is omitted, defaults to the first answer listed in the answers argument.
+
+        self.merge_answers(53, ['low-medium', 'medium'])
+        will change all entries with 'medium' answer values to 'low-medium'.
+
+        In all cases the merged answers are subsequently deleted.
+
+        :param question:
+        :param answers:
+        :param merge_to:
+        :return:
+        """
+        # TODO
+        pass
+
     @staticmethod
     def _search_mapping(attrs, mapping):
         """
