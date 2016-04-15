@@ -33,7 +33,7 @@ Questions = collection of Attributes and valid answer strings (default to Yes/No
 from collections import namedtuple
 # from numpy import isnan
 
-from MSSP.utils import convert_reference_to_subject, check_sel, selectors
+from MSSP.utils import convert_reference_to_subject, check_sel, selectors, ifinput
 from MSSP.exceptions import MsspError
 from MSSP.importers import indices
 
@@ -348,6 +348,22 @@ class MsspDataStore(object):
         else:
             print('Selector must be one of %s' % list(selectors))
 
+    def _remap_answers(self, question, mapping):
+        """
+        Create new criteria and caveat tables where the answer values for a specific question are re-mapped
+        according to mapping.
+        :param question: question ID
+        :param mapping: a list of ints where mapping[old_index] = new_index
+        :return: critera, caveats -- edited copies of the original arrays
+        """
+        local_cri = self._criteria.copy()
+        local_cav = self._caveats.copy()
+        local_cri.loc[local_cri['QuestionID'] == question, 'Threshold'] = \
+            local_cri[local_cri['QuestionID'] == question]['Threshold'].map(lambda x: mapping[x])
+        local_cav.loc[local_cav['QuestionID'] == question, 'Answer'] = \
+            local_cav[local_cav['QuestionID'] == question]['Answer'].map(lambda x: mapping[x])
+        return local_cri, local_cav
+
     def refactor_answers(self, question, answers):
         """
         Re-arrange or otherwise re-define the answers to a given question.  The input should include a single
@@ -364,11 +380,14 @@ class MsspDataStore(object):
         :param answers:
         :return:
         """
+        cur = self._questions[question].valid_answers
+        if all([isinstance(x, int) for x in answers]):
+            answers = [cur[x] for x in answers]
+
         if question is None or len(answers) == 0:
             print('Must supply a question and a list of answers')
             return
 
-        cur = self._questions[question].valid_answers
         diffs = set(cur).difference(set(answers))
         if len(diffs) != 0:
             print('Missing some answers: %s' % ', '.join(str(k) for k in list(diffs)))
@@ -378,37 +397,70 @@ class MsspDataStore(object):
             print('Duplicate answers provided!')
             return
 
-        mapping = dict()
+        tmp = dict()
         for i in range(len(answers)):
-            mapping[answers[i]] = i
+            # tmp maps new answer to new answer index
+            tmp[answers[i]] = i
 
-        # TODO
-        return mapping
+        mapping = [None]*len(cur)
+        for i in range(len(cur)):
+            # mapping[old_index] = new_index
+            mapping[i] = tmp[cur[i]]
+
+        new_cri, new_cav = self._remap_answers(question, mapping)
+        self._criteria = new_cri
+        self._caveats = new_cav
+        self._questions[question].valid_answers = answers
 
     def delete_answer(self, question, answer):
         """
         Deletes all references to the supplied answer.  If any references are found, the user will be prompted for
-        confrmation prior to deleting them.
+        confirmation prior to deleting them.
+
+        This method has to do three things: delete criteria / caveat entries with the matching question+answer,
+        re-map all the answers for that question to their new indices,
+        and delete the designated answer from the question's answer list
+
         :param question:
         :param answer:
         :return:
         """
-        ind = [k for k, v in enumerate(self._questions[question].valid_answers) if v == answer]
-        assert len(ind) != 1, "Not enough / too many answers found"
+        cur = self._questions[question].valid_answers
+        ind = [k for k, v in enumerate(cur) if v == answer]
+        assert len(ind) == 1, "Not enough / too many answers found"
         ind = ind[0]
 
         cri_index = (self._criteria['QuestionID'] == question) & (self._criteria['Threshold'] == ind)
         cav_index = (self._caveats['QuestionID'] == question) & (self._caveats['Answer'] == ind)
 
-        if len(cri_index[cri_index is True]) > 0:
+        check = False
+        if len(cri_index.loc[cri_index]) > 0:
             print('Matching Criteria:')
-            print(self._criteria[cri_index is True])
+            print(self._criteria.loc[cri_index])
+            check = True
 
-        if len(cav_index[cav_index is True]) > 0:
+        if len(cav_index.loc[cav_index]) > 0:
             print('Matching Caveats:')
-            print(self._caveats[cav_index is True])
+            print(self._caveats.loc[cav_index])
+            check = True
 
-        # TODO
+        if check:
+            if ifinput('Really delete this answer?', 'y') != 'y':
+                print('NOT deleted.')
+                return
+
+        a = range(len(cur))
+        mapping = a[:ind] + [None] + a[ind:-1]
+
+        new_cri, new_cav = self._remap_answers(question, mapping)
+
+        new_cri = new_cri.loc[~cri_index]
+        new_cav = new_cav[~cav_index]
+
+        # 'atomic' update
+        del cur[ind]
+        self._criteria = new_cri
+        self._caveats = new_cav
 
     def merge_answers(self, question, answers, merge_to=None):
         """
@@ -429,13 +481,37 @@ class MsspDataStore(object):
 
         In all cases the merged answers are subsequently deleted.
 
+        pandas was a really terrible choice, internally.
+
         :param question:
         :param answers:
         :param merge_to:
         :return:
         """
-        # TODO
-        pass
+        if isinstance(answers, str):
+            answers = [answers]
+        cur = self._questions[question].valid_answers
+        ans_ind = [indices(cur, lambda x: x == ans)[0] for ans in answers]
+        if merge_to is None:
+            merge_ind = ans_ind[0]
+        else:
+            merge_ind = indices(cur, lambda x: x == merge_to)[0]
+
+        mapping = range(len(cur))
+        for i in mapping:
+            if i in ans_ind:
+                mapping[i] = merge_ind
+
+        print('Merging answers into %s:' % cur[merge_ind])
+        for i in ans_ind:
+            print(' %s' % cur[i])
+
+        new_cri, new_cav = self._remap_answers(question, mapping)
+        self._criteria = new_cri
+        self._caveats = new_cav
+        for i in ans_ind:
+            if i != merge_ind:
+                self.delete_answer(question, cur[i])
 
     @staticmethod
     def _search_mapping(attrs, mapping):
