@@ -31,7 +31,7 @@ node cli.js
 ### Questions about schema
 
 My basic understanding of this workflow is that users answer (all) questions,
-and then then guidance will be presented to the user in the form of some sort of
+and then guidance will be presented to the user as some sort of
 report. That report will include a list of Targets that are filtered based on
 criteria and caveats. For each target, presumably we'll show all related
 caveats, with a byline explaining "because you answered x to question y".
@@ -43,9 +43,9 @@ caveats, with a byline explaining "because you answered x to question y".
      unqualified recommendations for fisheries management measures they should
      look at? Right now my cli.js script assumes they are still relevant to
      show, even without caveats.
-  3. Similarly, there are situations where there is a caveat relevant to both a
-     question and answer, but no matching criteria. I just assumed in my script
-     that the related Target should be show even without matching any criteria.
+  3. Similarly, there are situations where there is a caveat matches a
+     question and answer, but there are no matching criteria. I just assumed in my script
+     that the related Target should be shown even without matching any criteria.
      Is that correct? An example of this is Question 49, where caveat 8 matches
      but there are no related criteria.
   4. I really don't understand the role of `SatisfiedBy` on Questions. Aren't
@@ -54,7 +54,7 @@ caveats, with a byline explaining "because you answered x to question y".
   5. I categorized targets by taking part of `Target.References`. Does that look
      right? It puts them in _Assessment_, _Control Rules_, or _Monitoring_.
   6. On that topic, do users choose to answer a questionnaire relating to
-     Assessment or Monitoring, or do they answer all questions?
+     Assessment, Monitoring or Control Rules, or do they answer all questions?
 
 
 ### Data cleaning issues and possible bugs
@@ -67,7 +67,7 @@ caveats, with a byline explaining "because you answered x to question y".
      even fill them in. For now, I drop them.
   3. In general, the text for all these things is super vague. There's probably
      not much _we_ can do about that though.
-  4. Questions answers (for example 63) seem to be in arbitrary order. Is it
+  4. Question.answers (for example 63) seem to be in arbitrary order. Is it
      possible to extract them in a better order directly from the spreadsheet,
      or are they just out of order there as well? A simple array#sort doesn't do
      it but there might be a way to make some sort of heuristic function.
@@ -79,6 +79,8 @@ I altered the json schema in my "model" represented in index.js to look like the
 following.
 
 ![schema](http://s3-us-west-2.amazonaws.com/tnc-mssp/Screen+Shot+2016-04-20+at+1.24.47+PM.png)
+
+`client/index.js` has good inline comments, but in summary:
 
   1. I dropped the color mappings in my schema and instead stored the score on
      caveat. Color seems like a more presentational aspect we'll want to tweak
@@ -97,10 +99,10 @@ following.
      object and nest thresholds and criteria directly within them. That way
      there's no logic required to keep the data structure consistent, and it
      would be easier to construct an admin interface out of this sort of
-     structure anyways. I didn't want to go to far down this road before
-     verifying that I understand other parts of the system, but I'm thinking it
+     structure anyways. I didn't want to go too far down this road before
+     verifying with you (Brandon) that I understand other parts of the system, but I'm thinking it
      would look something like this:
      ![](http://s3-us-west-2.amazonaws.com/tnc-mssp/Screen+Shot+2016-04-20+at+1.43.37+PM.png)
 
-     That then begs the question, maybe Caveat and just a subclass of Criteria,
+     That then begs the question, maybe Caveat can just be a subclass of Criteria,
      with a score that affects presentation of a note. Something to think about.
