@@ -37,6 +37,8 @@ from MSSP.utils import convert_reference_to_subject, check_sel, selectors, ifinp
 from MSSP.exceptions import MsspError
 from MSSP.importers import indices
 
+from pandas import MultiIndex
+
 searchAttributes = namedtuple('searchAttributes', ['attributes', 'questions', 'targets'])
 searchNotes = namedtuple('searchNotes', ['notes', 'questions', 'targets'])
 
@@ -155,7 +157,7 @@ class MsspDataStore(object):
                     print('Got spurious answer matching results: %s' % answer_value)
                 else:
                     # filter to only passing answers
-                    criteria = criteria[criteria['Threshold'] >= answer_value]
+                    criteria = criteria[criteria['Threshold'] <= answer_value]
 
         # re-encode answer value with answer text (and call it Answer Value)
         self._replace_field_with_answer(criteria)
@@ -287,6 +289,20 @@ class MsspDataStore(object):
         ts = set([v['TargetID'] for k, v in self._target_attributes.iterrows() if v['AttributeID'] == index])
         return sorted(list(ts))
 
+    def _reorder_answers(self, question, table):
+        """
+        Reorders the columns in a [pivot] table to match the order appearing in the question
+        :param question:
+        :param table:
+        :return:
+        """
+        valid_ans = self._questions[question].valid_answers
+        if isinstance(table.columns, MultiIndex):
+            raise MsspError('MultiIndex reordering not-yet supported')
+        new_columns = [k for k in valid_ans if k in table.columns] + [k for k in table.columns if k not in valid_ans]
+
+        return table.reindex_axis(new_columns, 1)
+
     def caveats(self, question=None, target=None, answer=None):
         """
         return a table of caveats by target for valid answers to a question. pd = brilliant.
@@ -301,6 +317,7 @@ class MsspDataStore(object):
                 cavs = cavs[cavs['TargetID'] == target]
             cavs = cavs.pivot(index='TargetID', columns='AnswerValue', values='Note').fillna('')
             cavs['Reference'] = cavs.index.map(lambda x: self._targets[int(x)].label())
+            cavs = self._reorder_answers(question, cavs)
             return cavs
         elif question is None and target is not None:
             cavs = self._cavs_for_record(target, record='target')
@@ -321,12 +338,13 @@ class MsspDataStore(object):
             cri = self._cri_for_record(question, record='question', answer=answer)
             if target is not None:
                 cri = cri[cri['TargetID'] == target]
-            cri = cri.pivot(index='TargetID', columns='AnswerValue').fillna('')
+            cri = cri.pivot(index='TargetID', columns='AnswerValue', values='QuestionID').fillna('')
             cri['Reference'] = cri.index.map(lambda x: self._targets[int(x)].label())
+            cri = self._reorder_answers(question, cri)
             return cri
         elif question is None and target is not None:
             cri = self._cri_for_record(target, record='target')
-            cri = cri.pivot(index='QuestionID', columns='AnswerValue').fillna('')
+            cri = cri.pivot(index='QuestionID', columns='AnswerValue', values='TargetID').fillna('')
             return cri
         else:
             return None
@@ -458,7 +476,7 @@ class MsspDataStore(object):
         new_cav = new_cav[~cav_index]
 
         # 'atomic' update
-        del cur[ind]
+        del cur[ind]  # aha! delete by reference!
         self._criteria = new_cri
         self._caveats = new_cav
 
