@@ -218,6 +218,21 @@ class MsspDataStore(object):
 
         return obj
 
+    def show(self, question=None, target=None):
+        """
+        Print a record's attributes
+        :param question:
+        :param target:
+        :return:
+        """
+        print('\n')
+        if question is not None:
+            for a in self._make_attr_list(question):
+                print(self._attributes[a].text)
+        elif target is not None:
+            for a in self._make_attr_list(target, record='target'):
+                print(self._attributes[a].text)
+
     # user-facing functions begin here
     def question(self, index):
         """
@@ -227,12 +242,14 @@ class MsspDataStore(object):
         """
         return self._print_object(index, record='question')
 
-    def questions(self, index):
+    def questions(self, index=None):
         """
         Simple indexer- return one or a list of MsspQuestion objects
         :param index:
         :return:
         """
+        if index is None:
+            index = [k for k, v in enumerate(self._questions) if v is not None]
         if isinstance(index, int):
             index = [index]
         return [self._questions[i] for i in index]
@@ -348,19 +365,39 @@ class MsspDataStore(object):
         else:
             return None
 
-    def criteria_for_set(self, sel):
+    def caveats_for_target(self, target):
+        return self._caveats.loc[self._caveats['TargetID'] == target]
+
+    def note(self, note_id):
+        note = self._notes[note_id]
+        return note.text, self._color_of_cell(note)
+
+    def targets_for(self, sel):
+        return [k for k, t in enumerate(self._targets) if t is not None and t.type == sel]
+
+    def criteria_for(self, sel):
         """
         Returns a list of criteria questions limiting a given selector type
         :param sel:
         :return:
         """
         if check_sel(sel):
-            cri_filter = self._criteria[['QuestionID', 'TargetID']]
-            cri_filter['Domain'] = cri_filter['TargetID'].map(lambda x: self._targets[int(x)].reference()[0])
-            qs = list(set(
-                [v['QuestionID'] for k, v in cri_filter.iterrows() if v['Domain'] == sel]))
-            qs = sorted([k for k in qs if len(self._questions[k].satisfied_by) == 0])
-            return qs
+            t_targets = self.targets_for(sel)
+            return sorted(self._criteria.loc[self._criteria['TargetID'].isin(t_targets),
+                                             'QuestionID'].unique().tolist())
+
+        else:
+            print('Selector must be one of %s' % list(selectors))
+
+    def caveats_for(self, sel):
+        """
+        Returns a list of criteria questions limiting a given selector type
+        :param sel:
+        :return:
+        """
+        if check_sel(sel):
+            t_targets = self.targets_for(sel)
+            return sorted(self._caveats.loc[self._caveats['TargetID'].isin(t_targets), 'QuestionID'].unique().tolist())
 
         else:
             print('Selector must be one of %s' % list(selectors))
