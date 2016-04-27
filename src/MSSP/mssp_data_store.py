@@ -370,6 +370,14 @@ class MsspDataStore(object):
         else:
             return None
 
+    def criteria_for_target(self, target):
+        """
+        All the criteria for a given target, unpivoted for automatic processing
+        :param target:
+        :return:
+        """
+        return self._criteria.loc[self._criteria['TargetID'] == target]
+
     def caveats_for_target(self, target):
         """
         All the caveats for a given target, unpivoted for automatic processing

@@ -99,8 +99,11 @@ class FisheryGuide(object):
         print('QuestionID %d: answered %s\n' % (question,
                                               q.valid_answers[self._answers[question]]))
 
-    def my_answer(self, question):
-        return self._engine.questions(question)[0].valid_answers[self._answers[question]]
+    def my_answer(self, question, answer=None):
+        if answer is None:
+            return self._engine.questions(question)[0].valid_answers[self._answers[question]]
+        else:
+            return self._engine.questions(question)[0].valid_answers[answer]
 
     def show_qualifying_targets(self, sel):
         for i in self._qualifying_targets[sel]:
@@ -110,6 +113,12 @@ class FisheryGuide(object):
         targets = set(self._engine.targets_for(sel)).difference(set(self._qualifying_targets[sel]))
         for i in targets:
             self._engine.show(target=i)
+            print('Fails on:')
+            cri = self._engine.criteria_for_target(i)
+            for k, c in cri.iterrows():
+                if c['Threshold'] > self._answers[c['QuestionID']]:
+                    print('  Question ID %d [%s < %s]' % (c['QuestionID'], self.my_answer(c['QuestionID']),
+                                                          self.my_answer(c['QuestionID'], c['Threshold'])))
 
     def score_target(self, target):
         self._engine.show(target=target)
@@ -118,7 +127,9 @@ class FisheryGuide(object):
         for i, k in cavs.iterrows():
             if k['Answer'] == self._answers[k['QuestionID']]:
                 note, color = self._engine.note(k['NoteID'])
-                scores[color].append(note)
+                scores[color].append('Question ID %d [%s]: %s' % (k['QuestionID'],
+                                                                  self.my_answer(k['QuestionID']),
+                                                                  note))
         for colors in scores:
             print('\n%s: %d notes' % (colors, len(scores[colors])))
             for n in scores[colors]:
