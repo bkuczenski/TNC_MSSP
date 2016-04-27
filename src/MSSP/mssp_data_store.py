@@ -58,8 +58,8 @@ class MsspDataStore(object):
                  question_attributes, target_attributes, criteria, caveats, colormap):
         """
 
-        :param attribute_set: an ElementSet of attributes
-        :param note_set: an ElementSet of notations (scores encoded by RGB)
+        :param attribute_set: a SemanticElementSet of attributes
+        :param note_set: a SemanticElementSet of notations (scores encoded by RGB)
         :param question_enum: an ordered list of questions with persistent QuestionID
         :param target_enum: an ordered list of targets with persistent TargetID
         :param question_attributes: a DataFrame linking Questions and Attributes
@@ -92,10 +92,11 @@ class MsspDataStore(object):
         :param satisfied_by: index into questions enum for satisfied question
         :return: nothing
         """
-        sb = self._questions[satisfied_by].satisfied_by
-        if len(sb) > 0:
-            for q in sb:
-                self._questions[q].satisfies.add(satisfied_by)
+        if self._questions[satisfied_by] is not None:
+            sb = self._questions[satisfied_by].satisfied_by
+            if len(sb) > 0:
+                for q in sb:
+                    self._questions[q].satisfies.add(satisfied_by)
 
     def _replace_field_with_answer(self, df, field='Threshold'):
         """
@@ -111,7 +112,7 @@ class MsspDataStore(object):
         df.drop(field, axis=1, inplace=True)
 
     def _replace_note_id_with_note(self, df):
-        df['Note'] = df['NoteID'].map(lambda x: self._notes[int(x)].text)
+        df['Note'] = df['NoteID'].map(lambda x: self._notes[x].text)
         df.drop('NoteID', axis=1, inplace=True)
 
     def _make_attr_list(self, index, record='question'):
@@ -129,9 +130,7 @@ class MsspDataStore(object):
             key = 'TargetID'
         else:
             raise MsspError('Invalid record specifier %s' % record)
-        return [self._attributes[k['AttributeID']].text
-                for i, k in mapping.iterrows()
-                if k[key] == index]
+        return mapping.loc[mapping[key] == index, 'AttributeID'].tolist()
 
     def _color_of_cell(self, element):
         """
@@ -202,7 +201,7 @@ class MsspDataStore(object):
         obj.criteria = None
         obj.caveats = None
         for k in obj.attributes:
-            print(k)
+            print(self._attributes[k].text)
         print(obj)
         criteria = self._criteria[self._criteria[fieldname] == index].copy()
         if len(criteria) > 0:
@@ -266,7 +265,7 @@ class MsspDataStore(object):
             index = [index]
 
         for i in index:
-            print 'AttributeID %5d: %s' % (i, self._attributes[i].text)
+            print 'AttributeID %s: %s' % (i, self._attributes[i].text)
 
     def notes(self, index):
         """
@@ -279,7 +278,7 @@ class MsspDataStore(object):
 
         for i in index:
             n = self._notes[i]
-            print 'NoteID %5d [%s]: %s' % (i, self._color_of_cell(n), n.text)
+            print 'NoteID %s [%s]: %s' % (i, self._color_of_cell(n), n.text)
 
     def questions_with_attribute(self, index):
         qs = set([v['QuestionID'] for k, v in self._question_attributes.iterrows() if v['AttributeID'] == index])
@@ -569,9 +568,9 @@ class MsspDataStore(object):
             q_results = set(range(len(self._questions)))
             t_results = set(range(len(self._targets)))
             if search_notes:
-                a_results = set(range(len(self._notes)))
+                a_results = set(self._notes.keys())
             else:
-                a_results = set(range(len(self._attributes)))
+                a_results = set(self._attributes.keys())
             operation = set.intersection
 
         if search_notes:
@@ -602,14 +601,18 @@ class MsspDataStore(object):
 
         The serialization includes the following files:
 
-         - questions.json: an enumeration of questions with spreadsheet refs, explicit _attributes, ordered valid
+         - attributes.json: a dict of attribute UUIDs + text (only those mentioned in questions or targets)
+
+         - notes.json: a dict of note UUIDs + text
+
+         - questions.json: an enumeration of questions with spreadsheet refs, attribute UUIDs, ordered valid
         answers, and list of satisfied_by keys.
 
-         - targets.json: an enumeration of targets with spreadsheet ref and explicit _attributes
+         - targets.json: an enumeration of targets with spreadsheet ref and attribute UUIDs
 
          - criteria.json: a collection of question ID, explicit answer threshold, and target ID
 
-         - caveats.json: a collection of question ID, explicit answer, target ID, note string and note colorname
+         - caveats.json: a collection of question ID, explicit answer, target ID, note UUID
 
          - colormap.json: a collection of colorname, RGB value, and score (or scoring mechanism)
 
@@ -623,6 +626,11 @@ class MsspDataStore(object):
         criteria = []
         caveats = []
         colormap = []
+        attributes = []
+        notes = []
+
+        attr_set = set()
+        note_set = set()
 
         print "Creating {0} questions...".format(len(self._questions))
         for k in range(len(self._questions)):
@@ -634,8 +642,10 @@ class MsspDataStore(object):
                 "QuestionID": k,
                 "References": [convert_reference_to_subject(i) for i in v.references],
                 "ValidAnswers": v.valid_answers,
-                "Attributes": attr_list
+                "Attributes": [str(i) for i in attr_list]
             }
+            for i in attr_list:
+                attr_set.add(i)
             if len(v.satisfied_by) > 0:
                 add["SatisfiedBy"] = list(v.satisfied_by)
             questions.append(add)
@@ -649,35 +659,49 @@ class MsspDataStore(object):
             add = {
                 "TargetID": k,
                 "Reference": convert_reference_to_subject(v.reference()),
-                "Attributes": attr_list
+                "Attributes": [str(i) for i in attr_list]
             }
+            for i in attr_list:
+                attr_set.add(i)
             targets.append(add)
 
         print "Creating {0} criteria...".format(len(self._criteria))
         for i, k in self._criteria.iterrows():
             threshold = self._questions[k['QuestionID']].valid_answers[k['Threshold']]
             add = {
-                "QuestionID": k['QuestionID'],
+                "QuestionID": long(k['QuestionID']),
                 "Threshold": threshold,
-                "TargetID": k['TargetID']
+                "TargetID": long(k['TargetID'])
             }
             criteria.append(add)
 
         print "Creating {0} caveats...".format(len(self._caveats))
         for i, k in self._caveats.iterrows():
             answer = self._questions[k['QuestionID']].valid_answers[k['Answer']]
-            note = self._notes[k['NoteID']]
-            color = self.colormap[self.colormap['RGB'] == note.fill_color]['ColorName']
-            if len(color) < 1:
-                raise MsspError
+            note_id = k['NoteID']
             add = {
                 "QuestionID": k['QuestionID'],
                 "Answer": answer,
                 "TargetID": k['TargetID'],
-                "Color": color.iloc[0],
-                "Note": note.text
+                "NoteID": str(note_id)
             }
+            note_set.add(note_id)
             caveats.append(add)
+
+        print "Creating {0} attributes...".format(len(attr_set))
+        for attr in attr_set:
+            attributes.append({
+                "AttributeID": str(attr),
+                "AttributeText": self._attributes[attr].text
+            })
+
+        print "Creating {0} notes...".format(len(note_set))
+        for note in note_set:
+            notes.append({
+                "NoteID": str(note),
+                "NoteText": self._notes[note].text,
+                "NoteColor": self._color_of_cell(self._notes[note])
+            })
 
         print "Creating colormap..."
         for i, k in self.colormap.iterrows():
@@ -690,9 +714,17 @@ class MsspDataStore(object):
 
         json_out = {
             "colormap": colormap,
-            "questions": questions,
-            "targets": targets,
+            "questions": sorted(questions, key=lambda x: x['QuestionID']),
+            "targets": sorted(targets, key=lambda x: x['TargetID']),
             "criteria": criteria,
-            "caveats": caveats
+            "caveats": caveats,
+            "attributes": {
+                'nsUuid': str(self._attributes.get_ns_uuid()),
+                'Elements': sorted(attributes)
+            },
+            "notes": {
+                'nsUuid': str(self._attributes.get_ns_uuid()),
+                'Elements': sorted(notes)
+            }
         }
         return json_out

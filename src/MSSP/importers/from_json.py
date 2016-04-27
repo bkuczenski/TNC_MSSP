@@ -1,8 +1,9 @@
 from MSSP.mssp_data_store import MsspDataStore
-from MSSP.elements import Element, ElementSet
+from MSSP.semantic_elements import SemanticElementSet
 from MSSP.mssp_objects import MsspQuestion, MsspTarget
 from MSSP.importers import indices
 from MSSP.json_exch import read_json
+import uuid
 
 import pandas as pd
 
@@ -19,9 +20,9 @@ class JsonImporter(MsspDataStore):
 
         # first thing to do is build the attribute and note lists
 
-        attribute_set = ElementSet()
-        note_set = ElementSet()
         colormap = pd.DataFrame(json_in['colormap'])
+        attribute_set = SemanticElementSet.from_json(json_in['attributes'])
+        note_set = SemanticElementSet.from_json(json_in['notes'], colormap=colormap)
 
         question_enum = [None] * (1 + max([i['QuestionID'] for i in json_in['questions']]))
         target_enum = [None] * (1 + max([i['TargetID'] for i in json_in['targets']]))
@@ -53,9 +54,8 @@ class JsonImporter(MsspDataStore):
             # add _attributes to element set and build mapping
             for a in t['Attributes']:
                 # a is a text string
-                a_index = attribute_set.add_element(Element(a))  # don't care about attribute colors
                 t_a_targets.append(t_index)
-                t_a_attrs.append(a_index)
+                t_a_attrs.append(uuid.UUID(a))
 
         for q in json_in['questions']:
             # need to preserve IDs because of criteria and caveat maps
@@ -65,9 +65,8 @@ class JsonImporter(MsspDataStore):
             # add _attributes to element set and build mapping
             for a in q['Attributes']:
                 # a is a text string
-                a_index = attribute_set.add_element(Element(a))  # don't care about attribute colors
                 q_a_questions.append(q_index)
-                q_a_attrs.append(a_index)
+                q_a_attrs.append(uuid.UUID(a))
 
         for cri in json_in['criteria']:
             # the threshold is a literal entry from the question's valid_answers-
@@ -91,8 +90,7 @@ class JsonImporter(MsspDataStore):
             q_index = cav['QuestionID']
             t_index = cav['TargetID']
 
-            rgb = colormap[colormap['ColorName'] == cav['Color']]['RGB'].iloc[0]
-            note_id = note_set.add_element(Element(cav['Note'], 0, rgb))  # add to note set or find if exists
+            note_id = uuid.UUID(cav['NoteID'])
 
             if question_enum[q_index] is None:
                 print "Question {0} is none!".format(q_index)
@@ -146,6 +144,3 @@ class JsonImporter(MsspDataStore):
             attribute_set, note_set, question_enum, target_enum,
             question_attributes, target_attributes, criteria, caveats,
             colormap)
-
-
-

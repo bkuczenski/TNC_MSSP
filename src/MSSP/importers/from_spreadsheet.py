@@ -2,6 +2,7 @@ from MSSP.mssp_data_store import MsspDataStore
 from MSSP.mssp_objects import MsspQuestion, MsspTarget, cast_answer
 from MSSP.importers import indices
 from MSSP.spreadsheet_data import load_default_set
+from MSSP.semantic_elements import SemanticElementSet
 
 import pandas as pd
 
@@ -14,8 +15,8 @@ class XlsImporter(MsspDataStore):
         """
         spreadsheet_data = load_default_set()  # TODO: make this flexible
 
-        attribute_set = spreadsheet_data.Attributes
-        note_set = spreadsheet_data.Notations
+        attribute_set = SemanticElementSet.from_element_set(spreadsheet_data.Attributes)
+        note_set = SemanticElementSet.from_element_set(spreadsheet_data.Notations)
 
         t_a_targets = []
         t_a_attrs = []

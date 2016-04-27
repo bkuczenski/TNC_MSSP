@@ -1,6 +1,6 @@
 from MSSP.utils import defaultdir
 
-json_parts = ('colormap', 'questions', 'targets', 'criteria', 'caveats')
+json_parts = ('colormap', 'questions', 'targets', 'criteria', 'caveats', 'attributes', 'notes')
 
 
 def write_json(json_out, out=None, onefile=False):
@@ -34,7 +34,7 @@ def write_json(json_out, out=None, onefile=False):
     else:
         for i in json_parts:
             f = open(os.path.join(write_dir, i + '.json'), mode='w')
-            f.write(json.dumps(json_out[i], indent=4))
+            json.dump(json_out[i], f, indent=4)
             f.close()
         print "Output written to folder {0}.".format(write_dir)
 
