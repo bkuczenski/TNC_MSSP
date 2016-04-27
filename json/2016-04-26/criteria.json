@@ -205,11 +205,6 @@
         "TargetID": 6
     }, 
     {
-        "Threshold": " ", 
-        "QuestionID": 1, 
-        "TargetID": 7
-    }, 
-    {
         "Threshold": 1, 
         "QuestionID": 1, 
         "TargetID": 39
@@ -970,7 +965,7 @@
         "TargetID": 27
     }, 
     {
-        "Threshold": "spatial consistency preferred; if changes in effort together with spatial changes, this is also important.", 
+        "Threshold": "spatial consistency preferred; if changes in effort together with spatial changes, this is also important", 
         "QuestionID": 43, 
         "TargetID": 28
     }, 
@@ -1775,42 +1770,42 @@
         "TargetID": 142
     }, 
     {
-        "Threshold": "Subsistence", 
+        "Threshold": "subsistence", 
         "QuestionID": 118, 
         "TargetID": 98
     }, 
     {
-        "Threshold": "Subsistence", 
+        "Threshold": "subsistence", 
         "QuestionID": 118, 
         "TargetID": 99
     }, 
     {
-        "Threshold": "Subsistence", 
+        "Threshold": "subsistence", 
         "QuestionID": 118, 
         "TargetID": 100
     }, 
     {
-        "Threshold": "Subsistence", 
+        "Threshold": "subsistence", 
         "QuestionID": 118, 
         "TargetID": 101
     }, 
     {
-        "Threshold": "Subsistence", 
+        "Threshold": "subsistence", 
         "QuestionID": 118, 
         "TargetID": 102
     }, 
     {
-        "Threshold": "Subsistence", 
+        "Threshold": "subsistence", 
         "QuestionID": 118, 
         "TargetID": 103
     }, 
     {
-        "Threshold": "Subsistence", 
+        "Threshold": "subsistence", 
         "QuestionID": 118, 
         "TargetID": 104
     }, 
     {
-        "Threshold": "Subsistence", 
+        "Threshold": "subsistence", 
         "QuestionID": 118, 
         "TargetID": 105
     }, 
@@ -2010,11 +2005,6 @@
         "TargetID": 3
     }, 
     {
-        "Threshold": " ", 
-        "QuestionID": 12, 
-        "TargetID": 5
-    }, 
-    {
         "Threshold": 3, 
         "QuestionID": 12, 
         "TargetID": 7
@@ -2023,11 +2013,6 @@
         "Threshold": 2, 
         "QuestionID": 12, 
         "TargetID": 14
-    }, 
-    {
-        "Threshold": " ", 
-        "QuestionID": 12, 
-        "TargetID": 19
     }, 
     {
         "Threshold": 1, 
@@ -2350,7 +2335,7 @@
         "TargetID": 10
     }, 
     {
-        "Threshold": "low-modearate", 
+        "Threshold": "low-moderate", 
         "QuestionID": 63, 
         "TargetID": 11
     }, 
@@ -2620,11 +2605,6 @@
         "TargetID": 6
     }, 
     {
-        "Threshold": " ", 
-        "QuestionID": 2, 
-        "TargetID": 7
-    }, 
-    {
         "Threshold": 1, 
         "QuestionID": 2, 
         "TargetID": 32
@@ -2658,10 +2638,5 @@
         "Threshold": 1, 
         "QuestionID": 2, 
         "TargetID": 44
-    }, 
-    {
-        "Threshold": " ", 
-        "QuestionID": 15, 
-        "TargetID": 14
     }
 ]

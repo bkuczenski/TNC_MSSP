@@ -888,19 +888,19 @@
         "NoteID": "c7862ac4-3840-33bd-988c-e243364e7008"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 99, 
         "TargetID": 52, 
         "NoteID": "d6e8cbfe-b81d-3c3c-91c0-c0d2236909cc"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 99, 
         "TargetID": 60, 
         "NoteID": "d6e8cbfe-b81d-3c3c-91c0-c0d2236909cc"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 99, 
         "TargetID": 75, 
         "NoteID": "7ef90e24-35a1-3646-bf08-216d42fe38b1"
@@ -2214,25 +2214,25 @@
         "NoteID": "7ef90e24-35a1-3646-bf08-216d42fe38b1"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 103, 
         "TargetID": 52, 
         "NoteID": "7ef90e24-35a1-3646-bf08-216d42fe38b1"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 103, 
         "TargetID": 60, 
         "NoteID": "7ef90e24-35a1-3646-bf08-216d42fe38b1"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 98, 
         "TargetID": 52, 
         "NoteID": "7ef90e24-35a1-3646-bf08-216d42fe38b1"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 98, 
         "TargetID": 60, 
         "NoteID": "7ef90e24-35a1-3646-bf08-216d42fe38b1"
@@ -4626,61 +4626,61 @@
         "NoteID": "830b5042-ae83-3986-82ca-40e3131b78dd"
     }, 
     {
-        "Answer": "IF HIGH", 
+        "Answer": "HIGH", 
         "QuestionID": 155, 
         "TargetID": 98, 
         "NoteID": "8da8a1a8-9a29-3b06-a8b7-7689b3aec853"
     }, 
     {
-        "Answer": "IF HIGH", 
+        "Answer": "HIGH", 
         "QuestionID": 155, 
         "TargetID": 99, 
         "NoteID": "8da8a1a8-9a29-3b06-a8b7-7689b3aec853"
     }, 
     {
-        "Answer": "IF HIGH", 
+        "Answer": "HIGH", 
         "QuestionID": 155, 
         "TargetID": 101, 
         "NoteID": "8da8a1a8-9a29-3b06-a8b7-7689b3aec853"
     }, 
     {
-        "Answer": "IF HIGH", 
+        "Answer": "HIGH", 
         "QuestionID": 155, 
         "TargetID": 106, 
         "NoteID": "8da8a1a8-9a29-3b06-a8b7-7689b3aec853"
     }, 
     {
-        "Answer": "IF HIGH", 
+        "Answer": "HIGH", 
         "QuestionID": 155, 
         "TargetID": 107, 
         "NoteID": "8da8a1a8-9a29-3b06-a8b7-7689b3aec853"
     }, 
     {
-        "Answer": "IF HIGH", 
+        "Answer": "HIGH", 
         "QuestionID": 155, 
         "TargetID": 109, 
         "NoteID": "8da8a1a8-9a29-3b06-a8b7-7689b3aec853"
     }, 
     {
-        "Answer": "IF HIGH", 
+        "Answer": "HIGH", 
         "QuestionID": 155, 
         "TargetID": 135, 
         "NoteID": "8da8a1a8-9a29-3b06-a8b7-7689b3aec853"
     }, 
     {
-        "Answer": "IF HIGH", 
+        "Answer": "HIGH", 
         "QuestionID": 155, 
         "TargetID": 136, 
         "NoteID": "8da8a1a8-9a29-3b06-a8b7-7689b3aec853"
     }, 
     {
-        "Answer": "IF HIGH", 
+        "Answer": "HIGH", 
         "QuestionID": 155, 
         "TargetID": 137, 
         "NoteID": "8da8a1a8-9a29-3b06-a8b7-7689b3aec853"
     }, 
     {
-        "Answer": "IF HIGH", 
+        "Answer": "HIGH", 
         "QuestionID": 155, 
         "TargetID": 138, 
         "NoteID": "8da8a1a8-9a29-3b06-a8b7-7689b3aec853"
@@ -7206,13 +7206,13 @@
         "NoteID": "7ef90e24-35a1-3646-bf08-216d42fe38b1"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 100, 
         "TargetID": 72, 
         "NoteID": "7ef90e24-35a1-3646-bf08-216d42fe38b1"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 100, 
         "TargetID": 77, 
         "NoteID": "7ef90e24-35a1-3646-bf08-216d42fe38b1"
@@ -7962,187 +7962,187 @@
         "NoteID": "59caeaef-2db8-3e80-8d74-ff11197aa99f"
     }, 
     {
-        "Answer": "IF REGIONAL, STATE OR NATIONAL", 
+        "Answer": "Regional, State, or National", 
         "QuestionID": 152, 
         "TargetID": 98, 
         "NoteID": "28d6d72f-165f-3f93-adf8-6d1cb33cb1e8"
     }, 
     {
-        "Answer": "IF REGIONAL, STATE OR NATIONAL", 
+        "Answer": "Regional, State, or National", 
         "QuestionID": 152, 
         "TargetID": 99, 
         "NoteID": "28d6d72f-165f-3f93-adf8-6d1cb33cb1e8"
     }, 
     {
-        "Answer": "IF REGIONAL, STATE OR NATIONAL", 
+        "Answer": "Regional, State, or National", 
         "QuestionID": 152, 
         "TargetID": 100, 
         "NoteID": "28d6d72f-165f-3f93-adf8-6d1cb33cb1e8"
     }, 
     {
-        "Answer": "IF REGIONAL, STATE OR NATIONAL", 
+        "Answer": "Regional, State, or National", 
         "QuestionID": 152, 
         "TargetID": 101, 
         "NoteID": "28d6d72f-165f-3f93-adf8-6d1cb33cb1e8"
     }, 
     {
-        "Answer": "IF REGIONAL, STATE OR NATIONAL", 
+        "Answer": "Regional, State, or National", 
         "QuestionID": 152, 
         "TargetID": 110, 
         "NoteID": "28d6d72f-165f-3f93-adf8-6d1cb33cb1e8"
     }, 
     {
-        "Answer": "IF REGIONAL, STATE OR NATIONAL", 
+        "Answer": "Regional, State, or National", 
         "QuestionID": 152, 
         "TargetID": 111, 
         "NoteID": "28d6d72f-165f-3f93-adf8-6d1cb33cb1e8"
     }, 
     {
-        "Answer": "IF REGIONAL, STATE OR NATIONAL", 
+        "Answer": "Regional, State, or National", 
         "QuestionID": 152, 
         "TargetID": 112, 
         "NoteID": "28d6d72f-165f-3f93-adf8-6d1cb33cb1e8"
     }, 
     {
-        "Answer": "IF REGIONAL, STATE OR NATIONAL", 
+        "Answer": "Regional, State, or National", 
         "QuestionID": 152, 
         "TargetID": 113, 
         "NoteID": "28d6d72f-165f-3f93-adf8-6d1cb33cb1e8"
     }, 
     {
-        "Answer": "IF REGIONAL, STATE OR NATIONAL", 
+        "Answer": "Regional, State, or National", 
         "QuestionID": 152, 
         "TargetID": 114, 
         "NoteID": "28d6d72f-165f-3f93-adf8-6d1cb33cb1e8"
     }, 
     {
-        "Answer": "IF REGIONAL, STATE OR NATIONAL", 
+        "Answer": "Regional, State, or National", 
         "QuestionID": 152, 
         "TargetID": 115, 
         "NoteID": "28d6d72f-165f-3f93-adf8-6d1cb33cb1e8"
     }, 
     {
-        "Answer": "IF REGIONAL, STATE OR NATIONAL", 
+        "Answer": "Regional, State, or National", 
         "QuestionID": 152, 
         "TargetID": 116, 
         "NoteID": "28d6d72f-165f-3f93-adf8-6d1cb33cb1e8"
     }, 
     {
-        "Answer": "IF REGIONAL, STATE OR NATIONAL", 
+        "Answer": "Regional, State, or National", 
         "QuestionID": 152, 
         "TargetID": 118, 
         "NoteID": "28d6d72f-165f-3f93-adf8-6d1cb33cb1e8"
     }, 
     {
-        "Answer": "IF REGIONAL, STATE OR NATIONAL", 
+        "Answer": "Regional, State, or National", 
         "QuestionID": 152, 
         "TargetID": 119, 
         "NoteID": "28d6d72f-165f-3f93-adf8-6d1cb33cb1e8"
     }, 
     {
-        "Answer": "IF REGIONAL, STATE OR NATIONAL", 
+        "Answer": "Regional, State, or National", 
         "QuestionID": 152, 
         "TargetID": 120, 
         "NoteID": "28d6d72f-165f-3f93-adf8-6d1cb33cb1e8"
     }, 
     {
-        "Answer": "IF REGIONAL, STATE OR NATIONAL", 
+        "Answer": "Regional, State, or National", 
         "QuestionID": 152, 
         "TargetID": 121, 
         "NoteID": "28d6d72f-165f-3f93-adf8-6d1cb33cb1e8"
     }, 
     {
-        "Answer": "IF REGIONAL, STATE OR NATIONAL", 
+        "Answer": "Regional, State, or National", 
         "QuestionID": 152, 
         "TargetID": 122, 
         "NoteID": "91162e87-2151-37b7-a707-59b476a0973e"
     }, 
     {
-        "Answer": "IF REGIONAL, STATE OR NATIONAL", 
+        "Answer": "Regional, State, or National", 
         "QuestionID": 152, 
         "TargetID": 123, 
         "NoteID": "91162e87-2151-37b7-a707-59b476a0973e"
     }, 
     {
-        "Answer": "IF REGIONAL, STATE OR NATIONAL", 
+        "Answer": "Regional, State, or National", 
         "QuestionID": 152, 
         "TargetID": 124, 
         "NoteID": "91162e87-2151-37b7-a707-59b476a0973e"
     }, 
     {
-        "Answer": "IF REGIONAL, STATE OR NATIONAL", 
+        "Answer": "Regional, State, or National", 
         "QuestionID": 152, 
         "TargetID": 125, 
         "NoteID": "91162e87-2151-37b7-a707-59b476a0973e"
     }, 
     {
-        "Answer": "IF REGIONAL, STATE OR NATIONAL", 
+        "Answer": "Regional, State, or National", 
         "QuestionID": 152, 
         "TargetID": 127, 
         "NoteID": "28d6d72f-165f-3f93-adf8-6d1cb33cb1e8"
     }, 
     {
-        "Answer": "IF REGIONAL, STATE OR NATIONAL", 
+        "Answer": "Regional, State, or National", 
         "QuestionID": 152, 
         "TargetID": 128, 
         "NoteID": "28d6d72f-165f-3f93-adf8-6d1cb33cb1e8"
     }, 
     {
-        "Answer": "IF REGIONAL, STATE OR NATIONAL", 
+        "Answer": "Regional, State, or National", 
         "QuestionID": 152, 
         "TargetID": 129, 
         "NoteID": "28d6d72f-165f-3f93-adf8-6d1cb33cb1e8"
     }, 
     {
-        "Answer": "IF REGIONAL, STATE OR NATIONAL", 
+        "Answer": "Regional, State, or National", 
         "QuestionID": 152, 
         "TargetID": 130, 
         "NoteID": "28d6d72f-165f-3f93-adf8-6d1cb33cb1e8"
     }, 
     {
-        "Answer": "IF REGIONAL, STATE OR NATIONAL", 
+        "Answer": "Regional, State, or National", 
         "QuestionID": 152, 
         "TargetID": 131, 
         "NoteID": "91162e87-2151-37b7-a707-59b476a0973e"
     }, 
     {
-        "Answer": "IF REGIONAL, STATE OR NATIONAL", 
+        "Answer": "Regional, State, or National", 
         "QuestionID": 152, 
         "TargetID": 132, 
         "NoteID": "91162e87-2151-37b7-a707-59b476a0973e"
     }, 
     {
-        "Answer": "IF REGIONAL, STATE OR NATIONAL", 
+        "Answer": "Regional, State, or National", 
         "QuestionID": 152, 
         "TargetID": 133, 
         "NoteID": "91162e87-2151-37b7-a707-59b476a0973e"
     }, 
     {
-        "Answer": "IF REGIONAL, STATE OR NATIONAL", 
+        "Answer": "Regional, State, or National", 
         "QuestionID": 152, 
         "TargetID": 134, 
         "NoteID": "91162e87-2151-37b7-a707-59b476a0973e"
     }, 
     {
-        "Answer": "IF REGIONAL, STATE OR NATIONAL", 
+        "Answer": "Regional, State, or National", 
         "QuestionID": 152, 
         "TargetID": 139, 
         "NoteID": "91162e87-2151-37b7-a707-59b476a0973e"
     }, 
     {
-        "Answer": "IF REGIONAL, STATE OR NATIONAL", 
+        "Answer": "Regional, State, or National", 
         "QuestionID": 152, 
         "TargetID": 140, 
         "NoteID": "91162e87-2151-37b7-a707-59b476a0973e"
     }, 
     {
-        "Answer": "IF REGIONAL, STATE OR NATIONAL", 
+        "Answer": "Regional, State, or National", 
         "QuestionID": 152, 
         "TargetID": 141, 
         "NoteID": "91162e87-2151-37b7-a707-59b476a0973e"
     }, 
     {
-        "Answer": "IF REGIONAL, STATE OR NATIONAL", 
+        "Answer": "Regional, State, or National", 
         "QuestionID": 152, 
         "TargetID": 142, 
         "NoteID": "91162e87-2151-37b7-a707-59b476a0973e"
@@ -8472,13 +8472,13 @@
         "NoteID": "ba1fdd55-27a5-32d5-962e-5f6fd45d1fd1"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 104, 
         "TargetID": 52, 
         "NoteID": "7ef90e24-35a1-3646-bf08-216d42fe38b1"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 104, 
         "TargetID": 60, 
         "NoteID": "7ef90e24-35a1-3646-bf08-216d42fe38b1"
@@ -9306,19 +9306,19 @@
         "NoteID": "7ef90e24-35a1-3646-bf08-216d42fe38b1"
     }, 
     {
-        "Answer": "IF LOW", 
+        "Answer": "LOW", 
         "QuestionID": 80, 
         "TargetID": 79, 
         "NoteID": "52b60544-7892-3509-918a-ff5b96fd6a70"
     }, 
     {
-        "Answer": "IF LOW", 
+        "Answer": "LOW", 
         "QuestionID": 80, 
         "TargetID": 80, 
         "NoteID": "52b60544-7892-3509-918a-ff5b96fd6a70"
     }, 
     {
-        "Answer": "IF LOW", 
+        "Answer": "LOW", 
         "QuestionID": 80, 
         "TargetID": 81, 
         "NoteID": "52b60544-7892-3509-918a-ff5b96fd6a70"
@@ -10278,13 +10278,13 @@
         "NoteID": "2d78dcf5-766a-328f-b99e-e89ed16473f9"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 106, 
         "TargetID": 52, 
         "NoteID": "7ef90e24-35a1-3646-bf08-216d42fe38b1"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 106, 
         "TargetID": 60, 
         "NoteID": "7ef90e24-35a1-3646-bf08-216d42fe38b1"
@@ -11388,13 +11388,13 @@
         "NoteID": "3e0bf8a8-dc37-3ceb-a961-fbff6a658028"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 105, 
         "TargetID": 52, 
         "NoteID": "7ef90e24-35a1-3646-bf08-216d42fe38b1"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 105, 
         "TargetID": 60, 
         "NoteID": "7ef90e24-35a1-3646-bf08-216d42fe38b1"
@@ -12468,13 +12468,13 @@
         "NoteID": "c5a4f75e-0f26-31b2-905a-97cdc3fa9402"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 101, 
         "TargetID": 52, 
         "NoteID": "7ef90e24-35a1-3646-bf08-216d42fe38b1"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 101, 
         "TargetID": 60, 
         "NoteID": "7ef90e24-35a1-3646-bf08-216d42fe38b1"
@@ -12942,25 +12942,25 @@
         "NoteID": "cff06262-3256-3b40-873f-6018975a7d3d"
     }, 
     {
-        "Answer": null, 
+        "Answer": "No", 
         "QuestionID": 38, 
         "TargetID": 22, 
         "NoteID": "fbe50944-cfd8-3f46-85ca-427a3c13ccfd"
     }, 
     {
-        "Answer": null, 
+        "Answer": "No", 
         "QuestionID": 38, 
         "TargetID": 23, 
         "NoteID": "fbe50944-cfd8-3f46-85ca-427a3c13ccfd"
     }, 
     {
-        "Answer": null, 
+        "Answer": "No", 
         "QuestionID": 38, 
         "TargetID": 25, 
         "NoteID": "fbe50944-cfd8-3f46-85ca-427a3c13ccfd"
     }, 
     {
-        "Answer": null, 
+        "Answer": "No", 
         "QuestionID": 38, 
         "TargetID": 29, 
         "NoteID": "fbe50944-cfd8-3f46-85ca-427a3c13ccfd"
@@ -13200,103 +13200,103 @@
         "NoteID": "7ef90e24-35a1-3646-bf08-216d42fe38b1"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 102, 
         "TargetID": 52, 
         "NoteID": "7ef90e24-35a1-3646-bf08-216d42fe38b1"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 102, 
         "TargetID": 60, 
         "NoteID": "7ef90e24-35a1-3646-bf08-216d42fe38b1"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 66, 
         "TargetID": 3, 
         "NoteID": "2a0ea211-88e1-3ecb-8d90-10c761671bc9"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 66, 
         "TargetID": 4, 
         "NoteID": "2a0ea211-88e1-3ecb-8d90-10c761671bc9"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 66, 
         "TargetID": 5, 
         "NoteID": "29263429-c7b1-397c-943b-74f9092ed407"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 66, 
         "TargetID": 6, 
         "NoteID": "2a0ea211-88e1-3ecb-8d90-10c761671bc9"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 66, 
         "TargetID": 7, 
         "NoteID": "2a0ea211-88e1-3ecb-8d90-10c761671bc9"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 66, 
         "TargetID": 8, 
         "NoteID": "2a0ea211-88e1-3ecb-8d90-10c761671bc9"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 66, 
         "TargetID": 9, 
         "NoteID": "2a0ea211-88e1-3ecb-8d90-10c761671bc9"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 66, 
         "TargetID": 10, 
         "NoteID": "e63c7a5a-75e1-3e01-abd2-16bfb40e8cae"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 66, 
         "TargetID": 11, 
         "NoteID": "e63c7a5a-75e1-3e01-abd2-16bfb40e8cae"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 66, 
         "TargetID": 12, 
         "NoteID": "e63c7a5a-75e1-3e01-abd2-16bfb40e8cae"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 66, 
         "TargetID": 18, 
         "NoteID": "4319d293-52b5-3c9f-bf81-6ebd2667dc74"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 66, 
         "TargetID": 22, 
         "NoteID": "38c09000-808c-35e6-8cea-0dd29c392027"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 66, 
         "TargetID": 23, 
         "NoteID": "efe7a86e-40de-31b3-bdca-b8c4a9c5d397"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 66, 
         "TargetID": 24, 
         "NoteID": "ef5f0897-8792-35a1-a17b-828b52425e6a"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 66, 
         "TargetID": 34, 
         "NoteID": "2a0ea211-88e1-3ecb-8d90-10c761671bc9"
@@ -14256,247 +14256,247 @@
         "NoteID": "7ef90e24-35a1-3646-bf08-216d42fe38b1"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 3, 
         "NoteID": "2a0ea211-88e1-3ecb-8d90-10c761671bc9"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 4, 
         "NoteID": "2a0ea211-88e1-3ecb-8d90-10c761671bc9"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 5, 
         "NoteID": "29263429-c7b1-397c-943b-74f9092ed407"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 6, 
         "NoteID": "2a0ea211-88e1-3ecb-8d90-10c761671bc9"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 8, 
         "NoteID": "2a0ea211-88e1-3ecb-8d90-10c761671bc9"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 9, 
         "NoteID": "2a0ea211-88e1-3ecb-8d90-10c761671bc9"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 10, 
         "NoteID": "e63c7a5a-75e1-3e01-abd2-16bfb40e8cae"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 11, 
         "NoteID": "e63c7a5a-75e1-3e01-abd2-16bfb40e8cae"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 12, 
         "NoteID": "e63c7a5a-75e1-3e01-abd2-16bfb40e8cae"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 13, 
         "NoteID": "344ebfcd-6d35-3788-bc10-741e6754b619"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 14, 
         "NoteID": "c7b6a2a6-d18e-35fd-961d-00ecb6379640"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 15, 
         "NoteID": "c7b6a2a6-d18e-35fd-961d-00ecb6379640"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 16, 
         "NoteID": "344ebfcd-6d35-3788-bc10-741e6754b619"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 17, 
         "NoteID": "344ebfcd-6d35-3788-bc10-741e6754b619"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 18, 
         "NoteID": "4319d293-52b5-3c9f-bf81-6ebd2667dc74"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 19, 
         "NoteID": "9decdafc-5e79-31e4-959c-6bc07fa095d6"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 20, 
         "NoteID": "9decdafc-5e79-31e4-959c-6bc07fa095d6"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 21, 
         "NoteID": "c7b6a2a6-d18e-35fd-961d-00ecb6379640"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 22, 
         "NoteID": "38c09000-808c-35e6-8cea-0dd29c392027"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 23, 
         "NoteID": "efe7a86e-40de-31b3-bdca-b8c4a9c5d397"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 24, 
         "NoteID": "ef5f0897-8792-35a1-a17b-828b52425e6a"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 25, 
         "NoteID": "b676078e-66c4-3206-a06b-745844460c9a"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 26, 
         "NoteID": "c7b6a2a6-d18e-35fd-961d-00ecb6379640"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 28, 
         "NoteID": "344ebfcd-6d35-3788-bc10-741e6754b619"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 29, 
         "NoteID": "84007c4a-7b0a-33ac-b27e-6cf5acdd10d8"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 31, 
         "NoteID": "c7b6a2a6-d18e-35fd-961d-00ecb6379640"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 32, 
         "NoteID": "c7b6a2a6-d18e-35fd-961d-00ecb6379640"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 33, 
         "NoteID": "c7b6a2a6-d18e-35fd-961d-00ecb6379640"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 34, 
         "NoteID": "2a0ea211-88e1-3ecb-8d90-10c761671bc9"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 35, 
         "NoteID": "c7b6a2a6-d18e-35fd-961d-00ecb6379640"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 36, 
         "NoteID": "c7b6a2a6-d18e-35fd-961d-00ecb6379640"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 37, 
         "NoteID": "c7b6a2a6-d18e-35fd-961d-00ecb6379640"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 38, 
         "NoteID": "c7b6a2a6-d18e-35fd-961d-00ecb6379640"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 39, 
         "NoteID": "c7b6a2a6-d18e-35fd-961d-00ecb6379640"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 40, 
         "NoteID": "c7b6a2a6-d18e-35fd-961d-00ecb6379640"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 41, 
         "NoteID": "c7b6a2a6-d18e-35fd-961d-00ecb6379640"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 42, 
         "NoteID": "c7b6a2a6-d18e-35fd-961d-00ecb6379640"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 43, 
         "NoteID": "c7b6a2a6-d18e-35fd-961d-00ecb6379640"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 44, 
         "NoteID": "c7b6a2a6-d18e-35fd-961d-00ecb6379640"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 45, 
         "NoteID": "c7b6a2a6-d18e-35fd-961d-00ecb6379640"
     }, 
     {
-        "Answer": null, 
+        "Answer": "Yes", 
         "QuestionID": 67, 
         "TargetID": 46, 
         "NoteID": "c7b6a2a6-d18e-35fd-961d-00ecb6379640"
