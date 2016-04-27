@@ -398,8 +398,6 @@ class MsspDataStore(object):
         :return:
         """
         cur = self._questions[question].valid_answers
-        if all([isinstance(x, int) for x in answers]):
-            answers = [cur[x] for x in answers]
 
         if question is None or len(answers) == 0:
             print('Must supply a question and a list of answers')
@@ -467,7 +465,7 @@ class MsspDataStore(object):
                 return
 
         a = range(len(cur))
-        mapping = a[:ind] + [None] + a[ind:-1]
+        mapping = a[:ind] + [-1] + a[ind:-1]  # -1 gets deleted below
 
         new_cri, new_cav = self._remap_answers(question, mapping)
 
@@ -522,6 +520,10 @@ class MsspDataStore(object):
         print('Merging answers into %s:' % cur[merge_ind])
         for i in ans_ind:
             print(' %s' % cur[i])
+
+        if ifinput('Really continue?', 'y') != 'y':
+            print('NOT merged.')
+            return
 
         new_cri, new_cav = self._remap_answers(question, mapping)
         self._criteria = new_cri
