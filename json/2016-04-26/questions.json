@@ -743,9 +743,9 @@
         "QuestionID": 43, 
         "ValidAnswers": [
             "No", 
+            "Yes", 
             "spatial consistency preferred; if changes in effort together with spatial changes, this is also important", 
-            "Y if spatial variation in size structure suspected", 
-            "Yes"
+            "Y if spatial variation in size structure suspected"
         ], 
         "References": [
             "Assessment:83"
@@ -1908,10 +1908,10 @@
         "QuestionID": 125, 
         "ValidAnswers": [
             "No", 
+            "Yes", 
             "limited entry", 
             "intermediate", 
-            "open access", 
-            "Yes"
+            "open access"
         ], 
         "References": [
             "ControlRules:72", 
@@ -2024,7 +2024,6 @@
     {
         "QuestionID": 152, 
         "ValidAnswers": [
-            "Community", 
             "Regional, State, or National"
         ], 
         "References": [
