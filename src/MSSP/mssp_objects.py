@@ -109,8 +109,12 @@ class MsspQuestion(object):
 
         return mssp_question
 
+    def label(self):
+        return ', '.join(sorted([k + ' ' + convert_record_to_label(l) for k, l in self.references]))
+
     def __str__(self):
-        return ' Valid Answers: {0}\n Satisfied By: {1}\n Satisfies: {2}'.format(
+        return ' References: {0}\nValid Answers: {1}\n Satisfied By: {2}\n Satisfies: {3}'.format(
+            self.label(),
             self.valid_answers,
             (None, list(self.satisfied_by))[len(self.satisfied_by) > 0],
             (None, list(self.satisfies))[len(self.satisfies) > 0 ]
@@ -147,6 +151,6 @@ class MsspTarget(object):
         return [self.reference()]
 
     def __str__(self):
-        return ' Reference: {0}'.format(self.reference())
+        return ' Reference: {0}'.format(self.label())
 
 
