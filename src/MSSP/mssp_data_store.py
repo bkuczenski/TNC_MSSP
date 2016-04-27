@@ -218,21 +218,6 @@ class MsspDataStore(object):
 
         return obj
 
-    def show(self, question=None, target=None):
-        """
-        Print a record's attributes
-        :param question:
-        :param target:
-        :return:
-        """
-        print('\n')
-        if question is not None:
-            for a in self._make_attr_list(question):
-                print(self._attributes[a].text)
-        elif target is not None:
-            for a in self._make_attr_list(target, record='target'):
-                print(self._attributes[a].text)
-
     # user-facing functions begin here
     def question(self, index):
         """
@@ -272,6 +257,22 @@ class MsspDataStore(object):
             index = [index]
         return [self._targets[i] for i in index]
 
+    def show(self, question=None, target=None):
+        """
+        Print a record's attributes
+        :param question:
+        :param target:
+        :return:
+        """
+        if question is not None:
+            print('\nQuestionID %d: ' % question)
+            for a in self._make_attr_list(question):
+                print(self._attributes[a].text)
+        elif target is not None:
+            print('\nTargetID %d: ' % target)
+            for a in self._make_attr_list(target, record='target'):
+                print(self._attributes[a].text)
+
     def attributes(self, index):
         """
         Print out the attribute(s) listed in the index (or list)
@@ -283,6 +284,10 @@ class MsspDataStore(object):
 
         for i in index:
             print 'AttributeID %s: %s' % (i, self._attributes[i].text)
+
+    def note(self, note_id):
+        note = self._notes[note_id]
+        return note.text, self._color_of_cell(note)
 
     def notes(self, index):
         """
@@ -366,13 +371,19 @@ class MsspDataStore(object):
             return None
 
     def caveats_for_target(self, target):
+        """
+        All the caveats for a given target, unpivoted for automatic processing
+        :param target:
+        :return:
+        """
         return self._caveats.loc[self._caveats['TargetID'] == target]
 
-    def note(self, note_id):
-        note = self._notes[note_id]
-        return note.text, self._color_of_cell(note)
-
     def targets_for(self, sel):
+        """
+        All the targets of a given type
+        :param sel:
+        :return:
+        """
         return [k for k, t in enumerate(self._targets) if t is not None and t.type == sel]
 
     def criteria_for(self, sel):
@@ -391,7 +402,7 @@ class MsspDataStore(object):
 
     def caveats_for(self, sel):
         """
-        Returns a list of criteria questions limiting a given selector type
+        Returns a list of caveat questions that apply to a given selector type
         :param sel:
         :return:
         """
@@ -568,6 +579,17 @@ class MsspDataStore(object):
         for i in ans_ind:
             if i != merge_ind:
                 self.delete_answer(question, cur[i])
+
+    def merge_questions(self, questions):
+        """
+        Joins all the questions' valid answers together, then refactors all questions to
+        have the same valid_answer list. Last thing is to re-map all the QuestionIDs from the merged questions
+        onto the one with the lowest ID in: _criteria, _caveats, _question_attributes
+        then the merged questions can be replaced with Nones.
+        :param questions:
+        :return:
+        """
+        raise NotImplemented
 
     @staticmethod
     def _search_mapping(attrs, mapping):
