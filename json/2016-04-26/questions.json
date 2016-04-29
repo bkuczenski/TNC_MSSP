@@ -1770,11 +1770,10 @@
         "QuestionID": 118, 
         "ValidAnswers": [
             "subsistence", 
-            "artisinal (commercial)", 
-            "intermediate", 
             "Artisinal - subsistance and local markets only", 
-            "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
-            "Artisinal -commerical (large range of boats - may sell locally and/or for export) BUT if not Large-scale commercial/industrial, may require stronger governance/cooperation"
+            "intermediate", 
+            "artisinal (commercial)", 
+            "Artisinal -commerical (large range of boats - may sell locally and/or for export)"
         ], 
         "References": [
             "ControlRules:53", 
