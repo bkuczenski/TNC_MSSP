@@ -289,7 +289,7 @@ class MsspDataStore(object):
         ts = set([v['TargetID'] for k, v in self._target_attributes.iterrows() if v['AttributeID'] == index])
         return sorted(list(ts))
 
-    def _reorder_answers(self, question, table):
+    def _reorder_answer_columns(self, question, table):
         """
         Reorders the columns in a [pivot] table to match the order appearing in the question
         :param question:
@@ -317,7 +317,7 @@ class MsspDataStore(object):
                 cavs = cavs[cavs['TargetID'] == target]
             cavs = cavs.pivot(index='TargetID', columns='AnswerValue', values='Note').fillna('')
             cavs['Reference'] = cavs.index.map(lambda x: self._targets[int(x)].label())
-            cavs = self._reorder_answers(question, cavs)
+            cavs = self._reorder_answer_columns(question, cavs)
             return cavs
         elif question is None and target is not None:
             cavs = self._cavs_for_record(target, record='target')
@@ -340,7 +340,7 @@ class MsspDataStore(object):
                 cri = cri[cri['TargetID'] == target]
             cri = cri.pivot(index='TargetID', columns='AnswerValue', values='QuestionID').fillna('')
             cri['Reference'] = cri.index.map(lambda x: self._targets[int(x)].label())
-            cri = self._reorder_answers(question, cri)
+            cri = self._reorder_answer_columns(question, cri)
             return cri
         elif question is None and target is not None:
             cri = self._cri_for_record(target, record='target')
@@ -429,6 +429,22 @@ class MsspDataStore(object):
         self._criteria = new_cri
         self._caveats = new_cav
         self._questions[question].valid_answers = answers
+
+    def reorder_answers(self, question, answer_indices):
+        """
+        Wrapper for re-factor answers that just accepts a list of indices into the current answer list.
+        :param question:
+        :param answer_indices: list or tuple that contains a permutation of range(n). Allows indices to be 1-indexed
+        or 0-indexed!
+        :return:
+        """
+        cur = self._questions[question].valid_answers
+        if set(answer_indices) == set(range(len(cur))):
+            self.refactor_answers(question, [cur[k] for k in answer_indices])
+        elif set(answer_indices) == set(range(1, len(cur)+1)):
+            self.refactor_answers(question, [cur[k-1] for k in answer_indices])
+        else:
+            print('input does not include all indices!')
 
     def delete_answer(self, question, answer):
         """
