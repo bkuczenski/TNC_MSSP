@@ -204,10 +204,9 @@ class SpreadsheetData(object):
         elts = []
         refs = self._expand_attribute_refs(start, record)
         for row, col in refs:
-            try:
-                elts.append(SpreadsheetData._element_or_merged_range(sheet, row, col))
-            except EmptyInputError:
-                continue
+            elt = self._element_or_merged_range(sheet, row, col)
+            if elt.text is not None:
+                elts.append(elt)
 
         inds = self.Attributes.add_elements(elts)
         return [self.Attributes[i] for i in inds]

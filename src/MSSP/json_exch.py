@@ -1,40 +1,44 @@
 from MSSP.utils import defaultdir
 
-json_parts = ('colormap', 'questions', 'targets', 'criteria', 'caveats')
+json_parts = ('colormap', 'questions', 'targets', 'criteria', 'caveats', 'attributes', 'notes')
 
 
-def write_json(json_out, out=None, onefile=False):
+def write_json(json_out, outdir=None, outfile=None):
     """
     Routine to write json output to file(s)
     :param json_out: the output of serialize()
-    :param out: directory name relative to defaultdir to use for writing files.
-    :param onefile: (bool) whether to write all content to a single json file (default: false)
+    :param outdir: directory name (absolute, or relative to defaultdir) to use for writing files.
+    :param outfile: (None) whether to write all content to a single json file (default: false)
     :return:
     """
     import os
     import json
+    onefile = True
 
-    write_file = 'mssp_engine.json'
-    if out is None:
+    if outfile is None:
+        onefile = False
+
+    if outdir is None:
         write_dir = os.path.join(defaultdir, 'JSON_OUT')
     else:
-        if os.path.isabs(out):
-            write_dir = out
+        if os.path.isabs(outdir):
+            write_dir = outdir
         else:
-            write_dir = os.path.join(defaultdir, out)
+            write_dir = os.path.join(defaultdir, outdir)
 
     if not os.path.exists(write_dir):
         os.makedirs(write_dir)
 
     if onefile:
-        f = open(os.path.join(write_dir, write_file), mode='w')
+        write_file = os.path.join(write_dir, outfile)
+        f = open(write_file, mode='w')
         f.write(json.dumps(json_out, indent=4))
         f.close()
         print "Output written as {0}.".format(write_file)
     else:
         for i in json_parts:
             f = open(os.path.join(write_dir, i + '.json'), mode='w')
-            f.write(json.dumps(json_out[i], indent=4))
+            json.dump(json_out[i], f, indent=4)
             f.close()
         print "Output written to folder {0}.".format(write_dir)
 
