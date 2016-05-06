@@ -806,17 +806,19 @@ class MsspDataStore(object):
             }
             criteria.append(add)
 
-        print "Creating {0} caveats...".format(len(self._caveats))
-        for i, k in self._caveats.iterrows():
-            answer = self._questions[k['QuestionID']].valid_answers[k['Answer']]
-            note_id = k['NoteID']
+        cav_groups = self._caveats.groupby(['QuestionID', 'TargetID'])
+
+        print "Creating {0} caveats...".format(len(cav_groups))
+        for (qid, tid), group in cav_groups:
+            answers = [{"Answer": a} for i, a in enumerate(self._questions[qid].valid_answers)]
+            for i, r in group.iterrows():
+                answers[r['Answer']]['NoteID'] = str(r['NoteID'])
+                note_set.add(r['NoteID'])
             add = {
-                "QuestionID": k['QuestionID'],
-                "Answer": answer,
-                "TargetID": k['TargetID'],
-                "NoteID": str(note_id)
+                "QuestionID": qid,
+                "TargetID": tid,
+                "Answers": answers
             }
-            note_set.add(note_id)
             caveats.append(add)
 
         print "Creating {0} attributes...".format(len(attr_set))

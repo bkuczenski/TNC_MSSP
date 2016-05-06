@@ -83,30 +83,57 @@ class JsonImporter(MsspDataStore):
             cri_targets.append(t_index)
             cri_thresholds.append(thresh[0])
 
+        _cav_detect_flag = False
         for cav in json_in['caveats']:
             # the answer is a literal entry from the question's valid answers-
             # needs to be converted into an index.
             # the color needs to be converted into a colormap RGB.
             q_index = cav['QuestionID']
             t_index = cav['TargetID']
-
-            note_id = uuid.UUID(cav['NoteID'])
-
             if question_enum[q_index] is None:
-                print "Question {0} is none!".format(q_index)
-                ans_i = [None]
-            else:
-                ans_i = indices(question_enum[q_index].valid_answers, lambda k: cav['Answer'] == k)
+                print "Question {0} is none! Skipping this entry".format(q_index)
+            elif 'Answers' in cav:  # new way
+                for ans in cav['Answers']:
+                    if 'NoteID' in ans:
+                        note_id = uuid.UUID(ans['NoteID'])
+                        ans_i = indices(question_enum[q_index].valid_answers, lambda k: cav['Answer'] == k)
 
-            if len(ans_i) == 0:
-                print "QuestionID {0}, TargetID {1}, valid answer '{2}' unparsed.".format(
+                        if len(ans_i) == 0:
+                            print "QuestionID {0}, TargetID {1}, valid answer '{2}' unparsed.".format(
+                                q_index, t_index, cav['Answer'])
+                            ans_i = [None]
+
+                        cav_questions.append(q_index)
+                        cav_targets.append(t_index)
+                        cav_answers.append(ans_i[0])
+                        cav_notes.append(note_id)
+            else:  # old way
+                # the answer is a literal entry from the question's valid answers-
+                # needs to be converted into an index.
+                # the color needs to be converted into a colormap RGB.
+                if _cav_detect_flag is False:
+                    print 'Loading old-style Caveats'
+                    _cav_detect_flag = True
+                q_index = cav['QuestionID']
+                t_index = cav['TargetID']
+
+                note_id = uuid.UUID(cav['NoteID'])
+
+                if question_enum[q_index] is None:
+                    print "Question {0} is none!".format(q_index)
+                    ans_i = [None]
+                else:
+                    ans_i = indices(question_enum[q_index].valid_answers, lambda k: cav['Answer'] == k)
+
+                if len(ans_i) == 0:
+                    print "QuestionID {0}, TargetID {1}, valid answer '{2}' unparsed.".format(
                         q_index, t_index, cav['Answer'])
-                ans_i = [None]
+                    ans_i = [None]
 
-            cav_questions.append(q_index)
-            cav_targets.append(t_index)
-            cav_answers.append(ans_i[0])
-            cav_notes.append(note_id)
+                cav_questions.append(q_index)
+                cav_targets.append(t_index)
+                cav_answers.append(ans_i[0])
+                cav_notes.append(note_id)
 
         # create pandas tables
         question_attributes = pd.DataFrame(
