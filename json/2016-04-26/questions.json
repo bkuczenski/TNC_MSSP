@@ -726,17 +726,12 @@
             "Yes"
         ], 
         "References": [
-            "Assessment:82", 
-            "Monitoring:AK"
+            "Assessment:82"
         ], 
         "Attributes": [
             "12ace8bf-0d5b-3ce6-be67-5e432f992854", 
             "800cc55e-c066-301d-9259-e25eff59a6f9", 
-            "71e525de-31af-3ea2-b801-91d42ef29197", 
-            "badc7a85-7395-32fd-bca8-dc0ae6e7d012", 
-            "7fd3249e-1244-3dea-894f-6fb0640a8c2b", 
-            "fb22a543-41c3-3514-92ad-498cfa28a606", 
-            "fcf2cf9f-1fad-32c1-86e6-4628ebfe3110"
+            "71e525de-31af-3ea2-b801-91d42ef29197"
         ]
     }, 
     {
@@ -2023,16 +2018,22 @@
     {
         "QuestionID": 152, 
         "ValidAnswers": [
-            "Regional, State, or National"
+            "Regional, State, or National", 
+            "IF COMMUNITY"
         ], 
         "References": [
-            "Monitoring:L"
+            "Monitoring:L", 
+            "Monitoring:AP"
         ], 
         "Attributes": [
             "91ae90eb-b927-3534-9b9a-9ec410d9c890", 
             "7fd3249e-1244-3dea-894f-6fb0640a8c2b", 
             "40e80940-deaf-3540-8d36-149fa7b86ec5", 
-            "125b228d-5434-3e7b-aaa6-304cc0688de5"
+            "125b228d-5434-3e7b-aaa6-304cc0688de5", 
+            "a2b65d8b-4132-3bf9-8829-8bbb71ee4073", 
+            "fbaf454b-bd44-3399-865d-833314d00dc8", 
+            "40e80940-deaf-3540-8d36-149fa7b86ec5", 
+            "beda4e92-fb5b-3731-8862-5c5bbdc4bbfe"
         ]
     }, 
     {
@@ -2042,13 +2043,17 @@
             "Yes"
         ], 
         "References": [
-            "Monitoring:N"
+            "Monitoring:N", 
+            "Monitoring:AQ"
         ], 
         "Attributes": [
             "e748fc79-f503-3794-9ff3-6ebe83a9c317", 
             "ec11bea9-cbd3-3736-a89d-bbc7403e6910", 
             "7fd3249e-1244-3dea-894f-6fb0640a8c2b", 
-            "40e80940-deaf-3540-8d36-149fa7b86ec5"
+            "40e80940-deaf-3540-8d36-149fa7b86ec5", 
+            "5d79edee-3f88-3562-a019-d07ab2625cfa", 
+            "40e80940-deaf-3540-8d36-149fa7b86ec5", 
+            "fb22a543-41c3-3514-92ad-498cfa28a606"
         ]
     }, 
     {
@@ -2090,13 +2095,17 @@
             "Yes"
         ], 
         "References": [
-            "Monitoring:Q"
+            "Monitoring:Q", 
+            "Monitoring:AR"
         ], 
         "Attributes": [
             "ec11bea9-cbd3-3736-a89d-bbc7403e6910", 
             "7fd3249e-1244-3dea-894f-6fb0640a8c2b", 
             "fb85634b-9d29-3369-b134-0b0215ba9e7d", 
-            "993a9886-c894-32aa-acf9-faa3ee3b1443"
+            "993a9886-c894-32aa-acf9-faa3ee3b1443", 
+            "0cd23013-5fcb-3353-b4e4-4199d958ee07", 
+            "fb22a543-41c3-3514-92ad-498cfa28a606", 
+            "fb85634b-9d29-3369-b134-0b0215ba9e7d"
         ]
     }, 
     {
@@ -2106,12 +2115,16 @@
             "Yes"
         ], 
         "References": [
-            "Monitoring:R"
+            "Monitoring:R", 
+            "Monitoring:AS"
         ], 
         "Attributes": [
             "7f668227-1195-3dbe-882f-e0e3bc14d64a", 
             "ec11bea9-cbd3-3736-a89d-bbc7403e6910", 
             "7fd3249e-1244-3dea-894f-6fb0640a8c2b", 
+            "fb85634b-9d29-3369-b134-0b0215ba9e7d", 
+            "c6ae503c-cc07-3ba0-8531-51acffeaf527", 
+            "fb22a543-41c3-3514-92ad-498cfa28a606", 
             "fb85634b-9d29-3369-b134-0b0215ba9e7d"
         ]
     }, 
@@ -2122,28 +2135,42 @@
             "Yes"
         ], 
         "References": [
-            "Monitoring:S"
+            "Monitoring:S", 
+            "Monitoring:AT"
         ], 
         "Attributes": [
             "91c55587-a6f4-3d41-9b89-a8b153bee2e7", 
             "576aa457-9111-31c8-b9a7-c03680b64ec8", 
             "7fd3249e-1244-3dea-894f-6fb0640a8c2b", 
-            "ec11bea9-cbd3-3736-a89d-bbc7403e6910"
+            "ec11bea9-cbd3-3736-a89d-bbc7403e6910", 
+            "91c55587-a6f4-3d41-9b89-a8b153bee2e7", 
+            "eb83fd2b-3b40-3ec1-9ef8-49cf8843f86e", 
+            "fb22a543-41c3-3514-92ad-498cfa28a606"
         ]
     }, 
     {
         "QuestionID": 159, 
         "ValidAnswers": [
-            "IF ENFORCED, BUT NOT RESPECTED"
+            "IF NOT ENFORCED", 
+            "IF ENFORCED, BUT NOT RESPECTED", 
+            "IF ENFORCED, AND RESPECTED"
         ], 
         "References": [
-            "Monitoring:T"
+            "Monitoring:T", 
+            "Monitoring:AU", 
+            "Monitoring:AV"
         ], 
         "Attributes": [
             "46192251-cdb3-3ffc-9dd4-74eaa3d05826", 
             "91c55587-a6f4-3d41-9b89-a8b153bee2e7", 
             "7fd3249e-1244-3dea-894f-6fb0640a8c2b", 
-            "3971ee25-f2a3-304d-aa02-bf6ef74b8e32"
+            "3971ee25-f2a3-304d-aa02-bf6ef74b8e32", 
+            "91c55587-a6f4-3d41-9b89-a8b153bee2e7", 
+            "d3ec9642-6006-3dfe-ba1a-4505463dbea4", 
+            "9e63796b-a7d7-336c-8a14-04df69669a45", 
+            "75b29c77-2dff-3f5d-9af6-dee9d0ec8ac7", 
+            "91c55587-a6f4-3d41-9b89-a8b153bee2e7", 
+            "d3ec9642-6006-3dfe-ba1a-4505463dbea4"
         ]
     }, 
     {
@@ -2169,12 +2196,16 @@
             "Yes"
         ], 
         "References": [
-            "Monitoring:V"
+            "Monitoring:V", 
+            "Monitoring:AW"
         ], 
         "Attributes": [
             "3d5a17d2-da95-3064-bf91-c5ed19cc583e", 
             "7fd3249e-1244-3dea-894f-6fb0640a8c2b", 
             "fb22a543-41c3-3514-92ad-498cfa28a606", 
+            "6041012f-6287-34a5-9df6-2c7d4604cd43", 
+            "35cebf5c-36ca-3299-a76a-71e862bf7cb9", 
+            "ec11bea9-cbd3-3736-a89d-bbc7403e6910", 
             "6041012f-6287-34a5-9df6-2c7d4604cd43"
         ]
     }, 
@@ -2205,12 +2236,16 @@
             "Yes"
         ], 
         "References": [
-            "Monitoring:X"
+            "Monitoring:X", 
+            "Monitoring:AX"
         ], 
         "Attributes": [
             "0fc38b53-b229-3062-97e9-6c6feb13b878", 
             "7fd3249e-1244-3dea-894f-6fb0640a8c2b", 
             "fb22a543-41c3-3514-92ad-498cfa28a606", 
+            "6041012f-6287-34a5-9df6-2c7d4604cd43", 
+            "bbe4da41-c2b7-3dba-8952-358798aa8d6a", 
+            "ec11bea9-cbd3-3736-a89d-bbc7403e6910", 
             "6041012f-6287-34a5-9df6-2c7d4604cd43"
         ]
     }, 
@@ -2221,13 +2256,17 @@
             "Yes"
         ], 
         "References": [
-            "Monitoring:Y"
+            "Monitoring:Y", 
+            "Monitoring:AY"
         ], 
         "Attributes": [
             "d9c9cf7e-390a-3a42-9636-264d40932d35", 
             "ec11bea9-cbd3-3736-a89d-bbc7403e6910", 
             "7fd3249e-1244-3dea-894f-6fb0640a8c2b", 
-            "80bd0ac5-dbc3-3f91-8c24-e813684e06a0"
+            "80bd0ac5-dbc3-3f91-8c24-e813684e06a0", 
+            "e9b7e2d4-459f-3ebc-9f68-b8fca17f34ce", 
+            "80bd0ac5-dbc3-3f91-8c24-e813684e06a0", 
+            "fb22a543-41c3-3514-92ad-498cfa28a606"
         ]
     }, 
     {
@@ -2419,163 +2458,20 @@
         ]
     }, 
     {
-        "QuestionID": 177, 
-        "ValidAnswers": [
-            "IF COMMUNITY"
-        ], 
-        "References": [
-            "Monitoring:AP"
-        ], 
-        "Attributes": [
-            "a2b65d8b-4132-3bf9-8829-8bbb71ee4073", 
-            "fbaf454b-bd44-3399-865d-833314d00dc8", 
-            "40e80940-deaf-3540-8d36-149fa7b86ec5", 
-            "beda4e92-fb5b-3731-8862-5c5bbdc4bbfe"
-        ]
-    }, 
-    {
-        "QuestionID": 178, 
-        "ValidAnswers": [
-            "No", 
-            "Yes"
-        ], 
-        "References": [
-            "Monitoring:AQ"
-        ], 
-        "Attributes": [
-            "5d79edee-3f88-3562-a019-d07ab2625cfa", 
-            "40e80940-deaf-3540-8d36-149fa7b86ec5", 
-            "fb22a543-41c3-3514-92ad-498cfa28a606"
-        ]
-    }, 
-    {
-        "QuestionID": 179, 
-        "ValidAnswers": [
-            "No", 
-            "Yes"
-        ], 
-        "References": [
-            "Monitoring:AR"
-        ], 
-        "Attributes": [
-            "0cd23013-5fcb-3353-b4e4-4199d958ee07", 
-            "fb22a543-41c3-3514-92ad-498cfa28a606", 
-            "fb85634b-9d29-3369-b134-0b0215ba9e7d"
-        ]
-    }, 
-    {
-        "QuestionID": 180, 
-        "ValidAnswers": [
-            "No", 
-            "Yes"
-        ], 
-        "References": [
-            "Monitoring:AS"
-        ], 
-        "Attributes": [
-            "c6ae503c-cc07-3ba0-8531-51acffeaf527", 
-            "fb22a543-41c3-3514-92ad-498cfa28a606", 
-            "fb85634b-9d29-3369-b134-0b0215ba9e7d"
-        ]
-    }, 
-    {
-        "QuestionID": 181, 
-        "ValidAnswers": [
-            "No", 
-            "Yes"
-        ], 
-        "References": [
-            "Monitoring:AT"
-        ], 
-        "Attributes": [
-            "91c55587-a6f4-3d41-9b89-a8b153bee2e7", 
-            "eb83fd2b-3b40-3ec1-9ef8-49cf8843f86e", 
-            "fb22a543-41c3-3514-92ad-498cfa28a606"
-        ]
-    }, 
-    {
-        "QuestionID": 182, 
-        "ValidAnswers": [
-            "IF NOT ENFORCED"
-        ], 
-        "References": [
-            "Monitoring:AU"
-        ], 
-        "Attributes": [
-            "91c55587-a6f4-3d41-9b89-a8b153bee2e7", 
-            "d3ec9642-6006-3dfe-ba1a-4505463dbea4", 
-            "9e63796b-a7d7-336c-8a14-04df69669a45"
-        ]
-    }, 
-    {
-        "QuestionID": 183, 
-        "ValidAnswers": [
-            "IF ENFORCED, AND RESPECTED"
-        ], 
-        "References": [
-            "Monitoring:AV"
-        ], 
-        "Attributes": [
-            "75b29c77-2dff-3f5d-9af6-dee9d0ec8ac7", 
-            "91c55587-a6f4-3d41-9b89-a8b153bee2e7", 
-            "d3ec9642-6006-3dfe-ba1a-4505463dbea4"
-        ]
-    }, 
-    {
-        "QuestionID": 184, 
-        "ValidAnswers": [
-            "No", 
-            "Yes"
-        ], 
-        "References": [
-            "Monitoring:AW"
-        ], 
-        "Attributes": [
-            "35cebf5c-36ca-3299-a76a-71e862bf7cb9", 
-            "ec11bea9-cbd3-3736-a89d-bbc7403e6910", 
-            "6041012f-6287-34a5-9df6-2c7d4604cd43"
-        ]
-    }, 
-    {
-        "QuestionID": 185, 
-        "ValidAnswers": [
-            "No", 
-            "Yes"
-        ], 
-        "References": [
-            "Monitoring:AX"
-        ], 
-        "Attributes": [
-            "bbe4da41-c2b7-3dba-8952-358798aa8d6a", 
-            "ec11bea9-cbd3-3736-a89d-bbc7403e6910", 
-            "6041012f-6287-34a5-9df6-2c7d4604cd43"
-        ]
-    }, 
-    {
-        "QuestionID": 186, 
-        "ValidAnswers": [
-            "No", 
-            "Yes"
-        ], 
-        "References": [
-            "Monitoring:AY"
-        ], 
-        "Attributes": [
-            "e9b7e2d4-459f-3ebc-9f68-b8fca17f34ce", 
-            "80bd0ac5-dbc3-3f91-8c24-e813684e06a0", 
-            "fb22a543-41c3-3514-92ad-498cfa28a606"
-        ]
-    }, 
-    {
         "QuestionID": 187, 
         "ValidAnswers": [
             "No", 
             "Yes"
         ], 
         "References": [
-            "Monitoring:AZ"
+            "Monitoring:AZ", 
+            "Monitoring:AK"
         ], 
         "Attributes": [
+            "badc7a85-7395-32fd-bca8-dc0ae6e7d012", 
+            "7fd3249e-1244-3dea-894f-6fb0640a8c2b", 
+            "fb22a543-41c3-3514-92ad-498cfa28a606", 
+            "fcf2cf9f-1fad-32c1-86e6-4628ebfe3110", 
             "ec11bea9-cbd3-3736-a89d-bbc7403e6910", 
             "ab2dc775-2372-35b4-ac5d-bceaf20b3802", 
             "fcf2cf9f-1fad-32c1-86e6-4628ebfe3110"

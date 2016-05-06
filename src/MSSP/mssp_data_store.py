@@ -225,6 +225,9 @@ class MsspDataStore(object):
         :param index: index into the question enum
         :return:
         """
+        if self._questions[index] is None:
+            print('No question with ID %s' % index)
+            return
         return self._print_object(index, record='question')
 
     def questions(self, index=None):
@@ -604,6 +607,34 @@ class MsspDataStore(object):
             if i != merge_ind:
                 self.delete_answer(question, cur[i])
 
+    def _remap_questions(self, questions, map_to=None):
+        """
+        Replace references to all question IDs listed with the one provided in map_to (or the numerical minimum
+        if none is provided).
+        :param questions: a list of question IDs to remap
+        :param map_to: The QuestionID to be substituted. If omitted, use the numerical minimum
+        :return: nothing
+        """
+        if map_to is None:
+            map_to = min(questions)
+
+        for table in self._question_attributes, self._caveats, self._criteria:
+            table.loc[table['QuestionID'].isin(questions), 'QuestionID'] = map_to
+
+    def _merge_and_delete(self, q, merge_to=None):
+        """
+
+        :param q:
+        :param merge_to:
+        :return:
+        """
+        if merge_to is None:
+            return
+        if merge_to == q:
+            return
+        self._questions[merge_to].merge(self._questions[q])
+        self._questions[q] = None
+
     def merge_questions(self, questions):
         """
         Joins all the questions' valid answers together, then refactors all questions to
@@ -613,7 +644,22 @@ class MsspDataStore(object):
         :param questions:
         :return:
         """
-        raise NotImplemented
+        new_answers = []
+        for q in questions:
+            for v in self._questions[q].valid_answers:
+                if v not in new_answers:
+                    new_answers.append(v)
+
+        for q in questions:
+            self.refactor_answers(q, new_answers)  # now all questions have the same answers properly mapped
+
+        merge_to = min(questions)
+
+        self._remap_questions(questions, map_to=merge_to)
+
+        for q in questions:
+            if q != merge_to:
+                self._merge_and_delete(q, merge_to=merge_to)
 
     @staticmethod
     def _search_mapping(attrs, mapping):

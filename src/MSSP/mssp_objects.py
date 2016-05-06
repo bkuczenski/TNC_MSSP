@@ -84,6 +84,21 @@ class MsspQuestion(object):
         for ref in question.satisfied_by:
             self.satisfied_by.add(q_dict[ref])  # add index into question enum
 
+    def merge(self, other):
+        """
+        Assume
+        :param other:
+        :return:
+        """
+        if self is other:
+            return
+        if self.valid_answers != other.valid_answers:
+            print('Answers do not match. not merging.')
+            return
+        self.references.extend(other.references)
+        [self.satisfied_by.add(k) for k in other.satisfied_by]
+        [self.satisfies.add(k) for k in other.satisfies]
+
     @classmethod
     def from_json(cls, question):
         """
