@@ -1806,11 +1806,11 @@
         "QuestionID": 120, 
         "ValidAnswers": [
             "low", 
-            1, 
-            2, 
+            "1", 
+            "2", 
             "moderate", 
-            3, 
-            4, 
+            "3", 
+            "4", 
             "high"
         ], 
         "References": [

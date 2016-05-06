@@ -1320,227 +1320,227 @@
         "TargetID": 26
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1", 
         "QuestionID": 120, 
         "TargetID": 98
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1", 
         "QuestionID": 120, 
         "TargetID": 99
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1", 
         "QuestionID": 120, 
         "TargetID": 100
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1", 
         "QuestionID": 120, 
         "TargetID": 101
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2", 
         "QuestionID": 120, 
         "TargetID": 102
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2", 
         "QuestionID": 120, 
         "TargetID": 103
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2", 
         "QuestionID": 120, 
         "TargetID": 104
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2", 
         "QuestionID": 120, 
         "TargetID": 105
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1", 
         "QuestionID": 120, 
         "TargetID": 106
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1", 
         "QuestionID": 120, 
         "TargetID": 107
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1", 
         "QuestionID": 120, 
         "TargetID": 108
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1", 
         "QuestionID": 120, 
         "TargetID": 109
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2", 
         "QuestionID": 120, 
         "TargetID": 110
     }, 
     {
-        "Threshold": 3, 
+        "Threshold": "3", 
         "QuestionID": 120, 
         "TargetID": 111
     }, 
     {
-        "Threshold": 3, 
+        "Threshold": "3", 
         "QuestionID": 120, 
         "TargetID": 112
     }, 
     {
-        "Threshold": 3, 
+        "Threshold": "3", 
         "QuestionID": 120, 
         "TargetID": 113
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2", 
         "QuestionID": 120, 
         "TargetID": 114
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2", 
         "QuestionID": 120, 
         "TargetID": 115
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2", 
         "QuestionID": 120, 
         "TargetID": 116
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2", 
         "QuestionID": 120, 
         "TargetID": 117
     }, 
     {
-        "Threshold": 4, 
+        "Threshold": "4", 
         "QuestionID": 120, 
         "TargetID": 118
     }, 
     {
-        "Threshold": 4, 
+        "Threshold": "4", 
         "QuestionID": 120, 
         "TargetID": 119
     }, 
     {
-        "Threshold": 4, 
+        "Threshold": "4", 
         "QuestionID": 120, 
         "TargetID": 120
     }, 
     {
-        "Threshold": 4, 
+        "Threshold": "4", 
         "QuestionID": 120, 
         "TargetID": 121
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2", 
         "QuestionID": 120, 
         "TargetID": 122
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2", 
         "QuestionID": 120, 
         "TargetID": 123
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2", 
         "QuestionID": 120, 
         "TargetID": 124
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2", 
         "QuestionID": 120, 
         "TargetID": 125
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2", 
         "QuestionID": 120, 
         "TargetID": 126
     }, 
     {
-        "Threshold": 3, 
+        "Threshold": "3", 
         "QuestionID": 120, 
         "TargetID": 127
     }, 
     {
-        "Threshold": 3, 
+        "Threshold": "3", 
         "QuestionID": 120, 
         "TargetID": 128
     }, 
     {
-        "Threshold": 3, 
+        "Threshold": "3", 
         "QuestionID": 120, 
         "TargetID": 129
     }, 
     {
-        "Threshold": 3, 
+        "Threshold": "3", 
         "QuestionID": 120, 
         "TargetID": 130
     }, 
     {
-        "Threshold": 3, 
+        "Threshold": "3", 
         "QuestionID": 120, 
         "TargetID": 131
     }, 
     {
-        "Threshold": 3, 
+        "Threshold": "3", 
         "QuestionID": 120, 
         "TargetID": 132
     }, 
     {
-        "Threshold": 3, 
+        "Threshold": "3", 
         "QuestionID": 120, 
         "TargetID": 133
     }, 
     {
-        "Threshold": 3, 
+        "Threshold": "3", 
         "QuestionID": 120, 
         "TargetID": 134
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1", 
         "QuestionID": 120, 
         "TargetID": 135
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1", 
         "QuestionID": 120, 
         "TargetID": 136
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1", 
         "QuestionID": 120, 
         "TargetID": 137
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1", 
         "QuestionID": 120, 
         "TargetID": 138
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2", 
         "QuestionID": 120, 
         "TargetID": 139
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2", 
         "QuestionID": 120, 
         "TargetID": 140
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2", 
         "QuestionID": 120, 
         "TargetID": 141
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2", 
         "QuestionID": 120, 
         "TargetID": 142
     }, 
