@@ -2,11 +2,11 @@
     {
         "QuestionID": 0, 
         "ValidAnswers": [
-            0, 
-            1, 
-            2, 
-            3, 
-            4
+            "0 - Absent", 
+            "1 - borrowed", 
+            "2 - in situ but poor", 
+            "3 - in situ, reliable", 
+            "4 - "
         ], 
         "References": [
             "Assessment:40"
@@ -20,11 +20,11 @@
     {
         "QuestionID": 1, 
         "ValidAnswers": [
-            0, 
-            1, 
-            2, 
-            3, 
-            4
+            "0 - Absent", 
+            "1 - borrowed", 
+            "2 - in situ but poor", 
+            "3 - in situ, reliable", 
+            "4 - "
         ], 
         "References": [
             "Assessment:41"
@@ -38,11 +38,11 @@
     {
         "QuestionID": 2, 
         "ValidAnswers": [
-            0, 
-            1, 
-            2, 
-            3, 
-            4
+            "0 - Absent", 
+            "1 - borrowed", 
+            "2 - in situ but poor", 
+            "3 - in situ, reliable", 
+            "4 - "
         ], 
         "References": [
             "Assessment:42"
@@ -56,11 +56,11 @@
     {
         "QuestionID": 3, 
         "ValidAnswers": [
-            0, 
-            1, 
-            2, 
-            3, 
-            4
+            "0 - Absent", 
+            "1 - borrowed", 
+            "2 - in situ but poor", 
+            "3 - in situ, reliable", 
+            "4 - "
         ], 
         "References": [
             "Assessment:43"
@@ -74,11 +74,11 @@
     {
         "QuestionID": 4, 
         "ValidAnswers": [
-            0, 
-            1, 
-            2, 
-            3, 
-            4
+            "0 - Absent", 
+            "1 - borrowed", 
+            "2 - in situ but poor", 
+            "3 - in situ, reliable", 
+            "4 - "
         ], 
         "References": [
             "Assessment:44"
@@ -92,11 +92,11 @@
     {
         "QuestionID": 5, 
         "ValidAnswers": [
-            0, 
-            1, 
-            2, 
-            3, 
-            4
+            "0 - Absent", 
+            "1 - borrowed", 
+            "2 - in situ but poor", 
+            "3 - in situ, reliable", 
+            "4 - "
         ], 
         "References": [
             "Assessment:45"
@@ -110,11 +110,11 @@
     {
         "QuestionID": 6, 
         "ValidAnswers": [
-            0, 
-            1, 
-            2, 
-            3, 
-            4
+            "0 - Absent", 
+            "1 - borrowed", 
+            "2 - in situ but poor", 
+            "3 - in situ, reliable", 
+            "4 - "
         ], 
         "References": [
             "Assessment:46"
@@ -128,11 +128,11 @@
     {
         "QuestionID": 7, 
         "ValidAnswers": [
-            0, 
-            1, 
-            2, 
-            3, 
-            4
+            "0 - Absent", 
+            "1 - borrowed", 
+            "2 - in situ but poor", 
+            "3 - in situ, reliable", 
+            "4 - "
         ], 
         "References": [
             "Assessment:47"
@@ -146,11 +146,11 @@
     {
         "QuestionID": 8, 
         "ValidAnswers": [
-            0, 
-            1, 
-            2, 
-            3, 
-            4
+            "0 - Absent", 
+            "1 - borrowed", 
+            "2 - in situ but poor", 
+            "3 - in situ, reliable", 
+            "4 - "
         ], 
         "References": [
             "Assessment:48"
@@ -164,11 +164,11 @@
     {
         "QuestionID": 9, 
         "ValidAnswers": [
-            0, 
-            1, 
-            2, 
-            3, 
-            4
+            "0 - Absent", 
+            "1 - borrowed", 
+            "2 - in situ but poor", 
+            "3 - in situ, reliable", 
+            "4 - "
         ], 
         "References": [
             "Assessment:49"
@@ -180,23 +180,13 @@
         ]
     }, 
     {
-        "QuestionID": 10, 
-        "ValidAnswers": [], 
-        "References": [
-            "Assessment:50"
-        ], 
-        "Attributes": [
-            "c7bc58a6-8183-322d-8635-26020444a777"
-        ]
-    }, 
-    {
         "QuestionID": 11, 
         "ValidAnswers": [
-            0, 
-            1, 
-            2, 
-            3, 
-            4
+            "0 - Absent", 
+            "1 - Snapshots/intermittent/<5years", 
+            "2 - 5-10 regular years (i.e. not necessarily every year)", 
+            "3 - 10+ regular years (i.e. not necessarily every year)", 
+            "4 - regularly since inception"
         ], 
         "References": [
             "Assessment:51"
@@ -210,11 +200,11 @@
     {
         "QuestionID": 12, 
         "ValidAnswers": [
-            0, 
-            1, 
-            2, 
-            3, 
-            4
+            "0 - Absent", 
+            "1 - Snapshots/intermittent/<5years", 
+            "2 - 5-10 regular years (i.e. not necessarily every year)", 
+            "3 - 10+ regular years (i.e. not necessarily every year)", 
+            "4 - regularly since inception"
         ], 
         "References": [
             "Assessment:52"
@@ -227,7 +217,13 @@
     }, 
     {
         "QuestionID": 13, 
-        "ValidAnswers": [], 
+        "ValidAnswers": [
+            "0 - Absent", 
+            "1 - Snapshots/intermittent/<5years", 
+            "2 - 5-10 regular years (i.e. not necessarily every year)", 
+            "3 - 10+ regular years (i.e. not necessarily every year)", 
+            "4 - regularly since inception"
+        ], 
         "References": [
             "Assessment:53"
         ], 
@@ -240,11 +236,11 @@
     {
         "QuestionID": 14, 
         "ValidAnswers": [
-            0, 
-            1, 
-            2, 
-            3, 
-            4
+            "0 - Absent", 
+            "1 - Snapshots/intermittent/<5years", 
+            "2 - 5-10 regular years (i.e. not necessarily every year)", 
+            "3 - 10+ regular years (i.e. not necessarily every year)", 
+            "4 - regularly since inception"
         ], 
         "References": [
             "Assessment:54"
@@ -258,11 +254,11 @@
     {
         "QuestionID": 15, 
         "ValidAnswers": [
-            0, 
-            1, 
-            2, 
-            3, 
-            4
+            "0 - Absent", 
+            "1 - Snapshots/intermittent/<5years", 
+            "2 - 5-10 regular years (i.e. not necessarily every year)", 
+            "3 - 10+ regular years (i.e. not necessarily every year)", 
+            "4 - regularly since inception"
         ], 
         "References": [
             "Assessment:55"
@@ -276,11 +272,11 @@
     {
         "QuestionID": 16, 
         "ValidAnswers": [
-            0, 
-            1, 
-            2, 
-            3, 
-            4
+            "0 - Absent", 
+            "1 - Snapshots/intermittent/<5years", 
+            "2 - 5-10 regular years (i.e. not necessarily every year)", 
+            "3 - 10+ regular years (i.e. not necessarily every year)", 
+            "4 - regularly since inception"
         ], 
         "References": [
             "Assessment:56"
@@ -294,11 +290,11 @@
     {
         "QuestionID": 17, 
         "ValidAnswers": [
-            0, 
-            1, 
-            2, 
-            3, 
-            4
+            "0 - Absent", 
+            "1 - Snapshots/intermittent/<5years", 
+            "2 - 5-10 regular years (i.e. not necessarily every year)", 
+            "3 - 10+ regular years (i.e. not necessarily every year)", 
+            "4 - regularly since inception"
         ], 
         "References": [
             "Assessment:57"
@@ -312,11 +308,11 @@
     {
         "QuestionID": 18, 
         "ValidAnswers": [
-            0, 
-            1, 
-            2, 
-            3, 
-            4
+            "0 - Absent", 
+            "1 - Snapshots/intermittent/<5years", 
+            "2 - 5-10 regular years (i.e. not necessarily every year)", 
+            "3 - 10+ regular years (i.e. not necessarily every year)", 
+            "4 - regularly since inception"
         ], 
         "References": [
             "Assessment:58"
@@ -330,11 +326,11 @@
     {
         "QuestionID": 19, 
         "ValidAnswers": [
-            0, 
-            1, 
-            2, 
-            3, 
-            4
+            "0 - Absent", 
+            "1 - Snapshots/intermittent/<5years", 
+            "2 - 5-10 regular years (i.e. not necessarily every year)", 
+            "3 - 10+ regular years (i.e. not necessarily every year)", 
+            "4 - regularly since inception"
         ], 
         "References": [
             "Assessment:59"
@@ -348,11 +344,11 @@
     {
         "QuestionID": 20, 
         "ValidAnswers": [
-            0, 
-            1, 
-            2, 
-            3, 
-            4
+            "0 - Absent", 
+            "1 - Snapshots/intermittent/<5years", 
+            "2 - 5-10 regular years (i.e. not necessarily every year)", 
+            "3 - 10+ regular years (i.e. not necessarily every year)", 
+            "4 - regularly since inception"
         ], 
         "References": [
             "Assessment:60"
@@ -366,11 +362,11 @@
     {
         "QuestionID": 21, 
         "ValidAnswers": [
-            0, 
-            1, 
-            2, 
-            3, 
-            4
+            "0 - Absent", 
+            "1 - Snapshots/intermittent/<5years", 
+            "2 - 5-10 regular years (i.e. not necessarily every year)", 
+            "3 - 10+ regular years (i.e. not necessarily every year)", 
+            "4 - regularly since inception"
         ], 
         "References": [
             "Assessment:61"
@@ -384,11 +380,11 @@
     {
         "QuestionID": 22, 
         "ValidAnswers": [
-            0, 
-            1, 
-            2, 
-            3, 
-            4
+            "0 - Absent", 
+            "1 - Snapshots/intermittent/<5years", 
+            "2 - 5-10 regular years (i.e. not necessarily every year)", 
+            "3 - 10+ regular years (i.e. not necessarily every year)", 
+            "4 - regularly since inception"
         ], 
         "References": [
             "Assessment:62"
@@ -400,23 +396,13 @@
         ]
     }, 
     {
-        "QuestionID": 23, 
-        "ValidAnswers": [], 
-        "References": [
-            "Assessment:63"
-        ], 
-        "Attributes": [
-            "c7bc58a6-8183-322d-8635-26020444a777"
-        ]
-    }, 
-    {
         "QuestionID": 24, 
         "ValidAnswers": [
-            0, 
-            1, 
-            2, 
-            3, 
-            4
+            "0 - absent", 
+            "1 - borrowed - outside expert", 
+            "2 - in situ - local expert", 
+            "3 - ", 
+            "4 - "
         ], 
         "References": [
             "Assessment:64"
@@ -430,11 +416,11 @@
     {
         "QuestionID": 25, 
         "ValidAnswers": [
-            0, 
-            1, 
-            2, 
-            3, 
-            4
+            "0 - absent", 
+            "1 - borrowed - outside expert", 
+            "2 - in situ - local expert", 
+            "3 - ", 
+            "4 - "
         ], 
         "References": [
             "Assessment:65"
@@ -448,11 +434,11 @@
     {
         "QuestionID": 26, 
         "ValidAnswers": [
-            0, 
-            1, 
-            2, 
-            3, 
-            4
+            "0 - absent", 
+            "1 - borrowed - outside expert", 
+            "2 - in situ - local expert", 
+            "3 - ", 
+            "4 - "
         ], 
         "References": [
             "Assessment:66"
@@ -466,11 +452,11 @@
     {
         "QuestionID": 27, 
         "ValidAnswers": [
-            0, 
-            1, 
-            2, 
-            3, 
-            4
+            "0 - absent", 
+            "1 - borrowed - outside expert", 
+            "2 - in situ - local expert", 
+            "3 - ", 
+            "4 - "
         ], 
         "References": [
             "Assessment:67"
@@ -496,11 +482,11 @@
         ], 
         "QuestionID": 30, 
         "ValidAnswers": [
-            0, 
-            1, 
-            2, 
-            3, 
-            4
+            "0 - Absent", 
+            "1 - Snapshots/intermittent/<5years", 
+            "2 - 5-10 regular years (i.e. not necessarily every year)", 
+            "3 - 10+ regular years (i.e. not necessarily every year)", 
+            "4 - regularly since inception"
         ], 
         "References": [
             "Assessment:70"
@@ -519,11 +505,11 @@
         ], 
         "QuestionID": 31, 
         "ValidAnswers": [
-            0, 
-            1, 
-            2, 
-            3, 
-            4
+            "0 - Absent", 
+            "1 - Snapshots/intermittent/<5years", 
+            "2 - 5-10 regular years (i.e. not necessarily every year)", 
+            "3 - 10+ regular years (i.e. not necessarily every year)", 
+            "4 - regularly since inception"
         ], 
         "References": [
             "Assessment:71"
@@ -542,11 +528,11 @@
         ], 
         "QuestionID": 32, 
         "ValidAnswers": [
-            0, 
-            1, 
-            2, 
-            3, 
-            4
+            "0 - Absent", 
+            "1 - Snapshots/intermittent/<5years", 
+            "2 - 5-10 regular years (i.e. not necessarily every year)", 
+            "3 - 10+ regular years (i.e. not necessarily every year)", 
+            "4 - regularly since inception"
         ], 
         "References": [
             "Assessment:72"
@@ -566,11 +552,11 @@
         ], 
         "QuestionID": 33, 
         "ValidAnswers": [
-            0, 
-            1, 
-            2, 
-            3, 
-            4
+            "0 - Absent", 
+            "1 - Snapshots/intermittent/<5years", 
+            "2 - 5-10 regular years (i.e. not necessarily every year)", 
+            "3 - 10+ regular years (i.e. not necessarily every year)", 
+            "4 - regularly since inception"
         ], 
         "References": [
             "Assessment:73"
@@ -590,11 +576,11 @@
         ], 
         "QuestionID": 34, 
         "ValidAnswers": [
-            0, 
-            1, 
-            2, 
-            3, 
-            4
+            "0 - Absent", 
+            "1 - Snapshots/intermittent/<5years", 
+            "2 - 5-10 regular years (i.e. not necessarily every year)", 
+            "3 - 10+ regular years (i.e. not necessarily every year)", 
+            "4 - regularly since inception"
         ], 
         "References": [
             "Assessment:74"
@@ -616,11 +602,11 @@
         ], 
         "QuestionID": 35, 
         "ValidAnswers": [
-            0, 
-            1, 
-            2, 
-            3, 
-            4
+            "0 - Absent", 
+            "1 - Snapshots/intermittent/<5years", 
+            "2 - 5-10 regular years (i.e. not necessarily every year)", 
+            "3 - 10+ regular years (i.e. not necessarily every year)", 
+            "4 - regularly since inception"
         ], 
         "References": [
             "Assessment:75"
@@ -641,11 +627,11 @@
         ], 
         "QuestionID": 36, 
         "ValidAnswers": [
-            0, 
-            1, 
-            2, 
-            3, 
-            4
+            "0 - Absent", 
+            "1 - borrowed", 
+            "2 - in situ but poor", 
+            "3 - in situ, reliable", 
+            "4 - "
         ], 
         "References": [
             "Assessment:76"
@@ -674,9 +660,9 @@
     {
         "QuestionID": 39, 
         "ValidAnswers": [
-            0, 
-            1, 
-            2
+            "0 - unknown", 
+            "1 - able to be inferred", 
+            "2 - known"
         ], 
         "References": [
             "Assessment:79"

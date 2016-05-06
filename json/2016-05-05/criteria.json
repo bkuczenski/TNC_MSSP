@@ -165,467 +165,467 @@
         "TargetID": 45
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
         "QuestionID": 21, 
         "TargetID": 3
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
         "QuestionID": 21, 
         "TargetID": 5
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
         "QuestionID": 21, 
         "TargetID": 19
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
         "QuestionID": 21, 
         "TargetID": 21
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
         "QuestionID": 34, 
         "TargetID": 20
     }, 
     {
-        "Threshold": 3, 
+        "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
         "QuestionID": 14, 
         "TargetID": 45
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 1, 
         "TargetID": 3
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 1, 
         "TargetID": 6
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 1, 
         "TargetID": 39
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 5, 
         "TargetID": 44
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - able to be inferred", 
         "QuestionID": 39, 
         "TargetID": 7
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - able to be inferred", 
         "QuestionID": 39, 
         "TargetID": 14
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - able to be inferred", 
         "QuestionID": 39, 
         "TargetID": 15
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - able to be inferred", 
         "QuestionID": 39, 
         "TargetID": 18
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - able to be inferred", 
         "QuestionID": 39, 
         "TargetID": 24
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - able to be inferred", 
         "QuestionID": 39, 
         "TargetID": 26
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - able to be inferred", 
         "QuestionID": 39, 
         "TargetID": 30
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - able to be inferred", 
         "QuestionID": 39, 
         "TargetID": 31
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - able to be inferred", 
         "QuestionID": 39, 
         "TargetID": 32
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - able to be inferred", 
         "QuestionID": 39, 
         "TargetID": 33
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - able to be inferred", 
         "QuestionID": 39, 
         "TargetID": 38
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - able to be inferred", 
         "QuestionID": 39, 
         "TargetID": 39
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - able to be inferred", 
         "QuestionID": 39, 
         "TargetID": 40
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - able to be inferred", 
         "QuestionID": 39, 
         "TargetID": 41
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - able to be inferred", 
         "QuestionID": 39, 
         "TargetID": 42
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - able to be inferred", 
         "QuestionID": 39, 
         "TargetID": 43
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - able to be inferred", 
         "QuestionID": 39, 
         "TargetID": 44
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - able to be inferred", 
         "QuestionID": 39, 
         "TargetID": 45
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
         "QuestionID": 16, 
         "TargetID": 11
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
         "QuestionID": 16, 
         "TargetID": 17
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
         "QuestionID": 16, 
         "TargetID": 24
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
         "QuestionID": 16, 
         "TargetID": 28
     }, 
     {
-        "Threshold": 3, 
+        "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
         "QuestionID": 16, 
         "TargetID": 35
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - 5-10 regular years (i.e. not necessarily every year)", 
         "QuestionID": 16, 
         "TargetID": 36
     }, 
     {
-        "Threshold": 3, 
+        "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
         "QuestionID": 16, 
         "TargetID": 37
     }, 
     {
-        "Threshold": 3, 
+        "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
         "QuestionID": 16, 
         "TargetID": 38
     }, 
     {
-        "Threshold": 3, 
+        "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
         "QuestionID": 16, 
         "TargetID": 41
     }, 
     {
-        "Threshold": 3, 
+        "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
         "QuestionID": 16, 
         "TargetID": 42
     }, 
     {
-        "Threshold": 3, 
+        "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
         "QuestionID": 16, 
         "TargetID": 43
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
         "QuestionID": 16, 
         "TargetID": 44
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
         "QuestionID": 16, 
         "TargetID": 46
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 0, 
         "TargetID": 0
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 0, 
         "TargetID": 1
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 0, 
         "TargetID": 2
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 0, 
         "TargetID": 3
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 0, 
         "TargetID": 4
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 0, 
         "TargetID": 6
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 0, 
         "TargetID": 7
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 0, 
         "TargetID": 14
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 0, 
         "TargetID": 19
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 0, 
         "TargetID": 24
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 0, 
         "TargetID": 25
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 0, 
         "TargetID": 30
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 0, 
         "TargetID": 31
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 0, 
         "TargetID": 32
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 0, 
         "TargetID": 33
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 0, 
         "TargetID": 34
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 0, 
         "TargetID": 36
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 0, 
         "TargetID": 37
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 0, 
         "TargetID": 38
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 0, 
         "TargetID": 41
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 0, 
         "TargetID": 42
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 0, 
         "TargetID": 44
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed - outside expert", 
         "QuestionID": 27, 
         "TargetID": 4
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - in situ - local expert", 
         "QuestionID": 27, 
         "TargetID": 5
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
         "QuestionID": 30, 
         "TargetID": 2
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
         "QuestionID": 30, 
         "TargetID": 6
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
         "QuestionID": 30, 
         "TargetID": 22
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
         "QuestionID": 30, 
         "TargetID": 23
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
         "QuestionID": 30, 
         "TargetID": 29
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 4, 
         "TargetID": 31
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 4, 
         "TargetID": 32
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - 5-10 regular years (i.e. not necessarily every year)", 
         "QuestionID": 18, 
         "TargetID": 13
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - 5-10 regular years (i.e. not necessarily every year)", 
         "QuestionID": 18, 
         "TargetID": 16
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
         "QuestionID": 18, 
         "TargetID": 17
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
         "QuestionID": 18, 
         "TargetID": 19
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
         "QuestionID": 18, 
         "TargetID": 21
     }, 
     {
-        "Threshold": 3, 
+        "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
         "QuestionID": 18, 
         "TargetID": 40
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - 5-10 regular years (i.e. not necessarily every year)", 
         "QuestionID": 31, 
         "TargetID": 14
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - 5-10 regular years (i.e. not necessarily every year)", 
         "QuestionID": 31, 
         "TargetID": 25
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - in situ but poor", 
         "QuestionID": 8, 
         "TargetID": 45
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 3, 
         "TargetID": 6
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 3, 
         "TargetID": 7
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 3, 
         "TargetID": 14
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 3, 
         "TargetID": 18
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 3, 
         "TargetID": 25
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 3, 
         "TargetID": 32
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - in situ but poor", 
         "QuestionID": 3, 
         "TargetID": 39
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 3, 
         "TargetID": 41
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 3, 
         "TargetID": 42
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 3, 
         "TargetID": 44
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 3, 
         "TargetID": 46
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
         "QuestionID": 33, 
         "TargetID": 18
     }, 
@@ -855,47 +855,47 @@
         "TargetID": 142
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 9, 
         "TargetID": 3
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 9, 
         "TargetID": 6
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 9, 
         "TargetID": 7
     }, 
     {
-        "Threshold": 3, 
+        "Threshold": "3 - in situ, reliable", 
         "QuestionID": 9, 
         "TargetID": 32
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 9, 
         "TargetID": 34
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 9, 
         "TargetID": 41
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 9, 
         "TargetID": 42
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 9, 
         "TargetID": 44
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 9, 
         "TargetID": 45
     }, 
@@ -1050,37 +1050,37 @@
         "TargetID": 46
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
         "QuestionID": 22, 
         "TargetID": 3
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
         "QuestionID": 22, 
         "TargetID": 5
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
         "QuestionID": 22, 
         "TargetID": 19
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
         "QuestionID": 22, 
         "TargetID": 21
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
         "QuestionID": 17, 
         "TargetID": 10
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
         "QuestionID": 17, 
         "TargetID": 24
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
         "QuestionID": 17, 
         "TargetID": 27
     }, 
@@ -1310,12 +1310,12 @@
         "TargetID": 142
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - 5-10 regular years (i.e. not necessarily every year)", 
         "QuestionID": 32, 
         "TargetID": 15
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
         "QuestionID": 32, 
         "TargetID": 26
     }, 
@@ -1995,287 +1995,287 @@
         "TargetID": 142
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 36, 
         "TargetID": 35
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
         "QuestionID": 12, 
         "TargetID": 3
     }, 
     {
-        "Threshold": 3, 
+        "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
         "QuestionID": 12, 
         "TargetID": 7
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - 5-10 regular years (i.e. not necessarily every year)", 
         "QuestionID": 12, 
         "TargetID": 14
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
         "QuestionID": 12, 
         "TargetID": 21
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
         "QuestionID": 12, 
         "TargetID": 24
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - 5-10 regular years (i.e. not necessarily every year)", 
         "QuestionID": 12, 
         "TargetID": 25
     }, 
     {
-        "Threshold": 3, 
+        "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
         "QuestionID": 12, 
         "TargetID": 30
     }, 
     {
-        "Threshold": 3, 
+        "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
         "QuestionID": 12, 
         "TargetID": 31
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
         "QuestionID": 12, 
         "TargetID": 32
     }, 
     {
-        "Threshold": 3, 
+        "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
         "QuestionID": 12, 
         "TargetID": 33
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
         "QuestionID": 12, 
         "TargetID": 39
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
         "QuestionID": 35, 
         "TargetID": 34
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed - outside expert", 
         "QuestionID": 26, 
         "TargetID": 4
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - in situ - local expert", 
         "QuestionID": 26, 
         "TargetID": 5
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - in situ - local expert", 
         "QuestionID": 26, 
         "TargetID": 19
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - in situ - local expert", 
         "QuestionID": 24, 
         "TargetID": 3
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - in situ - local expert", 
         "QuestionID": 24, 
         "TargetID": 4
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - in situ - local expert", 
         "QuestionID": 24, 
         "TargetID": 5
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed - outside expert", 
         "QuestionID": 24, 
         "TargetID": 6
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed - outside expert", 
         "QuestionID": 24, 
         "TargetID": 7
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed - outside expert", 
         "QuestionID": 24, 
         "TargetID": 14
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - in situ - local expert", 
         "QuestionID": 24, 
         "TargetID": 19
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed - outside expert", 
         "QuestionID": 24, 
         "TargetID": 20
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - in situ - local expert", 
         "QuestionID": 24, 
         "TargetID": 24
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed - outside expert", 
         "QuestionID": 24, 
         "TargetID": 25
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed - outside expert", 
         "QuestionID": 24, 
         "TargetID": 35
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed - outside expert", 
         "QuestionID": 24, 
         "TargetID": 36
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - in situ - local expert", 
         "QuestionID": 24, 
         "TargetID": 37
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed - outside expert", 
         "QuestionID": 24, 
         "TargetID": 38
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed - outside expert", 
         "QuestionID": 24, 
         "TargetID": 42
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed - outside expert", 
         "QuestionID": 24, 
         "TargetID": 44
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 6, 
         "TargetID": 44
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed - outside expert", 
         "QuestionID": 25, 
         "TargetID": 0
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - in situ - local expert", 
         "QuestionID": 25, 
         "TargetID": 1
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - in situ - local expert", 
         "QuestionID": 25, 
         "TargetID": 2
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - in situ - local expert", 
         "QuestionID": 25, 
         "TargetID": 3
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - in situ - local expert", 
         "QuestionID": 25, 
         "TargetID": 4
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - in situ - local expert", 
         "QuestionID": 25, 
         "TargetID": 5
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed - outside expert", 
         "QuestionID": 25, 
         "TargetID": 6
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed - outside expert", 
         "QuestionID": 25, 
         "TargetID": 7
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - in situ - local expert", 
         "QuestionID": 25, 
         "TargetID": 10
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - in situ - local expert", 
         "QuestionID": 25, 
         "TargetID": 11
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - in situ - local expert", 
         "QuestionID": 25, 
         "TargetID": 12
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - in situ - local expert", 
         "QuestionID": 25, 
         "TargetID": 13
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - in situ - local expert", 
         "QuestionID": 25, 
         "TargetID": 14
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - in situ - local expert", 
         "QuestionID": 25, 
         "TargetID": 19
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - in situ - local expert", 
         "QuestionID": 25, 
         "TargetID": 20
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - in situ - local expert", 
         "QuestionID": 25, 
         "TargetID": 24
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - in situ - local expert", 
         "QuestionID": 25, 
         "TargetID": 25
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - in situ - local expert", 
         "QuestionID": 25, 
         "TargetID": 30
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - in situ - local expert", 
         "QuestionID": 25, 
         "TargetID": 31
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - in situ - local expert", 
         "QuestionID": 25, 
         "TargetID": 32
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - in situ - local expert", 
         "QuestionID": 25, 
         "TargetID": 33
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed - outside expert", 
         "QuestionID": 25, 
         "TargetID": 46
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 7, 
         "TargetID": 41
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 7, 
         "TargetID": 44
     }, 
@@ -2505,12 +2505,12 @@
         "TargetID": 46
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - 5-10 regular years (i.e. not necessarily every year)", 
         "QuestionID": 11, 
         "TargetID": 8
     }, 
     {
-        "Threshold": 2, 
+        "Threshold": "2 - 5-10 regular years (i.e. not necessarily every year)", 
         "QuestionID": 11, 
         "TargetID": 9
     }, 
@@ -2595,47 +2595,47 @@
         "TargetID": 45
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 2, 
         "TargetID": 3
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 2, 
         "TargetID": 6
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 2, 
         "TargetID": 32
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 2, 
         "TargetID": 34
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 2, 
         "TargetID": 37
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 2, 
         "TargetID": 38
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 2, 
         "TargetID": 41
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 2, 
         "TargetID": 42
     }, 
     {
-        "Threshold": 1, 
+        "Threshold": "1 - borrowed", 
         "QuestionID": 2, 
         "TargetID": 44
     }
