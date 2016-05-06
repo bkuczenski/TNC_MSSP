@@ -96,11 +96,11 @@ class JsonImporter(MsspDataStore):
                 for ans in cav['Answers']:
                     if 'NoteID' in ans:
                         note_id = uuid.UUID(ans['NoteID'])
-                        ans_i = indices(question_enum[q_index].valid_answers, lambda k: cav['Answer'] == k)
+                        ans_i = indices(question_enum[q_index].valid_answers, lambda k: ans['Answer'] == k)
 
                         if len(ans_i) == 0:
                             print "QuestionID {0}, TargetID {1}, valid answer '{2}' unparsed.".format(
-                                q_index, t_index, cav['Answer'])
+                                q_index, t_index, ans['Answer'])
                             ans_i = [None]
 
                         cav_questions.append(q_index)
