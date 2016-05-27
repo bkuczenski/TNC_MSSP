@@ -313,6 +313,11 @@ class MsspDataStore(object):
         ts = set([v['TargetID'] for k, v in self._target_attributes.iterrows() if v['AttributeID'] == index])
         return sorted(list(ts))
 
+    def remove_duplicate_attribute_references(self):
+        for dup, orig in self._attributes.dups:
+            self._question_attributes.loc[self._question_attributes['AttributeID'] == dup, 'AttributeID'] = orig
+            self._target_attributes.loc[self._target_attributes['AttributeID'] == dup, 'AttributeID'] = orig
+
     def _reorder_answer_columns(self, question, table):
         """
         Reorders the columns in a [pivot] table to match the order appearing in the question
