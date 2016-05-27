@@ -858,11 +858,11 @@ class MsspDataStore(object):
             "caveats": caveats,
             "attributes": {
                 'nsUuid': str(self._attributes.get_ns_uuid()),
-                'Elements': sorted(attributes)
+                'Elements': sorted(attributes, key=lambda x: x['AttributeID'])
             },
             "notes": {
                 'nsUuid': str(self._attributes.get_ns_uuid()),
-                'Elements': sorted(notes)
+                'Elements': sorted(notes, key=lambda x: x['NoteID'])
             }
         }
         return json_out
