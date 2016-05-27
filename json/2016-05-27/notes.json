@@ -1,689 +1,14 @@
 {
     "Elements": [
         {
-            "NoteColor": "None", 
-            "NoteText": "Beware changes in selectivity. Sensitive to selectivity mis-specification (need to know if selectivity is asymptotic or dome-shaped). Assumes time-independent selectivity.", 
-            "NoteID": "033efa29-254e-3a62-9354-6dede226000c"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Catch by location required", 
-            "NoteID": "1292df75-2d5b-3435-b346-30c332fc30c5"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Resolve whether gear changes are related to selectivity changes", 
-            "NoteID": "1fd9ba2b-db77-3ca5-bc86-fecc3e8e010c"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Requires an estimate of depletion (may be crude). ", 
-            "NoteID": "24b7cc47-71ad-3ae9-b70b-90ff266caffe"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Useful (for coral reef fisheries only)", 
-            "NoteID": "29263429-c7b1-397c-943b-74f9092ed407"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Useful", 
-            "NoteID": "2a0ea211-88e1-3ecb-8d90-10c761671bc9"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "ideally requires time series to set reference points or proxies", 
-            "NoteID": "2bf37259-be70-3529-8d99-faae9c2c9507"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Resolve whether spatial changes are related to selectivity changes", 
-            "NoteID": "2ca08694-9fbd-3ddb-a164-a27c871f5902"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Less informative  if species-specific information unavailable", 
-            "NoteID": "344ebfcd-6d35-3788-bc10-741e6754b619"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Helpful for systematic prioritization of stocks that require additional review/assessment", 
-            "NoteID": "38c09000-808c-35e6-8cea-0dd29c392027"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Helpful in conjunction with change in gears or targeted species", 
-            "NoteID": "4319d293-52b5-3c9f-bf81-6ebd2667dc74"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Helpful if so", 
-            "NoteID": "43e3c4db-365d-324d-9b5e-890183b1cd18"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": " Requires depletion estimate (can be crude). ", 
-            "NoteID": "4474cfeb-9af5-3954-a9bc-b01d0575619f"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Trends in size-based indicators may be compromised by changing selectivity", 
-            "NoteID": "460aa024-8095-3987-9adf-4c2d51eb9bf4"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Effort by location required", 
-            "NoteID": "4b791daf-f3c8-3aa8-8664-c89a1f5410a8"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Requires possible ranges of relative stock sizes in the first and final years of the time series", 
-            "NoteID": "5713a21c-cf67-3d4b-9263-1ce431690e50"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "N", 
-            "NoteID": "6676d0f0-3470-32f1-b911-23b8a1bd241b"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "May not be suited to fisheries with a low number of participants.", 
-            "NoteID": "66aecd17-e304-37c8-9ba1-28281f6ecf96"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Requires mature MPA, well enforced, similar habitat.", 
-            "NoteID": "66ede070-4e5d-3e1f-bc23-13344162f6cc"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Requires recent time series. ", 
-            "NoteID": "6e94d116-3488-3cd7-b6d4-db6889a5c337"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Within-season management desirable - e.g. daily catch or effort limits", 
-            "NoteID": "830b5042-ae83-3986-82ca-40e3131b78dd"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "In absence of species-specific information, attempt to include a range of indepedent indicators that embrace all potential changes in the fishery that would warrant a response or interpretation re: stock status", 
-            "NoteID": "84007c4a-7b0a-33ac-b27e-6cf5acdd10d8"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Caution if these affect the fishery in a spatially/temporally varying manner", 
-            "NoteID": "8ce45386-385d-3fd5-9cbc-6a8aa022fd4f"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "May not work with a low number of participants", 
-            "NoteID": "8eb1752c-208a-31b9-9b79-446b20ab8abd"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Requires some estimate of virgin recruitment", 
-            "NoteID": "91f97da9-0ce4-33bc-9495-c871220a6b93"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "If these can be articulated, can expand magnitude of uncertainty in assessment (e.g. on life history parameters)", 
-            "NoteID": "982f972a-8b4d-3ed7-9545-36fe085fdf70"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Not informative if species-specific information unavailable", 
-            "NoteID": "9decdafc-5e79-31e4-959c-6bc07fa095d6"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Assumption that CDRs are continuous", 
-            "NoteID": "9fdf672e-90d0-38c4-bed7-ab7f0f45918b"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "May not work with a low number of participants.", 
-            "NoteID": "a2c915d6-2dcb-3eda-8240-9fd856b0c705"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "may not be useful if fishery operational changes have occurred", 
-            "NoteID": "aaa93bb2-5ca9-370c-a09d-a18c71129d99"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Assumption that data collection is continuous", 
-            "NoteID": "b0f0605b-e643-3c0e-a76f-efe1023783b0"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Indicators used within this would have to be non-species-specific (e.g. spatial/temporal changes in effort), or limited to those species for which there exist data. In absence of species-specific information, attempt to include a range of indepedent indicators that embrace all potential changes in the fishery that would warrant a response or interpretation re: stock status", 
-            "NoteID": "b676078e-66c4-3206-a06b-745844460c9a"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Assumption is that logbooks are continuous", 
-            "NoteID": "b7d94632-0ce4-3cf7-8cb0-5b3f27126730"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Sampling must occur using same gear as in the fishery", 
-            "NoteID": "ba1fdd55-27a5-32d5-962e-5f6fd45d1fd1"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Assumes equilibrium biomass; beware changes in selectivity", 
-            "NoteID": "c5a4f75e-0f26-31b2-905a-97cdc3fa9402"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "May not work with a low number of participants. \n", 
-            "NoteID": "c681054d-58a7-37fc-9854-db8c026a0555"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Not possible if species-specific information unavailable", 
-            "NoteID": "c7b6a2a6-d18e-35fd-961d-00ecb6379640"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Beware if yes", 
-            "NoteID": "c7fde30c-d0c0-3018-a8bd-04c65aa1764a"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Beware if yes, and if framework uses size-based indicators", 
-            "NoteID": "cdc40f55-f2fb-34b1-b4e1-8a60fdd98d29"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Required", 
-            "NoteID": "cff06262-3256-3b40-873f-6018975a7d3d"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Beware if fishers are undertaking the surveys under alternate selectivity", 
-            "NoteID": "d8f07a3b-ad6d-3807-8309-9df24232de85"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "requires a broad categorical classification of stock abundance; requires a perceived level of stock \u201crisk\u201d. ", 
-            "NoteID": "e3e6dd9d-868a-3f7f-88aa-6eb307dee71a"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Useful (in conjunction with changes in species composition ratios or change in dominant species)", 
-            "NoteID": "e63c7a5a-75e1-3e01-abd2-16bfb40e8cae"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Helpful for comparing species within a multispecies fishery, performance of different fleets on the same species complex, or fishing on the same species complex between fishing communities.", 
-            "NoteID": "ef5f0897-8792-35a1-a17b-828b52425e6a"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Requires knowedge of gear and/manner of deployment", 
-            "NoteID": "efbf432a-d2ff-3382-b4ec-bd82db782f50"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Helpful in conjunction with monitoring of species composition, distribution, or length of capture", 
-            "NoteID": "efe7a86e-40de-31b3-bdca-b8c4a9c5d397"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Requires some concept of B0; can be indirect via back-extrapolation of catch series.", 
-            "NoteID": "f772bd55-2a85-32e1-913f-66ae1274cad8"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "Need selecitvity to at least be able to be inferred.", 
-            "NoteID": "fbe50944-cfd8-3f46-85ca-427a3c13ccfd"
-        }, 
-        {
-            "NoteColor": "None", 
-            "NoteText": "YES", 
-            "NoteID": "fea531b6-2d0b-35a3-96c2-f7047ad65f83"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "If discarding rate (re: barotrauma), or handling without capturing (for disease-susceptible), is suspected to be significant, observers can report fishing-induced mortality of non-retained individuals", 
-            "NoteID": "15581bdf-a258-3019-929e-8be652842444"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "YES - if effort-related", 
-            "NoteID": "1900b590-f00b-3688-9c8a-5976ac797d0b"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "YES - augment with measures that address overfishing", 
-            "NoteID": "358b80b0-c031-3dd5-bbb9-0c436f067e5b"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "Easier if community-based", 
-            "NoteID": "38f312f9-e8c7-33b8-b8f6-4c9185ae6553"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "Information typically high quality; strategic deployment can yield high-quality information; can be operator error (e.g. measurements, species identification)", 
-            "NoteID": "3c38c0b7-04ab-38a1-9004-1db8a565390a"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "YES - these should avoid capture of species likely to be otherwise discarded", 
-            "NoteID": "3ca50651-71f4-3913-b5ce-c0806f7c24ae"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "May get more honest representation if no accountability/fear of consequence of reporting illegal activity", 
-            "NoteID": "43030769-382c-3cb2-9480-e608367ddecc"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "Assumption that CDRs are continuous", 
-            "NoteID": "506dd44d-a11a-3e1d-975b-08c8ea88f40b"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "YES - if temporal", 
-            "NoteID": "548f219f-5c98-3a02-abee-363fb79ed809"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "Helpful if so", 
-            "NoteID": "59caeaef-2db8-3e80-8d74-ff11197aa99f"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "May be preferable to invasive measurements providing surveys do not involved trauma to species", 
-            "NoteID": "5a4a72f5-e4bc-3d2c-a2fb-09bdc29de4d7"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "Ease of coverage", 
-            "NoteID": "5df6ba7d-1551-35fd-a529-d031a05baaf7"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "May be more representative than having good coverage but only across part of the fleet/fishery range", 
-            "NoteID": "5e4ec083-23d8-374b-9f8b-545cb5daa40f"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "YES - if aggregations are seasonal", 
-            "NoteID": "5ecba86d-e0b8-3bce-8203-f31d29e014e9"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "May be easier to coordinate processor monitoring rather than port monitoring BUT coverage may not be representative if biology thought to be spatially variable", 
-            "NoteID": "6001d878-df80-32c1-9153-1fc7d8d6f4f8"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "Assumption that data collection is continuous", 
-            "NoteID": "64ca67de-e440-351b-b4d7-e40740e8222a"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "YES - if time-specific", 
-            "NoteID": "6794f4d5-00c6-3c1d-89f9-65273fa1b0e5"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "YES - though caution re: effort creep", 
-            "NoteID": "6ccad560-8a5b-3c10-85ed-41e8722cf0eb"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "YES - if little or no data pertaining to these", 
-            "NoteID": "7c158f77-53fa-3220-b462-83b120bdf9fe"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "YES", 
-            "NoteID": "7ef90e24-35a1-3646-bf08-216d42fe38b1"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "May be easier to coordinate processor monitoring rather than port monitoring BUT coverage may not be representative", 
-            "NoteID": "7f78e7a4-cfcf-3ab0-8cdb-392d950ca397"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "Easier to facilitate for smaller fishing area", 
-            "NoteID": "86cfac0f-8251-333a-be31-b065ff3d62e2"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "Easier if at least at regional level", 
-            "NoteID": "91162e87-2151-37b7-a707-59b476a0973e"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "YES - to build more defensible estimate of stock status", 
-            "NoteID": "93a625a1-da86-3474-92a3-fdf1185bb7a1"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "Useful if fisher willingness/trust, and strong community leadership and/or governance", 
-            "NoteID": "a9511532-7b2d-3f4b-a20a-236ca745a851"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "YES - in context that, even if nothing else can be done/implemented, make the commitment to collect and \"bank\" data", 
-            "NoteID": "b2d6dfe5-8ebb-363f-8c96-2e37793d3d55"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "YES - if area-specific", 
-            "NoteID": "bb602b25-caee-3fc0-8996-1ba8acae7fe6"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "Assumption is that logbooks are continuous", 
-            "NoteID": "be85dfc8-14a9-399c-8359-a90f33ce48d0"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "May be easier to coordinate processor monitoring rather than port monitoring", 
-            "NoteID": "bf08102e-705b-387e-8d42-09aef9434a9b"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "YES - but may need to be fleet-specific", 
-            "NoteID": "c7862ac4-3840-33bd-988c-e243364e7008"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "Typically within season quota", 
-            "NoteID": "d6e8cbfe-b81d-3c3c-91c0-c0d2236909cc"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "May wish to consider some indicator pertaining to status of aggregations (e.g. as opposed to overall density), and have some associated trigger reference point", 
-            "NoteID": "d711870a-0580-3e06-b7a3-76cca6e39e1b"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "YES - if triggers are specific to aggregations.", 
-            "NoteID": "dacc2462-391d-3162-8245-3393a6437a27"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "Level of coverage less relevant", 
-            "NoteID": "df9b59d8-82d6-3331-a729-cc05f1380bb8"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "YES - if catch-related", 
-            "NoteID": "dfdd890d-568b-3c1c-a04b-385ccfc594d6"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "YES - if sense of ownership is high and measure is able to be enforced", 
-            "NoteID": "e0debf0f-5f17-3366-8138-73a32d8bba9e"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "YES - if aggregations have site fidelity", 
-            "NoteID": "e59ffe0e-0f23-3284-9e36-7f9d8c8607e6"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "Yes, but may not be reliable or defensible in context of stock status", 
-            "NoteID": "ec7daba5-f249-38e6-b0a5-3f6576dd8b59"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "YES- though caution re: effort creep", 
-            "NoteID": "f4a48756-3c07-3a34-8fdc-76c2ea8841d7"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "YES - if this precluding any data being collected", 
-            "NoteID": "f6a680a8-5e7e-3f22-a4cf-4a63424690f4"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "YES - to build more defensible estimate of stock status and to avoid complacency", 
-            "NoteID": "fc7a0c26-2af6-3f10-834d-66c92aa3cd9b"
-        }, 
-        {
-            "NoteColor": "green", 
-            "NoteText": "YES - if within-season assessment and management", 
-            "NoteID": "feb700d8-be98-3fc2-a2b1-959ae1bfb96a"
+            "NoteColor": "yellow", 
+            "NoteText": "Consider whether issues are to with percieved sustainability or to do with implementation of data gathering - if former, then green for this.", 
+            "NoteID": "00c935ef-b251-33d3-8e96-6064c43fc6a4"
         }, 
         {
             "NoteColor": "orange", 
             "NoteText": "May not be representative", 
             "NoteID": "019e63ea-f7cd-30f7-a8dc-38a3b0099a78"
-        }, 
-        {
-            "NoteColor": "orange", 
-            "NoteText": "May not be able to obtain representative coverage", 
-            "NoteID": "06510c74-f7bd-3caf-9c8f-4a989511b1f9"
-        }, 
-        {
-            "NoteColor": "orange", 
-            "NoteText": "difficult; may not be representative ", 
-            "NoteID": "07e12add-d9de-3791-936d-6d7aa4f987b4"
-        }, 
-        {
-            "NoteColor": "orange", 
-            "NoteText": "May not be able to undertake", 
-            "NoteID": "0c4d20aa-db7c-3001-bae5-249f15cb767f"
-        }, 
-        {
-            "NoteColor": "orange", 
-            "NoteText": "Biomass-based reference points may not be meaningful", 
-            "NoteID": "0e6423cc-c491-3ec0-b827-ef7ac396329c"
-        }, 
-        {
-            "NoteColor": "orange", 
-            "NoteText": "Caution 1) avoid  including fishers from outside the managed area; 2) ports may not capture all fisher activity from the managed area if fishers are landing catch elsewhere.\u00a0 ", 
-            "NoteID": "13191f78-6161-3bbe-899d-ea5e4871bcf3"
-        }, 
-        {
-            "NoteColor": "orange", 
-            "NoteText": "Unlikely to be representative", 
-            "NoteID": "162fbc1a-7a69-340b-8603-a5dc78b2857d"
-        }, 
-        {
-            "NoteColor": "orange", 
-            "NoteText": "may miss peak fishing activity", 
-            "NoteID": "2d8a93ec-1ba5-328d-959b-86f6bb1e5126"
-        }, 
-        {
-            "NoteColor": "orange", 
-            "NoteText": "NO - effectiveness may be compromised by activation of latent effort", 
-            "NoteID": "2fdfeef2-ae93-3fdb-b287-5190b8ca80ab"
-        }, 
-        {
-            "NoteColor": "orange", 
-            "NoteText": "Caution: reference points may not be reliable", 
-            "NoteID": "41df765e-fd5e-327a-bfd3-1e07263f28c7"
-        }, 
-        {
-            "NoteColor": "orange", 
-            "NoteText": "NO", 
-            "NoteID": "52b60544-7892-3509-918a-ff5b96fd6a70"
-        }, 
-        {
-            "NoteColor": "orange", 
-            "NoteText": "May not be representative if biology thought to be spatially variable", 
-            "NoteID": "60dc4ffb-df23-3b1c-a6d9-16d77f135ece"
-        }, 
-        {
-            "NoteColor": "orange", 
-            "NoteText": "May not be representative of entire stock", 
-            "NoteID": "68cc9e0d-9e0e-3400-9de6-1e5caa1d11e6"
-        }, 
-        {
-            "NoteColor": "orange", 
-            "NoteText": "could be difficult if jurisdictional boundaries do not embrace spatial extent of fishing", 
-            "NoteID": "6b237b12-c6a3-388c-b447-eb1cf410b1e1"
-        }, 
-        {
-            "NoteColor": "orange", 
-            "NoteText": "Indirect information; marketed component of catch only; possible size selection due to discarding prior to display in market", 
-            "NoteID": "7086b55d-2a79-3689-adeb-6e7001af1dd8"
-        }, 
-        {
-            "NoteColor": "orange", 
-            "NoteText": "NO ", 
-            "NoteID": "73025743-db48-3a5a-9442-d93c6f0ac3b2"
-        }, 
-        {
-            "NoteColor": "orange", 
-            "NoteText": "If activities vary spatially, may not be representative", 
-            "NoteID": "78e30bf0-6c92-3456-9119-c5c0ca382d16"
-        }, 
-        {
-            "NoteColor": "orange", 
-            "NoteText": "No - unlikely to be useful", 
-            "NoteID": "7ecf7fe7-f127-351f-8941-a71a41906bcf"
-        }, 
-        {
-            "NoteColor": "orange", 
-            "NoteText": "May not be representative if biology thought to be spatially/temporally variable", 
-            "NoteID": "88897a0b-5418-3c15-bbae-05d7a3dac4c3"
-        }, 
-        {
-            "NoteColor": "orange", 
-            "NoteText": "NO - if assessment depends on biomass-based reference points", 
-            "NoteID": "8c814451-98b3-3622-b873-7d1a97d4abb1"
-        }, 
-        {
-            "NoteColor": "orange", 
-            "NoteText": "Will require strong community leadership (e.g. via cooperatives/associations) and/or strong governance", 
-            "NoteID": "98c3d8d9-7ff2-3e88-b3e9-7a991e9e6313"
-        }, 
-        {
-            "NoteColor": "orange", 
-            "NoteText": "less relevant", 
-            "NoteID": "a0525c11-7c3f-32e2-98b5-105daaa0ef67"
-        }, 
-        {
-            "NoteColor": "orange", 
-            "NoteText": "May get more honest representation if no accountability/fear of consequence of reporting illegal activity BUT unlikely to have an observer program in context of lack of enforcement (skewed prioritisation)", 
-            "NoteID": "ab53b602-e7d8-3feb-a43a-e2a979498c9e"
-        }, 
-        {
-            "NoteColor": "orange", 
-            "NoteText": "could be difficult if there is mismatch", 
-            "NoteID": "ae7dac9a-8bd1-39c9-b9bd-98ba9fc80e74"
-        }, 
-        {
-            "NoteColor": "orange", 
-            "NoteText": "Difficult to enforce", 
-            "NoteID": "b040e374-b68e-3164-955e-5322580c0676"
-        }, 
-        {
-            "NoteColor": "orange", 
-            "NoteText": "Will require strong community leadership (e.g. via cooperatives/associations) and/or strong governance. Also, caution regarding interpretation - high potential for mis-reporting", 
-            "NoteID": "bbe1048d-6fc3-3ee4-aed4-96fa0a8742d2"
-        }, 
-        {
-            "NoteColor": "orange", 
-            "NoteText": "NO if no formal means of data collection", 
-            "NoteID": "bdc5b598-c43d-38ee-822d-dbb2eacff394"
-        }, 
-        {
-            "NoteColor": "orange", 
-            "NoteText": "If fishery is not boat-based, typically not used", 
-            "NoteID": "c158431d-2dc9-3350-b610-490a8597d67c"
-        }, 
-        {
-            "NoteColor": "orange", 
-            "NoteText": "comparison may not be meaningful", 
-            "NoteID": "d314c60d-4de7-3e5c-9a05-6d367775a26f"
-        }, 
-        {
-            "NoteColor": "orange", 
-            "NoteText": "Caution regarding interpretation - high potential for mis-reporting", 
-            "NoteID": "d539cd47-dc1d-3250-858a-0d243386e377"
-        }, 
-        {
-            "NoteColor": "orange", 
-            "NoteText": "Augment with measures that address overfishing", 
-            "NoteID": "dda623ff-f2a6-3674-a8f2-f5726290ce6d"
-        }, 
-        {
-            "NoteColor": "orange", 
-            "NoteText": "Caution re: interpretation and use of data", 
-            "NoteID": "e6d41b2a-7252-3e83-bc8b-d7558aaa5333"
-        }, 
-        {
-            "NoteColor": "orange", 
-            "NoteText": "May not be representative if biology thought to be temporally variable", 
-            "NoteID": "e70157b2-015b-33f8-a923-de152030b259"
-        }, 
-        {
-            "NoteColor": "orange", 
-            "NoteText": "Difficult if open access", 
-            "NoteID": "f441ff7a-fc89-3ef4-a9a4-4922fa5c2319"
-        }, 
-        {
-            "NoteColor": "orange", 
-            "NoteText": "Caution re: representativeness if entire fishery is not participating", 
-            "NoteID": "f47b6335-b9a0-3054-946f-d44520a3f086"
-        }, 
-        {
-            "NoteColor": "orange", 
-            "NoteText": "May not be able to afford", 
-            "NoteID": "f71a2251-c31c-3911-8c39-cf3fa9b9ff8e"
-        }, 
-        {
-            "NoteColor": "purple", 
-            "NoteText": "NO - compromised by effort creep", 
-            "NoteID": "84200ab4-20b1-3f72-8507-7ed3f1769744"
-        }, 
-        {
-            "NoteColor": "red", 
-            "NoteText": "Difficult if open access", 
-            "NoteID": "233199c1-5a1e-3e0f-8c1d-ea00c3ee9134"
-        }, 
-        {
-            "NoteColor": "red", 
-            "NoteText": "Caution if 1) fishers from outside the managed area are selling catch elsewhere; 2) CDRs may not capture all fisher activity from the managed area if fishers are selling elsewhere.\u00a0 ", 
-            "NoteID": "23400029-a17c-3f47-b594-f4979f68668e"
-        }, 
-        {
-            "NoteColor": "red", 
-            "NoteText": "If no, monitoring measure cannot be used as this is required", 
-            "NoteID": "36e8437e-bf31-35e9-8ca6-86f123bb9422"
-        }, 
-        {
-            "NoteColor": "red", 
-            "NoteText": "May not be representative", 
-            "NoteID": "700f691a-a332-3b1a-b06d-aa3df94944f8"
-        }, 
-        {
-            "NoteColor": "red", 
-            "NoteText": "NO - length-based information unlikely to reflect mortality", 
-            "NoteID": "8daf682a-ef11-359b-adb6-c866e009953b"
-        }, 
-        {
-            "NoteColor": "red", 
-            "NoteText": "NO (unless, for e.g. fishery intersects with other high-risk species that has the potential to limit the fishery, AND this species has strong spatial fidelity)", 
-            "NoteID": "ab180700-7879-3e91-81a3-579b07fe3a71"
-        }, 
-        {
-            "NoteColor": "red", 
-            "NoteText": "NO", 
-            "NoteID": "ef33f4d3-2616-3ecd-bdca-b18fb305066d"
-        }, 
-        {
-            "NoteColor": "red", 
-            "NoteText": "Will require strong community leadership (e.g. via cooperatives/associations) and/or strong governance", 
-            "NoteID": "fc6a5432-04c2-3960-9705-81d3e09535c0"
-        }, 
-        {
-            "NoteColor": "yellow", 
-            "NoteText": "Consider whether issues are to with percieved sustainability or to do with implementation of data gathering - if former, then green for this.", 
-            "NoteID": "00c935ef-b251-33d3-8e96-6064c43fc6a4"
         }, 
         {
             "NoteColor": "yellow", 
@@ -696,9 +21,24 @@
             "NoteID": "027a0807-683e-3e3f-970d-4dd94003baef"
         }, 
         {
+            "NoteColor": "None", 
+            "NoteText": "Beware changes in selectivity. Sensitive to selectivity mis-specification (need to know if selectivity is asymptotic or dome-shaped). Assumes time-independent selectivity.", 
+            "NoteID": "033efa29-254e-3a62-9354-6dede226000c"
+        }, 
+        {
             "NoteColor": "yellow", 
             "NoteText": "Empirical target reference points must be relavant locally", 
             "NoteID": "054710b7-c753-3087-9304-07d38ab0f687"
+        }, 
+        {
+            "NoteColor": "orange", 
+            "NoteText": "May not be able to obtain representative coverage", 
+            "NoteID": "06510c74-f7bd-3caf-9c8f-4a989511b1f9"
+        }, 
+        {
+            "NoteColor": "orange", 
+            "NoteText": "difficult; may not be representative ", 
+            "NoteID": "07e12add-d9de-3791-936d-6d7aa4f987b4"
         }, 
         {
             "NoteColor": "yellow", 
@@ -711,14 +51,49 @@
             "NoteID": "0b35ff23-f191-30e7-a6f6-0dc100b062d8"
         }, 
         {
+            "NoteColor": "orange", 
+            "NoteText": "May not be able to undertake", 
+            "NoteID": "0c4d20aa-db7c-3001-bae5-249f15cb767f"
+        }, 
+        {
+            "NoteColor": "orange", 
+            "NoteText": "Biomass-based reference points may not be meaningful", 
+            "NoteID": "0e6423cc-c491-3ec0-b827-ef7ac396329c"
+        }, 
+        {
             "NoteColor": "yellow", 
             "NoteText": "Effectiveness may be compromised by activation of latent effort", 
             "NoteID": "11835dae-4a88-3fa3-89e2-005016389a33"
         }, 
         {
+            "NoteColor": "None", 
+            "NoteText": "Catch by location required", 
+            "NoteID": "1292df75-2d5b-3435-b346-30c332fc30c5"
+        }, 
+        {
+            "NoteColor": "orange", 
+            "NoteText": "Caution 1) avoid  including fishers from outside the managed area; 2) ports may not capture all fisher activity from the managed area if fishers are landing catch elsewhere.\u00a0 ", 
+            "NoteID": "13191f78-6161-3bbe-899d-ea5e4871bcf3"
+        }, 
+        {
+            "NoteColor": "green", 
+            "NoteText": "If discarding rate (re: barotrauma), or handling without capturing (for disease-susceptible), is suspected to be significant, observers can report fishing-induced mortality of non-retained individuals", 
+            "NoteID": "15581bdf-a258-3019-929e-8be652842444"
+        }, 
+        {
+            "NoteColor": "orange", 
+            "NoteText": "Unlikely to be representative", 
+            "NoteID": "162fbc1a-7a69-340b-8603-a5dc78b2857d"
+        }, 
+        {
             "NoteColor": "yellow", 
             "NoteText": "Coverage may need to be higher to be representative", 
             "NoteID": "18fe1f04-63dd-3850-bcc8-6122ddec487d"
+        }, 
+        {
+            "NoteColor": "green", 
+            "NoteText": "YES - if effort-related", 
+            "NoteID": "1900b590-f00b-3688-9c8a-5976ac797d0b"
         }, 
         {
             "NoteColor": "yellow", 
@@ -751,6 +126,11 @@
             "NoteID": "1dd00bba-b46c-32da-a7cd-29457906e0a7"
         }, 
         {
+            "NoteColor": "None", 
+            "NoteText": "Resolve whether gear changes are related to selectivity changes", 
+            "NoteID": "1fd9ba2b-db77-3ca5-bc86-fecc3e8e010c"
+        }, 
+        {
             "NoteColor": "yellow", 
             "NoteText": "Does not directly address latent effort - augment", 
             "NoteID": "1fea9d0b-f679-345b-9f5e-5747c8d65a95"
@@ -761,9 +141,24 @@
             "NoteID": "22469d1e-3669-3542-a0fb-dd5a478fb8c4"
         }, 
         {
+            "NoteColor": "red", 
+            "NoteText": "Difficult if open access", 
+            "NoteID": "233199c1-5a1e-3e0f-8c1d-ea00c3ee9134"
+        }, 
+        {
+            "NoteColor": "red", 
+            "NoteText": "Caution if 1) fishers from outside the managed area are selling catch elsewhere; 2) CDRs may not capture all fisher activity from the managed area if fishers are selling elsewhere.\u00a0 ", 
+            "NoteID": "23400029-a17c-3f47-b594-f4979f68668e"
+        }, 
+        {
             "NoteColor": "yellow", 
             "NoteText": "YES - but augment with measures that more firectly address overfishing", 
             "NoteID": "23aa6af2-a332-3ebf-ba8a-cc671b679d2d"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "Requires an estimate of depletion (may be crude). ", 
+            "NoteID": "24b7cc47-71ad-3ae9-b70b-90ff266caffe"
         }, 
         {
             "NoteColor": "yellow", 
@@ -771,9 +166,29 @@
             "NoteID": "28d6d72f-165f-3f93-adf8-6d1cb33cb1e8"
         }, 
         {
+            "NoteColor": "None", 
+            "NoteText": "Useful (for coral reef fisheries only)", 
+            "NoteID": "29263429-c7b1-397c-943b-74f9092ed407"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "Useful", 
+            "NoteID": "2a0ea211-88e1-3ecb-8d90-10c761671bc9"
+        }, 
+        {
             "NoteColor": "yellow", 
             "NoteText": "Caution - unless gear or method is clean or size-selective, as discards will likely succumb. Dark orange if gear is not clean or size-selective", 
             "NoteID": "2b301260-0d7e-3f70-a8f4-cf6a43a230fb"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "ideally requires time series to set reference points or proxies", 
+            "NoteID": "2bf37259-be70-3529-8d99-faae9c2c9507"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "Resolve whether spatial changes are related to selectivity changes", 
+            "NoteID": "2ca08694-9fbd-3ddb-a164-a27c871f5902"
         }, 
         {
             "NoteColor": "yellow", 
@@ -781,9 +196,19 @@
             "NoteID": "2d78dcf5-766a-328f-b99e-e89ed16473f9"
         }, 
         {
+            "NoteColor": "orange", 
+            "NoteText": "may miss peak fishing activity", 
+            "NoteID": "2d8a93ec-1ba5-328d-959b-86f6bb1e5126"
+        }, 
+        {
             "NoteColor": "yellow", 
             "NoteText": "Caution if aggregations are targeted and if these do not represent the full size/age spectrum", 
             "NoteID": "2fbe42fa-157a-3690-997b-b9ddc137cac4"
+        }, 
+        {
+            "NoteColor": "orange", 
+            "NoteText": "NO - effectiveness may be compromised by activation of latent effort", 
+            "NoteID": "2fdfeef2-ae93-3fdb-b287-5190b8ca80ab"
         }, 
         {
             "NoteColor": "yellow", 
@@ -806,9 +231,24 @@
             "NoteID": "3191fa72-c764-311f-b1eb-765fd3357f57"
         }, 
         {
+            "NoteColor": "None", 
+            "NoteText": "Less informative  if species-specific information unavailable", 
+            "NoteID": "344ebfcd-6d35-3788-bc10-741e6754b619"
+        }, 
+        {
+            "NoteColor": "green", 
+            "NoteText": "YES - augment with measures that address overfishing", 
+            "NoteID": "358b80b0-c031-3dd5-bbb9-0c436f067e5b"
+        }, 
+        {
             "NoteColor": "yellow", 
             "NoteText": "NO unless this is a secondary control rule - effectiveness may be compromised by activation of latent effort", 
             "NoteID": "367ad601-d3fb-305a-a966-0eeee48496b0"
+        }, 
+        {
+            "NoteColor": "red", 
+            "NoteText": "If no, monitoring measure cannot be used as this is required", 
+            "NoteID": "36e8437e-bf31-35e9-8ca6-86f123bb9422"
         }, 
         {
             "NoteColor": "yellow", 
@@ -819,6 +259,26 @@
             "NoteColor": "yellow", 
             "NoteText": "Must ensure interviews pertain to activity within managed area.", 
             "NoteID": "3860d912-4455-35a2-b836-c8b6e2e63630"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "Helpful for systematic prioritization of stocks that require additional review/assessment", 
+            "NoteID": "38c09000-808c-35e6-8cea-0dd29c392027"
+        }, 
+        {
+            "NoteColor": "green", 
+            "NoteText": "Easier if community-based", 
+            "NoteID": "38f312f9-e8c7-33b8-b8f6-4c9185ae6553"
+        }, 
+        {
+            "NoteColor": "green", 
+            "NoteText": "Information typically high quality; strategic deployment can yield high-quality information; can be operator error (e.g. measurements, species identification)", 
+            "NoteID": "3c38c0b7-04ab-38a1-9004-1db8a565390a"
+        }, 
+        {
+            "NoteColor": "green", 
+            "NoteText": "YES - these should avoid capture of species likely to be otherwise discarded", 
+            "NoteID": "3ca50651-71f4-3913-b5ce-c0806f7c24ae"
         }, 
         {
             "NoteColor": "yellow", 
@@ -841,9 +301,39 @@
             "NoteID": "408873df-5aa3-3e15-b576-1d6dd24bf9cc"
         }, 
         {
+            "NoteColor": "orange", 
+            "NoteText": "Caution: reference points may not be reliable", 
+            "NoteID": "41df765e-fd5e-327a-bfd3-1e07263f28c7"
+        }, 
+        {
             "NoteColor": "yellow", 
             "NoteText": "?Operator error; cost of designing may be high (if expect to be effective) - or use with caution; ; motivation from buyers (and e.g. for export approval, RFMO affiliation)", 
             "NoteID": "424268c7-f5d4-3e3c-9f68-312459326d0e"
+        }, 
+        {
+            "NoteColor": "green", 
+            "NoteText": "May get more honest representation if no accountability/fear of consequence of reporting illegal activity", 
+            "NoteID": "43030769-382c-3cb2-9480-e608367ddecc"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "Helpful in conjunction with change in gears or targeted species", 
+            "NoteID": "4319d293-52b5-3c9f-bf81-6ebd2667dc74"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "Helpful if so", 
+            "NoteID": "43e3c4db-365d-324d-9b5e-890183b1cd18"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": " Requires depletion estimate (can be crude). ", 
+            "NoteID": "4474cfeb-9af5-3954-a9bc-b01d0575619f"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "Trends in size-based indicators may be compromised by changing selectivity", 
+            "NoteID": "460aa024-8095-3987-9adf-4c2d51eb9bf4"
         }, 
         {
             "NoteColor": "yellow", 
@@ -856,9 +346,19 @@
             "NoteID": "49a47510-0373-39b7-b4c8-37ac899d0fba"
         }, 
         {
+            "NoteColor": "None", 
+            "NoteText": "Effort by location required", 
+            "NoteID": "4b791daf-f3c8-3aa8-8664-c89a1f5410a8"
+        }, 
+        {
             "NoteColor": "yellow", 
             "NoteText": "More difficult, but may still be possible providing there is strong community cooperation and leadership, e.g. via cooperatives/associations", 
             "NoteID": "4f5852c0-1237-3e78-b026-d0ec00831626"
+        }, 
+        {
+            "NoteColor": "green", 
+            "NoteText": "Assumption that CDRs are continuous", 
+            "NoteID": "506dd44d-a11a-3e1d-975b-08c8ea88f40b"
         }, 
         {
             "NoteColor": "yellow", 
@@ -876,14 +376,39 @@
             "NoteID": "5295232e-8aa6-3ead-8060-e496a6f26f3a"
         }, 
         {
+            "NoteColor": "orange", 
+            "NoteText": "NO", 
+            "NoteID": "52b60544-7892-3509-918a-ff5b96fd6a70"
+        }, 
+        {
             "NoteColor": "yellow", 
             "NoteText": "may miss peak fishing activity", 
             "NoteID": "531edd55-62a7-3f01-a8ae-d939e60d0417"
         }, 
         {
+            "NoteColor": "green", 
+            "NoteText": "YES - if temporal", 
+            "NoteID": "548f219f-5c98-3a02-abee-363fb79ed809"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "Requires possible ranges of relative stock sizes in the first and final years of the time series", 
+            "NoteID": "5713a21c-cf67-3d4b-9263-1ce431690e50"
+        }, 
+        {
             "NoteColor": "yellow", 
             "NoteText": "May not be representative if biology thought to be spatially/temporally variable", 
             "NoteID": "5877b877-e096-36d6-bf54-8e767b8b2b31"
+        }, 
+        {
+            "NoteColor": "green", 
+            "NoteText": "Helpful if so", 
+            "NoteID": "59caeaef-2db8-3e80-8d74-ff11197aa99f"
+        }, 
+        {
+            "NoteColor": "green", 
+            "NoteText": "May be preferable to invasive measurements providing surveys do not involved trauma to species", 
+            "NoteID": "5a4a72f5-e4bc-3d2c-a2fb-09bdc29de4d7"
         }, 
         {
             "NoteColor": "yellow", 
@@ -896,9 +421,64 @@
             "NoteID": "5d9df87f-0e93-3c71-86fd-6cc4402e8549"
         }, 
         {
+            "NoteColor": "green", 
+            "NoteText": "Ease of coverage", 
+            "NoteID": "5df6ba7d-1551-35fd-a529-d031a05baaf7"
+        }, 
+        {
+            "NoteColor": "green", 
+            "NoteText": "May be more representative than having good coverage but only across part of the fleet/fishery range", 
+            "NoteID": "5e4ec083-23d8-374b-9f8b-545cb5daa40f"
+        }, 
+        {
+            "NoteColor": "green", 
+            "NoteText": "YES - if aggregations are seasonal", 
+            "NoteID": "5ecba86d-e0b8-3bce-8203-f31d29e014e9"
+        }, 
+        {
+            "NoteColor": "green", 
+            "NoteText": "May be easier to coordinate processor monitoring rather than port monitoring BUT coverage may not be representative if biology thought to be spatially variable", 
+            "NoteID": "6001d878-df80-32c1-9153-1fc7d8d6f4f8"
+        }, 
+        {
+            "NoteColor": "orange", 
+            "NoteText": "May not be representative if biology thought to be spatially variable", 
+            "NoteID": "60dc4ffb-df23-3b1c-a6d9-16d77f135ece"
+        }, 
+        {
             "NoteColor": "yellow", 
             "NoteText": "Consider augmenting with spatial measures", 
             "NoteID": "617c498e-a846-3fef-bcc3-d757db7a1a68"
+        }, 
+        {
+            "NoteColor": "green", 
+            "NoteText": "Assumption that data collection is continuous", 
+            "NoteID": "64ca67de-e440-351b-b4d7-e40740e8222a"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "N", 
+            "NoteID": "6676d0f0-3470-32f1-b911-23b8a1bd241b"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "May not be suited to fisheries with a low number of participants.", 
+            "NoteID": "66aecd17-e304-37c8-9ba1-28281f6ecf96"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "Requires mature MPA, well enforced, similar habitat.", 
+            "NoteID": "66ede070-4e5d-3e1f-bc23-13344162f6cc"
+        }, 
+        {
+            "NoteColor": "green", 
+            "NoteText": "YES - if time-specific", 
+            "NoteID": "6794f4d5-00c6-3c1d-89f9-65273fa1b0e5"
+        }, 
+        {
+            "NoteColor": "orange", 
+            "NoteText": "May not be representative of entire stock", 
+            "NoteID": "68cc9e0d-9e0e-3400-9de6-1e5caa1d11e6"
         }, 
         {
             "NoteColor": "yellow", 
@@ -911,9 +491,24 @@
             "NoteID": "6a9761f8-e677-361c-8956-cf14c31b272d"
         }, 
         {
+            "NoteColor": "orange", 
+            "NoteText": "could be difficult if jurisdictional boundaries do not embrace spatial extent of fishing", 
+            "NoteID": "6b237b12-c6a3-388c-b447-eb1cf410b1e1"
+        }, 
+        {
             "NoteColor": "yellow", 
             "NoteText": "Reference points must be relavant locally", 
             "NoteID": "6ba15272-4b28-33e4-86ea-c6a42e13ff29"
+        }, 
+        {
+            "NoteColor": "green", 
+            "NoteText": "YES - though caution re: effort creep", 
+            "NoteID": "6ccad560-8a5b-3c10-85ed-41e8722cf0eb"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "Requires recent time series. ", 
+            "NoteID": "6e94d116-3488-3cd7-b6d4-db6889a5c337"
         }, 
         {
             "NoteColor": "yellow", 
@@ -921,9 +516,19 @@
             "NoteID": "6ed04bd4-4641-31e9-9996-436d0618d3be"
         }, 
         {
+            "NoteColor": "red", 
+            "NoteText": "May not be representative", 
+            "NoteID": "700f691a-a332-3b1a-b06d-aa3df94944f8"
+        }, 
+        {
             "NoteColor": "yellow", 
             "NoteText": "difficult", 
             "NoteID": "70675826-97da-3ac0-931e-2564e9d018fb"
+        }, 
+        {
+            "NoteColor": "orange", 
+            "NoteText": "Indirect information; marketed component of catch only; possible size selection due to discarding prior to display in market", 
+            "NoteID": "7086b55d-2a79-3689-adeb-6e7001af1dd8"
         }, 
         {
             "NoteColor": "yellow", 
@@ -934,6 +539,11 @@
             "NoteColor": "yellow", 
             "NoteText": "Ensure limit is specific/appropriate to fleet type", 
             "NoteID": "7274c8fb-8a50-3eaf-bb2d-8f171c0592a5"
+        }, 
+        {
+            "NoteColor": "orange", 
+            "NoteText": "NO ", 
+            "NoteID": "73025743-db48-3a5a-9442-d93c6f0ac3b2"
         }, 
         {
             "NoteColor": "yellow", 
@@ -956,6 +566,11 @@
             "NoteID": "775f5986-d0f7-3223-9ac6-bca265dfc5e8"
         }, 
         {
+            "NoteColor": "orange", 
+            "NoteText": "If activities vary spatially, may not be representative", 
+            "NoteID": "78e30bf0-6c92-3456-9119-c5c0ca382d16"
+        }, 
+        {
             "NoteColor": "yellow", 
             "NoteText": "Difficult if open access", 
             "NoteID": "798cc81e-0cbb-3c1d-8dce-fc7524a4b895"
@@ -971,9 +586,29 @@
             "NoteID": "7b5b5080-3009-368d-ba09-65e5631ae90f"
         }, 
         {
+            "NoteColor": "green", 
+            "NoteText": "YES - if little or no data pertaining to these", 
+            "NoteID": "7c158f77-53fa-3220-b462-83b120bdf9fe"
+        }, 
+        {
             "NoteColor": "yellow", 
             "NoteText": "Caution 1) avoid  including fishers from outside the managed area; 2) ports may not capture all fisher activity from the managed area if fishers are landing catch elsewhere.\u00a0 ", 
             "NoteID": "7d7e244f-2fbb-37dd-bd23-dccc8e75b232"
+        }, 
+        {
+            "NoteColor": "orange", 
+            "NoteText": "No - unlikely to be useful", 
+            "NoteID": "7ecf7fe7-f127-351f-8941-a71a41906bcf"
+        }, 
+        {
+            "NoteColor": "green", 
+            "NoteText": "YES", 
+            "NoteID": "7ef90e24-35a1-3646-bf08-216d42fe38b1"
+        }, 
+        {
+            "NoteColor": "green", 
+            "NoteText": "May be easier to coordinate processor monitoring rather than port monitoring BUT coverage may not be representative", 
+            "NoteID": "7f78e7a4-cfcf-3ab0-8cdb-392d950ca397"
         }, 
         {
             "NoteColor": "yellow", 
@@ -986,6 +621,26 @@
             "NoteID": "82bd15fb-b2ef-36c9-904f-e5ec5c5c2700"
         }, 
         {
+            "NoteColor": "None", 
+            "NoteText": "Within-season management desirable - e.g. daily catch or effort limits", 
+            "NoteID": "830b5042-ae83-3986-82ca-40e3131b78dd"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "In absence of species-specific information, attempt to include a range of indepedent indicators that embrace all potential changes in the fishery that would warrant a response or interpretation re: stock status", 
+            "NoteID": "84007c4a-7b0a-33ac-b27e-6cf5acdd10d8"
+        }, 
+        {
+            "NoteColor": "purple", 
+            "NoteText": "NO - compromised by effort creep", 
+            "NoteID": "84200ab4-20b1-3f72-8507-7ed3f1769744"
+        }, 
+        {
+            "NoteColor": "green", 
+            "NoteText": "Easier to facilitate for smaller fishing area", 
+            "NoteID": "86cfac0f-8251-333a-be31-b065ff3d62e2"
+        }, 
+        {
             "NoteColor": "yellow", 
             "NoteText": "Reconsider if measurement involves handling - e.g. visual surveys for density may be less damaging to the stock than (for e.g.) size measurements involving handling or discarding.", 
             "NoteID": "8724fc33-9eca-3d66-b314-e6ff9cc854df"
@@ -994,6 +649,11 @@
             "NoteColor": "yellow", 
             "NoteText": "Easier if at least at regional level", 
             "NoteID": "886115b8-d199-3376-a7d8-8f9290fc3e32"
+        }, 
+        {
+            "NoteColor": "orange", 
+            "NoteText": "May not be representative if biology thought to be spatially/temporally variable", 
+            "NoteID": "88897a0b-5418-3c15-bbae-05d7a3dac4c3"
         }, 
         {
             "NoteColor": "yellow", 
@@ -1006,14 +666,49 @@
             "NoteID": "8ae06355-2caa-3dbd-a113-5aee4a239872"
         }, 
         {
+            "NoteColor": "orange", 
+            "NoteText": "NO - if assessment depends on biomass-based reference points", 
+            "NoteID": "8c814451-98b3-3622-b873-7d1a97d4abb1"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "Caution if these affect the fishery in a spatially/temporally varying manner", 
+            "NoteID": "8ce45386-385d-3fd5-9cbc-6a8aa022fd4f"
+        }, 
+        {
             "NoteColor": "yellow", 
             "NoteText": "may be difficult if high ", 
             "NoteID": "8da8a1a8-9a29-3b06-a8b7-7689b3aec853"
         }, 
         {
+            "NoteColor": "red", 
+            "NoteText": "NO - length-based information unlikely to reflect mortality", 
+            "NoteID": "8daf682a-ef11-359b-adb6-c866e009953b"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "May not work with a low number of participants", 
+            "NoteID": "8eb1752c-208a-31b9-9b79-446b20ab8abd"
+        }, 
+        {
+            "NoteColor": "green", 
+            "NoteText": "Easier if at least at regional level", 
+            "NoteID": "91162e87-2151-37b7-a707-59b476a0973e"
+        }, 
+        {
             "NoteColor": "yellow", 
             "NoteText": "May not be representative if biology thought to be temporally variable", 
             "NoteID": "912f3ad4-79d7-369f-b38a-d442cbac32d3"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "Requires some estimate of virgin recruitment", 
+            "NoteID": "91f97da9-0ce4-33bc-9495-c871220a6b93"
+        }, 
+        {
+            "NoteColor": "green", 
+            "NoteText": "YES - to build more defensible estimate of stock status", 
+            "NoteID": "93a625a1-da86-3474-92a3-fdf1185bb7a1"
         }, 
         {
             "NoteColor": "yellow", 
@@ -1024,6 +719,16 @@
             "NoteColor": "yellow", 
             "NoteText": "Beware potential for localised depletion", 
             "NoteID": "97c2f37f-adff-3754-ac27-4951d4b6b9df"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "If these can be articulated, can expand magnitude of uncertainty in assessment (e.g. on life history parameters)", 
+            "NoteID": "982f972a-8b4d-3ed7-9545-36fe085fdf70"
+        }, 
+        {
+            "NoteColor": "orange", 
+            "NoteText": "Will require strong community leadership (e.g. via cooperatives/associations) and/or strong governance", 
+            "NoteID": "98c3d8d9-7ff2-3e88-b3e9-7a991e9e6313"
         }, 
         {
             "NoteColor": "yellow", 
@@ -1051,6 +756,21 @@
             "NoteID": "9cd3a147-5cc0-3057-9634-6e8a6813a38e"
         }, 
         {
+            "NoteColor": "None", 
+            "NoteText": "Not informative if species-specific information unavailable", 
+            "NoteID": "9decdafc-5e79-31e4-959c-6bc07fa095d6"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "Assumption that CDRs are continuous", 
+            "NoteID": "9fdf672e-90d0-38c4-bed7-ab7f0f45918b"
+        }, 
+        {
+            "NoteColor": "orange", 
+            "NoteText": "less relevant", 
+            "NoteID": "a0525c11-7c3f-32e2-98b5-105daaa0ef67"
+        }, 
+        {
             "NoteColor": "yellow", 
             "NoteText": "Avoid doing so via assessment that depends on biomass-based reference points", 
             "NoteID": "a0d087ed-8bbd-3cae-89c5-74123a45bb5a"
@@ -1059,6 +779,11 @@
             "NoteColor": "yellow", 
             "NoteText": "Caution re: discarding when limit exceeded", 
             "NoteID": "a1dbfc45-d501-33d2-b955-3d95decf2052"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "May not work with a low number of participants.", 
+            "NoteID": "a2c915d6-2dcb-3eda-8240-9fd856b0c705"
         }, 
         {
             "NoteColor": "yellow", 
@@ -1076,9 +801,29 @@
             "NoteID": "a79fbfc9-9ac6-330d-bd95-401ba5d4c868"
         }, 
         {
+            "NoteColor": "green", 
+            "NoteText": "Useful if fisher willingness/trust, and strong community leadership and/or governance", 
+            "NoteID": "a9511532-7b2d-3f4b-a20a-236ca745a851"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "may not be useful if fishery operational changes have occurred", 
+            "NoteID": "aaa93bb2-5ca9-370c-a09d-a18c71129d99"
+        }, 
+        {
             "NoteColor": "yellow", 
             "NoteText": "Density estimates likely to be a unreliable measure of biomass", 
             "NoteID": "aae79251-58d6-3152-affb-ccd03c9616d6"
+        }, 
+        {
+            "NoteColor": "red", 
+            "NoteText": "NO (unless, for e.g. fishery intersects with other high-risk species that has the potential to limit the fishery, AND this species has strong spatial fidelity)", 
+            "NoteID": "ab180700-7879-3e91-81a3-579b07fe3a71"
+        }, 
+        {
+            "NoteColor": "orange", 
+            "NoteText": "May get more honest representation if no accountability/fear of consequence of reporting illegal activity BUT unlikely to have an observer program in context of lack of enforcement (skewed prioritisation)", 
+            "NoteID": "ab53b602-e7d8-3feb-a43a-e2a979498c9e"
         }, 
         {
             "NoteColor": "yellow", 
@@ -1091,9 +836,44 @@
             "NoteID": "acde5982-f704-3ecd-bab3-68a526cf34f0"
         }, 
         {
+            "NoteColor": "orange", 
+            "NoteText": "could be difficult if there is mismatch", 
+            "NoteID": "ae7dac9a-8bd1-39c9-b9bd-98ba9fc80e74"
+        }, 
+        {
+            "NoteColor": "orange", 
+            "NoteText": "Difficult to enforce", 
+            "NoteID": "b040e374-b68e-3164-955e-5322580c0676"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "Assumption that data collection is continuous", 
+            "NoteID": "b0f0605b-e643-3c0e-a76f-efe1023783b0"
+        }, 
+        {
+            "NoteColor": "green", 
+            "NoteText": "YES - in context that, even if nothing else can be done/implemented, make the commitment to collect and \"bank\" data", 
+            "NoteID": "b2d6dfe5-8ebb-363f-8c96-2e37793d3d55"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "Indicators used within this would have to be non-species-specific (e.g. spatial/temporal changes in effort), or limited to those species for which there exist data. In absence of species-specific information, attempt to include a range of indepedent indicators that embrace all potential changes in the fishery that would warrant a response or interpretation re: stock status", 
+            "NoteID": "b676078e-66c4-3206-a06b-745844460c9a"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "Assumption is that logbooks are continuous", 
+            "NoteID": "b7d94632-0ce4-3cf7-8cb0-5b3f27126730"
+        }, 
+        {
             "NoteColor": "yellow", 
             "NoteText": "May not be able to obtain representative coverage", 
             "NoteID": "b9e7a929-140c-3c22-b2df-b6b0280bb020"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "Sampling must occur using same gear as in the fishery", 
+            "NoteID": "ba1fdd55-27a5-32d5-962e-5f6fd45d1fd1"
         }, 
         {
             "NoteColor": "yellow", 
@@ -1106,9 +886,29 @@
             "NoteID": "baf367b1-b53d-354f-bab5-58fa2b39cb07"
         }, 
         {
+            "NoteColor": "green", 
+            "NoteText": "YES - if area-specific", 
+            "NoteID": "bb602b25-caee-3fc0-8996-1ba8acae7fe6"
+        }, 
+        {
             "NoteColor": "yellow", 
             "NoteText": "Possible increased expense of collecting/collating data", 
             "NoteID": "bb80a8a0-fb2f-3dbd-8c12-a68d985c78d8"
+        }, 
+        {
+            "NoteColor": "orange", 
+            "NoteText": "Will require strong community leadership (e.g. via cooperatives/associations) and/or strong governance. Also, caution regarding interpretation - high potential for mis-reporting", 
+            "NoteID": "bbe1048d-6fc3-3ee4-aed4-96fa0a8742d2"
+        }, 
+        {
+            "NoteColor": "orange", 
+            "NoteText": "NO if no formal means of data collection", 
+            "NoteID": "bdc5b598-c43d-38ee-822d-dbb2eacff394"
+        }, 
+        {
+            "NoteColor": "green", 
+            "NoteText": "Assumption is that logbooks are continuous", 
+            "NoteID": "be85dfc8-14a9-399c-8359-a90f33ce48d0"
         }, 
         {
             "NoteColor": "yellow", 
@@ -1116,9 +916,24 @@
             "NoteID": "beb6aab3-5031-3aaf-be93-54b27c8c5c41"
         }, 
         {
+            "NoteColor": "green", 
+            "NoteText": "May be easier to coordinate processor monitoring rather than port monitoring", 
+            "NoteID": "bf08102e-705b-387e-8d42-09aef9434a9b"
+        }, 
+        {
+            "NoteColor": "orange", 
+            "NoteText": "If fishery is not boat-based, typically not used", 
+            "NoteID": "c158431d-2dc9-3350-b610-490a8597d67c"
+        }, 
+        {
             "NoteColor": "yellow", 
             "NoteText": "No - unlikely to be useful", 
             "NoteID": "c2722bbe-c026-39c3-a691-20628185bd80"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "Assumes equilibrium biomass; beware changes in selectivity", 
+            "NoteID": "c5a4f75e-0f26-31b2-905a-97cdc3fa9402"
         }, 
         {
             "NoteColor": "yellow", 
@@ -1126,14 +941,39 @@
             "NoteID": "c5dba034-983c-344f-8167-f4a62ca475a9"
         }, 
         {
+            "NoteColor": "None", 
+            "NoteText": "May not work with a low number of participants. \n", 
+            "NoteID": "c681054d-58a7-37fc-9854-db8c026a0555"
+        }, 
+        {
             "NoteColor": "yellow", 
             "NoteText": "Caution: reference points may not be reliable", 
             "NoteID": "c692a4b8-6eb9-3a79-b79f-d37fa8570fb4"
         }, 
         {
+            "NoteColor": "green", 
+            "NoteText": "YES - but may need to be fleet-specific", 
+            "NoteID": "c7862ac4-3840-33bd-988c-e243364e7008"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "Not possible if species-specific information unavailable", 
+            "NoteID": "c7b6a2a6-d18e-35fd-961d-00ecb6379640"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "Beware if yes", 
+            "NoteID": "c7fde30c-d0c0-3018-a8bd-04c65aa1764a"
+        }, 
+        {
             "NoteColor": "yellow", 
             "NoteText": "Requires database infrastructure and capability; potential for misreporting (especially for fisheries with low cooperation/subsistence/low GVP/low research capacity); ? Potential to work well if done in a capacity building context with external capacity (also technological developments - e.g. tablets); Accuracy of logbooks can be improved by tying data reporting requirement to secure catch right as a responsibility in return for the right (e.g., area license to fish in a TURF, or catch share)", 
             "NoteID": "caec0bb9-e30d-379e-bb0e-735d1beb8dc6"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "Beware if yes, and if framework uses size-based indicators", 
+            "NoteID": "cdc40f55-f2fb-34b1-b4e1-8a60fdd98d29"
         }, 
         {
             "NoteColor": "yellow", 
@@ -1146,9 +986,34 @@
             "NoteID": "cf1ddad3-75f3-3683-82ec-cba46ab7d801"
         }, 
         {
+            "NoteColor": "None", 
+            "NoteText": "Required", 
+            "NoteID": "cff06262-3256-3b40-873f-6018975a7d3d"
+        }, 
+        {
             "NoteColor": "yellow", 
             "NoteText": "Caution if 1) fishers from outside the managed area are selling at the market; 2) market may not capture all fisher activity from the managed area if fishers are selling at a different market.\u00a0 ", 
             "NoteID": "d0bd0cfb-2b1f-3f88-b80a-97037d192912"
+        }, 
+        {
+            "NoteColor": "orange", 
+            "NoteText": "comparison may not be meaningful", 
+            "NoteID": "d314c60d-4de7-3e5c-9a05-6d367775a26f"
+        }, 
+        {
+            "NoteColor": "orange", 
+            "NoteText": "Caution regarding interpretation - high potential for mis-reporting", 
+            "NoteID": "d539cd47-dc1d-3250-858a-0d243386e377"
+        }, 
+        {
+            "NoteColor": "green", 
+            "NoteText": "Typically within season quota", 
+            "NoteID": "d6e8cbfe-b81d-3c3c-91c0-c0d2236909cc"
+        }, 
+        {
+            "NoteColor": "green", 
+            "NoteText": "May wish to consider some indicator pertaining to status of aggregations (e.g. as opposed to overall density), and have some associated trigger reference point", 
+            "NoteID": "d711870a-0580-3e06-b7a3-76cca6e39e1b"
         }, 
         {
             "NoteColor": "yellow", 
@@ -1161,9 +1026,24 @@
             "NoteID": "d8e18f43-228c-3429-8a9f-e260e6ba8449"
         }, 
         {
+            "NoteColor": "None", 
+            "NoteText": "Beware if fishers are undertaking the surveys under alternate selectivity", 
+            "NoteID": "d8f07a3b-ad6d-3807-8309-9df24232de85"
+        }, 
+        {
             "NoteColor": "yellow", 
             "NoteText": "comparison may not be meaningful", 
             "NoteID": "da9e995a-9661-3a5c-9ccc-b6c1d061d433"
+        }, 
+        {
+            "NoteColor": "green", 
+            "NoteText": "YES - if triggers are specific to aggregations.", 
+            "NoteID": "dacc2462-391d-3162-8245-3393a6437a27"
+        }, 
+        {
+            "NoteColor": "orange", 
+            "NoteText": "Augment with measures that address overfishing", 
+            "NoteID": "dda623ff-f2a6-3674-a8f2-f5726290ce6d"
         }, 
         {
             "NoteColor": "yellow", 
@@ -1171,9 +1051,39 @@
             "NoteID": "deee7471-de1b-3bbc-9902-78016e237cd2"
         }, 
         {
+            "NoteColor": "green", 
+            "NoteText": "Level of coverage less relevant", 
+            "NoteID": "df9b59d8-82d6-3331-a729-cc05f1380bb8"
+        }, 
+        {
+            "NoteColor": "green", 
+            "NoteText": "YES - if catch-related", 
+            "NoteID": "dfdd890d-568b-3c1c-a04b-385ccfc594d6"
+        }, 
+        {
+            "NoteColor": "green", 
+            "NoteText": "YES - if sense of ownership is high and measure is able to be enforced", 
+            "NoteID": "e0debf0f-5f17-3366-8138-73a32d8bba9e"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "requires a broad categorical classification of stock abundance; requires a perceived level of stock \u201crisk\u201d. ", 
+            "NoteID": "e3e6dd9d-868a-3f7f-88aa-6eb307dee71a"
+        }, 
+        {
             "NoteColor": "yellow", 
             "NoteText": "May get more honest representation if no accountability/fear of consequence of reporting illegal activity BUT no incentive or motivation to report accurately", 
             "NoteID": "e4148d01-1e7e-3cb0-9546-1b1d0ce113cd"
+        }, 
+        {
+            "NoteColor": "green", 
+            "NoteText": "YES - if aggregations have site fidelity", 
+            "NoteID": "e59ffe0e-0f23-3284-9e36-7f9d8c8607e6"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "Useful (in conjunction with changes in species composition ratios or change in dominant species)", 
+            "NoteID": "e63c7a5a-75e1-3e01-abd2-16bfb40e8cae"
         }, 
         {
             "NoteColor": "yellow", 
@@ -1186,9 +1096,34 @@
             "NoteID": "e6caf5b3-0df4-3efd-b112-a8bde41d659f"
         }, 
         {
+            "NoteColor": "orange", 
+            "NoteText": "Caution re: interpretation and use of data", 
+            "NoteID": "e6d41b2a-7252-3e83-bc8b-d7558aaa5333"
+        }, 
+        {
+            "NoteColor": "orange", 
+            "NoteText": "May not be representative if biology thought to be temporally variable", 
+            "NoteID": "e70157b2-015b-33f8-a923-de152030b259"
+        }, 
+        {
             "NoteColor": "yellow", 
             "NoteText": "Consider augmenting with spatial-temporal measures", 
             "NoteID": "e9e8ce21-c647-39cb-958e-b11accb370d8"
+        }, 
+        {
+            "NoteColor": "green", 
+            "NoteText": "Yes, but may not be reliable or defensible in context of stock status", 
+            "NoteID": "ec7daba5-f249-38e6-b0a5-3f6576dd8b59"
+        }, 
+        {
+            "NoteColor": "red", 
+            "NoteText": "NO", 
+            "NoteID": "ef33f4d3-2616-3ecd-bdca-b18fb305066d"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "Helpful for comparing species within a multispecies fishery, performance of different fleets on the same species complex, or fishing on the same species complex between fishing communities.", 
+            "NoteID": "ef5f0897-8792-35a1-a17b-828b52425e6a"
         }, 
         {
             "NoteColor": "yellow", 
@@ -1196,9 +1131,24 @@
             "NoteID": "efa7302c-0130-31e1-8d35-ca2bd41c0b1a"
         }, 
         {
+            "NoteColor": "None", 
+            "NoteText": "Requires knowedge of gear and/manner of deployment", 
+            "NoteID": "efbf432a-d2ff-3382-b4ec-bd82db782f50"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "Helpful in conjunction with monitoring of species composition, distribution, or length of capture", 
+            "NoteID": "efe7a86e-40de-31b3-bdca-b8c4a9c5d397"
+        }, 
+        {
             "NoteColor": "yellow", 
             "NoteText": "could be difficult if there is mismatch", 
             "NoteID": "f2934844-811a-345b-a779-41e14cf58054"
+        }, 
+        {
+            "NoteColor": "orange", 
+            "NoteText": "Difficult if open access", 
+            "NoteID": "f441ff7a-fc89-3ef4-a9a4-4922fa5c2319"
         }, 
         {
             "NoteColor": "yellow", 
@@ -1206,9 +1156,24 @@
             "NoteID": "f45ba397-58dd-3767-8393-26109b5f0963"
         }, 
         {
+            "NoteColor": "orange", 
+            "NoteText": "Caution re: representativeness if entire fishery is not participating", 
+            "NoteID": "f47b6335-b9a0-3054-946f-d44520a3f086"
+        }, 
+        {
+            "NoteColor": "green", 
+            "NoteText": "YES- though caution re: effort creep", 
+            "NoteID": "f4a48756-3c07-3a34-8fdc-76c2ea8841d7"
+        }, 
+        {
             "NoteColor": "yellow", 
             "NoteText": "May be difficult to identify key locations/ information may not be representative", 
             "NoteID": "f518b067-2259-39a0-9c51-951ca380e937"
+        }, 
+        {
+            "NoteColor": "green", 
+            "NoteText": "YES - if this precluding any data being collected", 
+            "NoteID": "f6a680a8-5e7e-3f22-a4cf-4a63424690f4"
         }, 
         {
             "NoteColor": "yellow", 
@@ -1216,9 +1181,19 @@
             "NoteID": "f701fe48-6d5d-3955-b23f-7964a97b1ae1"
         }, 
         {
+            "NoteColor": "orange", 
+            "NoteText": "May not be able to afford", 
+            "NoteID": "f71a2251-c31c-3911-8c39-cf3fa9b9ff8e"
+        }, 
+        {
             "NoteColor": "yellow", 
             "NoteText": "May not be able to undertake", 
             "NoteID": "f7491679-fc92-3f63-b0af-7abc032bc773"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "Requires some concept of B0; can be indirect via back-extrapolation of catch series.", 
+            "NoteID": "f772bd55-2a85-32e1-913f-66ae1274cad8"
         }, 
         {
             "NoteColor": "yellow", 
@@ -1234,6 +1209,31 @@
             "NoteColor": "yellow", 
             "NoteText": "Selected ports may not be representative of fishery", 
             "NoteID": "fb3e2b93-9fe3-3d64-9483-2da935d6c54f"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "Need selecitvity to at least be able to be inferred.", 
+            "NoteID": "fbe50944-cfd8-3f46-85ca-427a3c13ccfd"
+        }, 
+        {
+            "NoteColor": "red", 
+            "NoteText": "Will require strong community leadership (e.g. via cooperatives/associations) and/or strong governance", 
+            "NoteID": "fc6a5432-04c2-3960-9705-81d3e09535c0"
+        }, 
+        {
+            "NoteColor": "green", 
+            "NoteText": "YES - to build more defensible estimate of stock status and to avoid complacency", 
+            "NoteID": "fc7a0c26-2af6-3f10-834d-66c92aa3cd9b"
+        }, 
+        {
+            "NoteColor": "None", 
+            "NoteText": "YES", 
+            "NoteID": "fea531b6-2d0b-35a3-96c2-f7047ad65f83"
+        }, 
+        {
+            "NoteColor": "green", 
+            "NoteText": "YES - if within-season assessment and management", 
+            "NoteID": "feb700d8-be98-3fc2-a2b1-959ae1bfb96a"
         }
     ], 
     "nsUuid": "5d336db0-55c2-4a28-8912-92c0c5d8512a"
