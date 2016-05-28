@@ -23,15 +23,18 @@ out_dir = '/Users/brandon/Documents/GitHub/SNAP Fisheries Spreadsheets/json/2016
 
 
 def update_attr(E, old_text, new_text):
-    first_attempt = E.find_attribute(old_text)
-    if first_attempt is not None and len(first_attempt) == 1:
-        attr = E.find_or_create_attribute(old_text)
-        try:
-            E.update_attribute(attr, new_text)
-        except KeyError:
-            print('blerg %s | %s' % (attr, new_text))
-    else:
+    if old_text is None:
         attr = E.find_or_create_attribute(new_text)
+    else:
+        first_attempt = E.find_attribute(old_text)
+        if len(first_attempt) == 1:
+            attr = E.find_or_create_attribute(old_text)
+            try:
+                E.update_attribute(attr, new_text)
+            except KeyError:
+                print('blerg %s | %s' % (attr, new_text))
+        else:
+            attr = E.find_or_create_attribute(new_text)
     return attr
 
 

@@ -581,6 +581,10 @@
             "AttributeID": "3755fcae-c7c7-383e-8028-1002695a86d8"
         }, 
         {
+            "AttributeText": "Is there strong governance and/or community/local leadership in place to support/facilitate management measures?", 
+            "AttributeID": "3760e977-f3ab-3380-8200-71287f410d5f"
+        }, 
+        {
             "AttributeText": " (possibly) size data;", 
             "AttributeID": "37809c92-b9b5-3f4e-a7eb-8e6402c86b44"
         }, 
@@ -1623,6 +1627,10 @@
         {
             "AttributeText": "R20", 
             "AttributeID": "8e388c38-bc64-3bf6-8dd8-8d7929e2bb99"
+        }, 
+        {
+            "AttributeText": "What is the extent of enforcement capability?", 
+            "AttributeID": "8ee1903e-aeef-3dff-8e70-e3ac3660b234"
         }, 
         {
             "AttributeText": "Requires mean or median catches; ", 
