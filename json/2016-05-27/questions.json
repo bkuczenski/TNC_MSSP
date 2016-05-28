@@ -1218,15 +1218,21 @@
         "QuestionID": 80, 
         "ValidAnswers": [
             "LOW", 
-            "HIGH"
+            "HIGH", 
+            "No", 
+            "Yes"
         ], 
         "References": [
-            "ControlRules:15"
+            "ControlRules:15", 
+            "ControlRules:22"
         ], 
         "Attributes": [
             "e9d3f431-9bbf-3ca2-9d7f-bec13b228dc3", 
             "582dda2e-736d-330b-b443-186e6304c0a2", 
-            "ebcba595-f11d-3f37-b4c7-646c6dd5196b"
+            "ebcba595-f11d-3f37-b4c7-646c6dd5196b", 
+            "e9d3f431-9bbf-3ca2-9d7f-bec13b228dc3", 
+            "ec11bea9-cbd3-3736-a89d-bbc7403e6910", 
+            "55b743af-2fdf-3432-a3cf-50ae02ed7149"
         ]
     }, 
     {
@@ -1317,21 +1323,6 @@
             "e9d3f431-9bbf-3ca2-9d7f-bec13b228dc3", 
             "ec11bea9-cbd3-3736-a89d-bbc7403e6910", 
             "faeef97a-7826-396b-b6ae-7ab20c68dd17"
-        ]
-    }, 
-    {
-        "QuestionID": 87, 
-        "ValidAnswers": [
-            "No", 
-            "Yes"
-        ], 
-        "References": [
-            "ControlRules:22"
-        ], 
-        "Attributes": [
-            "e9d3f431-9bbf-3ca2-9d7f-bec13b228dc3", 
-            "ec11bea9-cbd3-3736-a89d-bbc7403e6910", 
-            "55b743af-2fdf-3432-a3cf-50ae02ed7149"
         ]
     }, 
     {
