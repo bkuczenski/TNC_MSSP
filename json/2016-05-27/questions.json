@@ -1224,7 +1224,8 @@
         ], 
         "References": [
             "ControlRules:15", 
-            "ControlRules:22"
+            "ControlRules:22", 
+            "Monitoring:AO"
         ], 
         "Attributes": [
             "e9d3f431-9bbf-3ca2-9d7f-bec13b228dc3", 
@@ -1232,7 +1233,11 @@
             "ebcba595-f11d-3f37-b4c7-646c6dd5196b", 
             "e9d3f431-9bbf-3ca2-9d7f-bec13b228dc3", 
             "ec11bea9-cbd3-3736-a89d-bbc7403e6910", 
-            "55b743af-2fdf-3432-a3cf-50ae02ed7149"
+            "55b743af-2fdf-3432-a3cf-50ae02ed7149", 
+            "ec11bea9-cbd3-3736-a89d-bbc7403e6910", 
+            "259b502d-32b7-3cef-81aa-18dba5e1f67e", 
+            "5f38408e-facb-32eb-8b0d-6043679a0963", 
+            "618f2a1e-11bd-33c3-9f6b-76421d6ff979"
         ]
     }, 
     {
@@ -2405,22 +2410,6 @@
             "259b502d-32b7-3cef-81aa-18dba5e1f67e", 
             "5f38408e-facb-32eb-8b0d-6043679a0963", 
             "3294a6a9-4f72-3405-ae68-055533675ad9"
-        ]
-    }, 
-    {
-        "QuestionID": 176, 
-        "ValidAnswers": [
-            "No", 
-            "Yes"
-        ], 
-        "References": [
-            "Monitoring:AO"
-        ], 
-        "Attributes": [
-            "ec11bea9-cbd3-3736-a89d-bbc7403e6910", 
-            "259b502d-32b7-3cef-81aa-18dba5e1f67e", 
-            "5f38408e-facb-32eb-8b0d-6043679a0963", 
-            "618f2a1e-11bd-33c3-9f6b-76421d6ff979"
         ]
     }, 
     {
