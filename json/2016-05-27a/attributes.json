@@ -481,6 +481,10 @@
             "AttributeID": "2d97231d-1a7d-3153-84b7-5a6bd1d9678c"
         }, 
         {
+            "AttributeText": "not clear - needs clarification", 
+            "AttributeID": "2dba8371-ef95-342e-b698-f459a2fd0b9f"
+        }, 
+        {
             "AttributeText": "This does not confer the necessity to immediately analyse the collected data. Data may be archived against a time when required and/or the GVP/capability exists to analyse it.", 
             "AttributeID": "2def3b28-de75-38fd-987d-692ffcdaa914"
         }, 
@@ -567,6 +571,10 @@
         {
             "AttributeText": "Is protocol undertaken regularly?", 
             "AttributeID": "35cebf5c-36ca-3299-a76a-71e862bf7cb9"
+        }, 
+        {
+            "AttributeText": "M37", 
+            "AttributeID": "36184b89-e8e5-31a9-bc72-f4f56eae4edc"
         }, 
         {
             "AttributeText": "Fishery (basic understanding of how fishery operates)", 
@@ -1747,6 +1755,10 @@
         {
             "AttributeText": "Is the species highly migratory, and the fishery does not embrace spatial extent of the stock? (here, \"N\" = assessment method unable to be applied)", 
             "AttributeID": "99573b91-ff81-33fb-964b-f4bb697fdb13"
+        }, 
+        {
+            "AttributeText": "If the fishery is multispecies, is the species composition of the catch divided disproportionately across the supply chain? (e.g. only some species are marketed, while others are consumed for subsistence?)", 
+            "AttributeID": "99997e33-0e99-394f-9b7a-f2a0fd23bd7b"
         }, 
         {
             "AttributeText": "Snapshot data gathering - biology/life history geared", 
