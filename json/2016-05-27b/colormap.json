@@ -1,0 +1,32 @@
+[
+    {
+        "RGB": "FFFF0000", 
+        "Score": -3, 
+        "ColorName": "red"
+    }, 
+    {
+        "RGB": "FFFFC000", 
+        "Score": -1, 
+        "ColorName": "yellow"
+    }, 
+    {
+        "RGB": "FF6C4D91", 
+        "Score": -1, 
+        "ColorName": "purple"
+    }, 
+    {
+        "RGB": "00000000", 
+        "Score": 0, 
+        "ColorName": "None"
+    }, 
+    {
+        "RGB": "FF92D050", 
+        "Score": 2, 
+        "ColorName": "green"
+    }, 
+    {
+        "RGB": "FFFF6600", 
+        "Score": -2, 
+        "ColorName": "orange"
+    }
+]

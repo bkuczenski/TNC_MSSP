@@ -31,6 +31,7 @@ Questions = collection of Attributes and valid answer strings (default to Yes/No
 """
 
 from collections import namedtuple
+from uuid import UUID
 # from numpy import isnan
 
 from MSSP.utils import convert_reference_to_subject, check_sel, selectors, ifinput
@@ -276,13 +277,17 @@ class MsspDataStore(object):
             for a in self._make_attr_list(target, record='target'):
                 print(self._attributes[a].text)
 
+    def attribute(self, index):
+        attr = self._attributes[index]
+        return attr.text
+
     def attributes(self, index):
         """
         Print out the attribute(s) listed in the index (or list)
         :param index:
         :return:
         """
-        if isinstance(index, int):
+        if isinstance(index, UUID):
             index = [index]
 
         for i in index:
@@ -312,6 +317,98 @@ class MsspDataStore(object):
     def targets_with_attribute(self, index):
         ts = set([v['TargetID'] for k, v in self._target_attributes.iterrows() if v['AttributeID'] == index])
         return sorted(list(ts))
+
+    def remap_duplicate_attribute_references(self):
+        for dup, orig in self._attributes.dups:
+            self._question_attributes.loc[self._question_attributes['AttributeID'] == dup, 'AttributeID'] = orig
+            self._target_attributes.loc[self._target_attributes['AttributeID'] == dup, 'AttributeID'] = orig
+
+    def _find_attr_map(self, mapping, r_index, attr):
+        if mapping is self._question_attributes:
+            return (mapping['AttributeID'] == attr) & (mapping['QuestionID'] == r_index)
+        elif mapping is self._target_attributes:
+            return (mapping['AttributeID'] == attr) & (mapping['TargetID'] == r_index)
+        else:
+            raise MsspError('Unknown mapping')
+
+    def attributes_for(self, r_index, record='question'):
+        return self._make_attr_list(r_index, record=record)
+
+    def find_attribute(self, string):
+        return self._attributes.find_string(string)
+
+    def find_or_create_attribute(self, string):
+        if string is None:
+            return None
+        return self._attributes.add_element(string)
+
+    def update_attribute(self, attr, new_string):
+        self._attributes.update_text(attr, new_string)
+
+    def add_attribute_mapping(self, r_index, attr, record='question'):
+        if attr is None:
+            return
+        if attr not in self._attributes.keys():
+            raise KeyError('Attribute not found.')
+        if record == 'question':
+            qi = self._find_attr_map(self._question_attributes, r_index, attr)
+            if sum(qi) != 0:
+                print('attribute map - %d found' % sum(qi))
+                raise MsspError('QID %d: Attribute mapping already exists (%s)' % (r_index, self._attributes[attr].text))
+            self._question_attributes = self._question_attributes.append(
+                {
+                    'AttributeID': attr,
+                    'QuestionID': r_index
+                },
+                ignore_index=True, verify_integrity=True)
+        elif record == 'target':
+            qi = self._find_attr_map(self._target_attributes, r_index, attr)
+            if sum(qi) != 0:
+                print('attribute map - %d found' % sum(qi))
+                raise MsspError('TID %d: Attribute mapping already exists (%s)' % (r_index, self._attributes[attr].text))
+            self._target_attributes = self._target_attributes.append(
+                {
+                    'AttributeID': attr,
+                    'TargetID': r_index
+                },
+                ignore_index=True, verify_integrity=True)
+        else:
+            raise ValueError('Unknown record specifier %s' % record)
+
+    def del_attribute_mapping(self, r_index, attr, record='question'):
+        if record == 'question':
+            mapping = self._question_attributes
+        elif record == 'target':
+            mapping = self._target_attributes
+        else:
+            raise ValueError('Unknown record specifier %s' % record)
+
+        qi = self._find_attr_map(mapping, r_index, attr)
+        if sum(qi) == 1:
+            mapping = mapping[~qi]
+            print('Removed %d reference' % sum(qi))
+        else:
+            print('%d records found (0= no association; >1= something screwy' % sum(qi))
+
+    def set_title(self, r_index, attr, record='question'):
+        try:
+            self.add_attribute_mapping(r_index, attr, record=record)
+        except MsspError:
+            pass
+        if record == 'question':
+            self._questions[r_index].title = attr
+        elif record == 'target':
+            self._targets[r_index].title = attr
+
+    def set_category(self, r_index, attr, record='question'):
+        try:
+            self.add_attribute_mapping(r_index, attr, record=record)
+        except MsspError:
+            pass
+        if record == 'question':
+            self._questions[r_index].category = attr
+        elif record == 'target':
+            self._targets[r_index].category = attr
 
     def _reorder_answer_columns(self, question, table):
         """
@@ -775,6 +872,10 @@ class MsspDataStore(object):
                 "ValidAnswers": v.valid_answers,
                 "Attributes": [str(i) for i in attr_list]
             }
+            if v.title is not None:
+                add["Title"] = str(v.title)
+            if v.category is not None:
+                add["Category"] = str(v.category)
             for i in attr_list:
                 attr_set.add(i)
             if len(v.satisfied_by) > 0:
@@ -792,6 +893,10 @@ class MsspDataStore(object):
                 "Reference": convert_reference_to_subject(v.reference()),
                 "Attributes": [str(i) for i in attr_list]
             }
+            if v.title is not None:
+                add["Title"] = str(v.title)
+            if v.category is not None:
+                add["Category"] = str(v.category)
             for i in attr_list:
                 attr_set.add(i)
             targets.append(add)
@@ -853,11 +958,11 @@ class MsspDataStore(object):
             "caveats": caveats,
             "attributes": {
                 'nsUuid': str(self._attributes.get_ns_uuid()),
-                'Elements': sorted(attributes)
+                'Elements': sorted(attributes, key=lambda x: x['AttributeID'])
             },
             "notes": {
                 'nsUuid': str(self._attributes.get_ns_uuid()),
-                'Elements': sorted(notes)
+                'Elements': sorted(notes, key=lambda x: x['NoteID'])
             }
         }
         return json_out

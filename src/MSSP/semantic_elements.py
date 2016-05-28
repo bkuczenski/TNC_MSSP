@@ -51,10 +51,32 @@ class SemanticElement(object):
 
 class SemanticElementSet(object):
     """
-    A uuid-indexed replacement for ElementSet. For now we hold off on checking uniqueness
+    A uuid-indexed replacement for ElementSet.
+
+    The class has two dictionaries, one the reverse of the other, which functions to guarantee uniqueness of
+    elements.
+
+    Internals:
+        obj._ns_uuid = namespace UUID
+        obj._d[key] = value, where key is a UUID, value is a SemanticElement
+        obj._rd[string] = key, where string is self._element_to_string(value), key is a UUID
+
+    Methods:
+        class.from_element_set(element_set) - creates a SemanticElementSet from an old-style (spreadsheet) ElementSet
+        class.from_json(json, colormap=None) - creates a SemanticElementSet from a json file
+
+        obj.get_index(element) looks up in _rd
+        obj[index] looks up UUID in _d
+
+        obj[index] = element - creates or updates the string with the given UUID index - updates _d and _rd
+
+        obj.add_element(text, fill_color)
     """
-    def __init__(self, ns_uuid=None):
+    def __init__(self, ns_uuid=None, colormap=None):
         self._d = dict()
+        self._rd = dict()  # reverse dictionary
+        self.dups = []
+        self._colormap = colormap
         if ns_uuid is not None:
             if isinstance(ns_uuid, uuid.UUID):
                 self._ns_uuid = ns_uuid
@@ -63,11 +85,20 @@ class SemanticElementSet(object):
         else:
             self._ns_uuid = uuid.uuid4()
 
+    def _add_element(self, element):
+        self[self._index_from_element(element)] = element
+
+    def _lookup_rgb(self, color, field='ColorName'):
+        try:
+            return self._colormap[self._colormap[field] == color]['RGB'].iloc[0]
+        except IndexError:
+            raise KeyError('Key %s was not found in colormap column %s' % (color, field))
+
     @classmethod
     def from_element_set(cls, element_set):
         the_set = cls()
         for element in element_set:
-            the_set._add_element(element)
+            the_set.add_element(element.text, element.fill_color)
         return the_set
 
     @classmethod
@@ -78,7 +109,7 @@ class SemanticElementSet(object):
         :param colormap:
         :return:
         """
-        the_set = cls(ns_uuid=json_in['nsUuid'])
+        the_set = cls(ns_uuid=json_in['nsUuid'], colormap=colormap)
         for i in json_in['Elements']:
             if colormap is None:
                 i_id = uuid.UUID(i['AttributeID'])
@@ -87,11 +118,12 @@ class SemanticElementSet(object):
             else:
                 i_id = uuid.UUID(i['NoteID'])
                 i_txt = i['NoteText']
-                rgb = colormap[colormap['ColorName'] == i['NoteColor']]['RGB'].iloc[0]
+                rgb = the_set._lookup_rgb(i['NoteColor'])
                 the_set[i_id] = SemanticElement(text=i_txt, fill_color=rgb)
         return the_set
 
-    def _string_from_element(self, element):
+    @staticmethod
+    def _string_from_element(element):
         return 'color[%s] text[%s]' % (element.fill_color, element.text)
 
     def _index_from_element(self, element):
@@ -101,36 +133,42 @@ class SemanticElementSet(object):
             print('Failed with %s' % self._string_from_element(element))
             raise
 
-    def _add_element(self, element):
-        self._d[self._index_from_element(element)] = SemanticElement(element.text, fill_color=element.fill_color)
-
     def get_index(self, element):
-        if isinstance(element, Element):
-            return self._index_from_element(element)
-        elif isinstance(element, basestring):
-            inds = [k for k, v in self._d.items() if v == element]
-            if len(inds) > 0:
-                if len(inds) > 1:
-                    print('Warning: %d matches found!' % len(inds))
-                return inds[0]
-            else:
-                print('Nothing found.')
-                return None
-        else:
-             raise MsspError('Unknown input type')
+        return self._rd[self._string_from_element(element)]
 
     def __len__(self):
         return len(self._d)
 
-    def __getitem__(self, item):
-        return self._d[item]
+    def __getitem__(self, key):
+        if not isinstance(key, uuid.UUID):
+            key = uuid.UUID(key)
+        return self._d[key]
 
     def __setitem__(self, key, value):
+        """
+        value must have 'text' and 'fill_color' attributes
+        :param key:
+        :param value:
+        :return:
+        """
         if not isinstance(key, uuid.UUID):
             key = uuid.UUID(key)
         if not isinstance(value, SemanticElement):
             value = SemanticElement(value.text, fill_color=value.fill_color)
+        rkey = self._string_from_element(value)
+        if rkey in self._rd:  # duplicate values not allowed
+            if key != self._rd[rkey]:
+                print('Value %s already exists\nold key %s\nnew key %s' % (rkey, self._rd[rkey], key))
+                self.dups.append((key, self._rd[rkey]))
+                return
+            else:
+                assert key in self._d
+        if key in self._d:  # updates ARE allowed - but we need to delete the old reverse-key mapping
+            chk_key = self._rd.pop(self._string_from_element(self._d[key]))
+            assert chk_key == key, 'Corrupt dict found!'
+
         self._d[key] = value
+        self._rd[rkey] = key
 
     def keys(self):
         return self._d.keys()
@@ -153,5 +191,55 @@ class SemanticElementSet(object):
 
         return list(set(ind).intersection(idx))
 
+    def find_string(self, string):
+        """
+        look for direct-matching strings (not regex)
+        :param string:
+        :return:
+        """
+        return [k for k, v in self._d.items() if v.text == string]
+
+    def add_element(self, text, fill_color=None):
+        """
+        creates a semantic element then adds it if it doesn't already exist
+        :param text:
+        :param fill_color:
+        :return: the UUID of the existing or created element
+        """
+        element = SemanticElement(text, fill_color=fill_color)
+        try:
+            key = self.get_index(element)
+        except KeyError:
+            self._add_element(element)
+            key = self.get_index(element)
+        return key
+
+    def update_text(self, key, new_text):
+        elt = self._d[key]
+        print('Old: %s\nNew: %s' % (elt.text, new_text))
+        new_elt = SemanticElement(new_text, elt.fill_color)
+        self[key] = new_elt
+
+    def update_color(self, key, new_rgb):
+        if self._colormap is None:
+            raise AttributeError('This ElementSet has no colormap.')
+        if bool(fill_color_re.match(new_rgb)):
+            new_rgb = self._lookup_rgb(new_rgb, 'RGB')
+        else:  # assume string color
+            new_rgb = self._lookup_rgb(new_rgb)
+
+        elt = self._d[key]
+        print('Old: %s\nNew: %s' % (elt.fill_color, new_rgb))
+        new_elt = SemanticElement(elt.text, new_rgb)
+        self[key] = new_elt
+
     def get_ns_uuid(self):
         return self._ns_uuid
+
+    def test_dict_integrity(self):
+        for key in self.keys():
+            rkey = self._string_from_element(self._d[key])
+            assert self._rd[rkey] == key, 'key %s failure' % key
+        for rkey in self._rd.keys():
+            key = self._rd[rkey]
+            assert self._string_from_element(self._d[key]) == rkey, 'rkey %s failure' % rkey

@@ -1,5 +1,6 @@
 
 from MSSP.utils import convert_subject_to_reference, convert_record_to_label
+from uuid import UUID
 
 def is_yes(answer):
     return answer in ('y', 'Y', 'yes', 'YES', 'Yes', 'if yes', 'if Yes', 'if YES', 'IF YES')
@@ -38,6 +39,8 @@ class MsspQuestion(object):
         self._yes_no_included = False
         self.satisfied_by = set()
         self.satisfies = set()  # not serialized
+        self.title = None
+        self.category = None
 
     def _update_valid_answers(self):
         """
@@ -122,6 +125,12 @@ class MsspQuestion(object):
         if 'SatisfiedBy' in question:
             mssp_question.satisfied_by = set(question['SatisfiedBy'])
 
+        if 'Title' in question:
+            mssp_question.title = UUID(question['Title'])
+
+        if 'Category' in question:
+            mssp_question.category = UUID(question['Category'])
+
         return mssp_question
 
     def label(self):
@@ -146,6 +155,9 @@ class MsspTarget(object):
         self.type = target.selector
         self.record = target.record
 
+        self.title = None
+        self.category = None
+
     @classmethod
     def from_json(cls, target):
         from MSSP.records import Record
@@ -154,7 +166,16 @@ class MsspTarget(object):
         ref = convert_subject_to_reference(target['Reference'])
 
         t = Record(ref[0], ref[1], [])
-        return cls(t)
+
+        mssp_target = cls(t)
+
+        if 'Title' in target:
+            mssp_target.title = UUID(target['Title'])
+
+        if 'Category' in target:
+            mssp_target.category = UUID(target['Category'])
+
+        return mssp_target
 
     def label(self):
         return self.type + ' ' + convert_record_to_label(self.record)
