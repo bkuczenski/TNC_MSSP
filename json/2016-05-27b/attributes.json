@@ -1,0 +1,2845 @@
+{
+    "Elements": [
+        {
+            "AttributeText": "Rank the gross value of production of the fishery, in terms of hard dollar value. The key consideration is the extent to which dollars can be afforded to invest in a monitoring program for this species/species group.", 
+            "AttributeID": "00018316-9753-308e-b146-9e58e89594c0"
+        }, 
+        {
+            "AttributeText": "Changes in spatial distribution of catch", 
+            "AttributeID": "00990f56-c8e8-37d6-bff7-595f62888358"
+        }, 
+        {
+            "AttributeText": "A23", 
+            "AttributeID": "00b52ec0-bc80-3a80-82ba-27648526302b"
+        }, 
+        {
+            "AttributeText": "For example, boats can be launched from any point and not necessarily return to a specific destination, or beach-based fishing that may not be associated with a specific landings site", 
+            "AttributeID": "01fbb81c-60b8-3587-9728-054c428a26e4"
+        }, 
+        {
+            "AttributeText": "R25", 
+            "AttributeID": "026b6068-1bec-3ccd-98e7-b7f592d425b3"
+        }, 
+        {
+            "AttributeText": "Comprehensive assessment of risk to ecosystems (CARE)", 
+            "AttributeID": "02847a48-6964-3161-996e-b358fd2a90dd"
+        }, 
+        {
+            "AttributeText": "estimating life history attributes ", 
+            "AttributeID": "028f4138-6bae-3526-96aa-7378aeafcb8e"
+        }, 
+        {
+            "AttributeText": "Are there prior ranges for r (population intrinsic growth rate) and k (carrying capacity) IF NO", 
+            "AttributeID": "03f9e3db-4ea2-360f-9bd4-8fdbba1f63e5"
+        }, 
+        {
+            "AttributeText": "M4", 
+            "AttributeID": "044dfe28-2d9c-3a80-9d9c-f2affe2b97df"
+        }, 
+        {
+            "AttributeText": "Are the fishing locations (if not boat-based) and ports variable?", 
+            "AttributeID": "05776e40-6587-3e56-a6fe-bc7eaf62fbfb"
+        }, 
+        {
+            "AttributeText": "\u00b7\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 GDP of species:  For individual species, does this refer to the total fishery value relative to the national GDP, or does it represent the value of the species itself.  In the Palau case (and in Peru with Chita) the species has a low GPD relative to the national, since they are not very abundant, but are very valuable individually.  ", 
+            "AttributeID": "05bc6393-834d-3b0c-bbf3-948db7d16e10"
+        }, 
+        {
+            "AttributeText": "Is ORCS being used for assessment?", 
+            "AttributeID": "063fb05e-ba40-374e-9b25-99be28e8f855"
+        }, 
+        {
+            "AttributeText": "Are biomass surveys to inform spatial management being used for assessment?", 
+            "AttributeID": "0660572d-be25-3031-b614-43bb5927a076"
+        }, 
+        {
+            "AttributeText": "R17", 
+            "AttributeID": "0771343d-dd62-3805-8aec-aa4f4854eee0"
+        }, 
+        {
+            "AttributeText": "Are there spatial concentrations of effort?", 
+            "AttributeID": "0883ea1f-8bd3-3ddd-9929-a46a5768e2d6"
+        }, 
+        {
+            "AttributeText": "Observers - industrial or high-artisinal on-board", 
+            "AttributeID": "088e1739-941d-3a91-8d7d-bf64a33122c5"
+        }, 
+        {
+            "AttributeText": "R41", 
+            "AttributeID": "08cd8730-c94f-3b16-9911-95fcd7662f68"
+        }, 
+        {
+            "AttributeText": "artisinal (commercial)", 
+            "AttributeID": "099d8a78-f6f6-3a41-ab52-e0503e04fafd"
+        }, 
+        {
+            "AttributeText": "Do fishing activities (regardless of current management) correspond with the spatial extent of the fishable stock?", 
+            "AttributeID": "09ad97d3-17a9-3cc6-a5d7-d2de4c114918"
+        }, 
+        {
+            "AttributeText": "Is the species is highly migratory?", 
+            "AttributeID": "09e4bfb0-7a8d-3ca8-a46b-7451ec8d710c"
+        }, 
+        {
+            "AttributeText": "6 Temporal restrictions (can be invoked or modified by HCRs)", 
+            "AttributeID": "0a64bfe8-b2fd-38e1-b267-9d7400ca5835"
+        }, 
+        {
+            "AttributeText": "Indirect stock status, fishing mortality", 
+            "AttributeID": "0a92d803-8507-3f76-be71-d83481f9a088"
+        }, 
+        {
+            "AttributeText": "A10", 
+            "AttributeID": "0a9b99ec-9c5b-3537-af3c-7a1c97c37653"
+        }, 
+        {
+            "AttributeText": "Mean weight or weight percentiles", 
+            "AttributeID": "0b6cf15e-58cb-3859-a126-a45817f12225"
+        }, 
+        {
+            "AttributeText": "Estimate of abundance", 
+            "AttributeID": "0bed0732-5285-36e9-8a86-312e75222a36"
+        }, 
+        {
+            "AttributeText": "from monitoring closed areas or marine protected areas (e.g. Babcock and MacCall (2011); McGilliard et al. (2011) ; Wilson et al. (2010))", 
+            "AttributeID": "0c080002-1270-3ede-bc43-349f8de94ab9"
+        }, 
+        {
+            "AttributeText": "Less so for fishery characterisation", 
+            "AttributeID": "0c7f5ed8-2e6e-32ac-af4f-c3839634ede8"
+        }, 
+        {
+            "AttributeText": "Mortality estimates from length data in nonequilibrium situations (Gedamke and Hoenig 2006) -see https://cran.r-project.org/web/packages/fishmethods/fishmethods.pdf", 
+            "AttributeID": "0c846bbb-1c2c-334e-9389-4b1eac555108"
+        }, 
+        {
+            "AttributeText": "Are there existing cooperatives or associations that could provide a starting point?", 
+            "AttributeID": "0cd23013-5fcb-3353-b4e4-4199d958ee07"
+        }, 
+        {
+            "AttributeText": "Linear regression to recent time series of CPUE", 
+            "AttributeID": "0cdd0cc4-d82a-3392-a090-40375114ffd9"
+        }, 
+        {
+            "AttributeText": "A19", 
+            "AttributeID": "0cfe70d4-08d5-3edc-909e-4fb29bc0a438"
+        }, 
+        {
+            "AttributeText": "Are species within a multispecies fishery being assessed collectively, whether because of lack of data on each, or whether there is lack of species identification (i.e. \"basket species\") ? IF YES", 
+            "AttributeID": "0d6ae575-b492-3ca1-96ec-255f7e73f408"
+        }, 
+        {
+            "AttributeText": "Expert judgement re: fishery operations and interaction with broader environment", 
+            "AttributeID": "0d8ed4ee-5fe6-36da-8da5-cbe11d9dafdb"
+        }, 
+        {
+            "AttributeText": "For any species harvested for the gear being considered", 
+            "AttributeID": "0db271ca-8082-3f88-a66c-4cdddc451d5c"
+        }, 
+        {
+            "AttributeText": "=\"Rows \"&ROW(F54)&\" or \"&ROW(F55)", 
+            "AttributeID": "0db86b8d-ead4-3a11-ab5a-8fcf86e14827"
+        }, 
+        {
+            "AttributeText": "IF TEMPORAL CHANGES HAVE OCCURRED (.e. is what happened x years ago relevant to today's landscape?) If historical or recent changes have occurred in how the fishery is operating, apply caution to assessment approaches requiring time series or temporally representative data (here, \"N\" = assessment method unable to be applied)", 
+            "AttributeID": "0ddaf0f7-ed2f-3e75-8e57-9779254a3146"
+        }, 
+        {
+            "AttributeText": "Does assessment suggest a certain form of decision rule? (PENDING OUTCOMES OF ASSESSMENT COMPONENT OF MSSP - 2nd layer?)", 
+            "AttributeID": "0df225ba-b257-39cb-9088-0fb9ad5f9776"
+        }, 
+        {
+            "AttributeText": "Across-fleet catch by species, time and space; across-fleet effort by time and space;", 
+            "AttributeID": "0fa5ba7e-d2c8-3d55-bad3-cb8425e0e3ac"
+        }, 
+        {
+            "AttributeText": "Is there local knowledge of suitable targets for indicators? E.g. historically, this level of catch corresponded to a \"good\" stock status IF YES", 
+            "AttributeID": "0fb06bdb-f862-32f4-b718-7e10b7c70a61"
+        }, 
+        {
+            "AttributeText": "Can monitoring be conducted at the same time and in the same manner interannually and spatially? (SEE ALSO COLUMN BB)", 
+            "AttributeID": "0fc38b53-b229-3062-97e9-6c6feb13b878"
+        }, 
+        {
+            "AttributeText": "Indicators need to be independent", 
+            "AttributeID": "102ac45c-47a6-3fcb-a92c-b82c58ada37b"
+        }, 
+        {
+            "AttributeText": "Are there no immediate concerns (among any stakeholder group) regarding the status of the stock?", 
+            "AttributeID": "102cd89e-0966-3944-8031-e55d83c53098"
+        }, 
+        {
+            "AttributeText": "if local means state", 
+            "AttributeID": "10406634-c1e1-326d-ba9e-b884ea69f0e2"
+        }, 
+        {
+            "AttributeText": "=\"Rows \"&ROW(F56)&\" or \"&ROW(F58)", 
+            "AttributeID": "10cba0bd-31a2-3929-97e9-1acaa5c10a40"
+        }, 
+        {
+            "AttributeText": "Is there a starting estimate of MSY?", 
+            "AttributeID": "113cff5d-81d5-3050-a031-07d1dfb4ee2d"
+        }, 
+        {
+            "AttributeText": "Estimating F (YPR)", 
+            "AttributeID": "1167c0ad-4def-3094-91a2-bf1ec9b776eb"
+        }, 
+        {
+            "AttributeText": "R13", 
+            "AttributeID": "117b33ae-7bed-3f20-8095-4167c5ce9ffe"
+        }, 
+        {
+            "AttributeText": "M1", 
+            "AttributeID": "1180da1d-f631-3090-b41d-02fe32c2cd6c"
+        }, 
+        {
+            "AttributeText": "size data; maturity/ reproductive state; sex ratios;", 
+            "AttributeID": "11d6dcd7-28aa-3525-b7e4-c286b951d36b"
+        }, 
+        {
+            "AttributeText": "What is the dominant system of governance? (Community level, Regional, State, National) (SEE ALSO COLUMN AT)", 
+            "AttributeID": "125b228d-5434-3e7b-aaa6-304cc0688de5"
+        }, 
+        {
+            "AttributeText": " Is there some estimate of assumed depletion? IF NO", 
+            "AttributeID": "1265d868-0f5e-39f6-95a2-1cd71950184f"
+        }, 
+        {
+            "AttributeText": "Is the fishery open access? (as opposed to limited entry)", 
+            "AttributeID": "1297208a-861b-3d3f-a940-7def36b26fd7"
+        }, 
+        {
+            "AttributeText": "Additional requirements (not elsewhere included). These are not included in the vector matching but should pop up as warnings depending on the response.", 
+            "AttributeID": "12ace8bf-0d5b-3ce6-be67-5e432f992854"
+        }, 
+        {
+            "AttributeText": "Does the species have known spawning grounds, and/or form spawning aggregations?", 
+            "AttributeID": "130a4399-28ac-344a-8d50-01e1e3f7d312"
+        }, 
+        {
+            "AttributeText": "Is there a starting estimate of Z? IF NO", 
+            "AttributeID": "1330e943-590c-3ec8-b43c-5887a29d3983"
+        }, 
+        {
+            "AttributeText": "Are additional species or habitat threatened by the gear?", 
+            "AttributeID": "13d29a92-9175-32b8-85e4-997a073cb501"
+        }, 
+        {
+            "AttributeText": "M25", 
+            "AttributeID": "13f95c32-baad-33ea-909e-e5f552056afb"
+        }, 
+        {
+            "AttributeText": "Is the species part of a multispecies fishery within which the assessment should consider the fishery and/or ecosystem as a whole? IF YES", 
+            "AttributeID": "14000bda-254b-3367-879d-2259914706d6"
+        }, 
+        {
+            "AttributeText": "Is there a starting estimate of MSY? IF NO", 
+            "AttributeID": "141f2cc3-0bfb-33dc-9802-cd8453c46acd"
+        }, 
+        {
+            "AttributeText": "Life-history ratios M/K (can be borrowed)", 
+            "AttributeID": "154734b9-f7cc-38e1-84e6-30eec1a3876c"
+        }, 
+        {
+            "AttributeText": "M34", 
+            "AttributeID": "1583ce3c-0906-3c20-a656-fc50064a1655"
+        }, 
+        {
+            "AttributeText": "Species ID, species composition, location", 
+            "AttributeID": "1647e766-08b7-3af8-8f0d-59559480570a"
+        }, 
+        {
+            "AttributeText": "R26", 
+            "AttributeID": "16b937e6-788f-328c-a9ca-f9e0105cee32"
+        }, 
+        {
+            "AttributeText": "Is there illegal, unregulated, or unreported fishing?", 
+            "AttributeID": "16fb79b2-cafd-39e1-bf68-3c2a5059a676"
+        }, 
+        {
+            "AttributeText": "very subjective b/w countries. How to reconcile? Is it all about economics. What are other ways to value it. Make sure this doesn't rule out options.", 
+            "AttributeID": "1772c1f8-298a-3a25-b024-a4906a258c6e"
+        }, 
+        {
+            "AttributeText": "estimate sustainable yield", 
+            "AttributeID": "17c2dbd6-c049-3316-85c0-72584d6c69b7"
+        }, 
+        {
+            "AttributeText": "Is Zhou's catch-only approach being used for assessment?", 
+            "AttributeID": "1842ccc4-b0c8-3f5f-9dfd-cf5bcbc35f9e"
+        }, 
+        {
+            "AttributeText": "R47", 
+            "AttributeID": "185fff62-ed28-315b-865d-6c67a8548265"
+        }, 
+        {
+            "AttributeText": "Is the species largely largely sedentary or sessile?", 
+            "AttributeID": "18b106da-58bd-3d73-8490-50f361e787cc"
+        }, 
+        {
+            "AttributeText": "Limited entry", 
+            "AttributeID": "192a8ef6-abab-3ab4-bb30-76ae37e94058"
+        }, 
+        {
+            "AttributeText": "R7", 
+            "AttributeID": "193efa36-045e-3c1e-9bff-e5b9a3fc8fe4"
+        }, 
+        {
+            "AttributeText": "according to assessment outcomes (feedback): ii) target based with F- or biomass-based reference point", 
+            "AttributeID": "1a3289b3-d2ea-3cc2-b79a-bb194a249b9f"
+        }, 
+        {
+            "AttributeText": "\"Periodic strategist\" species? (slow-growing, long-lived, steady state population, but with variable recruitment)", 
+            "AttributeID": "1a846051-4982-3209-aa5f-350ae4db1f5b"
+        }, 
+        {
+            "AttributeText": "Are there multiple fleets (if considering a single gear, are there other gears or fleets impacting the species or species group)?", 
+            "AttributeID": "1a9d3239-2c37-3d3f-a054-cafef837bcd5"
+        }, 
+        {
+            "AttributeText": "Is the data representative of the spatial extent of the fishing? (Y = this is required)", 
+            "AttributeID": "1ab5cc6b-e528-3433-b331-a25a1d7ea3e6"
+        }, 
+        {
+            "AttributeText": "Reword to \"Is any monitoring program able be undertaken with temporal regularity and reasonably frequently (e.g. more than every 5 years)?\"", 
+            "AttributeID": "1ad46a99-9ade-3eca-9e12-08e7fca94558"
+        }, 
+        {
+            "AttributeText": "Is linear regression on CPUE time series being used for assessment?", 
+            "AttributeID": "1afaa03f-a70f-3e0c-b894-cb05de299520"
+        }, 
+        {
+            "AttributeText": "Density or Abundance or No-Take", 
+            "AttributeID": "1b297b01-87d9-3aff-a3b4-5643981e660f"
+        }, 
+        {
+            "AttributeText": "R33", 
+            "AttributeID": "1b76fb5d-8343-3fa1-9497-bfbb8b2669b5"
+        }, 
+        {
+            "AttributeText": "Trajectories of stock biomass", 
+            "AttributeID": "1b7cef9c-d570-33ee-b18f-61e1f100107e"
+        }, 
+        {
+            "AttributeText": "Maxmimum soak time for hooks/traps/other gear", 
+            "AttributeID": "1b9c4c17-bd5d-3719-a417-712a8feb2529"
+        }, 
+        {
+            "AttributeText": "Length-based SPR assessment (Prince and Hordyk)", 
+            "AttributeID": "1cd419f7-9cf6-3dba-8610-6973ce1b67be"
+        }, 
+        {
+            "AttributeText": "Catch, CPUE by size indicators (per Froese)", 
+            "AttributeID": "1d6cfd93-5bfc-342f-9cb8-0d78ac7e4e55"
+        }, 
+        {
+            "AttributeText": "Subsistence-recreational-Artisinal (subsistance and local markets only)-Artisinal (commerical)", 
+            "AttributeID": "1dbc0b2c-c9b6-3f8e-aea6-bcadfe2664c1"
+        }, 
+        {
+            "AttributeText": "be clear about time frame. There has been a big change in the past five years. What do we mean by nature? It is still a trap based fishery, but effort is increwsing", 
+            "AttributeID": "1df91673-e64f-347c-bbdd-722cf971a86f"
+        }, 
+        {
+            "AttributeText": "12 Retain status quo", 
+            "AttributeID": "1ef0a505-5925-326a-830f-edfbe0b024d9"
+        }, 
+        {
+            "AttributeText": "A26", 
+            "AttributeID": "1f0feab0-154b-34a2-a3b4-850382795b4e"
+        }, 
+        {
+            "AttributeText": "M15", 
+            "AttributeID": "20d628bf-acc4-3c18-9299-6647fb5f73c3"
+        }, 
+        {
+            "AttributeText": "Indirect notion of stock status/ proxy fishing mortality", 
+            "AttributeID": "20e20d22-baaa-3882-a840-f055fcd6f6e9"
+        }, 
+        {
+            "AttributeText": "Von Bertalanffy parameters", 
+            "AttributeID": "20e7756f-d657-3dcb-af32-2957978446e4"
+        }, 
+        {
+            "AttributeText": "M10", 
+            "AttributeID": "2157c264-a1ed-3559-ae32-e1fd5044d055"
+        }, 
+        {
+            "AttributeText": "move-on provisions", 
+            "AttributeID": "220a72b0-0f28-3607-89b4-efc8fb9aa152"
+        }, 
+        {
+            "AttributeText": "Take of one gender (usualy females) prohibited", 
+            "AttributeID": "2216510b-314d-3e69-a799-2c93ed1cb2ef"
+        }, 
+        {
+            "AttributeText": "Independent surveys (could include one-offs, pre-seasons, annual, monitoring on reserves) (i.e. visual surveys, charters, independent RVs)", 
+            "AttributeID": "234677fb-9b96-316e-ba2b-b06239d01a9e"
+        }, 
+        {
+            "AttributeText": "Automated information gathering (e.g. VMS or cool proxies; cameras)", 
+            "AttributeID": "23a4c3fb-0c51-3533-91f9-1143893daa20"
+        }, 
+        {
+            "AttributeText": "Is the number of participants low? IF YES", 
+            "AttributeID": "24cb0818-0d48-31c8-8e0c-44b00803984d"
+        }, 
+        {
+            "AttributeText": "A5", 
+            "AttributeID": "24cd7283-ded7-329f-aaf9-1b94ae699888"
+        }, 
+        {
+            "AttributeText": "R19", 
+            "AttributeID": "24e015c8-aa2d-3205-85d6-fe0778a02c9e"
+        }, 
+        {
+            "AttributeText": "Where size data exists, is selectivity at least able to be inferred? IF NO", 
+            "AttributeID": "24fc4703-3a20-354c-a6bb-d7d35c4744b8"
+        }, 
+        {
+            "AttributeText": "NEW", 
+            "AttributeID": "259b502d-32b7-3cef-81aa-18dba5e1f67e"
+        }, 
+        {
+            "AttributeText": "Is catch data available by location? IF NO", 
+            "AttributeID": "25a10800-4739-385b-a47c-d7f4d4ced9e2"
+        }, 
+        {
+            "AttributeText": "all relative need to define", 
+            "AttributeID": "25a87788-eec4-374a-b0fd-30b267215fda"
+        }, 
+        {
+            "AttributeText": "R16", 
+            "AttributeID": "26c17922-67e4-3367-80e8-c1eb2301c3f0"
+        }, 
+        {
+            "AttributeText": "Fishery cooperation", 
+            "AttributeID": "27ad6e85-94c7-3b2e-bac5-c57823f03fcb"
+        }, 
+        {
+            "AttributeText": "R45", 
+            "AttributeID": "27c35a79-4f86-3e4d-8da9-a73a3462fe08"
+        }, 
+        {
+            "AttributeText": "Stock-recruitment steepness", 
+            "AttributeID": "27c5950b-4e84-38d9-b60d-4c2c6f569c02"
+        }, 
+        {
+            "AttributeText": "Indirect notion of stock status across multiple indicators and/or \"quasi\" assessments", 
+            "AttributeID": "285e2cbb-7368-39f2-bfa5-cca043dfe846"
+        }, 
+        {
+            "AttributeText": "Snapshot estimate of local abundance to inform open/closed areas, rotational harvesting, etc.", 
+            "AttributeID": "2863b528-a127-31ae-b2ff-43ca2632776e"
+        }, 
+        {
+            "AttributeText": "Is the spatial range of the fishing activity such that direct sampling is challenging?", 
+            "AttributeID": "28c15982-0a6d-374a-bf3b-b960e34dbfeb"
+        }, 
+        {
+            "AttributeText": "M27", 
+            "AttributeID": "28deba55-6275-39d7-b47c-5d4e55f34596"
+        }, 
+        {
+            "AttributeText": "Size relative to size at maturity", 
+            "AttributeID": "29b29dde-881c-3507-8e6f-673cd2776e6a"
+        }, 
+        {
+            "AttributeText": "RAPFISH (Multi-dimensional scaling)", 
+            "AttributeID": "2ad97ca7-f742-373e-b9d5-0e6eaff78230"
+        }, 
+        {
+            "AttributeText": "Can we just provide a drop down menu asking what data are available? And how reliable are they, etc. if we did this up front, then it could also be self populating.", 
+            "AttributeID": "2af5a0ad-7d59-3e71-b9db-b7cd849c423e"
+        }, 
+        {
+            "AttributeText": "Are there enabling conditions", 
+            "AttributeID": "2b1dfefb-6909-31dd-a115-6ff39e730950"
+        }, 
+        {
+            "AttributeText": "Babcock and MacCall (2011) and McGilliard et al. (2011) evaluated the use of the ratio of the density of fish outside a marine protected area to that inside it each year (the density ratio, DR) in a decision rule to determine the direction and magnitude of change in fishing effort in the next year. ", 
+            "AttributeID": "2b45b1db-febf-3494-8d2b-1ea851b92a59"
+        }, 
+        {
+            "AttributeText": "R34", 
+            "AttributeID": "2c257115-e760-300f-8afd-452210013a98"
+        }, 
+        {
+            "AttributeText": "This harks to market.", 
+            "AttributeID": "2c670f53-884a-3e44-a390-4c2141ba808a"
+        }, 
+        {
+            "AttributeText": "Are the fishing locations and/or ports variable?", 
+            "AttributeID": "2d5eab25-0385-3979-8f16-243cd3aeb8f4"
+        }, 
+        {
+            "AttributeText": "Ecosystem threshold analysis (coral reefs only)", 
+            "AttributeID": "2d6b696c-f341-3aff-8d3e-753864907482"
+        }, 
+        {
+            "AttributeText": "estimate of assumed lol", 
+            "AttributeID": "2d97231d-1a7d-3153-84b7-5a6bd1d9678c"
+        }, 
+        {
+            "AttributeText": "not clear - needs clarification", 
+            "AttributeID": "2dba8371-ef95-342e-b698-f459a2fd0b9f"
+        }, 
+        {
+            "AttributeText": "This does not confer the necessity to immediately analyse the collected data. Data may be archived against a time when required and/or the GVP/capability exists to analyse it.", 
+            "AttributeID": "2def3b28-de75-38fd-987d-692ffcdaa914"
+        }, 
+        {
+            "AttributeText": "How culturally ingrained is cooperation to management?", 
+            "AttributeID": "2e1e4837-a9d2-312e-b9f3-eb323556eef2"
+        }, 
+        {
+            "AttributeText": "Is it possible to determine a target reference point, or a suitable proxy?", 
+            "AttributeID": "2e2a7248-6271-376f-9a6b-2f235baa462b"
+        }, 
+        {
+            "AttributeText": "Operational", 
+            "AttributeID": "2eb34970-1ca5-340c-b602-fde28fc7a841"
+        }, 
+        {
+            "AttributeText": "Linear regression on CPUE time series", 
+            "AttributeID": "2ec0d1b6-610b-3969-9cf3-924ed6102590"
+        }, 
+        {
+            "AttributeText": "A18", 
+            "AttributeID": "2f996da8-9947-366a-aa79-1e5e99257fa8"
+        }, 
+        {
+            "AttributeText": "M30", 
+            "AttributeID": "2fa808ef-e339-3016-9058-a405ca323c35"
+        }, 
+        {
+            "AttributeText": "Should this have same requirements as catch/CPUE by size indicators, and hierarchical decision trees?", 
+            "AttributeID": "2fd514bc-d12f-3a74-a6b8-8f99c72685ca"
+        }, 
+        {
+            "AttributeText": "Are the nursery ground for the species located in a distinct area?", 
+            "AttributeID": "30353c2d-3412-334e-99c9-623f9b765373"
+        }, 
+        {
+            "AttributeText": "Is length-based SPR being used for assessment?", 
+            "AttributeID": "30739b45-3b5d-3bc1-aabf-6f42b198d0f0"
+        }, 
+        {
+            "AttributeText": "Species ID, species composition, ", 
+            "AttributeID": "31608309-1e8c-3bdd-bd87-49bd38f43666"
+        }, 
+        {
+            "AttributeText": "NB These may be used in isolation, incorporated in frameworks (to the right), OR used to augment/complement more quantitative assesments (to the far right). For the latter, augmenting is especially useful if the below indicators are indepednent to those used in the more formal assessment, AND/OR where uncertainty in more formal assessments is high, AND/OR where local changes (and hence management measures) may be of importance.", 
+            "AttributeID": "31645fd5-cb07-3b04-8f2a-bdb45fb364fa"
+        }, 
+        {
+            "AttributeText": "Useful where multiple reliable, independent indicators are available, but these may be fragmented or disparate. Also, \"quasi assessments\", as per those to the left of these, may be incorporated in frameworks. For hierarchical appraoches, there is a primary and then a secondary control rule(s)", 
+            "AttributeID": "31d40842-6b39-3a23-87ce-3126b639e98f"
+        }, 
+        {
+            "AttributeText": "Does the species strongly aggregate?", 
+            "AttributeID": "3294a6a9-4f72-3405-ae68-055533675ad9"
+        }, 
+        {
+            "AttributeText": "I.e. is what happened x years ago relevant to today's landscape?", 
+            "AttributeID": "32d7a211-3b43-3fd7-8810-2cdd1b80f74b"
+        }, 
+        {
+            "AttributeText": "Assessment has the ability to explictly consider uncertainty", 
+            "AttributeID": "3323e34d-40ed-396a-96ff-e4b8f7eeb4d3"
+        }, 
+        {
+            "AttributeText": "M23", 
+            "AttributeID": "336cb6c3-7546-3250-8743-2f997ce6b29c"
+        }, 
+        {
+            "AttributeText": "A8", 
+            "AttributeID": "3475de63-4888-3ac7-b476-8b52df27d98d"
+        }, 
+        {
+            "AttributeText": "Fixed gear unit limits not adjusted in response to performance measures ", 
+            "AttributeID": "34a7c675-8c07-3aee-bd36-8fbc0c80de24"
+        }, 
+        {
+            "AttributeText": "Species ID, species composition, size data, landed catch, ? Effort, ? Fishing location", 
+            "AttributeID": "35081c28-6395-3eb1-8e6f-e4e7f08056d5"
+        }, 
+        {
+            "AttributeText": "Length or Length or Weight", 
+            "AttributeID": "350bfe6c-02d1-3811-8034-b345291d8fda"
+        }, 
+        {
+            "AttributeText": "Is protocol undertaken regularly?", 
+            "AttributeID": "35cebf5c-36ca-3299-a76a-71e862bf7cb9"
+        }, 
+        {
+            "AttributeText": "M37", 
+            "AttributeID": "36184b89-e8e5-31a9-bc72-f4f56eae4edc"
+        }, 
+        {
+            "AttributeText": "Fishery (basic understanding of how fishery operates)", 
+            "AttributeID": "36901809-9e04-3e92-8332-fce8ec0f7cd0"
+        }, 
+        {
+            "AttributeText": "If there are multiple fleets, are the selectivity ogives different for each? IF YES", 
+            "AttributeID": "3754f20c-d657-3495-8b43-24adb44a6343"
+        }, 
+        {
+            "AttributeText": "Possibly estimates of CPUE but likely unreliable", 
+            "AttributeID": "3755fcae-c7c7-383e-8028-1002695a86d8"
+        }, 
+        {
+            "AttributeText": "Is there strong governance and/or community/local leadership in place to support/facilitate management measures?", 
+            "AttributeID": "3760e977-f3ab-3380-8200-71287f410d5f"
+        }, 
+        {
+            "AttributeText": " (possibly) size data;", 
+            "AttributeID": "37809c92-b9b5-3f4e-a7eb-8e6402c86b44"
+        }, 
+        {
+            "AttributeText": "Growth rates - ??? This is not strictly an assesment of stock status, but this can then be used in a stock assessment", 
+            "AttributeID": "37a134b9-dd2d-39ac-813b-c6e3e1995ef9"
+        }, 
+        {
+            "AttributeText": "\u00b7\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Willingness to invest in data gathering:  Does this mean with their own money or in general.  In Palau, they would be willing to do it if money was available, but no funding currently.", 
+            "AttributeID": "37b8dde5-fca5-3de5-9858-df3d2d641516"
+        }, 
+        {
+            "AttributeText": "Assessment has the ability to explictly consider uncertainty (unless parameters fixed)", 
+            "AttributeID": "3864da34-330e-3a9f-916f-57e6dd902ed9"
+        }, 
+        {
+            "AttributeText": "Does an assessment suggest that overfishing is probable, for any species harvested using the gear?", 
+            "AttributeID": "38a01bc4-e9a2-340f-b9d7-66d7ce6ad18b"
+        }, 
+        {
+            "AttributeText": "Is monitoring difficult?", 
+            "AttributeID": "38badf65-9919-39c5-b300-dc3b84f4f40c"
+        }, 
+        {
+            "AttributeText": "IF ENFORCED, BUT NOT RESPECTED", 
+            "AttributeID": "3971ee25-f2a3-304d-aa02-bf6ef74b8e32"
+        }, 
+        {
+            "AttributeText": "R18", 
+            "AttributeID": "39956c12-393a-343a-9206-16ecc351a2b4"
+        }, 
+        {
+            "AttributeText": "M36", 
+            "AttributeID": "3a5341a4-7643-3d39-8559-0d81cdc6336b"
+        }, 
+        {
+            "AttributeText": "M17", 
+            "AttributeID": "3a935df5-73bb-3a42-b07d-d5adeb5ca68a"
+        }, 
+        {
+            "AttributeText": "includes cultural preferences", 
+            "AttributeID": "3aa84b9c-41b4-3bc3-a57a-0dfdecbe4154"
+        }, 
+        {
+            "AttributeText": "Examples: target species, gear types, fishing locations, markets", 
+            "AttributeID": "3ad246fd-ffbd-314c-9f53-cb8455a2dc43"
+        }, 
+        {
+            "AttributeText": "Willingess to invest in data gathering. Options: low, low-moderate, moderate, moderate-high, high", 
+            "AttributeID": "3ae16e18-c490-367c-80d5-4617b2898d03"
+        }, 
+        {
+            "AttributeText": "A12", 
+            "AttributeID": "3afab40b-6507-32a9-acd4-99447c752b2a"
+        }, 
+        {
+            "AttributeText": "If considering a specific gear, are other gears harvesting the same stock?", 
+            "AttributeID": "3afb497b-5deb-325d-8d68-fed7ff4ff634"
+        }, 
+        {
+            "AttributeText": "Very loose assumption that some trigger level value corresponds to some status of the underlying stock, with higher trigger levels invoking stronger management responses ", 
+            "AttributeID": "3b125e3e-3894-39e8-b4d9-0b91cb5176c1"
+        }, 
+        {
+            "AttributeText": "Changes in gear type or manner of deployment", 
+            "AttributeID": "3b50f61a-7ea1-30a5-a775-4885a1cf2b88"
+        }, 
+        {
+            "AttributeText": "NO REFERENCE POINTS ", 
+            "AttributeID": "3b97d1e8-3fca-3dcb-90eb-a83a83908702"
+        }, 
+        {
+            "AttributeText": "M13", 
+            "AttributeID": "3bd9111a-574a-3c16-b49c-145bbff9ee05"
+        }, 
+        {
+            "AttributeText": "Estimate of F", 
+            "AttributeID": "3c03a9b4-52c6-30e8-baa2-d83c42067b90"
+        }, 
+        {
+            "AttributeText": "Does the species follow a boom-and-bust cycle? ", 
+            "AttributeID": "3c176570-a85f-32e7-8935-49f1fde2ecf1"
+        }, 
+        {
+            "AttributeText": "A trigger system represents a harvest strategy framework where the assessment essentially equates to specifying particular reference values or triggers based on whatever monitoring is included in the harvest strategy. The reference values can range from proxies for biomass or fishing mortality targets and limits, through to fishery situations that are identified by expert judgement to require management intervention. They are termed triggers because they invoke pre-defined management responses if the measure passes through them. The management responses can include reductions to catches, seasonal or spatial closures, as well as increased monitoring if the observed changes relate to an expansion in the fishery. NB these systems were developed (Dowling et al 2008) in the context of small-scale, arguably low impact fisheries that had the potential to expand and/or for latent effort to be activated, and the notion was to put checks and balances in place to avoid uncontrolled expansion. Typically, there are 3 trigger levels, and the notion is that level 2 equates to the need to move to a more defensible assessment. There is high risk around setting trigger level values in a way that purports to correspond to formal reference points.\nTrigger systems often include multiple triggers that invoke stronger management responses at increasing levels of catch or effort", 
+            "AttributeID": "3c9245af-12e8-3e2c-9035-d55036c5958d"
+        }, 
+        {
+            "AttributeText": "PSA to estimate risk of overfishing", 
+            "AttributeID": "3d12520b-939b-3740-ba7f-90aefd7585c4"
+        }, 
+        {
+            "AttributeText": "Is protocol undertaken regularly? (SEE ALSO COLUMN BA)", 
+            "AttributeID": "3d5a17d2-da95-3064-bf91-c5ed19cc583e"
+        }, 
+        {
+            "AttributeText": "A21", 
+            "AttributeID": "3ebf9271-6451-36fe-b3a3-9a3687941282"
+        }, 
+        {
+            "AttributeText": "Biological information - leads to analysis such as length analysis, SPR-type etc.", 
+            "AttributeID": "3f50ff7a-534c-3971-bf3b-70d581993332"
+        }, 
+        {
+            "AttributeText": "Yes", 
+            "AttributeID": "3f5ad1fb-d2b2-30b7-89a1-52c792110137"
+        }, 
+        {
+            "AttributeText": "7 Size limits (NB may be achieved via gear/spatial/temporal restrictions) - pertaining to controlling selectivity (e.g. protecting juveniles, or oldest (largest) fish that have highest reproductive contribution)", 
+            "AttributeID": "3fb33c6e-a363-3eb3-8c21-4b66c73d170f"
+        }, 
+        {
+            "AttributeText": "Is/are there MPA/s, and if so, are these well enforced and do they represent unfished size and density?", 
+            "AttributeID": "3fbe0f0f-db64-34d8-b126-22b35c79d180"
+        }, 
+        {
+            "AttributeText": "criteria", 
+            "AttributeID": "3fc6b453-876e-3792-9187-a562235b3754"
+        }, 
+        {
+            "AttributeText": "Are only effort data available?", 
+            "AttributeID": "407ae3be-a123-3f58-a01e-e1f6dff7f11f"
+        }, 
+        {
+            "AttributeText": "=\"Rows \"&ROW(F60)&\" or \"&ROW(F61)&\" or \"&ROW(F62)", 
+            "AttributeID": "409014af-bf64-33c0-9269-af4c26d91119"
+        }, 
+        {
+            "AttributeText": "Strength of governance", 
+            "AttributeID": "40e80940-deaf-3540-8d36-149fa7b86ec5"
+        }, 
+        {
+            "AttributeText": "5 Spatial restrictions (can be invoked or modified by HCRs)", 
+            "AttributeID": "415c357d-3d54-3e30-aab8-2e768dbdf720"
+        }, 
+        {
+            "AttributeText": "A9", 
+            "AttributeID": "416640e8-c293-3926-9d56-487f4a76e2a7"
+        }, 
+        {
+            "AttributeText": "needs clarification by Sean", 
+            "AttributeID": "41707d44-fc13-3374-80e5-20604e070aa3"
+        }, 
+        {
+            "AttributeText": "Is catch data available by location?", 
+            "AttributeID": "417e8229-7683-31ed-8875-249a5b8ce008"
+        }, 
+        {
+            "AttributeText": "Rank the level of research and/or insitutional capacity", 
+            "AttributeID": "418bfe29-b195-3479-9d86-8b091d666551"
+        }, 
+        {
+            "AttributeText": "M20", 
+            "AttributeID": "423668a0-b03c-3670-98e5-b1201e17994c"
+        }, 
+        {
+            "AttributeText": "Where is the capacity and mandate to faciliate or allow for monitoring?", 
+            "AttributeID": "42605702-ea76-3359-9b34-375941e1e1e3"
+        }, 
+        {
+            "AttributeText": "Effort", 
+            "AttributeID": "42c314b2-02ff-3144-9841-7501f16c8a05"
+        }, 
+        {
+            "AttributeText": "1 Catch limits", 
+            "AttributeID": "4305babe-6ac8-37f3-a5d4-4916c0cbcfd7"
+        }, 
+        {
+            "AttributeText": "give more examples of indicators", 
+            "AttributeID": "431a8f55-811a-323d-8581-f08b3033a41f"
+        }, 
+        {
+            "AttributeText": "Also requires explanatory variables - e.g. oceanographic, vessel type, area, time of year, moon phase etc., capturing changes in how fishery has operated.", 
+            "AttributeID": "43349eba-b8fa-3cac-8901-476d23d3262a"
+        }, 
+        {
+            "AttributeText": "What is the level of community cooperation, in terms of supporting management measures?", 
+            "AttributeID": "436d36b1-9f40-3107-8751-f8db423a16b0"
+        }, 
+        {
+            "AttributeText": "Is depletion analysis being used for assessment?", 
+            "AttributeID": "43a8011b-5b2e-377c-9245-e59c46e3a3e9"
+        }, 
+        {
+            "AttributeText": "Are ports and/or markets matched to managed area?", 
+            "AttributeID": "43aa84fc-06ef-3a4b-a469-b914e41f3ae1"
+        }, 
+        {
+            "AttributeText": "General population biology", 
+            "AttributeID": "44224bd0-9c42-3f8e-8e1e-fe7b904f4ea7"
+        }, 
+        {
+            "AttributeText": "Has the selectivity pattern changed over time? IF YES", 
+            "AttributeID": "44777586-22f7-3c85-8426-16fed9552212"
+        }, 
+        {
+            "AttributeText": "Research capacity/ institution capability. Options: low, low-moderate, moderate, moderate-high, high", 
+            "AttributeID": "44df1db9-acc9-38f4-a3af-79c9f2c99eea"
+        }, 
+        {
+            "AttributeText": " Reword to \"Are fishers, or can fishers be\u2026.\"", 
+            "AttributeID": "4541ffa3-6197-3640-8b16-1f541353b798"
+        }, 
+        {
+            "AttributeText": "Are regulations enforced, AND, IF they are enforced, are regulations/governance trusted and respected?  (SEE ALSO COLUMNS AY,AZ)", 
+            "AttributeID": "46192251-cdb3-3ffc-9dd4-74eaa3d05826"
+        }, 
+        {
+            "AttributeText": "Biology Catch-all", 
+            "AttributeID": "46f8d78c-c1dc-325c-ad12-0681d34542ae"
+        }, 
+        {
+            "AttributeText": "Are ports and/or markets matched to the managed area?", 
+            "AttributeID": "470dcc00-fce9-3143-95bd-82a300764682"
+        }, 
+        {
+            "AttributeText": "Size-specific catch rate indicators for fish sampled inside and outside of MPAs, and per-recuit (per Wilson)", 
+            "AttributeID": "4822f8fd-263e-3d58-baad-426b58d72c01"
+        }, 
+        {
+            "AttributeText": "Is there a high level of uncertainty in the available data used to assess the fishery?", 
+            "AttributeID": "490ca24c-69ee-314f-b672-6101eb9afa63"
+        }, 
+        {
+            "AttributeText": "If the fishery has limited entry, are permits community-based? \"Community-based\" could include individual permits issued by a community organisation, as well as permits issued to a co-op.", 
+            "AttributeID": "4a540e81-7615-3bed-818f-000384f2a7c9"
+        }, 
+        {
+            "AttributeText": "M9", 
+            "AttributeID": "4ae018fd-8cc1-3235-a63e-6b2b3f911eb7"
+        }, 
+        {
+            "AttributeText": "Need at least some notion of species distribution, even if indirect e.g. by habitat map.", 
+            "AttributeID": "4c2e4121-4f93-3d02-8ad7-3cb69c6c98fe"
+        }, 
+        {
+            "AttributeText": "Are the jurisdiction boundaries matched to the spatial extent of the stock?", 
+            "AttributeID": "4c548bb5-ab17-3ff9-bc6c-c8b19bdb1295"
+        }, 
+        {
+            "AttributeText": "=\"Rows \"&ROW(F52)&\" or \"&ROW(F54)&\" or \"&ROW(F55)", 
+            "AttributeID": "4c93e4a5-be54-3392-8f5b-57272b3b50aa"
+        }, 
+        {
+            "AttributeText": "Is there a starting estimate of Z (total mortality)?", 
+            "AttributeID": "4d233765-549f-3661-9c89-22716c7a98be"
+        }, 
+        {
+            "AttributeText": "Is there a time series of data? IF NO", 
+            "AttributeID": "4df3d4ce-70bb-3379-af48-dd865a459e4e"
+        }, 
+        {
+            "AttributeText": "Seasonal closure", 
+            "AttributeID": "4e01376c-cd83-375c-a7c0-0b17a35748c9"
+        }, 
+        {
+            "AttributeText": "Recruitment deviations", 
+            "AttributeID": "4e2b156b-9dfa-30bd-8945-817eb70448d3"
+        }, 
+        {
+            "AttributeText": "add on end \"such that representative sampling would be dififcult to obtain?\"", 
+            "AttributeID": "4e552e0e-4cfd-333e-a770-4e9a1e979dbb"
+        }, 
+        {
+            "AttributeText": "M3", 
+            "AttributeID": "4ea136c3-94aa-3dda-85b9-ab3c3d07f8ca"
+        }, 
+        {
+            "AttributeText": "Resource dependency (low to high) ", 
+            "AttributeID": "4f40b758-51fc-32c7-be96-76ae1f4c999e"
+        }, 
+        {
+            "AttributeText": "Length-at-first-capture", 
+            "AttributeID": "50636dd0-243b-3f3a-b200-5267b9632c66"
+        }, 
+        {
+            "AttributeText": "Catch restrictions by time (e.g. seasons) (whether informed by formal assessment or not)", 
+            "AttributeID": "50e94889-67a0-351b-96e5-efa67d6a9a1c"
+        }, 
+        {
+            "AttributeText": "Permanent no-take zones", 
+            "AttributeID": "51626ff4-bb32-3815-ba8c-a3dc3babfe79"
+        }, 
+        {
+            "AttributeText": "Species composition", 
+            "AttributeID": "51b99251-8088-3ec8-ac0a-754b93325b9d"
+        }, 
+        {
+            "AttributeText": "Biology", 
+            "AttributeID": "522922da-1f18-3a61-b017-8e19e73e3454"
+        }, 
+        {
+            "AttributeText": "Example: oceanographic, environmental, weather, temperature", 
+            "AttributeID": "5240fdf6-57fa-3b66-b532-2954b009d268"
+        }, 
+        {
+            "AttributeText": "Natural Mortality", 
+            "AttributeID": "528f4bea-8eef-3c12-b5b1-afb75cfc556a"
+        }, 
+        {
+            "AttributeText": "CPUE (likely more robust than informal logbooks)", 
+            "AttributeID": "5335e4d6-c003-3342-8f39-815221a78589"
+        }, 
+        {
+            "AttributeText": "CRITERIA: begin here. These will provide a first-cut shortlist of monitoring options based on the MINIMUM requirements for each form of monitoring.", 
+            "AttributeID": "5363bef5-825a-34c1-9e1c-f70551a5c2d9"
+        }, 
+        {
+            "AttributeText": "according to assessment outcomes (feedback control rule): i)  target- or trend based, no F- or biomass-based reference point - empirical target only", 
+            "AttributeID": "5392d62a-1247-3188-97c5-82b64671d0cd"
+        }, 
+        {
+            "AttributeText": "Is a production model being used for assessment?", 
+            "AttributeID": "53ea9275-1500-35e8-8024-6e4f6ccc5125"
+        }, 
+        {
+            "AttributeText": "Use biomass surveys to inform spatial management (e.g. areas suitable to open/close under rotational spatial management)", 
+            "AttributeID": "53eeface-8ded-34b9-ba54-910d6289a415"
+        }, 
+        {
+            "AttributeText": "Example: 'basket species'", 
+            "AttributeID": "5456660b-ddb4-37d5-9e93-01a4970f090c"
+        }, 
+        {
+            "AttributeText": "R42", 
+            "AttributeID": "5491dc7b-bc6f-398b-bcbc-4054fe50821c"
+        }, 
+        {
+            "AttributeText": "needs to be phrased the same as the question in mo nitoring.", 
+            "AttributeID": "54f4579b-1f7b-3cd6-8975-ba77a4d6b798"
+        }, 
+        {
+            "AttributeText": "Where size data exists, is selectivity at least able to be inferred?", 
+            "AttributeID": "55a8ac9b-0499-3d3f-b1c9-67f04af8e66b"
+        }, 
+        {
+            "AttributeText": "Is species susceptible to barotrauma, and/or has low survivorship on release?", 
+            "AttributeID": "55b743af-2fdf-3432-a3cf-50ae02ed7149"
+        }, 
+        {
+            "AttributeText": "GVP", 
+            "AttributeID": "55c363e9-3d69-3821-b1b1-02baf0453555"
+        }, 
+        {
+            "AttributeText": "Very loose assumption that some trigger level value corresponds to some status of the underlying stock, with higher trigger levels invoking stronger management responses", 
+            "AttributeID": "564124f0-8299-39d3-9ab1-b10b7e9e1c59"
+        }, 
+        {
+            "AttributeText": "\u00b7\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Highly cryptic: In Palau, the grouper is cryptic, but not necessarily highly.  Perhaps reword to highlight how this answer impacts monitoring options.", 
+            "AttributeID": "5652ca8d-dd72-3a95-bf7c-9dffc34b43c3"
+        }, 
+        {
+            "AttributeText": "snapshot", 
+            "AttributeID": "5661f99c-385b-3e11-b856-728a08987edd"
+        }, 
+        {
+            "AttributeText": "Fixed season length or number of fishing days, independent of performance measures", 
+            "AttributeID": "56d5786d-d410-34df-93dc-4e53c23402b2"
+        }, 
+        {
+            "AttributeText": "Level of fisher cooperation (includes cultural preferences)", 
+            "AttributeID": "57675259-e2bb-396f-9928-3a1d9d9d9f52"
+        }, 
+        {
+            "AttributeText": "Do local government officials hold power over fishing regulations? (SEE ALSO COLUMN AX)", 
+            "AttributeID": "576aa457-9111-31c8-b9a7-c03680b64ec8"
+        }, 
+        {
+            "AttributeText": "R15", 
+            "AttributeID": "57b04ee6-6424-3ee0-bcc0-c5c31b8afa25"
+        }, 
+        {
+            "AttributeText": "\u00b7\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Regulations enforced:  Steven answered yes, but it is not effective.", 
+            "AttributeID": "57b7f4d5-5119-3d57-9636-5bb51e929710"
+        }, 
+        {
+            "AttributeText": "M24", 
+            "AttributeID": "57be4429-7f76-3e38-922c-1cca4b7734af"
+        }, 
+        {
+            "AttributeText": "\"boom and bust\"", 
+            "AttributeID": "57bf9ac1-4640-3dfd-a8e4-c89dcc410570"
+        }, 
+        {
+            "AttributeText": "PROXY REFERENCE POINTS", 
+            "AttributeID": "57e22fba-36ee-3980-b4ca-2a4954711b72"
+        }, 
+        {
+            "AttributeText": "IF LOW", 
+            "AttributeID": "582dda2e-736d-330b-b443-186e6304c0a2"
+        }, 
+        {
+            "AttributeText": "Stock synthesis using only a time series of catch SS-CO (Cope 2013)", 
+            "AttributeID": "58956c53-e279-3d38-bacb-8425be674e51"
+        }, 
+        {
+            "AttributeText": "Check consistency in monitoring spreadsheet, question M9.", 
+            "AttributeID": "58f97e6d-d91b-3df9-9ecf-e32adc46a916"
+        }, 
+        {
+            "AttributeText": "M11", 
+            "AttributeID": "590c9dd9-eb83-372e-9456-90d3ed896f37"
+        }, 
+        {
+            "AttributeText": "Relationship between length and fecundity", 
+            "AttributeID": "599b27f0-2566-34e5-a19c-213d72168d09"
+        }, 
+        {
+            "AttributeText": "e.g. mesh/hook sizes; trap escape rings; use of light sticks, cod ends, escape hatches", 
+            "AttributeID": "59b270e5-78df-3e77-8dcd-ce1312a7796b"
+        }, 
+        {
+            "AttributeText": "Depletion analysis", 
+            "AttributeID": "5a7bfc21-7a59-318f-85a2-57d20f069653"
+        }, 
+        {
+            "AttributeText": "Size slot", 
+            "AttributeID": "5a7edba2-a3e4-31f2-b8e8-a0549d8756e7"
+        }, 
+        {
+            "AttributeText": "EMPIRICAL INDICATOR-BASED FRAMEWORKS", 
+            "AttributeID": "5aa1cd90-e3a1-31a0-898f-ee72686e721e"
+        }, 
+        {
+            "AttributeText": "Sustainability indicators (per Cope and Punt (2009) based on Froese's size-based indicators)", 
+            "AttributeID": "5ae93811-01c2-3770-9df7-84119289dfdf"
+        }, 
+        {
+            "AttributeText": "Information may not be gathered regularly", 
+            "AttributeID": "5afbc92f-d1cb-380b-9e96-f0d7825b0993"
+        }, 
+        {
+            "AttributeText": " (possibly) size data; ", 
+            "AttributeID": "5b448db8-385d-3298-8f6d-3aba7bf5ee46"
+        }, 
+        {
+            "AttributeText": "R5", 
+            "AttributeID": "5b82a995-45a5-3ae2-b841-18f0eb46d9d0"
+        }, 
+        {
+            "AttributeText": "Open access governance, to limited entry. (e.g.in an open access governance system the efficacy of tools like size , fishing season, or effort limits is often reduced by effort creep, but when access is limited this seems to be less of a problem and so the same tool would look more attractive)", 
+            "AttributeID": "5bb67cfd-c443-3d26-ab2c-72598cae4a79"
+        }, 
+        {
+            "AttributeText": "Length-weight relationship", 
+            "AttributeID": "5bcf4c6a-1449-3735-9b3a-a290318fdaa3"
+        }, 
+        {
+            "AttributeText": "A2", 
+            "AttributeID": "5be56c16-3ec0-3b49-ab9f-3aa1988d9dda"
+        }, 
+        {
+            "AttributeText": "Is there strong spatial bias in the ability to collect data and/or in the level of fisher cooperation?", 
+            "AttributeID": "5c1a5d8a-355e-3308-8f0f-c957ba4982ec"
+        }, 
+        {
+            "AttributeText": "Changes worthy of some management response", 
+            "AttributeID": "5c55c1a8-2a4a-3c02-a4d0-b296f91d6017"
+        }, 
+        {
+            "AttributeText": "Expert judgement/common knowledge of stock status/depletion", 
+            "AttributeID": "5cc1d447-f764-3810-b822-8ef1aa42e9cd"
+        }, 
+        {
+            "AttributeText": "Is there strong governance leadership (as distinguished from community leadship) in place to support/faciliate monitoring? ", 
+            "AttributeID": "5d79edee-3f88-3562-a019-d07ab2625cfa"
+        }, 
+        {
+            "AttributeText": "For model-based assessments, ultimately provide \"library\" of options that will guide the user to the appropriate application of the approach, and lay out variations/alternatives (e.g. Carruthers has 6 or so variants on DB-SRA)", 
+            "AttributeID": "5d7f0118-cad6-3f2c-b5b8-5f494fb9e5a5"
+        }, 
+        {
+            "AttributeText": "Sustainability (trend analysis) - e.g. more temporal", 
+            "AttributeID": "5dd4a51e-e19a-3310-a51f-1e119a92f898"
+        }, 
+        {
+            "AttributeText": "Is there strong governance leadership (as distinguished from community leadership) in place to support/facilitate monitoring?", 
+            "AttributeID": "5eb6a8f8-9216-32fb-bddb-bb220edaa3b2"
+        }, 
+        {
+            "AttributeText": "R46", 
+            "AttributeID": "5ef06296-0134-3928-825a-28a2463bff1b"
+        }, 
+        {
+            "AttributeText": "Maturity ogive/ size at maturity", 
+            "AttributeID": "5ef8221d-8644-3518-8bff-bc3244edd8e9"
+        }, 
+        {
+            "AttributeText": "Biology/life history", 
+            "AttributeID": "5f38408e-facb-32eb-8b0d-6043679a0963"
+        }, 
+        {
+            "AttributeText": "Assumes equilibrium dynamics", 
+            "AttributeID": "5f904ce9-8aec-3857-9882-aa2e57551f0a"
+        }, 
+        {
+            "AttributeText": "size data; maturity/ reproductive state; sex ratios", 
+            "AttributeID": "5fc97710-c1db-35a0-8ddb-57f17a151ec2"
+        }, 
+        {
+            "AttributeText": "A1", 
+            "AttributeID": "601141e9-8c8f-3ba6-81ac-4748b905538e"
+        }, 
+        {
+            "AttributeText": "Monitoring protocol", 
+            "AttributeID": "6041012f-6287-34a5-9df6-2c7d4604cd43"
+        }, 
+        {
+            "AttributeText": "R50", 
+            "AttributeID": "6046c409-802d-36e3-b789-83f680ef0959"
+        }, 
+        {
+            "AttributeText": "Fishing opportunistic/no fixed target species?", 
+            "AttributeID": "60cd305a-da6f-32b1-accd-19142781a4b2"
+        }, 
+        {
+            "AttributeText": "requires 2 samples of size structure (temporal snapshots)", 
+            "AttributeID": "60e7af3b-647c-3510-9aff-f651f9ecb129"
+        }, 
+        {
+            "AttributeText": "If handled or captured and released, is survivorship compromised? ", 
+            "AttributeID": "618f2a1e-11bd-33c3-9f6b-76421d6ff979"
+        }, 
+        {
+            "AttributeText": "ORCS", 
+            "AttributeID": "619b0327-8289-33ef-8cee-c48dfbc3e18d"
+        }, 
+        {
+            "AttributeText": "clarify. Does this mean 'is the data uncertain\" and if so, which data?", 
+            "AttributeID": "62faa0b2-35c6-3d7a-92df-6ef2c6d538b5"
+        }, 
+        {
+            "AttributeText": "Percent of fishable population that have spawned", 
+            "AttributeID": "63247aa2-04ad-3cb6-8435-77a659db6c4b"
+        }, 
+        {
+            "AttributeText": "can we assume M= MSY? Needs clarification.", 
+            "AttributeID": "6369f289-ee17-3890-8427-f768eac9f25b"
+        }, 
+        {
+            "AttributeText": "No immediate concerns re: stock status", 
+            "AttributeID": "638b4e7b-209a-33db-b2f4-74a02f174f2f"
+        }, 
+        {
+            "AttributeText": "Catch", 
+            "AttributeID": "639620ea-a24c-3323-9a39-4c1d1b9233d3"
+        }, 
+        {
+            "AttributeText": "Within the fishery as a whole, are there multiple species targeted, or is there no fixed target species?", 
+            "AttributeID": "644eb88b-eb8b-3508-8a0e-0515186e3dfe"
+        }, 
+        {
+            "AttributeText": "If only size data and/or species composition data are available", 
+            "AttributeID": "64a08e39-bfae-38f5-8898-475c756b3a08"
+        }, 
+        {
+            "AttributeText": "Proxy for SPR", 
+            "AttributeID": "64dd10fa-e59a-36e4-9b9c-efb80e56bbd5"
+        }, 
+        {
+            "AttributeText": "CUSUM Control Charts", 
+            "AttributeID": "6571f5f7-dd03-32ad-ad83-f827e4628e83"
+        }, 
+        {
+            "AttributeText": "Closure in response to trigger being reached/stock status indicating overfished (feedback-driven)", 
+            "AttributeID": "65ab6fbd-7cc7-37b3-9081-d349804860b9"
+        }, 
+        {
+            "AttributeText": "just fish tickets - does this count?", 
+            "AttributeID": "6611ed63-aee8-3399-b35b-406aa4457ef5"
+        }, 
+        {
+            "AttributeText": "M12", 
+            "AttributeID": "664fd43a-4055-3476-bb6c-1137f3f07f5f"
+        }, 
+        {
+            "AttributeText": "Probably", 
+            "AttributeID": "6654893e-cb39-357c-b261-af4a8eaed4d6"
+        }, 
+        {
+            "AttributeText": "From a socio-economic perspective, and regardless of available funding, what is the level of willingness of the governance agenct to invest in data gathering? ", 
+            "AttributeID": "67d8fdc2-815f-34df-bfcc-3983df8c10f8"
+        }, 
+        {
+            "AttributeText": "Additional Caveats", 
+            "AttributeID": "680c1444-7d16-3ce8-bb78-2e1592ee2c77"
+        }, 
+        {
+            "AttributeText": "snapshot or regular but not annual, undertaken by independent practitioners", 
+            "AttributeID": "685ae348-bffc-30c7-a715-4c4ffdf437dd"
+        }, 
+        {
+            "AttributeText": "(could argue that these should be included in all harvest strategies, on the proviso they are scientifically defensible)", 
+            "AttributeID": "687a107f-3695-3113-885c-7628014ba46b"
+        }, 
+        {
+            "AttributeText": "M2", 
+            "AttributeID": "68c91e14-cbec-3712-9ee8-1bfd39004810"
+        }, 
+        {
+            "AttributeText": "Across-fleet catch by species, (possibly) discarding", 
+            "AttributeID": "68e06f30-2542-3ba6-8c85-e911fada91fd"
+        }, 
+        {
+            "AttributeText": "R36", 
+            "AttributeID": "68f8ac49-599b-3006-975e-bee9c5636382"
+        }, 
+        {
+            "AttributeText": "Traffic lights", 
+            "AttributeID": "692766b4-b1ea-30c9-9920-8a97ee21f261"
+        }, 
+        {
+            "AttributeText": "Is the species highly migratory?", 
+            "AttributeID": "69fb48bf-a7dd-3458-a0c5-030fdfb27c52"
+        }, 
+        {
+            "AttributeText": "10 Apply additional (precautionary) buffers/adjustments to chosen measure (e.g. catch, effort, size limits, closures)", 
+            "AttributeID": "6a089a6f-ddbb-360d-a3da-9aca899b1689"
+        }, 
+        {
+            "AttributeText": "Feasible stock trajectories (Bentley and Langley 2012; Can J.)", 
+            "AttributeID": "6acb3b51-0ef2-3056-8691-065d30e94976"
+        }, 
+        {
+            "AttributeText": "If considering one gear out of many harvesting the same stock, consider how the selectivity of this gear compares to other gears.", 
+            "AttributeID": "6af68e6a-4fa7-3c70-a3e0-884be42129dc"
+        }, 
+        {
+            "AttributeText": "Inside:outside No-Take Zones/MPA ", 
+            "AttributeID": "6b0dcc6e-ebf0-3f50-b7b0-6872cecae54e"
+        }, 
+        {
+            "AttributeText": "A15", 
+            "AttributeID": "6be5b3c7-4fbc-39dc-a0c6-0df626bae353"
+        }, 
+        {
+            "AttributeText": "Closures invoked in response to some perceived stock status (feedback-driven): rotational/in response to trigger being reached/stock status indicating overfished", 
+            "AttributeID": "6c66f9a6-85d6-3e78-8bdd-c3aa97929794"
+        }, 
+        {
+            "AttributeText": "R48", 
+            "AttributeID": "6c6cf053-09cf-3ccf-9ad6-8818364ba9ee"
+        }, 
+        {
+            "AttributeText": "Catch location; distance between points - travel/steamer time; processing time, handling time; discarding vs what is offloaded; validation/verification; selective harvesting wrt size; ? species identification; ? species composition", 
+            "AttributeID": "6cac0e40-f298-33cf-af69-3c0c5c6b87e3"
+        }, 
+        {
+            "AttributeText": "Is/are there an MPA/s, and if so, are these well enforced and do they represent unfished size and density dynamics? IF NO", 
+            "AttributeID": "6cce7214-3d6b-3b37-87be-477e45b50914"
+        }, 
+        {
+            "AttributeText": "Are there prior ranges for r (population intrinsic growth rate) and K (carrying capacity)?", 
+            "AttributeID": "6cee37e8-f4da-33eb-9e68-d2b8a6885c7e"
+        }, 
+        {
+            "AttributeText": "\u00b7\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Disease/barotrauma:  Reword with less jargon.  If you catch and release, will it survive?", 
+            "AttributeID": "6d19acc8-03e0-3e4f-b7f5-4db7559b7608"
+        }, 
+        {
+            "AttributeText": "low", 
+            "AttributeID": "6d76686b-76ba-31b8-97ba-3968dada27ce"
+        }, 
+        {
+            "AttributeText": "A27", 
+            "AttributeID": "6da668b1-9487-3b5c-8a0d-e86ede4881d4"
+        }, 
+        {
+            "AttributeText": "A17", 
+            "AttributeID": "6df81a93-7436-3475-8859-dafcbc55a2ce"
+        }, 
+        {
+            "AttributeText": "Sequential trigger framework involving catch and/or effort, CPUE, size, sex ratio etc.", 
+            "AttributeID": "6e3e2ca5-13d3-343c-ae3c-d8dc6652f614"
+        }, 
+        {
+            "AttributeText": "Proxy index of abundance", 
+            "AttributeID": "6e7201df-44a3-3827-80b5-5ece67a61440"
+        }, 
+        {
+            "AttributeText": "estimating F", 
+            "AttributeID": "6e906d37-b638-3230-b6ae-f04587acd8a1"
+        }, 
+        {
+            "AttributeText": "Are there existing cooperatives or associations that could provide a starting point to fisher cooperation?", 
+            "AttributeID": "6eb8e7ce-b3f3-3a11-b16e-24d01cfe75ac"
+        }, 
+        {
+            "AttributeText": "Localised estimate of abundance", 
+            "AttributeID": "6ee009cc-48fa-3459-88bd-94dc06ef3db3"
+        }, 
+        {
+            "AttributeText": "9 Invoke data collection", 
+            "AttributeID": "6f08ba3d-1933-3e16-b997-f7ee07d9b50e"
+        }, 
+        {
+            "AttributeText": "Is fishing highly spatially or temporally aggregated, such that this has the potential to bias sampling?", 
+            "AttributeID": "6faf5f39-6730-3893-a3a6-521bb220bcd2"
+        }, 
+        {
+            "AttributeText": "R24", 
+            "AttributeID": "70439e52-8867-39ac-a5be-22794e101a47"
+        }, 
+        {
+            "AttributeText": "Is the data representative of the spatial extent of the fishing?", 
+            "AttributeID": "71091b11-de4a-31c7-bce7-97a5d971b995"
+        }, 
+        {
+            "AttributeText": "Escapement: Samples of catch; ensure 30% have spawned (per squid fishery in California)", 
+            "AttributeID": "7180b36d-3705-30b0-a7a6-31d4b5dbce1e"
+        }, 
+        {
+            "AttributeText": "Criterion", 
+            "AttributeID": "71e525de-31af-3ea2-b801-91d42ef29197"
+        }, 
+        {
+            "AttributeText": "in this instance state and national", 
+            "AttributeID": "72221dc8-b543-3ac2-b48d-c5a77993b596"
+        }, 
+        {
+            "AttributeText": "No", 
+            "AttributeID": "72468a41-b201-3edd-a40d-0f35e31bf453"
+        }, 
+        {
+            "AttributeText": "R1", 
+            "AttributeID": "72fe244d-f760-3bc3-8e38-2e43292264f0"
+        }, 
+        {
+            "AttributeText": "Do local government officials hold power over fishing regulations (is there the capacity for local enforcement?)", 
+            "AttributeID": "732eaf94-2541-3058-861c-e90855c0d450"
+        }, 
+        {
+            "AttributeText": "Catch (limited by coverage); effort (limited by coverage)", 
+            "AttributeID": "733b0568-78a6-36df-a9fa-07d7391a90ec"
+        }, 
+        {
+            "AttributeText": "What is known about the selectivity ogive?", 
+            "AttributeID": "735ef4ac-a66b-3160-b415-feeb288625bb"
+        }, 
+        {
+            "AttributeText": "A20", 
+            "AttributeID": "73903041-8400-3d6c-82fc-2688ebf98ada"
+        }, 
+        {
+            "AttributeText": "Spatial coverage/cooperation", 
+            "AttributeID": "739eb9ed-2ac0-3bd1-9f55-2848a1d5cb1a"
+        }, 
+        {
+            "AttributeText": "Are there seasonal concentrations of effort?", 
+            "AttributeID": "73c48211-3b85-35ec-ae6d-cfd82f6a5b5e"
+        }, 
+        {
+            "AttributeText": "Are gears and deployment manners known?", 
+            "AttributeID": "73c7ccc3-968c-3ba4-9171-4f30cbcc5b4c"
+        }, 
+        {
+            "AttributeText": "A13", 
+            "AttributeID": "73e5d67e-c31c-35e8-ad1b-70f027c8a1fb"
+        }, 
+        {
+            "AttributeText": "A24", 
+            "AttributeID": "74032ba9-0dfb-3e7d-ae0e-d84c0e8c4ccf"
+        }, 
+        {
+            "AttributeText": "Is the species highly cryptic, so that the representativeness of sampling may be compromised?", 
+            "AttributeID": "74124329-436d-30a1-89d4-aab0bd640cc0"
+        }, 
+        {
+            "AttributeText": "Fixed seasonal closure on (for e.g.) spawning grounds", 
+            "AttributeID": "74209808-ecdc-302a-8beb-8a2d61713ea9"
+        }, 
+        {
+            "AttributeText": "(Not a question): Given that there exist conditions (e.g. environmental, oceanographic, weather temperature) that affect either FISH AVAILABILITY or ABILITY TO FISH, consider the following (i.e. within-cell) caveats (re: assumptions around catchability):", 
+            "AttributeID": "74382484-f021-32e4-8aa1-2e2eee2fc02f"
+        }, 
+        {
+            "AttributeText": "Strength of governance (range):", 
+            "AttributeID": "7445d73d-02b0-3677-b912-72a45067c7cf"
+        }, 
+        {
+            "AttributeText": "=\"Rows \"&ROW(F40)&\"-\"&ROW(F43)", 
+            "AttributeID": "74802df1-5987-35a7-a261-241f7361e7b6"
+        }, 
+        {
+            "AttributeText": "Replace with \"the spatial extent of the fishable stock\"", 
+            "AttributeID": "755cce39-a596-3af1-8843-0eb2b1ed1319"
+        }, 
+        {
+            "AttributeText": "IF ENFORCED, AND RESPECTED", 
+            "AttributeID": "75b29c77-2dff-3f5d-9af6-dee9d0ec8ac7"
+        }, 
+        {
+            "AttributeText": "Are species within a multispecies fishery being assessed collectively (whether because of lack of data on each species, or because of a lack of species identification)?", 
+            "AttributeID": "765a390a-e27d-3847-8c8f-48c6425bfb8c"
+        }, 
+        {
+            "AttributeText": "A7", 
+            "AttributeID": "76ee4351-b223-3cda-be0b-b808fa45955c"
+        }, 
+        {
+            "AttributeText": "depends who you ask. Rephrase the question \"are there immedi\u2026.\"", 
+            "AttributeID": "7754afbd-b59d-3ac7-a2d8-13bbbc9a5805"
+        }, 
+        {
+            "AttributeText": "Spatial information;  discarding; species identification; species composition; distance between points - travel/steamer time; processing time, handling time; can draw attention to specifics (e.g. behaviour such as discarding) that might otherwise be oblivious to; validation/verification; selective harvesting wrt size", 
+            "AttributeID": "77b1f6be-f442-334d-a26f-a74d4585393d"
+        }, 
+        {
+            "AttributeText": "R6", 
+            "AttributeID": "77c7491a-5444-3a7a-adc9-09c77a25ddbf"
+        }, 
+        {
+            "AttributeText": "Slow growing, long-lived, steady state population, but with variable recruitment)", 
+            "AttributeID": "77e9a079-631a-32e8-bb4a-4f29fe56d1c3"
+        }, 
+        {
+            "AttributeText": "R2", 
+            "AttributeID": "78022a88-d6ef-34be-b197-ae5f049072fc"
+        }, 
+        {
+            "AttributeText": "R27", 
+            "AttributeID": "780c2967-857a-3f6d-b7b9-46764102694b"
+        }, 
+        {
+            "AttributeText": "These measures can be applied to the existing control rules (e.g. ramp catch down even further over that suggested by assessment outcomes), AND/OR applied as a separate measure (e.g. impose some spatial closures in additon to having size limits)", 
+            "AttributeID": "7862e4c9-278b-375d-a253-e2526f63b027"
+        }, 
+        {
+            "AttributeText": "Depletion analysis (CPUE versus cumulative catch)", 
+            "AttributeID": "789255bf-31d9-3df6-b5c2-78318bcf5653"
+        }, 
+        {
+            "AttributeText": "Is this the same as 26, and if not, how are they different?", 
+            "AttributeID": "78df39f9-731c-3eb8-b3e2-9e918ee88c26"
+        }, 
+        {
+            "AttributeText": "\u00b7\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Are locations and ports variable: Reword to be \u201cor\u201d or separate questions. Palau response was yes to location, no to port.", 
+            "AttributeID": "797caf92-bd4f-3955-85b0-de77b80beabe"
+        }, 
+        {
+            "AttributeText": "Does the specis exhibit sexually dimorphic growth?", 
+            "AttributeID": "79813128-7faf-33d6-b33c-58a694536c32"
+        }, 
+        {
+            "AttributeText": "if yes: there are no immediate concerns", 
+            "AttributeID": "79c5fc1f-8727-300c-bb61-d8ab43f88119"
+        }, 
+        {
+            "AttributeText": "Across-fleet aggregated catch by species, (possibly) across-fleet aggregated effort;", 
+            "AttributeID": "7a180a94-6f42-3740-a220-0b66b67da346"
+        }, 
+        {
+            "AttributeText": "but possibly not reliably", 
+            "AttributeID": "7a382a42-f66b-39e8-9acd-a7b2f7ba0c34"
+        }, 
+        {
+            "AttributeText": "Do known landing sites account for all fishing activity? (If not, could be for e.g. beach-based fishing, boat-based fishing where boats can be launched from any point)", 
+            "AttributeID": "7a5fd9a8-daed-37e8-ae5d-b579ed034648"
+        }, 
+        {
+            "AttributeText": "N", 
+            "AttributeID": "7b7cef6c-1506-3913-b829-6123d8e234c3"
+        }, 
+        {
+            "AttributeText": "R35", 
+            "AttributeID": "7b7dfde6-41b3-3745-80ad-a433ada48fde"
+        }, 
+        {
+            "AttributeText": "A4", 
+            "AttributeID": "7bbaf38d-6594-380e-91c8-b73efdef7a87"
+        }, 
+        {
+            "AttributeText": "Hierachical decision trees", 
+            "AttributeID": "7bc22838-be42-38d6-8476-cf9581c008d0"
+        }, 
+        {
+            "AttributeText": "Size-based sequential trigger system", 
+            "AttributeID": "7c9ae03e-c7c2-3530-9261-3da318483fc1"
+        }, 
+        {
+            "AttributeText": "Ecosystem risk assessment for the effects of fishing", 
+            "AttributeID": "7cff0a2d-8533-3320-a3e8-a54bf42746a0"
+        }, 
+        {
+            "AttributeText": "Caveat", 
+            "AttributeID": "7d1c92e4-ef9f-38a5-bb2e-dc3001221bf8"
+        }, 
+        {
+            "AttributeText": "regular, undertaken by fishers", 
+            "AttributeID": "7db8a786-8845-3495-9aec-556d9e7fc3d8"
+        }, 
+        {
+            "AttributeText": "R39", 
+            "AttributeID": "7f616303-4798-3465-8967-11db0771e381"
+        }, 
+        {
+            "AttributeText": "Are fishers incentivised/motivated/willing to be involved? (SEE ALSO COLUMN AW)", 
+            "AttributeID": "7f668227-1195-3dbe-882f-e0e3bc14d64a"
+        }, 
+        {
+            "AttributeText": "Assumes age- and time-independent mortality. ", 
+            "AttributeID": "7fbd83f0-8ec5-3c0c-a8d0-54f88001d5f6"
+        }, 
+        {
+            "AttributeText": "CAVEATS - Second, refine the shortlist of monitoring options according to the below range of criteria", 
+            "AttributeID": "7fd3249e-1244-3dea-894f-6fb0640a8c2b"
+        }, 
+        {
+            "AttributeText": "Is the data representative of the fleet as a whole? (Y = this is required)", 
+            "AttributeID": "800cc55e-c066-301d-9259-e25eff59a6f9"
+        }, 
+        {
+            "AttributeText": "Socio-economic", 
+            "AttributeID": "80523536-69fa-35b5-99bb-11a15baa1ffc"
+        }, 
+        {
+            "AttributeText": "Operational characteristics", 
+            "AttributeID": "80bd0ac5-dbc3-3f91-8c24-e813684e06a0"
+        }, 
+        {
+            "AttributeText": "Snapshot data gathering - fishery dependent info (e.g. student sampling; (creel) port-sampling)", 
+            "AttributeID": "810c4a5e-10c2-3963-8850-b39252fcb8a6"
+        }, 
+        {
+            "AttributeText": "broad temporal changes in catch characteristics, landed catch, effort (trip duration)", 
+            "AttributeID": "810fb2a8-cd61-3f48-8c08-0ba19e5eeff9"
+        }, 
+        {
+            "AttributeText": "Depletion-based SRA", 
+            "AttributeID": "82269eea-c45b-3db7-a3bf-1a549489c1b3"
+        }, 
+        {
+            "AttributeText": "Can we autopopulate based on a general understanding of species biology?", 
+            "AttributeID": "823befaa-ed81-3ae0-a284-8224c1b2011a"
+        }, 
+        {
+            "AttributeText": "? If fishers have own records - catch, effort; ? Location; with appropriate questioning approach, may also elicit selective harvesting/biases; Categories of fisher efficiency (useful ito evaluating value of information from specific individuals more than as information in and of itself)", 
+            "AttributeID": "824052ae-28cc-3a36-a322-7a07f0e25f5a"
+        }, 
+        {
+            "AttributeText": "Is the species is highly cryptic?", 
+            "AttributeID": "82fa5808-8587-39d3-8abb-c24797db4304"
+        }, 
+        {
+            "AttributeText": "=\"Rows \"&ROW(F56)&\" or \"&ROW(F57)&\" or \"&ROW(F58)&\" or \"&ROW(F60)&\" or \"&ROW(F61)", 
+            "AttributeID": "83cccd99-f09f-3fa8-9717-d5aa8de211fd"
+        }, 
+        {
+            "AttributeText": "Reference points/stock status", 
+            "AttributeID": "83ed4114-c038-3c46-bb46-b9625fb5ce45"
+        }, 
+        {
+            "AttributeText": "M7", 
+            "AttributeID": "850f6793-bcf1-35e1-9932-f5539c57bcb7"
+        }, 
+        {
+            "AttributeText": "A22", 
+            "AttributeID": "855031f4-1983-3e63-96f6-9a514582c906"
+        }, 
+        {
+            "AttributeText": "IF THEN -> red, orange, green? Ie work on exclusion basis. If one red, this one is out. If green, then this one is particularly suitable", 
+            "AttributeID": "8561508f-7ee6-3cb6-9d3c-a77cf83ba2ea"
+        }, 
+        {
+            "AttributeText": "indicators should remain fixed so that analyses are comparable", 
+            "AttributeID": "859d353d-7bdc-3be9-8739-4cd03f1b391b"
+        }, 
+        {
+            "AttributeText": "R51", 
+            "AttributeID": "85b878ae-ac0c-3497-a11e-5d12f41d5061"
+        }, 
+        {
+            "AttributeText": "11 Overrides in case of exceptional circumstances", 
+            "AttributeID": "860e8f82-b106-33d1-9896-c05a8c8edf36"
+        }, 
+        {
+            "AttributeText": "R29", 
+            "AttributeID": "86493c36-383d-3a84-a751-5f80f658b60b"
+        }, 
+        {
+            "AttributeText": "4 Other gear controls not related to selectivity (gear TYPE restrictions)", 
+            "AttributeID": "86eff59e-9877-3edb-9690-7c9184012b43"
+        }, 
+        {
+            "AttributeText": "Are there gear considerations that would preclude the use of the assessment? (e.g. per purse seine) IF YES", 
+            "AttributeID": "86f14ad7-02e3-3e7b-876a-0cafd2f2ac82"
+        }, 
+        {
+            "AttributeText": "Is the species highly migratory, and the fishery does not embrace the spatial extent of the stock?", 
+            "AttributeID": "876be844-a35b-3cd9-a158-f2127288eaf4"
+        }, 
+        {
+            "AttributeText": null, 
+            "AttributeID": "88bf52a1-cb69-3820-848f-3a3cdfbca583"
+        }, 
+        {
+            "AttributeText": "biomass estimates by time and space; density ratio (within and outside of reserves)", 
+            "AttributeID": "88d1545d-047d-3577-bede-f540ff72968e"
+        }, 
+        {
+            "AttributeText": "R49", 
+            "AttributeID": "88f29a70-ce91-3af7-a9d1-af2ebdbdce28"
+        }, 
+        {
+            "AttributeText": "Catch-Per-Unit-Effort", 
+            "AttributeID": "897b0339-167d-3770-8084-6e0c0e971f3d"
+        }, 
+        {
+            "AttributeText": "M31", 
+            "AttributeID": "8ac223e4-4cc3-3f4f-a324-c658c0883e18"
+        }, 
+        {
+            "AttributeText": "Length or Weight", 
+            "AttributeID": "8b9d92c4-ad71-331a-ac04-b36d3c6d3503"
+        }, 
+        {
+            "AttributeText": "If considering a single gear, are there other fleets acting on the same species group?", 
+            "AttributeID": "8bb3730e-3b5f-3747-8141-6d99bc367c85"
+        }, 
+        {
+            "AttributeText": "Ratio of density inside:outside MPAs (per Babcack and MacCall; McGilliard et al.)", 
+            "AttributeID": "8cc7ce52-0efe-3c7c-b94e-71e7e7fd1ae7"
+        }, 
+        {
+            "AttributeText": "Gender-specific size limits", 
+            "AttributeID": "8d68f11c-2478-3100-b5c5-ef43ddce4481"
+        }, 
+        {
+            "AttributeText": " For multispecies fisheries, can include i) species-specific catch trigger values for high risk/vulnerable and \u201ckey\u201d species; ii) species-specific catch trigger values for  \u201ckey\u201d (e.g. most frequently caught/most valuable) species; iii) total catch triggers for all species combined, or for a subset of \"key\" species", 
+            "AttributeID": "8dce1870-e271-3c1d-9116-6fb332182a11"
+        }, 
+        {
+            "AttributeText": "Is there a starting estimate of annual exploitation rate producting MSY at equilibrium (Umsy)?", 
+            "AttributeID": "8e1e9c4d-9858-3a77-9735-fd61ba2f05bb"
+        }, 
+        {
+            "AttributeText": "Catch curves", 
+            "AttributeID": "8e209031-f52a-3121-8493-caeaaf9de908"
+        }, 
+        {
+            "AttributeText": "R20", 
+            "AttributeID": "8e388c38-bc64-3bf6-8dd8-8d7929e2bb99"
+        }, 
+        {
+            "AttributeText": "What is the extent of enforcement capability?", 
+            "AttributeID": "8ee1903e-aeef-3dff-8e70-e3ac3660b234"
+        }, 
+        {
+            "AttributeText": "Requires mean or median catches; ", 
+            "AttributeID": "8f2030aa-2bf3-377e-aa9f-4c56abcf4adb"
+        }, 
+        {
+            "AttributeText": "Age composition", 
+            "AttributeID": "8f6a540f-befc-360c-961c-20e417f85a6e"
+        }, 
+        {
+            "AttributeText": " size data, maturity/reproductive state, sex ratios,", 
+            "AttributeID": "903e003e-81ae-3fba-a6e8-31bb09a01b03"
+        }, 
+        {
+            "AttributeText": "Adjust time of day allowed to fish (e.g. no day setting of longlines to avoid capturing seabirds)", 
+            "AttributeID": "90536520-b619-3424-83b8-44cf974b04d5"
+        }, 
+        {
+            "AttributeText": "R40", 
+            "AttributeID": "906f63bb-df9e-35ef-ad4a-21e5a6613794"
+        }, 
+        {
+            "AttributeText": "Are the jurisdictional boundaries matched to spatial extent of the fishable stock?", 
+            "AttributeID": "90716f46-96ab-3c48-b560-f1fd11a857ad"
+        }, 
+        {
+            "AttributeText": "Estimating life-history attributes", 
+            "AttributeID": "9105cc70-8708-3975-8fd1-a95ce751d4eb"
+        }, 
+        {
+            "AttributeText": "R11", 
+            "AttributeID": "9144d9b0-7d6f-3913-ac99-50cddeb0b760"
+        }, 
+        {
+            "AttributeText": "high", 
+            "AttributeID": "917fe653-f24a-3c8a-9454-70ecf153b7ba"
+        }, 
+        {
+            "AttributeText": "Expert judgement re: non-fishing threats, ecosystem services, threat interactions", 
+            "AttributeID": "91a56cd1-22f1-3ab5-bbd3-fb032210161e"
+        }, 
+        {
+            "AttributeText": "IF REGIONAL, STATE OR NATIONAL", 
+            "AttributeID": "91ae90eb-b927-3534-9b9a-9ec410d9c890"
+        }, 
+        {
+            "AttributeText": "Enforcement capability", 
+            "AttributeID": "91c55587-a6f4-3d41-9b89-a8b153bee2e7"
+        }, 
+        {
+            "AttributeText": "? Autopopulate?", 
+            "AttributeID": "91d9b494-5a06-3b54-bc0a-04ad2c70eaaa"
+        }, 
+        {
+            "AttributeText": "DB-SRA", 
+            "AttributeID": "92714641-9412-3b48-99e0-71090dbcadc1"
+        }, 
+        {
+            "AttributeText": "Change in species composition ratios", 
+            "AttributeID": "9328d30c-1891-3c46-a5df-fa756b437c59"
+        }, 
+        {
+            "AttributeText": "Estimate lifetime egg production per O'Farrell & Botsford", 
+            "AttributeID": "93a3e25d-149a-390d-808c-751169b27b30"
+        }, 
+        {
+            "AttributeText": "M21", 
+            "AttributeID": "93e68e8a-5be7-36eb-b712-d8323c08c58c"
+        }, 
+        {
+            "AttributeText": "Are multiple species targeted, with a portion of species destined towards markets, processors, subsistence, or other components of supply chain?", 
+            "AttributeID": "941a912f-1f76-3cb0-8fc9-dce984f20c66"
+        }, 
+        {
+            "AttributeText": "Catch disposal records/sales docket/traceability", 
+            "AttributeID": "94618782-d954-3c9c-95f9-cfd7d618cd4b"
+        }, 
+        {
+            "AttributeText": "R44", 
+            "AttributeID": "952f9ad2-ae42-3a89-baf6-f8a05331c2ab"
+        }, 
+        {
+            "AttributeText": "A25", 
+            "AttributeID": "95315d14-6625-3c92-9267-9a9a69d93e62"
+        }, 
+        {
+            "AttributeText": "Unlikely to provide more than anecdotal information unless fishers have maintained private records of (for e.g.) size data", 
+            "AttributeID": "95fc8cd4-3ba0-3d04-8d92-69a63ea8726f"
+        }, 
+        {
+            "AttributeText": "Are gears and deployment manners known? IF NO", 
+            "AttributeID": "966a8951-29e7-303f-9337-ceb95e07fb0d"
+        }, 
+        {
+            "AttributeText": "Expanded Multi-species caveat", 
+            "AttributeID": "97a7b8f1-2f1d-3fd1-a7c3-2a285804ca6b"
+        }, 
+        {
+            "AttributeText": "A16", 
+            "AttributeID": "98cd48e4-b254-3112-b44e-f43a34463f1a"
+        }, 
+        {
+            "AttributeText": "Descriptive Data Catch-all", 
+            "AttributeID": "990beb14-fa42-3387-a5d1-7f4dfcf9f039"
+        }, 
+        {
+            "AttributeText": "Sequential effort triggers", 
+            "AttributeID": "992565ad-6085-3b07-8bdb-d9f7fcc0f4be"
+        }, 
+        {
+            "AttributeText": "Are there existing cooperatives or associations that could provide a starting point? (SEE ALSO COLUMN AV)", 
+            "AttributeID": "993a9886-c894-32aa-acf9-faa3ee3b1443"
+        }, 
+        {
+            "AttributeText": "Is the species highly migratory, and the fishery does not embrace spatial extent of the stock? (here, \"N\" = assessment method unable to be applied)", 
+            "AttributeID": "99573b91-ff81-33fb-964b-f4bb697fdb13"
+        }, 
+        {
+            "AttributeText": "If the fishery is multispecies, is the species composition of the catch divided disproportionately across the supply chain? (e.g. only some species are marketed, while others are consumed for subsistence?)", 
+            "AttributeID": "99997e33-0e99-394f-9b7a-f2a0fd23bd7b"
+        }, 
+        {
+            "AttributeText": "Snapshot data gathering - biology/life history geared", 
+            "AttributeID": "9a542dc1-6c80-3324-8a42-6aeb0413e58e"
+        }, 
+        {
+            "AttributeText": "Stochastic SRA (User Guide Lombardi and Walters)", 
+            "AttributeID": "9ad29e4d-21c5-361b-a8b7-0f23a06af4ab"
+        }, 
+        {
+            "AttributeText": "If there are multiple fleets, are the selectivity ogives different for each? ", 
+            "AttributeID": "9ae6c4f0-6f25-3fea-80ba-533adfeb0fdd"
+        }, 
+        {
+            "AttributeText": "Unlikely to provide meaningful information", 
+            "AttributeID": "9b840d6c-cfc2-3e88-af2f-5d4621409091"
+        }, 
+        {
+            "AttributeText": "Sex composition", 
+            "AttributeID": "9c349473-caa4-3b1c-baa1-0323e3a45ddd"
+        }, 
+        {
+            "AttributeText": "Sequential catch triggers", 
+            "AttributeID": "9c454b0c-eff2-3ffb-a975-8304f2100fb7"
+        }, 
+        {
+            "AttributeText": "Expert Judgement", 
+            "AttributeID": "9ca754e9-4828-36eb-bc82-e9ddfe2d8436"
+        }, 
+        {
+            "AttributeText": "Effort restrictions by time (e.g. seasons) (whether informed by formal assessment or not)", 
+            "AttributeID": "9d08f781-1a10-39ec-9f55-935d6ed1e1dd"
+        }, 
+        {
+            "AttributeText": "Production model", 
+            "AttributeID": "9d0b6180-5c0d-39d8-8ec2-ec66b1d86619"
+        }, 
+        {
+            "AttributeText": "What is the research capacity required?", 
+            "AttributeID": "9d3e81fe-9ca6-359f-97a2-b120f8f38602"
+        }, 
+        {
+            "AttributeText": "Have there been operational changes in the fishery? IF YES", 
+            "AttributeID": "9d430299-572b-362d-ac22-320165713cda"
+        }, 
+        {
+            "AttributeText": "SPR", 
+            "AttributeID": "9d4ed1c6-b82e-3a59-8eb3-27cef6ebd6a0"
+        }, 
+        {
+            "AttributeText": "Has the selectivity pattern changed over time?", 
+            "AttributeID": "9d56e400-22a8-39c4-9453-2c94517ea122"
+        }, 
+        {
+            "AttributeText": "Catch or CPUE", 
+            "AttributeID": "9d791d21-fb7a-319a-891b-9a18b4265e3f"
+        }, 
+        {
+            "AttributeText": "Requires adequate \"contrast\" reflecting higher and lower relative abundance. ", 
+            "AttributeID": "9e508dcc-8700-398f-b2c5-40dcff9dd454"
+        }, 
+        {
+            "AttributeText": "Processor monitoring by trained enumerators", 
+            "AttributeID": "9e5d05e2-5319-363a-833e-49236d4286ed"
+        }, 
+        {
+            "AttributeText": "IF NOT ENFORCED", 
+            "AttributeID": "9e63796b-a7d7-336c-8a14-04df69669a45"
+        }, 
+        {
+            "AttributeText": "Corral/explore data via descriptive statistics", 
+            "AttributeID": "9ed2edbd-ab3e-3e64-b7bd-42611f6d5a64"
+        }, 
+        {
+            "AttributeText": "Length-based SPR", 
+            "AttributeID": "9f422457-1ee5-3aaa-ae09-bae3e4f38d52"
+        }, 
+        {
+            "AttributeText": "NEED TO REFINE MINIMUM GVP REQUIREMENT based on nature of observer program (easier for some fleets than others) and proposed regularity", 
+            "AttributeID": "9f5ae004-5332-37c0-b069-d2eafa8165f1"
+        }, 
+        {
+            "AttributeText": "A11", 
+            "AttributeID": "9f6dba7b-cb03-3415-a244-566e1efbff14"
+        }, 
+        {
+            "AttributeText": "A6", 
+            "AttributeID": "9f7a2052-892d-33ea-8b70-335cbcbf0a46"
+        }, 
+        {
+            "AttributeText": "What is the level of resource dependency?", 
+            "AttributeID": "a10ea35d-eb04-3ff2-acd1-acbd367fafb5"
+        }, 
+        {
+            "AttributeText": "Catch restrictions by area (whether informed by formal assessment or not)", 
+            "AttributeID": "a15a405c-7d61-35e1-8115-6e47decd3037"
+        }, 
+        {
+            "AttributeText": "Minimum Legal Size", 
+            "AttributeID": "a1a4e2dd-70a2-3cbd-b09c-d7e68c0dd83d"
+        }, 
+        {
+            "AttributeText": "Broad-scale CPUE", 
+            "AttributeID": "a238b43b-9f4f-3fdb-9b06-b5ffb4d4bf37"
+        }, 
+        {
+            "AttributeText": "What is the dominant system of governance? (Community level, Regional, State, National)", 
+            "AttributeID": "a2b65d8b-4132-3bf9-8829-8bbb71ee4073"
+        }, 
+        {
+            "AttributeText": "MSY", 
+            "AttributeID": "a2be21b4-1ce9-3fa9-9a04-0139b03792ef"
+        }, 
+        {
+            "AttributeText": "Logbooks: informal", 
+            "AttributeID": "a5aa461a-b78a-3798-88cf-ae088d39ade3"
+        }, 
+        {
+            "AttributeText": "Fishery dependent density", 
+            "AttributeID": "a5c9a1c6-b8ef-32da-bc1a-954018782e97"
+        }, 
+        {
+            "AttributeText": "Fleet is the gear/species combination", 
+            "AttributeID": "a6945f64-9821-3f8d-983e-58d6ff371845"
+        }, 
+        {
+            "AttributeText": "M6", 
+            "AttributeID": "a88e614e-81a5-30ea-b3dd-dbe77c28e03a"
+        }, 
+        {
+            "AttributeText": "Adjust season duration (e.g. for highly productive, short-lived species subject to management by a fishing season of fixed duration, real-time within-season management may be applied to adjust season duration)", 
+            "AttributeID": "a8b3b1a4-0de7-3767-b48e-6f6f635caf43"
+        }, 
+        {
+            "AttributeText": "Have there been operational changes in the fishery that compromise the current validity of historical data? (NB this is a different question to M30 in the Monitoring spreadsheet)", 
+            "AttributeID": "a8d8a83f-37e5-3b75-b22c-b9246fd76509"
+        }, 
+        {
+            "AttributeText": "Discourse/expert judgement", 
+            "AttributeID": "a909d278-5ca7-3c22-ac05-51aad962e6fb"
+        }, 
+        {
+            "AttributeText": "Is effort creep occurring, suspected, or likely?", 
+            "AttributeID": "a929e9fe-bb00-387a-bc1f-bbdbef403698"
+        }, 
+        {
+            "AttributeText": "?MSY", 
+            "AttributeID": "a9a41b3a-988b-3225-943a-f712cadad9d1"
+        }, 
+        {
+            "AttributeText": "M18", 
+            "AttributeID": "a9fd4f35-cbf7-3477-964a-704b4c119ebf"
+        }, 
+        {
+            "AttributeText": "does this mean willingness by the agency? What if the industry or partners are willing? Who's doing it is important..", 
+            "AttributeID": "aa1d179e-1515-38c4-8445-9c42fc188dff"
+        }, 
+        {
+            "AttributeText": "Satisfied by above", 
+            "AttributeID": "aa23e5f8-ff25-3226-bda0-5778baa99ee8"
+        }, 
+        {
+            "AttributeText": "Catch or Effort or Density", 
+            "AttributeID": "aa96f5de-904c-3514-98d9-fc865645bc09"
+        }, 
+        {
+            "AttributeText": "Are regulations effectively enforced?", 
+            "AttributeID": "aac11b71-9aa0-3b06-b64e-9a81a0c01da5"
+        }, 
+        {
+            "AttributeText": "If there is <100% spatial coverage, is the existing coverage representative of the entire fleet/geographic range of fishery? ", 
+            "AttributeID": "ab2dc775-2372-35b4-ac5d-bceaf20b3802"
+        }, 
+        {
+            "AttributeText": "subsistence", 
+            "AttributeID": "abbf1d82-085a-3dd8-af62-fe322584ca42"
+        }, 
+        {
+            "AttributeText": "Are there conditions (e.g. oceanographic, environmental, weather, temperature) that strongly affect either fish availability or ability to fish?", 
+            "AttributeID": "abd62905-f5e7-3c7f-9d49-a5095c775a02"
+        }, 
+        {
+            "AttributeText": "Are there conditions (e.g. environmental, oceanographic, weather temperature) that affect either fish availability or ability to fish?", 
+            "AttributeID": "acbcdafd-b2c7-3973-a329-db3b3e19a1b6"
+        }, 
+        {
+            "AttributeText": "\u00b7\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Are home ports disaggregated: Perhaps reword to provide some benchmark or example.", 
+            "AttributeID": "acd3d8db-4249-334a-a19b-5eb1c1a69e3e"
+        }, 
+        {
+            "AttributeText": "Maximum legal size", 
+            "AttributeID": "ace8e42f-1a72-3fc7-bcb8-2489dac6c50c"
+        }, 
+        {
+            "AttributeText": "Governance", 
+            "AttributeID": "acf806ad-171a-3b71-8480-a50cc91a9513"
+        }, 
+        {
+            "AttributeText": "size data, maturity/reproductive state, sex ratios", 
+            "AttributeID": "ad34846d-f13c-362d-988f-97df5b8acce4"
+        }, 
+        {
+            "AttributeText": "Change of dominant species", 
+            "AttributeID": "ae6020f8-a590-3488-b4ca-671b8f886bfc"
+        }, 
+        {
+            "AttributeText": " broad temporal changes in catch characteristics", 
+            "AttributeID": "b05e9f0b-d4b0-3570-98de-1da896c4a1cb"
+        }, 
+        {
+            "AttributeText": "How culturally ingrained is cooperation to management? Categories 1) unwilling to share and unwilling to record, 2) willing to share info but unwilling to record info, 3) willing to share and record but may not do so reliably, 4) willing and reliable sharing and recording", 
+            "AttributeID": "b08347fc-d4fd-38d6-b9b4-a4a6c36c1cac"
+        }, 
+        {
+            "AttributeText": "Do multiple gears harvest the species/species group?", 
+            "AttributeID": "b0cf4747-4b33-3a5b-9af8-34d2775ba57c"
+        }, 
+        {
+            "AttributeText": "Is the species a \"periodic strategist\" (slow-growing, long-lived, steady state population, but with variable recruitment)?", 
+            "AttributeID": "b0ece8b3-c2d9-33b5-a670-eb0f0ca6d324"
+        }, 
+        {
+            "AttributeText": "Catch-based method for classifying stock status (Hilborn 2014 - Nature)", 
+            "AttributeID": "b12a6587-75d9-3a2e-b662-4162dc1f64df"
+        }, 
+        {
+            "AttributeText": "ORCS (Only Reliable Catch Series)", 
+            "AttributeID": "b1fcff22-a517-3d69-9801-bdf61f2a866a"
+        }, 
+        {
+            "AttributeText": "regarding points in supply chain", 
+            "AttributeID": "b21be76e-337f-30d4-8e49-69f5f7557673"
+        }, 
+        {
+            "AttributeText": "Biomass-based reference points meaningful? (e.g. for a boom-and-bust species, equilibrium dynamics may not be appropriate and so biomass-based reference points are not meaningful)", 
+            "AttributeID": "b32d3e88-1ad5-3f20-be1d-43546da0532d"
+        }, 
+        {
+            "AttributeText": "R9", 
+            "AttributeID": "b3ebe35f-a4a4-3a5a-9871-a173cb29ab4a"
+        }, 
+        {
+            "AttributeText": "Standardised CPUE", 
+            "AttributeID": "b4301e99-d8c5-3a8c-a531-b99779448874"
+        }, 
+        {
+            "AttributeText": "This can be like a hierarchical decision tree, and a sequential trigger framework, but unlike the former, you don't have to consider indicator combinations, and unlike the latter, the system can operate as a simple sum of the numbers of lights hit across a set of indicators", 
+            "AttributeID": "b44f2370-9246-3af5-9b3d-edcaf367887d"
+        }, 
+        {
+            "AttributeText": "If <100% spatial coverage is able to be obtained for a monitoring program, would the existing coverage be representative of the entire fleet/geographic range of the fishery?", 
+            "AttributeID": "b4af9e63-619e-338e-ac3c-c3d45ebd52cc"
+        }, 
+        {
+            "AttributeText": "13 Levies, taxes (e.g. as incentives to avoid areas)", 
+            "AttributeID": "b4b4fa69-74b9-3085-af8b-ff388e413b8d"
+        }, 
+        {
+            "AttributeText": "Options: low, low-moderate, moderate, moderate-high, high", 
+            "AttributeID": "b4b5d1f0-d907-3171-8989-afcad87627c5"
+        }, 
+        {
+            "AttributeText": "Options: Subsistence; Artisinal - subsistance and local markets only; Artisinal -commerical (large range of boats - may sell locally and/or for export); Large-scale commercial/industrial", 
+            "AttributeID": "b4b9ae1c-b75c-30a7-985c-61fd8fb0a940"
+        }, 
+        {
+            "AttributeText": "Reword to \"Does enforcement capacity exist, and, if so..?\"", 
+            "AttributeID": "b54a316a-2a63-37dd-a1f7-c594f5a967e5"
+        }, 
+        {
+            "AttributeText": "If only effort data are available", 
+            "AttributeID": "b5865fad-fe96-3d16-8393-0d78caaa4e0a"
+        }, 
+        {
+            "AttributeText": "Y", 
+            "AttributeID": "b5a7df97-3b0c-389d-b269-4ad0c038df5a"
+        }, 
+        {
+            "AttributeText": "intermediate", 
+            "AttributeID": "b5bdad31-483d-3d1f-bd76-c341aa734f04"
+        }, 
+        {
+            "AttributeText": "Are permits community based? (as opposed to individual-based)", 
+            "AttributeID": "b5d418c0-d111-3421-b475-59eb0880af89"
+        }, 
+        {
+            "AttributeText": "What management controls are familiar and can easily align with community management practices and processes?", 
+            "AttributeID": "b5dea21d-238e-3e77-9d7d-fe90e21995e4"
+        }, 
+        {
+            "AttributeText": "Have historical or recent changes occurred in how the fishery is operating?", 
+            "AttributeID": "b6bd1b24-8775-3a16-afc0-1f3207175cc2"
+        }, 
+        {
+            "AttributeText": "Decision trees can be on any indicator combinations of two or more, but these need to be independent. Hierarchical decision trees are about unique stock-status based interpretations based on the indicator combinations - e.g. low fishery-dep density estimate and high catch = suggested depletion; high density with high catch might be okay, low catch low density = possibly overfished; high density low catch = possibly underexploited. Hierarchical Decision Trees allow for a decision to be reached by a sequential series of intermediate decisions. The most important decision criteria are in the upper part of the tree and applied first. Hierarchical Decision Trees provide a useful framework for harvest strategies when different decision rules are appropriate in different circumstances (Basson and Dowling, 2008; Davies et al. 2007; Prince et al. 2011; Venables and Ripley 2002; Wilson et al. 2010;). They often combine the assessment and decision rule aspects of a harvest strategy into a hierarchy of decisions that may be considered a quasi-assessment.", 
+            "AttributeID": "b6c458b5-4499-3645-82b9-a6061e3da0c0"
+        }, 
+        {
+            "AttributeText": "Does the species have a known spawning season?", 
+            "AttributeID": "b7014fb9-6a1d-35b9-948b-f6e481ea8b85"
+        }, 
+        {
+            "AttributeText": "DCAC", 
+            "AttributeID": "b87b350f-db3a-3060-830d-d31f6ef25e85"
+        }, 
+        {
+            "AttributeText": "Is the nature of fishing operations (e.g. target species, gear types, fishing locations, markets) changing?", 
+            "AttributeID": "b8a44f84-6147-38ff-9d0c-4f530bf69a8d"
+        }, 
+        {
+            "AttributeText": "nature of operations; identifying target/key species; identifying key habitat/fishing grounds; understanding drivers behind historical changes; understanding recent (rapid) changes - local knowledge; broad understanding of size composition/prime or market size; nature of fisher interactions wrt information sharing, competition; understanding of behavioural drivers; market supply chain; ", 
+            "AttributeID": "b8c6b5d5-24a8-3cfc-9afa-4c032c9ee44f"
+        }, 
+        {
+            "AttributeText": "Check consistency in monitoring spreadsheet, questions M15 and M16.", 
+            "AttributeID": "b8cd69b3-cfd8-3ca2-93c7-7a33d120d7a3"
+        }, 
+        {
+            "AttributeText": "Market surveys", 
+            "AttributeID": "b8dacefe-c24f-3d8d-ad17-587e02b3020a"
+        }, 
+        {
+            "AttributeText": "Are the nursery ground for the species vulnerable to the gear?", 
+            "AttributeID": "b903407c-bf6a-3242-b17b-7739e88e1bda"
+        }, 
+        {
+            "AttributeText": "Expert judgement re: MPA and habitat status", 
+            "AttributeID": "b9cdf730-c8d3-333c-ac3e-96f6a2cc70c9"
+        }, 
+        {
+            "AttributeText": "STAGNANT ATTRIBUTE WHOSE RESPONSES SHOULD POP UP AS WARNINGS", 
+            "AttributeID": "b9d2bfc0-695e-38a2-9c4c-c40602cfdcf8"
+        }, 
+        {
+            "AttributeText": "R30", 
+            "AttributeID": "ba333ebb-78ba-313e-8aff-024ac0392341"
+        }, 
+        {
+            "AttributeText": "Is the fleet being considered acting within a multi-species fishery?", 
+            "AttributeID": "ba588b6f-f09b-3eed-a78f-7059b67f74b5"
+        }, 
+        {
+            "AttributeText": "R8", 
+            "AttributeID": "ba770ab9-829a-38e2-a64a-6653ac72fe96"
+        }, 
+        {
+            "AttributeText": "If there is <100% spatial coverage, is the existing coverage representative of the entire fleet/geographic range of fishery? (SEE ALSO COLUMN BD)", 
+            "AttributeID": "badc7a85-7395-32fd-bca8-dc0ae6e7d012"
+        }, 
+        {
+            "AttributeText": "Daily trip limit; with or without TAC", 
+            "AttributeID": "bbcca463-7d61-3ba2-9939-29ab5972c765"
+        }, 
+        {
+            "AttributeText": "Is any monitoring program able to be conducted at the same time and in the same manner interannually and spatially?", 
+            "AttributeID": "bbe4da41-c2b7-3dba-8952-358798aa8d6a"
+        }, 
+        {
+            "AttributeText": "Is the species being actively targeted?", 
+            "AttributeID": "bc0da3c7-221f-38c5-ab6f-bd541b6b4b6b"
+        }, 
+        {
+            "AttributeText": "clarify the motivation for the question", 
+            "AttributeID": "bcc5cf4a-be02-3fd5-b05f-32e724af8eb4"
+        }, 
+        {
+            "AttributeText": "open access", 
+            "AttributeID": "bd0a182d-7883-3ff1-99b9-fabd130bec8c"
+        }, 
+        {
+            "AttributeText": "Does no knowledge and/or data exist for the fishery?", 
+            "AttributeID": "bd8656a8-6051-3722-9c8a-6244077e86d7"
+        }, 
+        {
+            "AttributeText": "Restrictions or prohibitions on taking gravid females", 
+            "AttributeID": "bda3a386-914e-3d2f-b879-0d28da81f7b9"
+        }, 
+        {
+            "AttributeText": "Is any monitoring program able be undertaken with temporal regularity and reasonably frequently (e.g. more than every 5 years)?", 
+            "AttributeID": "bdf80989-6b16-34d7-b2ec-89e8225f7005"
+        }, 
+        {
+            "AttributeText": "Size data; maturity/reproductive state; sex ratios", 
+            "AttributeID": "be31ddf6-2cf0-3a8c-b5f2-b704a312ca9c"
+        }, 
+        {
+            "AttributeText": "Estimating proportion spawned", 
+            "AttributeID": "be5dd878-f96a-3daa-a2af-53c954441974"
+        }, 
+        {
+            "AttributeText": "Do fishing activities (irrespective of management) correspond with the spatial extent of the stock?", 
+            "AttributeID": "bec3c503-b16b-3284-825f-56e10c591596"
+        }, 
+        {
+            "AttributeText": "Is the fishery multispecies? (NB this is slightly different to monitoring question M29)", 
+            "AttributeID": "bed891d5-36a8-32b8-8c2e-4a39baf26fdf"
+        }, 
+        {
+            "AttributeText": "FROM HERE AND TO THE RIGHT ARE \"EXPANDED\" CAVEAT CATEGORIES", 
+            "AttributeID": "beda4e92-fb5b-3731-8862-5c5bbdc4bbfe"
+        }, 
+        {
+            "AttributeText": "R4", 
+            "AttributeID": "bf918442-8e48-32e7-add3-9575aef6b7c4"
+        }, 
+        {
+            "AttributeText": "Is there some estimate of assumed abundance? IF NO", 
+            "AttributeID": "c0739e52-13df-3e8c-bdea-928060ad11ff"
+        }, 
+        {
+            "AttributeText": "as opposed to limited entry in any way", 
+            "AttributeID": "c075da64-cc9b-3548-a3d1-f0a1081786f5"
+        }, 
+        {
+            "AttributeText": "Is the fishery open access, as opposed to limited entry?", 
+            "AttributeID": "c08b35c9-fe42-3fcf-a024-e56d24306fcc"
+        }, 
+        {
+            "AttributeText": "Daily effort limit; with or without TAE", 
+            "AttributeID": "c0d9db68-339d-39d4-8252-5ddb3c48380c"
+        }, 
+        {
+            "AttributeText": "M29", 
+            "AttributeID": "c1889a95-7d34-39fc-aaaf-4b89fc8af3ee"
+        }, 
+        {
+            "AttributeText": "needs clarification - there are several in Califonria, but definitely nothing approaching Indonesia", 
+            "AttributeID": "c2381a80-1f55-3501-b231-dd56d0d90df9"
+        }, 
+        {
+            "AttributeText": "R43", 
+            "AttributeID": "c2c78bc4-146a-36d9-8b59-c57a94b7cdb4"
+        }, 
+        {
+            "AttributeText": "if paid", 
+            "AttributeID": "c3303511-8929-378c-97ef-7e714736b325"
+        }, 
+        {
+            "AttributeText": "Is there some starting estimate or notion of abundance?", 
+            "AttributeID": "c38ceed9-57f3-323e-aa54-73d73e7ed42e"
+        }, 
+        {
+            "AttributeText": "R52", 
+            "AttributeID": "c4114ae4-1384-3215-b60a-d71dadc87fb9"
+        }, 
+        {
+            "AttributeText": "this matters if the fish is migratory or sedentary. What is the dispersal dynami?", 
+            "AttributeID": "c41dcdcb-11d2-3947-ba19-7acf4ed23d90"
+        }, 
+        {
+            "AttributeText": "What is the cost of the assessme", 
+            "AttributeID": "c4c976a8-145e-3400-8f7c-d01f9c59319a"
+        }, 
+        {
+            "AttributeText": "Is effort data available by location? IF NO", 
+            "AttributeID": "c5c6044b-89c3-34d3-bdac-910a2a304818"
+        }, 
+        {
+            "AttributeText": "What is the level of fishery cooperation, in terms of complying with and supporting management measures?", 
+            "AttributeID": "c661691a-999d-3a16-87bc-19506b938659"
+        }, 
+        {
+            "AttributeText": "Are fishers, or can fishers be incentivised/motivated/willing to be involved?", 
+            "AttributeID": "c6ae503c-cc07-3ba0-8531-51acffeaf527"
+        }, 
+        {
+            "AttributeText": "Is there some starting estimate or notion of depletion?", 
+            "AttributeID": "c71c5839-c26f-33cb-af84-014dd82d0b57"
+        }, 
+        {
+            "AttributeText": "Can be based on any single indicator (size, catch, effort) or multiples thereof.", 
+            "AttributeID": "c764fb65-6d91-3adc-88d8-8073c3ff0a30"
+        }, 
+        {
+            "AttributeText": "Gross value of production (range); current budget for monitoring: COMPARE/RECONCILE WITH COST DATABASE (and/or use cost database to inform categories?)", 
+            "AttributeID": "c799219b-317c-3762-a258-e168c9cf3c5b"
+        }, 
+        {
+            "AttributeText": "Criteria", 
+            "AttributeID": "c7bc58a6-8183-322d-8635-26020444a777"
+        }, 
+        {
+            "AttributeText": "willing if paid", 
+            "AttributeID": "c810f8ec-dcaa-3a5f-8b7b-cedd7a9521d9"
+        }, 
+        {
+            "AttributeText": "Example: historically, this level of catch corresponded to a \"good\" stock status", 
+            "AttributeID": "c82cc41e-68d6-33c8-a484-48611107664d"
+        }, 
+        {
+            "AttributeText": "Is a whole-of-fishery and/or ecosystem-based assessment desired over a single species assessment (while acknowledging that this is less likely to provide robust estimates of stock status of individual species)?", 
+            "AttributeID": "c8616fb5-6136-3308-a545-347da83297e7"
+        }, 
+        {
+            "AttributeText": "Well collected, fine-scale information on all aspects, but to undertake reference-point based analysis requires large observer coverage", 
+            "AttributeID": "c86508bd-8588-37e1-87aa-2f1bc83700c5"
+        }, 
+        {
+            "AttributeText": "info needs vary depending on whether a PSA is included", 
+            "AttributeID": "c8a85143-937c-3b0f-9c2f-debeb22e11f1"
+        }, 
+        {
+            "AttributeText": "Are home ports/landing sites and markets numerous/spatially disaggregated, such that representative sampling would be difficult to obtain given the available capacity?", 
+            "AttributeID": "c9181086-d5d4-3d23-8a97-1a4d30a0fe21"
+        }, 
+        {
+            "AttributeText": "\u00b7\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Is fishery vast: Put some numerical limits or examples.  Is this relative to the jurisdictional boundaries, the country?  Would Peru answer using a different scale than a small island reef?", 
+            "AttributeID": "c9600c83-a778-35e2-b344-84ce73f96721"
+        }, 
+        {
+            "AttributeText": "Research capacity", 
+            "AttributeID": "c994ac54-00a1-3580-847d-0e7769aad128"
+        }, 
+        {
+            "AttributeText": "IF HIGH", 
+            "AttributeID": "c999ba3e-2317-300a-813a-3f598228bfa8"
+        }, 
+        {
+            "AttributeText": "M19", 
+            "AttributeID": "cab1fe92-4a1b-3163-9b76-df18c259b145"
+        }, 
+        {
+            "AttributeText": "regular (annually), undertaken by independent practitioners", 
+            "AttributeID": "cb4be306-85e4-334f-a853-0fb15a4eed6e"
+        }, 
+        {
+            "AttributeText": "Logbooks: formal government (licensing) requirement", 
+            "AttributeID": "cb4e66cd-ad0f-3053-8e07-4e252e01b632"
+        }, 
+        {
+            "AttributeText": "as opposed to individual-based", 
+            "AttributeID": "cb5ea2a8-fdad-3c35-bce4-641396c9604d"
+        }, 
+        {
+            "AttributeText": "based on your answers of biology then this section of questions should have automatically generated answers that say exactly what you could be doing (e.g. if you have VB, selectivity and M, then you may be able to do a YPR analysis) RESPONSE (ND): It has - this question is about two parameters that are only relevant for the Catch-MSY (Martel and Froese) assessment priors. Including these as \"biology\" parameters is a bit circular as it's analogous to asking if you know abundance. This is about \"do you have some priors that you can use, because these are required for this assessment type?\"", 
+            "AttributeID": "cbd5ba93-0391-3db4-af1f-80509ae027bc"
+        }, 
+        {
+            "AttributeText": "=\"Rows \"&ROW(F51)&\" or \"&ROW(F54)&\"-\"&ROW(F62)", 
+            "AttributeID": "cbf3b1e2-c808-33eb-b040-6d4e4e0b30f1"
+        }, 
+        {
+            "AttributeText": "Time series-based, ideally with reference point (e.g. slope-to-target)", 
+            "AttributeID": "cc2b4e03-adc0-393b-a40f-c0541ebb5794"
+        }, 
+        {
+            "AttributeText": "8 Sex regulations", 
+            "AttributeID": "cd5a42d3-9ad8-3a17-ae00-439d2af5c4f3"
+        }, 
+        {
+            "AttributeText": "R37", 
+            "AttributeID": "cdb37e58-530a-396b-a284-24607579acad"
+        }, 
+        {
+            "AttributeText": "ADDITIONAL CAVEATS", 
+            "AttributeID": "cddf877b-ada2-3c10-abc7-5e28aca7c5df"
+        }, 
+        {
+            "AttributeText": "needs clarification/definition can we link this stuff to the life history answers?", 
+            "AttributeID": "cde8f42e-1d54-3de2-aa18-590af6918898"
+        }, 
+        {
+            "AttributeText": "Nature of fishery  (range):", 
+            "AttributeID": "ce08b5ad-0393-3fff-bf46-105e8867cc29"
+        }, 
+        {
+            "AttributeText": "\u00b7\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Are ports and markets matched to managed area:  same as above, use \u201cor\u201d or separate.  Palau response was yes to port, no to market.", 
+            "AttributeID": "ce526be0-497c-3a0d-bed0-fc2615e81432"
+        }, 
+        {
+            "AttributeText": "General", 
+            "AttributeID": "ceb4663a-e214-3c99-a3f4-1e49fedb3763"
+        }, 
+        {
+            "AttributeText": "Limit  per gear unit (e.g. maximum catch per trap); with or without TAC", 
+            "AttributeID": "cee00de0-7afa-3e72-8149-2ee244288cbe"
+        }, 
+        {
+            "AttributeText": "Inherently harks to socio-economic improtance", 
+            "AttributeID": "cf87027c-dfe9-3892-bf59-a4a85fb36f8d"
+        }, 
+        {
+            "AttributeText": "Rank the number of levels of buying/distribution (as per points in the supply chain), as low if <=3, or high otherwise.", 
+            "AttributeID": "d03afe4c-e93a-38c2-bf7f-bb607944ffef"
+        }, 
+        {
+            "AttributeText": "M26", 
+            "AttributeID": "d0a8230d-af19-383f-8e19-f55d253ee6ba"
+        }, 
+        {
+            "AttributeText": "R28", 
+            "AttributeID": "d0dfb0dc-c6d7-3782-b26e-526e74e45656"
+        }, 
+        {
+            "AttributeText": "Requires specificaiton of the number of times mortality is thought to change, and initial guesses of the years during which mortality is thougth to change", 
+            "AttributeID": "d1159a48-e182-316a-96aa-7855e9dc7060"
+        }, 
+        {
+            "AttributeText": "M14", 
+            "AttributeID": "d13156e7-eb87-39b1-85d6-7bdc3f5231bb"
+        }, 
+        {
+            "AttributeText": "Caveats", 
+            "AttributeID": "d1cb3b06-a7b0-3773-9ead-488f1c1ad64d"
+        }, 
+        {
+            "AttributeText": "Selectivity ogive (0= unknown; 1= able to be inferred; 2 = known)", 
+            "AttributeID": "d1eb67c7-a017-3eb4-b00c-4b73efbdcd2e"
+        }, 
+        {
+            "AttributeText": "Replace with \"Where is the capacity and mandate to faciliate or allow for monitoring?\"", 
+            "AttributeID": "d1f6f854-4108-3bc2-bc0c-00983843e731"
+        }, 
+        {
+            "AttributeText": "Regardless of management", 
+            "AttributeID": "d240760b-b7a8-373c-8284-d0803beaf4bb"
+        }, 
+        {
+            "AttributeText": "M33", 
+            "AttributeID": "d363b9c1-f764-30c0-b70f-66941e816c5b"
+        }, 
+        {
+            "AttributeText": "Are regulations enforced, AND, IF they are enforced, are regulations/governance trusted and respected? ", 
+            "AttributeID": "d3ec9642-6006-3dfe-ba1a-4505463dbea4"
+        }, 
+        {
+            "AttributeText": "Check consistency in monitoring spreadsheet, question M8. In open access governance system, the efficacy of tools like size, fishng season, or effort limits is often reduced by effort creep, but when access is limited this seems to be less of a problem nd so the same tool would look more attractive.", 
+            "AttributeID": "d415325f-81f9-32d2-ba33-f56172ee92cc"
+        }, 
+        {
+            "AttributeText": "Port/landing site monitoring by trained enumerators", 
+            "AttributeID": "d41703d9-ea4a-33c3-949e-86f84b57ff0f"
+        }, 
+        {
+            "AttributeText": "current budget for monitoring, to be compared/reconciled with cost database", 
+            "AttributeID": "d5396d31-b08d-32f7-87cd-7a034271cce9"
+        }, 
+        {
+            "AttributeText": "Is effort data available by location?", 
+            "AttributeID": "d54da1e7-84a4-39e1-9f8f-398b04be59cd"
+        }, 
+        {
+            "AttributeText": "Use of biomass surveys to inform spatial management", 
+            "AttributeID": "d57b00d5-9cd1-3ce6-8cc6-2b1dd6805451"
+        }, 
+        {
+            "AttributeText": "MSY, abundance", 
+            "AttributeID": "d57dabcc-baa2-3a94-897b-c2eb53f77185"
+        }, 
+        {
+            "AttributeText": "Changes in mean length/weight or length/weight percentiles", 
+            "AttributeID": "d5e32f0d-d8d0-3754-b1d2-95d11d964bf9"
+        }, 
+        {
+            "AttributeText": "CPUE (NB will likely be more robust for FORMAL logbooks as per below)", 
+            "AttributeID": "d60bc8bb-b9fb-3f1c-855d-178b3b4d2dad"
+        }, 
+        {
+            "AttributeText": "If considering one species or species group within a multi-species fishery, then the response should be \"yes\"", 
+            "AttributeID": "d6d2427d-8067-35d4-a690-ce1c3d10c59e"
+        }, 
+        {
+            "AttributeText": "Estimate of F (via Z)", 
+            "AttributeID": "d6e28ab9-d34f-3d82-abda-7ffcb271f9a7"
+        }, 
+        {
+            "AttributeText": "is this for bycatch considerations? Clarify.", 
+            "AttributeID": "d6e86f82-153d-3b72-80ac-826d976697bf"
+        }, 
+        {
+            "AttributeText": "is there any sense of where things are at?", 
+            "AttributeID": "d8932969-b2a3-38f8-bf5f-e0c4e62af2e2"
+        }, 
+        {
+            "AttributeText": "Indirect notion of stock status", 
+            "AttributeID": "d8a91169-662e-3780-87f8-d9f016e7733b"
+        }, 
+        {
+            "AttributeText": "No knowledge", 
+            "AttributeID": "d8c6fd31-dadf-3db8-bdd6-fe78b12101ab"
+        }, 
+        {
+            "AttributeText": "R10", 
+            "AttributeID": "d90ab1dd-677d-3bdc-91a5-8cbf5b913304"
+        }, 
+        {
+            "AttributeText": "Within-season management. Suits short-lived, highly productive life history", 
+            "AttributeID": "d912ab67-439e-36e8-b4fd-6f6552999c61"
+        }, 
+        {
+            "AttributeText": "High discarding or illegal/unregulated/unreported activity known or suspected?", 
+            "AttributeID": "d97c1771-95b6-3b84-876d-7e17fe9336e4"
+        }, 
+        {
+            "AttributeText": "Is the fishery area is geographically vast relative to entire coastline or EEZ? (>X km2) (SEE ALSO COLUMN BC)", 
+            "AttributeID": "d9c9cf7e-390a-3a42-9636-264d40932d35"
+        }, 
+        {
+            "AttributeText": "reword or clarify \" is it possible to calculate one?\" AND this is another example of where the software should tell us the answer. If one already exists, need to be able to distinguish b/w that and providing guidance on how to calculate a new one.", 
+            "AttributeID": "da6c8590-2a88-3037-b8e6-ade3473e94f5"
+        }, 
+        {
+            "AttributeText": "ULTIMATELY WILL BE A COST ATTRIBUTE FROM THE COST DATABASE", 
+            "AttributeID": "da8c4c67-46e6-3d33-828e-b209533924b5"
+        }, 
+        {
+            "AttributeText": "Is there a time series of data (as opposed to snapshot(s))?", 
+            "AttributeID": "daaaf955-d0d0-38ee-bdb1-8b761720080d"
+        }, 
+        {
+            "AttributeText": "?? Zhou catch-only approach", 
+            "AttributeID": "db4dd68e-d58b-3a9f-985c-1e3129dcd855"
+        }, 
+        {
+            "AttributeText": "Distinguished from community leadership", 
+            "AttributeID": "db5bf23b-8910-311b-9121-1f61ed0b261e"
+        }, 
+        {
+            "AttributeText": "ELIMINATE", 
+            "AttributeID": "db796cf9-00be-3925-9861-9b948269c937"
+        }, 
+        {
+            "AttributeText": "Move directly to decision rules", 
+            "AttributeID": "db79ed46-3483-392d-bbbc-4e924f3c68d7"
+        }, 
+        {
+            "AttributeText": "Do known landing sites account for all fishing activity? (examples of situations invoking \"no\" responses: i) boats can be launched from any point and not necessarily return to a specific destination ii) beach-based fishing that may not be associated with a specific landings site; iii) even if it is known that all ports are used for landings, not all ports may be known)", 
+            "AttributeID": "db86b17d-2a3c-30ee-979c-a29e5f2510b1"
+        }, 
+        {
+            "AttributeText": "limited entry", 
+            "AttributeID": "dc6c76ee-f62b-3f0c-8659-2da926e447df"
+        }, 
+        {
+            "AttributeText": "M28", 
+            "AttributeID": "dc800288-dc5f-39be-8a2c-fe571c576a06"
+        }, 
+        {
+            "AttributeText": "What is the cost of the assessment? - along with rules of thumb - e.g. if >10% of GVP, think twice.", 
+            "AttributeID": "dcf317c5-2fda-3c4c-92fb-ee720d4842e5"
+        }, 
+        {
+            "AttributeText": "R12", 
+            "AttributeID": "dd2fa8d9-d6dd-3a7e-85ff-cc1f261816ff"
+        }, 
+        {
+            "AttributeText": "A28", 
+            "AttributeID": "dea1a393-7a1a-3150-a46c-d2a25edf14cd"
+        }, 
+        {
+            "AttributeText": "Categorise the nature of the fishery, in terms of its main market. If mixed, assign the highest market level (e.g. \"commerical\" over \"intermediate\")", 
+            "AttributeID": "df27677f-ba7d-3356-91cc-ac20a7e44bd3"
+        }, 
+        {
+            "AttributeText": "Length composition", 
+            "AttributeID": "df2b70c4-6b27-3821-8a45-4d97d9bbc2f4"
+        }, 
+        {
+            "AttributeText": "Species ID, species composition,", 
+            "AttributeID": "df3bbcad-7f75-330f-a352-349f20e9eb5b"
+        }, 
+        {
+            "AttributeText": "Are biomass-based reference points meaningful? (e.g. for a boom-and-bust species, equilibrium dynamics may not be appropriate and so biomass-based reference points are not meaningful)", 
+            "AttributeID": "e011f614-66bb-36c6-9434-d76c30424962"
+        }, 
+        {
+            "AttributeText": "\u00b7\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Jurisdictional boundaries match species:  Does this refer to exploitable biomass, all biomass, including larvae?  We assumed it meant all non-larvae biomass, knowing that their will most likely always be larval dispersal outside of jurisdictional range?", 
+            "AttributeID": "e0289e54-8288-3906-9066-c4c600420a4a"
+        }, 
+        {
+            "AttributeText": "R3", 
+            "AttributeID": "e04575e8-a786-375f-87e6-2eb2d29b1297"
+        }, 
+        {
+            "AttributeText": "Are only size data and/or species composition available?", 
+            "AttributeID": "e19a95e6-c417-3744-9dc1-9fe44ab920e8"
+        }, 
+        {
+            "AttributeText": "NB a poor quality SAFE can be conducted with effort data only (FMSY may be biased). Need at least some notion of species distribution, even if indirect e.g. by habitat map. Won't tell you if overfished or when stock goes below BLIM. Only gives F-based reference point and FMSY. Enhanced SAFE uses shot-by-shot data so that can estimate both q and heterogeneity of species distribution.", 
+            "AttributeID": "e1eb2f78-5d0f-3a28-9f49-065ee7384480"
+        }, 
+        {
+            "AttributeText": "NB these are focussed on avoiding limits rather than on achieving targets; may be related to avoiding capture of vulnerable/at risk bycatch species, or related to selectivity (e.g. avoid catching juveniles). e.g. removal of seines, dredges, destrcutive gears  (remove non-selective techniques)", 
+            "AttributeID": "e23cbe8e-6024-33a7-94f4-3ea51d048b97"
+        }, 
+        {
+            "AttributeText": "R22", 
+            "AttributeID": "e27f8ec5-2326-3808-a486-2964d5bdb392"
+        }, 
+        {
+            "AttributeText": "R21", 
+            "AttributeID": "e2f318de-6aaf-387f-aef9-264b17e49c4d"
+        }, 
+        {
+            "AttributeText": "The indicators are derived from the FAO Code of Conduct for Responsible Fishing and cover ecological, technological, economic and social dimensions, and are scored by expert judgement or quantitative information. The process of application clarifies which indicators perform poorly and so which aspects of management need to be improved. To track fishery performance through time the indicators should remain fixed so that analyses are comparable (Murillas et al., 2008; Pitcher et al., 2008; Pitcher et al., 2013). The methodology could be used as a harvest strategy framework if, for example, it was used to identify a monitoring program to support future updates of the analysis, and if the indicator or integrated MDS scores were linked to specific triggered management actions.", 
+            "AttributeID": "e394f442-5f03-3fc2-b9ba-c3ffc9b79274"
+        }, 
+        {
+            "AttributeText": "M5", 
+            "AttributeID": "e411fdb6-07f5-3457-a03f-9e418d46a867"
+        }, 
+        {
+            "AttributeText": "Is there local knowledge of suitable targets for indicators? (e.g. historically, this level of catch corresponded to a \"good\" stock status, this weight is considered \"prime\", this catch rate is optimal)", 
+            "AttributeID": "e48cc3f8-6b7b-3c42-a75d-875a304f4e7e"
+        }, 
+        {
+            "AttributeText": "moderate", 
+            "AttributeID": "e4a57dc2-b4de-30b8-b466-dbf83459dfe8"
+        }, 
+        {
+            "AttributeText": "Is there a starting estimate of annual exploitation rate producing MSYat equilibrium (Umsy) IF NO", 
+            "AttributeID": "e4df507a-abcb-3451-b806-bc2839cf583b"
+        }, 
+        {
+            "AttributeText": "DCAC (MacCall)", 
+            "AttributeID": "e4e89fb1-d4a8-3e7b-ab19-bd9ff9e3a5c1"
+        }, 
+        {
+            "AttributeText": "yes, but we have areas off limits to fishing/MPAs", 
+            "AttributeID": "e521c8fb-1dfd-3121-a688-c6a917658247"
+        }, 
+        {
+            "AttributeText": "M22", 
+            "AttributeID": "e58dbb35-85e3-3c4b-9bce-59bf89e14248"
+        }, 
+        {
+            "AttributeText": "STOCK-STATUS-BASED REFERENCE POINTS", 
+            "AttributeID": "e72d29d6-14bd-3d70-af17-421e55337dd1"
+        }, 
+        {
+            "AttributeText": "Is there strong governance leadership (as distinguished from community leadship) in place to support/faciliate monitoring? (SEE ALSO COLUMN AU)", 
+            "AttributeID": "e748fc79-f503-3794-9ff3-6ebe83a9c317"
+        }, 
+        {
+            "AttributeText": "Mean length or length percentiles", 
+            "AttributeID": "e7681e4d-5f50-3bb5-a437-b2a67ecba8e1"
+        }, 
+        {
+            "AttributeText": "Low considered to be less than 50", 
+            "AttributeID": "e77c084f-35e3-3969-94bb-bfe87e320f7a"
+        }, 
+        {
+            "AttributeText": "NEW - KENYA", 
+            "AttributeID": "e7e5669b-590b-3952-88a6-8ad98d18648b"
+        }, 
+        {
+            "AttributeText": "R32", 
+            "AttributeID": "e862250c-a4fc-3a5d-b52f-8be7167a657d"
+        }, 
+        {
+            "AttributeText": "Indirect notion of temporal abundance trend", 
+            "AttributeID": "e8d459d6-7893-3da6-b035-8de38f6b3cc1"
+        }, 
+        {
+            "AttributeText": "A3", 
+            "AttributeID": "e9387f2f-9e8b-341e-b9a5-6e032bfe6a96"
+        }, 
+        {
+            "AttributeText": "Does the species exhibit determinate growth?", 
+            "AttributeID": "e97214e2-24fb-392c-9030-013e23632be4"
+        }, 
+        {
+            "AttributeText": "Is the fishery area is geographically vast relative to entire coastline or EEZ? (>X km2)", 
+            "AttributeID": "e9b7e2d4-459f-3ebc-9f68-b8fca17f34ce"
+        }, 
+        {
+            "AttributeText": "Biophysical/life history", 
+            "AttributeID": "e9d3f431-9bbf-3ca2-9d7f-bec13b228dc3"
+        }, 
+        {
+            "AttributeText": "Zhou's catch-only method (estimates MSY)", 
+            "AttributeID": "ea736aba-9b9b-3246-acb5-47b120e73176"
+        }, 
+        {
+            "AttributeText": "Do local government officials hold power over fishing regulations? ", 
+            "AttributeID": "eb83fd2b-3b40-3ec1-9ef8-49cf8843f86e"
+        }, 
+        {
+            "AttributeText": "Highly productive, short-lived (\"boom and bust\") species?", 
+            "AttributeID": "eba77496-eb87-38ef-908d-b3a4c8b1fc95"
+        }, 
+        {
+            "AttributeText": "If handled or captured and released, is survivorship compromised? (AND change answer to \"Yes/No\" rather than \"high/low\")", 
+            "AttributeID": "ebcba595-f11d-3f37-b4c7-646c6dd5196b"
+        }, 
+        {
+            "AttributeText": "IF YES", 
+            "AttributeID": "ec11bea9-cbd3-3736-a89d-bbc7403e6910"
+        }, 
+        {
+            "AttributeText": "3 Gear restrictions: managing by selectivity (gear DESIGN restrictions)", 
+            "AttributeID": "ec4efae2-81b9-3962-908b-a8e90867b80f"
+        }, 
+        {
+            "AttributeText": "M8", 
+            "AttributeID": "ec90271f-250d-39c5-81fd-5718a339f17f"
+        }, 
+        {
+            "AttributeText": "Interviews - not specific to a trip/fishing event", 
+            "AttributeID": "ec99bfd8-9bb3-3fc0-919b-e2457e1f824b"
+        }, 
+        {
+            "AttributeText": "irregular, undertaken by fishers", 
+            "AttributeID": "ee17a8a4-2a72-305b-916e-f7effebce0db"
+        }, 
+        {
+            "AttributeText": "Indices", 
+            "AttributeID": "ee40416c-8196-30a3-9555-fd9099e6490d"
+        }, 
+        {
+            "AttributeText": "Fishery independent abundance", 
+            "AttributeID": "ef1fa0a6-0b5f-3358-8a17-aec06d085604"
+        }, 
+        {
+            "AttributeText": "Is fishing opportunistic, and/or is/are there no fixed target species? (NB this is slightly different to monitoring question M29)", 
+            "AttributeID": "ef92d408-b845-3216-bca1-65c59daaa578"
+        }, 
+        {
+            "AttributeText": "Provides the size composition when fishing at the target rate, in a decision tree framework to adjust the allowable catch", 
+            "AttributeID": "ef993bed-4f5f-3249-8705-8b99ed625d57"
+        }, 
+        {
+            "AttributeText": "adjust by fixed proportions up or down (no feedback control rule)", 
+            "AttributeID": "f0ff7432-1bfa-3772-af6b-7d0e50e6900c"
+        }, 
+        {
+            "AttributeText": "size data, maturity/reproductive state, sex ratios,", 
+            "AttributeID": "f1094f82-b3ed-3eb7-a63a-37d999e31a8b"
+        }, 
+        {
+            "AttributeText": "Is the data representative of the fleet as a whole?", 
+            "AttributeID": "f10ad7ab-0261-393e-a4e0-ce58ede3f10d"
+        }, 
+        {
+            "AttributeText": "estimates MSY, abundance", 
+            "AttributeID": "f19a9328-e043-3423-b9ec-71ff6640764d"
+        }, 
+        {
+            "AttributeText": "R38", 
+            "AttributeID": "f1cfcec1-b528-3324-8be2-8ff82e260e91"
+        }, 
+        {
+            "AttributeText": "Example: for a boom-and-bust species, equilibrium dynamics may not be appropriate and so biomass-based reference points are not meaningful", 
+            "AttributeID": "f22f7856-bb1b-3189-b554-906d5e770b62"
+        }, 
+        {
+            "AttributeText": "M32", 
+            "AttributeID": "f2cdc44b-d61f-3b3d-bab9-d11dbe7b15e4"
+        }, 
+        {
+            "AttributeText": "Expand to say that this could include individual permits issued by a community organisation, as well as permits issued to a co-op", 
+            "AttributeID": "f39a9f2d-1fe9-3f51-b890-ec9a222059b1"
+        }, 
+        {
+            "AttributeText": "Does a target reference point, or proxy, exist? ", 
+            "AttributeID": "f82c0aac-9971-347a-8e9a-94a048f439c2"
+        }, 
+        {
+            "AttributeText": "Harm/no harm", 
+            "AttributeID": "f83928b8-86c4-34b4-b3b3-72f5f9419c39"
+        }, 
+        {
+            "AttributeText": "Changes in spatial distribution of effort", 
+            "AttributeID": "f869a269-cb10-3c19-9906-e78bd4c9cdfe"
+        }, 
+        {
+            "AttributeText": "Modal analysis to estimate growth rates", 
+            "AttributeID": "f87dcb2a-5913-3e13-8ad1-1b0d6f7d6f7d"
+        }, 
+        {
+            "AttributeText": "M35", 
+            "AttributeID": "f8ddba57-f8f4-3607-b3e1-1b34e319278d"
+        }, 
+        {
+            "AttributeText": "General criteria", 
+            "AttributeID": "f90985db-7f8e-3744-ad81-dfa1abc56282"
+        }, 
+        {
+            "AttributeText": "2 Effort limits (includes # days fishing/# hooks/# fishing hours) (daily, seasonal, annual) ", 
+            "AttributeID": "f91e2b35-a61c-3dc3-8443-ec78dbc37a64"
+        }, 
+        {
+            "AttributeText": "Does the species follow a boom-and-bust cycle (i.e. the species displays high volatility in its population dynamics, whereby availability is sudden, extreme and unpredictable)? (examples would include anchovies, scallops, squid)", 
+            "AttributeID": "f96ffbfe-6eac-3a71-aeed-3e96bf52a2d6"
+        }, 
+        {
+            "AttributeText": "Data availability", 
+            "AttributeID": "f98895a3-6420-38cf-be8b-cf1e3750a89c"
+        }, 
+        {
+            "AttributeText": "Is depletion-based SRA being used for assessment?", 
+            "AttributeID": "fa81a42d-b973-37dc-ac78-59403ca200e6"
+        }, 
+        {
+            "AttributeText": "Are we talking about relative GVP of that species - e.g. high value but low abundance like chita. But question is \"can you afford to invest in a monitoring program for this species?\" One of the outputs of the cost database can be directly linked to this question. Jeremy tries to bin costs into 5 categories developing on % cost of GVP. BUT it's how you define value (not just in dollar terms), PLUS for chita, for e.g., it's not that much more expensive to add one more species to the port-based sampling. Here we are harking to hard dollar afforability.", 
+            "AttributeID": "fabf302e-9b0a-3779-aa7e-291468fc3e36"
+        }, 
+        {
+            "AttributeText": "!!!!!MAKE THIS A MINIMUM DATA REQUIREMENT!! i.e. to include in \"vector matching\" exercise. ", 
+            "AttributeID": "fadbaa68-4e6e-3d82-806e-df0496a56fa5"
+        }, 
+        {
+            "AttributeText": "Does the gear intersect with threatened or vulnerable species (regardless of whether these are targeted), and/or habitat locations?", 
+            "AttributeID": "faeef97a-7826-396b-b6ae-7ab20c68dd17"
+        }, 
+        {
+            "AttributeText": "Catch-MSY (Martel and Froese 2013)", 
+            "AttributeID": "fb00646c-ce46-3bad-8703-6024d7950670"
+        }, 
+        {
+            "AttributeText": "Is the range of the fishing activity such that direct sampling is challenging?", 
+            "AttributeID": "fb080341-6848-36bb-99aa-560e38be8150"
+        }, 
+        {
+            "AttributeText": "IF NO", 
+            "AttributeID": "fb22a543-41c3-3514-92ad-498cfa28a606"
+        }, 
+        {
+            "AttributeText": "Is the number of participants low (<50)?", 
+            "AttributeID": "fb43cd9a-d6fe-318f-9399-9805e54ebbfb"
+        }, 
+        {
+            "AttributeText": "Fishery cooperation (wrt HS approach)", 
+            "AttributeID": "fb85634b-9d29-3369-b134-0b0215ba9e7d"
+        }, 
+        {
+            "AttributeText": "IF COMMUNITY", 
+            "AttributeID": "fbaf454b-bd44-3399-865d-833314d00dc8"
+        }, 
+        {
+            "AttributeText": " Fisher targeting confounds interpretation of CPUE trend as proxy for abundance. ", 
+            "AttributeID": "fc4589ff-c8e2-3065-9d38-5ba533cc106e"
+        }, 
+        {
+            "AttributeText": "Three", 
+            "AttributeID": "fc766cdc-58fd-3c90-89b9-4fcb36db626c"
+        }, 
+        {
+            "AttributeText": "R31", 
+            "AttributeID": "fcb94dbf-345b-37fd-a0d9-a8ce2cf7b6ba"
+        }, 
+        {
+            "AttributeText": "Is the nature of the fishery changing rapidly?", 
+            "AttributeID": "fcbfb4b4-d6dd-34dc-98bc-77e3c2b95e8f"
+        }, 
+        {
+            "AttributeText": "R23", 
+            "AttributeID": "fcc2b826-d553-3692-b0f3-9383257bacf2"
+        }, 
+        {
+            "AttributeText": "Spatial coverage/ spatial cooperation", 
+            "AttributeID": "fcf2cf9f-1fad-32c1-86e6-4628ebfe3110"
+        }, 
+        {
+            "AttributeText": "Effort restrictions by area (whether informed by formal assessment or not)", 
+            "AttributeID": "fd711a88-93c2-318f-bdfd-46281e04a9ec"
+        }, 
+        {
+            "AttributeText": "Is the species being actively targeted? (Y = this is required)", 
+            "AttributeID": "fdb0d128-f502-3492-bc36-749bfa46c549"
+        }, 
+        {
+            "AttributeText": "Is DCAC being used for assessment?", 
+            "AttributeID": "fddb7052-d8b9-3be5-8e04-42b985f80ae4"
+        }, 
+        {
+            "AttributeText": "reword to \"High survicorship on release?\"", 
+            "AttributeID": "fdf33475-d549-3e5a-89ed-88c8afe9fc98"
+        }, 
+        {
+            "AttributeText": "Add \"such that this has the potential to bias sampling?\"", 
+            "AttributeID": "fe668bcf-ae76-3622-b8f1-c6d6efc19052"
+        }, 
+        {
+            "AttributeText": "Number of levels of buying/distribution (re: markets) (LOW <=3, or HIGH)", 
+            "AttributeID": "fe6fed43-7bec-379c-9085-1d47c7a1fb3e"
+        }, 
+        {
+            "AttributeText": "SAFE (Zhou)", 
+            "AttributeID": "ff65b6e2-02c8-35b5-87b9-2815c33ba5dc"
+        }
+    ], 
+    "nsUuid": "5d336db0-55c2-4a28-8912-92c0c5d8512a"
+}
