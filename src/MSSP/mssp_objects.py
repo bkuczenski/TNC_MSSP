@@ -38,6 +38,8 @@ class MsspQuestion(object):
         self._yes_no_included = False
         self.satisfied_by = set()
         self.satisfies = set()  # not serialized
+        self.title = None
+        self.category = None
 
     def _update_valid_answers(self):
         """
@@ -145,6 +147,9 @@ class MsspTarget(object):
         """
         self.type = target.selector
         self.record = target.record
+
+        self.title = None
+        self.category = None
 
     @classmethod
     def from_json(cls, target):

@@ -191,6 +191,14 @@ class SemanticElementSet(object):
 
         return list(set(ind).intersection(idx))
 
+    def find_string(self, string):
+        """
+        look for direct-matching strings (not regex)
+        :param string:
+        :return:
+        """
+        return [k for k, v in self._d.items() if v.text == string]
+
     def add_element(self, text, fill_color=None):
         """
         creates a semantic element then adds it if it doesn't already exist
