@@ -133,6 +133,30 @@ class MsspDataStore(object):
             raise MsspError('Invalid record specifier %s' % record)
         return mapping.loc[mapping[key] == index, 'AttributeID'].tolist()
 
+    def _print_attributes(self, index, record='question'):
+        attr_keys = self._make_attr_list(index, record=record)
+        if record == 'question':
+            mylist = self._questions
+        elif record == 'target':
+            mylist = self._targets
+        else:
+            raise MsspError('Invalid record specifier %s' % record)
+        title = mylist[index].title
+        cat = mylist[index].category
+        exclude = []
+        if title is not None:
+            print('"%s"' % self._attributes[title])
+            exclude += [title]
+        if cat is not None:
+            print('(Category: %s)' % self._attributes[cat])
+            exclude += [cat]
+
+        for k in attr_keys:
+            if k not in exclude:
+                print('  * %s' % self._attributes[k])
+
+        return attr_keys
+
     def _color_of_cell(self, element):
         """
         Return the color encoded by the element's fill_color
@@ -198,11 +222,9 @@ class MsspDataStore(object):
         else:
             raise MsspError('Invalid record specifier %s' % record)
 
-        obj.attributes = [k for k in self._make_attr_list(index, record=record)]
+        obj.attributes = [k for k in self._print_attributes(index, record=record)]
         obj.criteria = None
         obj.caveats = None
-        for k in obj.attributes:
-            print(self._attributes[k].text)
         print(obj)
         criteria = self._criteria[self._criteria[fieldname] == index].copy()
         if len(criteria) > 0:
@@ -270,12 +292,11 @@ class MsspDataStore(object):
         """
         if question is not None:
             print('\nQuestionID %d: ' % question)
-            for a in self._make_attr_list(question):
-                print(self._attributes[a].text)
+
+            self._print_attributes(question)
         elif target is not None:
             print('\nTargetID %d: ' % target)
-            for a in self._make_attr_list(target, record='target'):
-                print(self._attributes[a].text)
+            self._print_attributes(target, record='target')
 
     def attribute(self, index):
         attr = self._attributes[index]
@@ -291,7 +312,7 @@ class MsspDataStore(object):
             index = [index]
 
         for i in index:
-            print 'AttributeID %s: %s' % (i, self._attributes[i].text)
+            print 'AttributeID %s: %s' % (i, self._attributes[i])
 
     def note(self, note_id):
         note = self._notes[note_id]
@@ -354,7 +375,7 @@ class MsspDataStore(object):
             qi = self._find_attr_map(self._question_attributes, r_index, attr)
             if sum(qi) != 0:
                 print('attribute map - %d found' % sum(qi))
-                raise MsspError('QID %d: Attribute mapping already exists (%s)' % (r_index, self._attributes[attr].text))
+                raise MsspError('QID %d: Attribute mapping already exists (%s)' % (r_index, self._attributes[attr]))
             self._question_attributes = self._question_attributes.append(
                 {
                     'AttributeID': attr,
@@ -365,7 +386,7 @@ class MsspDataStore(object):
             qi = self._find_attr_map(self._target_attributes, r_index, attr)
             if sum(qi) != 0:
                 print('attribute map - %d found' % sum(qi))
-                raise MsspError('TID %d: Attribute mapping already exists (%s)' % (r_index, self._attributes[attr].text))
+                raise MsspError('TID %d: Attribute mapping already exists (%s)' % (r_index, self._attributes[attr]))
             self._target_attributes = self._target_attributes.append(
                 {
                     'AttributeID': attr,
@@ -385,7 +406,10 @@ class MsspDataStore(object):
 
         qi = self._find_attr_map(mapping, r_index, attr)
         if sum(qi) == 1:
-            mapping = mapping[~qi]
+            if record == 'question':
+                self._question_attributes = mapping[~qi]
+            elif record == 'target':
+                self._target_attributes = mapping[~qi]
             print('Removed %d reference' % sum(qi))
         else:
             print('%d records found (0= no association; >1= something screwy' % sum(qi))
