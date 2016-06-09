@@ -49,7 +49,7 @@ class SemanticElement(object):
         return bool(re.search(string, unicode(self.text), flags=re.IGNORECASE | re.U))
 
     def __str__(self):
-        return self.text
+        return self.text or 'no text'
 
 
 class SemanticElementSet(object):
