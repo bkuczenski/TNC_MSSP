@@ -291,9 +291,14 @@ class MsspDataStore(object):
         :return:
         """
         if question is not None:
-            return self._attributes[self._questions[question].title].text
+            title = self._questions[question].title
         elif target is not None:
-            return self._attributes[self._targets[target].title].text
+            title = self._targets[target].title
+        else:
+            title = None
+        if title is None:
+            return 'no title'
+        return self._attributes[title].text
 
     def show(self, question=None, target=None):
         """
