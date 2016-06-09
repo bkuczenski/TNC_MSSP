@@ -60,6 +60,9 @@ class FisheryGuide(object):
     """
     A class for guiding a fishery manager to suitable targets by asking questions
     """
+    def name(self):
+        return os.path.splitext(os.path.basename(self._filename))[0]
+
     def get_abs_path(self, filename):
         if filename is None:
             filename = self._filename
@@ -67,7 +70,7 @@ class FisheryGuide(object):
             filename = os.path.join(defaultdir, filename)
         if os.path.isdir(filename):
             filename = os.path.join(filename, default_file)
-        return filename
+        return os.path.normpath(filename)
 
     def __init__(self, mssp_engine, filename=None):
         self._engine = mssp_engine
@@ -138,16 +141,6 @@ class FisheryGuide(object):
             for q in self._engine.caveats_for(sel):
                 print('Question ID %3d: %-30.30s "%s"' % (q, self.my_answer(q), self._engine.title(question=q)))
 
-    def show_qualifying_targets(self, sel):
-        for i in self._qualifying_targets[sel]:
-            self._engine.show(target=i)
-
-    def show_non_qualifying_targets(self, sel):
-        targets = set(self._engine.targets_for(sel)).difference(set(self._qualifying_targets[sel]))
-        for i in targets:
-            self._engine.show(target=i)
-            self.print_target_criteria(self.qualify_target(i))
-
     def print_target_criteria(self, criteria):
         for c in criteria:
             if c['Pass']:
@@ -169,7 +162,7 @@ class FisheryGuide(object):
             criteria.append({'QuestionID': k['QuestionID'],
                              'Answer': self.my_answer(k['QuestionID']),
                              'Threshold': self.my_answer(k['QuestionID'], answer=k['Threshold']),
-                             'Pass': self._answers[k['QuestionID']] >= k['Threshold']})
+                             'Pass': bool(self._answers[k['QuestionID']] >= k['Threshold'])})
         return criteria
 
     @staticmethod
@@ -201,16 +194,48 @@ class FisheryGuide(object):
                 scores[color].append({'QuestionID': k['QuestionID'],
                                       'Answer': self.my_answer(k['QuestionID']),
                                       'Note': note})
-        return scores
+        return dict(scores)
+
+    def _nonqualifying_targets(self, sel):
+        if sel not in self._qualifying_targets:
+            self.filter(sel)
+        return set(self._engine.targets_for(sel)).difference(set(self._qualifying_targets[sel]))
+
+    @staticmethod
+    def _score_profile(scores):
+        score = 0
+        if 'green' in scores:
+            score += len(scores['green'])
+        if 'orange' in scores:
+            score -= len(scores['orange'])
+        if 'yellow' in scores:
+            score -= len(scores['yellow'])
+        if 'red' in scores:
+            score -= 10*len(scores['red'])
+        return score
+
+    def _profile(self, target):
+        profile = dict(TargetID=target, Title=self._engine.title(target=target))
+        profile['Criteria'] = sorted(self.qualify_target(target), key=lambda k: k['QuestionID'])
+        profile['Pass'] = bool(all([x['Pass'] for x in profile['Criteria']]))
+        if profile['Pass']:
+            profile['Caveats'] = self.score_target(target)
+            profile['Score'] = self._score_profile(profile['Caveats'])
+        return profile
 
     def score_qualifying_targets(self, sel):
-        targets = []
+        scores = []
+        if sel not in self._qualifying_targets:
+            self.filter(sel)
         for i in self._qualifying_targets[sel]:
-            targets.append(
-                {'TargetID': i,
-                 'Criteria': self.qualify_target(i),
-                 'Caveats': self.score_target(i)})
-        return targets
+            scores.append(self._profile(i))
+        return sorted(scores, key=lambda x: x['Score'])
+
+    def score_nonqualifying_targets(self, sel):
+        scores = []
+        for i in self._nonqualifying_targets(sel):
+            scores.append(self._profile(i))
+        return scores
 
     def filter(self, sel=None):
         """
@@ -245,7 +270,6 @@ class FisheryGuide(object):
                 pass
 
         self._qualifying_targets[sel] = targets
-        self.show_qualifying_targets(sel)
 
     def refine(self, sel=None):
         if sel is None:
@@ -254,7 +278,32 @@ class FisheryGuide(object):
         for q in qs:
             if q not in self._answers:
                 self.answer(q)
-        self.score_qualifying_targets(sel)
+
+    def show_qualifying_targets(self, sel):
+        for i in self._qualifying_targets[sel]:
+            self._engine.show(target=i)
+
+    def show_non_qualifying_targets(self, sel):
+        for i in self._nonqualifying_targets(sel):
+            self._engine.show(target=i)
+            self.print_target_criteria(self.qualify_target(i))
+
+    def guide(self, sel=None):
+        """
+        Main entry function to "guide" a fishery manager to qualify and rank targets.
+        :param sel:
+        :return: a dictionary containing a score report that can be written to disk
+        """
+        if sel is None:
+            sel = get_selector()
+        self.filter(sel)
+        self.refine(sel)
+        return {
+            'FisheryGuide': self.name(),
+            'Selector': sel,
+            'QualifyingTargets': self.score_qualifying_targets(sel),
+            'NonQualifyingTargets': self.score_nonqualifying_targets(sel)
+        }
 
     def export_answers(self):
         return {
@@ -268,7 +317,7 @@ class FisheryGuide(object):
     def save_answers(self, filename=None):
         filename = self.get_abs_path(filename)
         with open(filename, 'w') as fp:
-            json.dump(self.export_answers(), fp)
+            json.dump(self.export_answers(), fp, indent=4)
         print('Answers written to %s' % filename)
         self._filename = filename
 
@@ -278,3 +327,11 @@ class FisheryGuide(object):
             j = json.load(fp)
         self.import_answers(j)
         self._filename = filename
+
+    def save_guide(self, guide, filename=None):
+        filename = self.get_abs_path(filename)
+        guide_name = self.name() + '.' + guide['Selector'].lower() + '.json'
+        filename = os.path.join(os.path.dirname(filename), guide_name)
+        with open(filename, 'w') as fp:
+            json.dump(guide, fp, indent=4)
+        print('%s guide written to %s' % (guide['Selector'], filename))

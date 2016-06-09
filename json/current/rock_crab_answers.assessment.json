@@ -1,0 +1,2358 @@
+{
+    "FisheryGuide": "rock_crab_answers", 
+    "NonQualifyingTargets": [
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 0, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 1, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 2, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 9, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - Snapshots/intermittent/<5years", 
+                    "QuestionID": 12, 
+                    "Threshold": "1 - Snapshots/intermittent/<5years", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "0 - Absent", 
+                    "QuestionID": 21, 
+                    "Threshold": "1 - Snapshots/intermittent/<5years", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "0 - Absent", 
+                    "QuestionID": 22, 
+                    "Threshold": "1 - Snapshots/intermittent/<5years", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "1 - borrowed - outside expert", 
+                    "QuestionID": 24, 
+                    "Threshold": "2 - in situ - local expert", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "2 - in situ - local expert", 
+                    "QuestionID": 25, 
+                    "Threshold": "2 - in situ - local expert", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 3, 
+            "Title": "Ecosystem risk assessment for the effects of fishing"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 0, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed - outside expert", 
+                    "QuestionID": 24, 
+                    "Threshold": "2 - in situ - local expert", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "2 - in situ - local expert", 
+                    "QuestionID": 25, 
+                    "Threshold": "2 - in situ - local expert", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "0 - absent", 
+                    "QuestionID": 26, 
+                    "Threshold": "1 - borrowed - outside expert", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "1 - borrowed - outside expert", 
+                    "QuestionID": 27, 
+                    "Threshold": "1 - borrowed - outside expert", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 4, 
+            "Title": "Comprehensive assessment of risk to ecosystems (CARE)"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "0 - Absent", 
+                    "QuestionID": 21, 
+                    "Threshold": "1 - Snapshots/intermittent/<5years", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "0 - Absent", 
+                    "QuestionID": 22, 
+                    "Threshold": "1 - Snapshots/intermittent/<5years", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "1 - borrowed - outside expert", 
+                    "QuestionID": 24, 
+                    "Threshold": "2 - in situ - local expert", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "2 - in situ - local expert", 
+                    "QuestionID": 25, 
+                    "Threshold": "2 - in situ - local expert", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "0 - absent", 
+                    "QuestionID": 26, 
+                    "Threshold": "2 - in situ - local expert", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "1 - borrowed - outside expert", 
+                    "QuestionID": 27, 
+                    "Threshold": "2 - in situ - local expert", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 5, 
+            "Title": "Ecosystem threshold analysis (coral reefs only)"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 0, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 3, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 9, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - Snapshots/intermittent/<5years", 
+                    "QuestionID": 12, 
+                    "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "1 - borrowed - outside expert", 
+                    "QuestionID": 24, 
+                    "Threshold": "1 - borrowed - outside expert", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - in situ - local expert", 
+                    "QuestionID": 25, 
+                    "Threshold": "1 - borrowed - outside expert", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - known", 
+                    "QuestionID": 39, 
+                    "Threshold": "1 - able to be inferred", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 7, 
+            "Title": "Sustainability indicators (per Cope and Punt (2009) based on Froese's size-based indicators)"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "0 - Absent", 
+                    "QuestionID": 17, 
+                    "Threshold": "1 - Snapshots/intermittent/<5years", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "2 - in situ - local expert", 
+                    "QuestionID": 25, 
+                    "Threshold": "2 - in situ - local expert", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 42, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 43, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 10, 
+            "Title": "Changes in spatial distribution of effort"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "1 - Snapshots/intermittent/<5years", 
+                    "QuestionID": 18, 
+                    "Threshold": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "2 - in situ - local expert", 
+                    "QuestionID": 25, 
+                    "Threshold": "2 - in situ - local expert", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 42, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 44, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 13, 
+            "Title": "Standardised CPUE"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 0, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 3, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - Snapshots/intermittent/<5years", 
+                    "QuestionID": 12, 
+                    "Threshold": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "1 - borrowed - outside expert", 
+                    "QuestionID": 24, 
+                    "Threshold": "1 - borrowed - outside expert", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - in situ - local expert", 
+                    "QuestionID": 25, 
+                    "Threshold": "2 - in situ - local expert", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+                    "QuestionID": 31, 
+                    "Threshold": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - known", 
+                    "QuestionID": 39, 
+                    "Threshold": "1 - able to be inferred", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 42, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 43, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 44, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 14, 
+            "Title": "Catch, CPUE by size indicators (per Froese)"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "1 - Snapshots/intermittent/<5years", 
+                    "QuestionID": 32, 
+                    "Threshold": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "2 - known", 
+                    "QuestionID": 39, 
+                    "Threshold": "1 - able to be inferred", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 42, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 15, 
+            "Title": "Changes in mean length/weight or length/weight percentiles"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "1 - Snapshots/intermittent/<5years", 
+                    "QuestionID": 18, 
+                    "Threshold": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 42, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 43, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 44, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 16, 
+            "Title": "Linear regression to recent time series of CPUE"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 0, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - Snapshots/intermittent/<5years", 
+                    "QuestionID": 18, 
+                    "Threshold": "1 - Snapshots/intermittent/<5years", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "0 - Absent", 
+                    "QuestionID": 21, 
+                    "Threshold": "1 - Snapshots/intermittent/<5years", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "0 - Absent", 
+                    "QuestionID": 22, 
+                    "Threshold": "1 - Snapshots/intermittent/<5years", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "1 - borrowed - outside expert", 
+                    "QuestionID": 24, 
+                    "Threshold": "2 - in situ - local expert", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "2 - in situ - local expert", 
+                    "QuestionID": 25, 
+                    "Threshold": "2 - in situ - local expert", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "0 - absent", 
+                    "QuestionID": 26, 
+                    "Threshold": "2 - in situ - local expert", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "high", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 19, 
+            "Title": "Ratio of density inside:outside MPAs (per Babcack and MacCall; McGilliard et al.)"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "1 - borrowed - outside expert", 
+                    "QuestionID": 24, 
+                    "Threshold": "1 - borrowed - outside expert", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - in situ - local expert", 
+                    "QuestionID": 25, 
+                    "Threshold": "2 - in situ - local expert", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "0 - Absent", 
+                    "QuestionID": 34, 
+                    "Threshold": "1 - Snapshots/intermittent/<5years", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 20, 
+            "Title": "Use of biomass surveys to inform spatial management"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "1 - Snapshots/intermittent/<5years", 
+                    "QuestionID": 12, 
+                    "Threshold": "1 - Snapshots/intermittent/<5years", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - Snapshots/intermittent/<5years", 
+                    "QuestionID": 18, 
+                    "Threshold": "1 - Snapshots/intermittent/<5years", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "0 - Absent", 
+                    "QuestionID": 21, 
+                    "Threshold": "1 - Snapshots/intermittent/<5years", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "0 - Absent", 
+                    "QuestionID": 22, 
+                    "Threshold": "1 - Snapshots/intermittent/<5years", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "high", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 21, 
+            "Title": "Size-specific catch rate indicators for fish sampled inside and outside of MPAs, and per-recuit (per Wilson)"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 0, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - Snapshots/intermittent/<5years", 
+                    "QuestionID": 12, 
+                    "Threshold": "1 - Snapshots/intermittent/<5years", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+                    "QuestionID": 16, 
+                    "Threshold": "1 - Snapshots/intermittent/<5years", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "0 - Absent", 
+                    "QuestionID": 17, 
+                    "Threshold": "1 - Snapshots/intermittent/<5years", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "1 - borrowed - outside expert", 
+                    "QuestionID": 24, 
+                    "Threshold": "2 - in situ - local expert", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "2 - in situ - local expert", 
+                    "QuestionID": 25, 
+                    "Threshold": "2 - in situ - local expert", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - known", 
+                    "QuestionID": 39, 
+                    "Threshold": "1 - able to be inferred", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 42, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 43, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 24, 
+            "Title": "RAPFISH (Multi-dimensional scaling)"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 0, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 3, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - Snapshots/intermittent/<5years", 
+                    "QuestionID": 12, 
+                    "Threshold": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "1 - borrowed - outside expert", 
+                    "QuestionID": 24, 
+                    "Threshold": "1 - borrowed - outside expert", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - in situ - local expert", 
+                    "QuestionID": 25, 
+                    "Threshold": "2 - in situ - local expert", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+                    "QuestionID": 31, 
+                    "Threshold": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 42, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 43, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 25, 
+            "Title": "Hierachical decision trees"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "0 - Absent", 
+                    "QuestionID": 17, 
+                    "Threshold": "1 - Snapshots/intermittent/<5years", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 42, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 43, 
+                    "Threshold": "spatial consistency preferred; if changes in effort together with spatial changes, this is also important", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 27, 
+            "Title": "Sequential effort triggers"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+                    "QuestionID": 16, 
+                    "Threshold": "1 - Snapshots/intermittent/<5years", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 42, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 43, 
+                    "Threshold": "spatial consistency preferred; if changes in effort together with spatial changes, this is also important", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 28, 
+            "Title": "Sequential catch triggers"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 0, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - Snapshots/intermittent/<5years", 
+                    "QuestionID": 12, 
+                    "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "2 - in situ - local expert", 
+                    "QuestionID": 25, 
+                    "Threshold": "2 - in situ - local expert", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - known", 
+                    "QuestionID": 39, 
+                    "Threshold": "1 - able to be inferred", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 30, 
+            "Title": "Modal analysis to estimate growth rates"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 0, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 4, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - Snapshots/intermittent/<5years", 
+                    "QuestionID": 12, 
+                    "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "2 - in situ - local expert", 
+                    "QuestionID": 25, 
+                    "Threshold": "2 - in situ - local expert", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - known", 
+                    "QuestionID": 39, 
+                    "Threshold": "1 - able to be inferred", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 42, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 43, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 31, 
+            "Title": "Catch curves"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 0, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 2, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 3, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 4, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 9, 
+                    "Threshold": "3 - in situ, reliable", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "1 - Snapshots/intermittent/<5years", 
+                    "QuestionID": 12, 
+                    "Threshold": "1 - Snapshots/intermittent/<5years", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - in situ - local expert", 
+                    "QuestionID": 25, 
+                    "Threshold": "2 - in situ - local expert", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - known", 
+                    "QuestionID": 39, 
+                    "Threshold": "1 - able to be inferred", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 42, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 43, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 32, 
+            "Title": "Estimate lifetime egg production per O'Farrell & Botsford"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 0, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - Snapshots/intermittent/<5years", 
+                    "QuestionID": 12, 
+                    "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "2 - in situ - local expert", 
+                    "QuestionID": 25, 
+                    "Threshold": "2 - in situ - local expert", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - known", 
+                    "QuestionID": 39, 
+                    "Threshold": "1 - able to be inferred", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 33, 
+            "Title": "Estimating F (YPR)"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+                    "QuestionID": 16, 
+                    "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "1 - borrowed - outside expert", 
+                    "QuestionID": 24, 
+                    "Threshold": "1 - borrowed - outside expert", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 36, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 42, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 43, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 44, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 35, 
+            "Title": "Zhou's catch-only method (estimates MSY)"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 0, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 2, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+                    "QuestionID": 16, 
+                    "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "1 - borrowed - outside expert", 
+                    "QuestionID": 24, 
+                    "Threshold": "2 - in situ - local expert", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 42, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 43, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 44, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate-high", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 37, 
+            "Title": "DCAC (MacCall)"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 0, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 2, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+                    "QuestionID": 16, 
+                    "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "1 - borrowed - outside expert", 
+                    "QuestionID": 24, 
+                    "Threshold": "1 - borrowed - outside expert", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - known", 
+                    "QuestionID": 39, 
+                    "Threshold": "1 - able to be inferred", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 42, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 43, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 44, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate-high", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 38, 
+            "Title": "DB-SRA"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 1, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 3, 
+                    "Threshold": "2 - in situ but poor", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "1 - Snapshots/intermittent/<5years", 
+                    "QuestionID": 12, 
+                    "Threshold": "1 - Snapshots/intermittent/<5years", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - known", 
+                    "QuestionID": 39, 
+                    "Threshold": "1 - able to be inferred", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 42, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 43, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 39, 
+            "Title": "Length-based SPR assessment (Prince and Hordyk)"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "1 - Snapshots/intermittent/<5years", 
+                    "QuestionID": 18, 
+                    "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "2 - known", 
+                    "QuestionID": 39, 
+                    "Threshold": "1 - able to be inferred", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 42, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 43, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 44, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate-high", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 40, 
+            "Title": "Production model"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 0, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 2, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 3, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3 - in situ, reliable", 
+                    "QuestionID": 7, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 9, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+                    "QuestionID": 16, 
+                    "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "2 - known", 
+                    "QuestionID": 39, 
+                    "Threshold": "1 - able to be inferred", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 42, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 43, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 44, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate-high", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 41, 
+            "Title": "Stock synthesis using only a time series of catch SS-CO (Cope 2013)"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 0, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 2, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 3, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 9, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+                    "QuestionID": 16, 
+                    "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "1 - borrowed - outside expert", 
+                    "QuestionID": 24, 
+                    "Threshold": "1 - borrowed - outside expert", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - known", 
+                    "QuestionID": 39, 
+                    "Threshold": "1 - able to be inferred", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 42, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 43, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 44, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate-high", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 42, 
+            "Title": "Stochastic SRA (User Guide Lombardi and Walters)"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+                    "QuestionID": 16, 
+                    "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "2 - known", 
+                    "QuestionID": 39, 
+                    "Threshold": "1 - able to be inferred", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 42, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 43, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 44, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate-high", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 43, 
+            "Title": "Catch-MSY (Martel and Froese 2013)"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "3 - in situ, reliable", 
+                    "QuestionID": 8, 
+                    "Threshold": "2 - in situ but poor", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 9, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - Snapshots/intermittent/<5years", 
+                    "QuestionID": 14, 
+                    "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "2 - known", 
+                    "QuestionID": 39, 
+                    "Threshold": "1 - able to be inferred", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 42, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 43, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 44, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate-high", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 45, 
+            "Title": "Mortality estimates from length data in nonequilibrium situations (Gedamke and Hoenig 2006) -see https://cran.r-project.org/web/packages/fishmethods/fishmethods.pdf"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 3, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+                    "QuestionID": 16, 
+                    "Threshold": "1 - Snapshots/intermittent/<5years", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - in situ - local expert", 
+                    "QuestionID": 25, 
+                    "Threshold": "1 - borrowed - outside expert", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 43, 
+                    "Threshold": "Y if spatial variation in size structure suspected", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 46, 
+            "Title": "Escapement: Samples of catch; ensure 30% have spawned (per squid fishery in California)"
+        }
+    ], 
+    "QualifyingTargets": [
+        {
+            "Caveats": {}, 
+            "Title": "Move directly to decision rules", 
+            "Criteria": [
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 0, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - in situ - local expert", 
+                    "QuestionID": 25, 
+                    "Threshold": "1 - borrowed - outside expert", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 0, 
+            "Score": 0, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {}, 
+            "Title": "Discourse/expert judgement", 
+            "Criteria": [
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 0, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - in situ - local expert", 
+                    "QuestionID": 25, 
+                    "Threshold": "2 - in situ - local expert", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 1, 
+            "Score": 0, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {}, 
+            "Title": "Corral/explore data via descriptive statistics", 
+            "Criteria": [
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 0, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - in situ - local expert", 
+                    "QuestionID": 25, 
+                    "Threshold": "2 - in situ - local expert", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+                    "QuestionID": 30, 
+                    "Threshold": "1 - Snapshots/intermittent/<5years", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 2, 
+            "Score": 0, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "None": [
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 46, 
+                        "Note": "N"
+                    }, 
+                    {
+                        "Answer": null, 
+                        "QuestionID": 47, 
+                        "Note": "If these can be articulated, can expand magnitude of uncertainty in assessment (e.g. on life history parameters)"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 53, 
+                        "Note": "May not work with a low number of participants"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 56, 
+                        "Note": "requires a broad categorical classification of stock abundance; requires a perceived level of stock \u201crisk\u201d. "
+                    }
+                ]
+            }, 
+            "Title": "ORCS (Only Reliable Catch Series)", 
+            "Criteria": [
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 0, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+                    "QuestionID": 16, 
+                    "Threshold": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed - outside expert", 
+                    "QuestionID": 24, 
+                    "Threshold": "1 - borrowed - outside expert", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 42, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 43, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 44, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate-high", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 36, 
+            "Score": 0, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {}, 
+            "Title": "PSA to estimate risk of overfishing", 
+            "Criteria": [
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 0, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 1, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 2, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 3, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 9, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed - outside expert", 
+                    "QuestionID": 24, 
+                    "Threshold": "1 - borrowed - outside expert", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - in situ - local expert", 
+                    "QuestionID": 25, 
+                    "Threshold": "1 - borrowed - outside expert", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+                    "QuestionID": 30, 
+                    "Threshold": "1 - Snapshots/intermittent/<5years", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 6, 
+            "Score": 0, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "None": [
+                    {
+                        "Answer": null, 
+                        "QuestionID": 47, 
+                        "Note": "Caution if these affect the fishery in a spatially/temporally varying manner"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 64, 
+                        "Note": "Helpful if so"
+                    }
+                ]
+            }, 
+            "Title": "Change of dominant species", 
+            "Criteria": [
+                {
+                    "Answer": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+                    "QuestionID": 11, 
+                    "Threshold": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 42, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 43, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 8, 
+            "Score": 0, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "None": [
+                    {
+                        "Answer": null, 
+                        "QuestionID": 47, 
+                        "Note": "Caution if these affect the fishery in a spatially/temporally varying manner"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 64, 
+                        "Note": "Helpful if so"
+                    }
+                ]
+            }, 
+            "Title": "Change in species composition ratios", 
+            "Criteria": [
+                {
+                    "Answer": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+                    "QuestionID": 11, 
+                    "Threshold": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 42, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 43, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 9, 
+            "Score": 0, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "None": [
+                    {
+                        "Answer": null, 
+                        "QuestionID": 47, 
+                        "Note": "Caution if these affect the fishery in a spatially/temporally varying manner"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 64, 
+                        "Note": "Helpful if so"
+                    }
+                ]
+            }, 
+            "Title": "Changes in spatial distribution of catch", 
+            "Criteria": [
+                {
+                    "Answer": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+                    "QuestionID": 16, 
+                    "Threshold": "1 - Snapshots/intermittent/<5years", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - in situ - local expert", 
+                    "QuestionID": 25, 
+                    "Threshold": "2 - in situ - local expert", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 42, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 43, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 11, 
+            "Score": 0, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "None": [
+                    {
+                        "Answer": null, 
+                        "QuestionID": 47, 
+                        "Note": "Caution if these affect the fishery in a spatially/temporally varying manner"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 64, 
+                        "Note": "Helpful if so"
+                    }
+                ]
+            }, 
+            "Title": "Changes in gear type or manner of deployment", 
+            "Criteria": [
+                {
+                    "Answer": "2 - in situ - local expert", 
+                    "QuestionID": 25, 
+                    "Threshold": "2 - in situ - local expert", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 42, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 43, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 12, 
+            "Score": 0, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "None": [
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 46, 
+                        "Note": "N"
+                    }, 
+                    {
+                        "Answer": null, 
+                        "QuestionID": 47, 
+                        "Note": "If these can be articulated, can expand magnitude of uncertainty in assessment (e.g. on life history parameters)"
+                    }
+                ]
+            }, 
+            "Title": "SAFE (Zhou)", 
+            "Criteria": [
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 0, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 2, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 9, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+                    "QuestionID": 35, 
+                    "Threshold": "1 - Snapshots/intermittent/<5years", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 42, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 43, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 34, 
+            "Score": 0, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "None": [
+                    {
+                        "Answer": null, 
+                        "QuestionID": 47, 
+                        "Note": "If these can be articulated, can expand magnitude of uncertainty in assessment (e.g. on life history parameters)"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 56, 
+                        "Note": "Requires some estimate of virgin recruitment"
+                    }
+                ]
+            }, 
+            "Title": "Feasible stock trajectories (Bentley and Langley 2012; Can J.)", 
+            "Criteria": [
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 0, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 2, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 3, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 5, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 6, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3 - in situ, reliable", 
+                    "QuestionID": 7, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 9, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+                    "QuestionID": 16, 
+                    "Threshold": "1 - Snapshots/intermittent/<5years", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - borrowed - outside expert", 
+                    "QuestionID": 24, 
+                    "Threshold": "1 - borrowed - outside expert", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - known", 
+                    "QuestionID": 39, 
+                    "Threshold": "1 - able to be inferred", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 42, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 43, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 44, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "high", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 44, 
+            "Score": 0, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {}, 
+            "Title": "Catch-based method for classifying stock status (Hilborn 2014 - Nature)", 
+            "Criteria": [], 
+            "TargetID": 48, 
+            "Score": 0, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "None": [
+                    {
+                        "Answer": null, 
+                        "QuestionID": 47, 
+                        "Note": "Caution if these affect the fishery in a spatially/temporally varying manner"
+                    }
+                ]
+            }, 
+            "Title": "Depletion analysis", 
+            "Criteria": [
+                {
+                    "Answer": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+                    "QuestionID": 16, 
+                    "Threshold": "1 - Snapshots/intermittent/<5years", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - Snapshots/intermittent/<5years", 
+                    "QuestionID": 18, 
+                    "Threshold": "1 - Snapshots/intermittent/<5years", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 42, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 43, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 44, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "high (due to intensive within-season updating)", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 17, 
+            "Score": 0, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {}, 
+            "Title": "Size relative to size at maturity", 
+            "Criteria": [
+                {
+                    "Answer": "1 - borrowed", 
+                    "QuestionID": 3, 
+                    "Threshold": "1 - borrowed", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "1 - Snapshots/intermittent/<5years", 
+                    "QuestionID": 33, 
+                    "Threshold": "1 - Snapshots/intermittent/<5years", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - known", 
+                    "QuestionID": 39, 
+                    "Threshold": "1 - able to be inferred", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 42, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 18, 
+            "Score": 0, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "None": [
+                    {
+                        "Answer": null, 
+                        "QuestionID": 47, 
+                        "Note": "Caution if these affect the fishery in a spatially/temporally varying manner"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 53, 
+                        "Note": "May not work with a low number of participants. \n"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 64, 
+                        "Note": "Helpful if so"
+                    }
+                ]
+            }, 
+            "Title": "CUSUM Control Charts", 
+            "Criteria": [
+                {
+                    "Answer": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+                    "QuestionID": 30, 
+                    "Threshold": "1 - Snapshots/intermittent/<5years", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 42, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 43, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 44, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 22, 
+            "Score": 0, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "None": [
+                    {
+                        "Answer": null, 
+                        "QuestionID": 47, 
+                        "Note": "Caution if these affect the fishery in a spatially/temporally varying manner"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 64, 
+                        "Note": "Helpful if so"
+                    }
+                ]
+            }, 
+            "Title": "Traffic lights", 
+            "Criteria": [
+                {
+                    "Answer": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+                    "QuestionID": 30, 
+                    "Threshold": "1 - Snapshots/intermittent/<5years", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 42, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 43, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 23, 
+            "Score": 0, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "None": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 64, 
+                        "Note": "Helpful if so"
+                    }
+                ]
+            }, 
+            "Title": "Size-based sequential trigger system", 
+            "Criteria": [
+                {
+                    "Answer": "1 - Snapshots/intermittent/<5years", 
+                    "QuestionID": 32, 
+                    "Threshold": "1 - Snapshots/intermittent/<5years", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "2 - known", 
+                    "QuestionID": 39, 
+                    "Threshold": "1 - able to be inferred", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 42, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 26, 
+            "Score": 0, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "None": [
+                    {
+                        "Answer": null, 
+                        "QuestionID": 47, 
+                        "Note": "Caution if these affect the fishery in a spatially/temporally varying manner"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 64, 
+                        "Note": "Helpful if so"
+                    }
+                ]
+            }, 
+            "Title": "Sequential trigger framework involving catch and/or effort, CPUE, size, sex ratio etc.", 
+            "Criteria": [
+                {
+                    "Answer": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+                    "QuestionID": 30, 
+                    "Threshold": "1 - Snapshots/intermittent/<5years", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 42, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 43, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Yes", 
+                    "QuestionID": 44, 
+                    "Threshold": "Yes", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 29, 
+            "Score": 0, 
+            "Pass": true
+        }
+    ], 
+    "Selector": "Assessment"
+}
