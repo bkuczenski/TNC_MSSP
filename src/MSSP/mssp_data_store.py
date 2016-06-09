@@ -283,6 +283,18 @@ class MsspDataStore(object):
             index = [index]
         return [self._targets[i] for i in index]
 
+    def title(self, question=None, target=None):
+        """
+
+        :param question:
+        :param target:
+        :return:
+        """
+        if question is not None:
+            return self._attributes[self._questions[question].title].text
+        elif target is not None:
+            return self._attributes[self._targets[target].title].text
+
     def show(self, question=None, target=None):
         """
         Print a record's attributes

@@ -3,9 +3,14 @@
 """
 
 from __future__ import print_function
-from MSSP.utils import ifinput
+from MSSP.utils import ifinput, defaultdir
 from MSSP import selectors
 from collections import defaultdict
+import os
+import json
+
+
+default_file = 'fishery_guide_answers.json'
 
 
 def get_answer_value(valid_answers, cur=None):
@@ -47,7 +52,7 @@ def get_selector():
         choice = raw_input('Enter choice: ').lower()
         sels = [k for k in selectors if k[0].lower() == choice]
         if len(sels) == 1:
-            sel=sels[0]
+            sel = sels[0]
     return sel
 
 
@@ -55,11 +60,23 @@ class FisheryGuide(object):
     """
     A class for guiding a fishery manager to suitable targets by asking questions
     """
+    def get_abs_path(self, filename):
+        if filename is None:
+            filename = self._filename
+        elif not os.path.isabs(filename):
+            filename = os.path.join(defaultdir, filename)
+        if os.path.isdir(filename):
+            filename = os.path.join(filename, default_file)
+        return filename
 
-    def __init__(self, mssp_engine):
+    def __init__(self, mssp_engine, filename=None):
         self._engine = mssp_engine
         self._answers = dict()  # we want to use UUIDs someday
         self._qualifying_targets = dict()
+
+        if filename is None:
+            filename = defaultdir
+        self._filename = self.get_abs_path(filename)
 
     def answer(self, question):
         """
@@ -97,13 +114,29 @@ class FisheryGuide(object):
             self._answers[question] = choice
 
         print('QuestionID %d: answered %s\n' % (question,
-                                              q.valid_answers[self._answers[question]]))
+                                                q.valid_answers[self._answers[question]]))
 
     def my_answer(self, question, answer=None):
         if answer is None:
-            return self._engine.questions(question)[0].valid_answers[self._answers[question]]
+            if question in self._answers:
+                return self._engine.questions(question)[0].valid_answers[self._answers[question]]
+            else:
+                return '--'
         else:
             return self._engine.questions(question)[0].valid_answers[answer]
+
+    def show_answers(self, sel=None):
+        if sel is None:
+            for k in ('Monitoring', 'Assessment', 'ControlRules'):
+                self.show_answers(sel=k)
+        else:
+            print(sel)
+            print('Criteria:')
+            for q in self._engine.criteria_for(sel):
+                print('Question ID %3d: %-30.30s "%s"' % (q, self.my_answer(q), self._engine.title(question=q)))
+            print('\nCaveats:')
+            for q in self._engine.caveats_for(sel):
+                print('Question ID %3d: %-30.30s "%s"' % (q, self.my_answer(q), self._engine.title(question=q)))
 
     def show_qualifying_targets(self, sel):
         for i in self._qualifying_targets[sel]:
@@ -113,33 +146,78 @@ class FisheryGuide(object):
         targets = set(self._engine.targets_for(sel)).difference(set(self._qualifying_targets[sel]))
         for i in targets:
             self._engine.show(target=i)
-            print('Fails on:')
-            cri = self._engine.criteria_for_target(i)
-            for k, c in cri.iterrows():
-                if c['Threshold'] > self._answers[c['QuestionID']]:
-                    print('  Question ID %d [%s < %s]' % (c['QuestionID'], self.my_answer(c['QuestionID']),
-                                                          self.my_answer(c['QuestionID'], c['Threshold'])))
+            self.print_target_criteria(self.qualify_target(i))
+
+    def print_target_criteria(self, criteria):
+        for c in criteria:
+            if c['Pass']:
+                print(' pass  - Question ID %3d [%s >= %s]' % (c['QuestionID'], self.my_answer(c['QuestionID']),
+                      c['Threshold']))
+            else:
+                print('(FAIL) - Question ID %3d [%s < %s]' % (c['QuestionID'], self.my_answer(c['QuestionID']),
+                      c['Threshold']))
+
+    def qualify_target(self, target):
+        """
+
+        :param target:
+        :return: a list of dicts for criteria, with keys: 'QuestionID', 'Answer', 'Threshold', 'Pass'
+        """
+        cri = self._engine.criteria_for_target(target)
+        criteria = []
+        for i, k in cri.iterrows():
+            criteria.append({'QuestionID': k['QuestionID'],
+                             'Answer': self.my_answer(k['QuestionID']),
+                             'Threshold': self.my_answer(k['QuestionID'], answer=k['Threshold']),
+                             'Pass': self._answers[k['QuestionID']] >= k['Threshold']})
+        return criteria
+
+    @staticmethod
+    def print_target_score(scores):
+        """
+
+        :param scores: a dict of color keys containing lists of 'QuestionID', 'Answer', 'Note' dicts
+        :return:
+        """
+        for color in scores:
+            print('\n[* %s *]: %d notes' % (color, len(scores[color])))
+            for n in scores[color]:
+                print('   Question ID %d [%s]: %s' % (n['QuestionID'],
+                                                      n['Answer'],
+                                                      n['Note']))
 
     def score_target(self, target):
-        self._engine.show(target=target)
+        """
+
+        :param target:
+        :return: a dict of color keys containing lists of dicts for notes having that color, with keys
+         'QuestionID', 'Answer', 'Note'
+        """
         cavs = self._engine.caveats_for_target(target)
         scores = defaultdict(list)
         for i, k in cavs.iterrows():
             if k['Answer'] == self._answers[k['QuestionID']]:
                 note, color = self._engine.note(k['NoteID'])
-                scores[color].append('Question ID %d [%s]: %s' % (k['QuestionID'],
-                                                                  self.my_answer(k['QuestionID']),
-                                                                  note))
-        for colors in scores:
-            print('\n%s: %d notes' % (colors, len(scores[colors])))
-            for n in scores[colors]:
-                print('  %s' % n)
+                scores[color].append({'QuestionID': k['QuestionID'],
+                                      'Answer': self.my_answer(k['QuestionID']),
+                                      'Note': note})
+        return scores
 
     def score_qualifying_targets(self, sel):
+        targets = []
         for i in self._qualifying_targets[sel]:
-            self.score_target(i)
+            targets.append(
+                {'TargetID': i,
+                 'Criteria': self.qualify_target(i),
+                 'Caveats': self.score_target(i)})
+        return targets
 
     def filter(self, sel=None):
+        """
+
+        :param sel:
+        :return:
+        """
         if sel is None:
             sel = get_selector()
         qs = self._engine.criteria_for(sel)
@@ -147,8 +225,25 @@ class FisheryGuide(object):
         for q in qs:
             if q not in self._answers:
                 self.answer(q)
-            q_targets = set(self._engine.criteria(q, answer=self.my_answer(q)).index.tolist())
-            targets = targets.intersection(q_targets)
+            t_pass = set(self._engine.criteria(q, answer=self.my_answer(q)).index.tolist())
+            if sel == 'Monitoring':
+                """
+                for monitoring, every criterion is evaluated for every target; target must pass all
+                solution set is the intersection of all passing sets
+                """
+                targets = targets.intersection(t_pass)
+            elif sel == 'Assessment':
+                """
+                for assessment, criteria only apply to certain targets- the ones that fail are
+                the set difference between all linked targets and all passing targets.
+                that set difference is excluded from the solution set.
+                """
+                t_fail = set(self._engine.criteria(q).index.tolist()).difference(t_pass)
+                targets = targets.difference(t_fail)
+            elif sel == 'ControlRules':
+                # no criteria for control_rules - all targets pass
+                pass
+
         self._qualifying_targets[sel] = targets
         self.show_qualifying_targets(sel)
 
@@ -161,14 +256,25 @@ class FisheryGuide(object):
                 self.answer(q)
         self.score_qualifying_targets(sel)
 
-    def save_answers(self):
+    def export_answers(self):
         return {
             "answers": [{'QuestionID': k, 'Answer': v} for k, v in self._answers.items()]
         }
 
-    def load_answers(self, json_in):
+    def import_answers(self, json_in):
         for a in json_in['answers']:
             self._answers[int(a['QuestionID'])] = int(a['Answer'])
 
+    def save_answers(self, filename=None):
+        filename = self.get_abs_path(filename)
+        with open(filename, 'w') as fp:
+            json.dump(self.export_answers(), fp)
+        print('Answers written to %s' % filename)
+        self._filename = filename
 
-
+    def load_answers(self, filename=None):
+        filename = self.get_abs_path(filename)
+        with open(filename, 'r') as fp:
+            j = json.load(fp)
+        self.import_answers(j)
+        self._filename = filename
