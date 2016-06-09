@@ -1,0 +1,3590 @@
+{
+    "FisheryGuide": "rock_crab_answers", 
+    "NonQualifyingTargets": [
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "high", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "moderate-high", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "2", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "high", 
+                    "Pass": false
+                }
+            ], 
+            "TargetID": 139, 
+            "Title": "Observers - industrial or high-artisinal on-board"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "high", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "moderate-high", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "2", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "high", 
+                    "Pass": false
+                }
+            ], 
+            "TargetID": 140, 
+            "Title": "Observers - industrial or high-artisinal on-board"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "high", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "moderate-high", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "2", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "high", 
+                    "Pass": false
+                }
+            ], 
+            "TargetID": 141, 
+            "Title": "Observers - industrial or high-artisinal on-board"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "high", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "high", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "2", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "high", 
+                    "Pass": false
+                }
+            ], 
+            "TargetID": 142, 
+            "Title": "Observers - industrial or high-artisinal on-board"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal - subsistance and local markets only", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "4", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 118, 
+            "Title": "Independent surveys (could include one-offs, pre-seasons, annual, monitoring on reserves) (i.e. visual surveys, charters, independent RVs)"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal - subsistance and local markets only", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "4", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 119, 
+            "Title": "Independent surveys (could include one-offs, pre-seasons, annual, monitoring on reserves) (i.e. visual surveys, charters, independent RVs)"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal - subsistance and local markets only", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "4", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 120, 
+            "Title": "Independent surveys (could include one-offs, pre-seasons, annual, monitoring on reserves) (i.e. visual surveys, charters, independent RVs)"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal - subsistance and local markets only", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "4", 
+                    "Pass": false
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 121, 
+            "Title": "Independent surveys (could include one-offs, pre-seasons, annual, monitoring on reserves) (i.e. visual surveys, charters, independent RVs)"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "high", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "high", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "2", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "high", 
+                    "Pass": false
+                }
+            ], 
+            "TargetID": 124, 
+            "Title": "Independent surveys (could include one-offs, pre-seasons, annual, monitoring on reserves) (i.e. visual surveys, charters, independent RVs)"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "high", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "high", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "2", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "high", 
+                    "Pass": false
+                }
+            ], 
+            "TargetID": 125, 
+            "Title": "Independent surveys (could include one-offs, pre-seasons, annual, monitoring on reserves) (i.e. visual surveys, charters, independent RVs)"
+        }, 
+        {
+            "Pass": false, 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "high", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "2", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "high", 
+                    "Pass": false
+                }
+            ], 
+            "TargetID": 126, 
+            "Title": "Automated information gathering (e.g. VMS or cool proxies; cameras)"
+        }
+    ], 
+    "QualifyingTargets": [
+        {
+            "Caveats": {
+                "orange": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 161, 
+                        "Note": "Unlikely to be representative"
+                    }
+                ], 
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 153, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 156, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 157, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 158, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "IF ENFORCED, AND RESPECTED", 
+                        "QuestionID": 159, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 163, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 164, 
+                        "Note": "Easier to facilitate for smaller fishing area"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 187, 
+                        "Note": "May be more representative than having good coverage but only across part of the fleet/fishery range"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Regional, State, or National", 
+                        "QuestionID": 152, 
+                        "Note": "Easier if community-based"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 166, 
+                        "Note": "Status estimates not based on entire stock; biomass-based reference points may not be meaningful"
+                    }, 
+                    {
+                        "Answer": null, 
+                        "QuestionID": 174, 
+                        "Note": "?Operator error; cost of designing may be high (if expect to be effective) - or use with caution; ; motivation from buyers (and e.g. for export approval, RFMO affiliation)"
+                    }
+                ], 
+                "red": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 170, 
+                        "Note": "May not be representative"
+                    }
+                ]
+            }, 
+            "Title": "Snapshot data gathering - fishery dependent info (e.g. student sampling; (creel) port-sampling)", 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal - subsistance and local markets only", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "moderate (NB less expensive if industry/company chartered, or via academia)", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "2", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 116, 
+            "Score": -7, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 153, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 156, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 157, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 158, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "IF ENFORCED, AND RESPECTED", 
+                        "QuestionID": 159, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 163, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 164, 
+                        "Note": "Easier to facilitate for smaller fishing area"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 187, 
+                        "Note": "May be more representative than having good coverage but only across part of the fleet/fishery range"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": "Regional, State, or National", 
+                        "QuestionID": 152, 
+                        "Note": "Easier if community-based"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 161, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": null, 
+                        "QuestionID": 174, 
+                        "Note": "?Operator error; cost of designing may be high (if expect to be effective) - or use with caution; ; motivation from buyers (and e.g. for export approval, RFMO affiliation)"
+                    }
+                ], 
+                "red": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 170, 
+                        "Note": "May not be representative"
+                    }
+                ]
+            }, 
+            "Title": "Snapshot data gathering - fishery dependent info (e.g. student sampling; (creel) port-sampling)", 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal - subsistance and local markets only", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "moderate (NB less expensive if industry/company chartered, or via academia)", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "2", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 114, 
+            "Score": -6, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "orange": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 161, 
+                        "Note": "Unlikely to be representative"
+                    }
+                ], 
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 153, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 156, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 157, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 158, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "IF ENFORCED, AND RESPECTED", 
+                        "QuestionID": 159, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 163, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 164, 
+                        "Note": "Easier to facilitate for smaller fishing area"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 187, 
+                        "Note": "May be more representative than having good coverage but only across part of the fleet/fishery range"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Regional, State, or National", 
+                        "QuestionID": 152, 
+                        "Note": "Easier if community-based"
+                    }, 
+                    {
+                        "Answer": null, 
+                        "QuestionID": 174, 
+                        "Note": "?Operator error; cost of designing may be high (if expect to be effective) - or use with caution; ; motivation from buyers (and e.g. for export approval, RFMO affiliation)"
+                    }
+                ], 
+                "red": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 170, 
+                        "Note": "May not be representative"
+                    }
+                ]
+            }, 
+            "Title": "Snapshot data gathering - fishery dependent info (e.g. student sampling; (creel) port-sampling)", 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal - subsistance and local markets only", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "moderate (NB less expensive if industry/company chartered, or via academia)", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "2", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 115, 
+            "Score": -6, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 163, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 187, 
+                        "Note": "May be more representative than having good coverage but only across part of the fleet/fishery range"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": "Regional, State, or National", 
+                        "QuestionID": 152, 
+                        "Note": "Easier if community-based"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 161, 
+                        "Note": "May not be representative if biology thought to be temporally variable"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 166, 
+                        "Note": "May not be representative of entire stock"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 170, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": null, 
+                        "QuestionID": 174, 
+                        "Note": "Indirect information; marketed component of catch only; possible size selection due to discarding prior to display in market"
+                    }
+                ]
+            }, 
+            "Title": "Market surveys", 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "subsistence", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "1", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 100, 
+            "Score": -4, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "orange": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 170, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": null, 
+                        "QuestionID": 174, 
+                        "Note": "Indirect information; marketed component of catch only; possible size selection due to discarding prior to display in market"
+                    }
+                ], 
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 163, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 187, 
+                        "Note": "May be more representative than having good coverage but only across part of the fleet/fishery range"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Regional, State, or National", 
+                        "QuestionID": 152, 
+                        "Note": "Easier if community-based"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 161, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 166, 
+                        "Note": "Status estimates not based on entire stock; biomass-based reference points may not be meaningful"
+                    }
+                ]
+            }, 
+            "Title": "Market surveys", 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "subsistence", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "1", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 101, 
+            "Score": -4, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 163, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 187, 
+                        "Note": "May be more representative than having good coverage but only across part of the fleet/fishery range"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": "Regional, State, or National", 
+                        "QuestionID": 152, 
+                        "Note": "Easier if community-based"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 161, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 170, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": null, 
+                        "QuestionID": 174, 
+                        "Note": "Indirect information; marketed component of catch only; possible size selection due to discarding prior to display in market"
+                    }
+                ]
+            }, 
+            "Title": "Market surveys", 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "subsistence", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "1", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 99, 
+            "Score": -3, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 163, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 187, 
+                        "Note": "May be more representative than having good coverage but only across part of the fleet/fishery range"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Regional, State, or National", 
+                        "QuestionID": 152, 
+                        "Note": "Easier if community-based"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 161, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 170, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": null, 
+                        "QuestionID": 174, 
+                        "Note": "Indirect information; marketed component of catch only; possible size selection due to discarding prior to display in market"
+                    }
+                ]
+            }, 
+            "Title": "Market surveys", 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "subsistence", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "1", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 98, 
+            "Score": -2, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "orange": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "May not be representative"
+                    }
+                ], 
+                "None": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 163, 
+                        "Note": "Assumption that CDRs are continuous"
+                    }
+                ], 
+                "green": [
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 161, 
+                        "Note": "Assumption that CDRs are continuous"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 187, 
+                        "Note": "May be more representative than having good coverage but only across part of the fleet/fishery range"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 166, 
+                        "Note": "Status estimates not based on entire stock; biomass-based reference points may not be meaningful"
+                    }, 
+                    {
+                        "Answer": null, 
+                        "QuestionID": 174, 
+                        "Note": "Requires database infrastructure and capability; potential for misreporting (especially for fisheries with low cooperation/subsistence/low GVP/low research capacity); ? Potential to work well if done in a capacity building context with external capacity (also technological developments - e.g. tablets); Accuracy can be improved by tying data reporting requirement to secure catch right as a responsibility in return for the right (e.g., area license to fish in a TURF, or catch share)"
+                    }
+                ]
+            }, 
+            "Title": "Catch disposal records/sales docket/traceability", 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "1", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 138, 
+            "Score": -1, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 153, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 156, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 163, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 187, 
+                        "Note": "May be more representative than having good coverage but only across part of the fleet/fishery range"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 161, 
+                        "Note": "May not be representative if biology thought to be temporally variable"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 166, 
+                        "Note": "May not be representative of entire stock"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 170, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": null, 
+                        "QuestionID": 174, 
+                        "Note": "Motivation from buyers (and e.g. for export approval, chain of custody, RFMO affiliation)"
+                    }
+                ]
+            }, 
+            "Title": "Processor monitoring by trained enumerators", 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal - subsistance and local markets only", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "1", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 108, 
+            "Score": -1, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "orange": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 170, 
+                        "Note": "May not be representative"
+                    }
+                ], 
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 153, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 156, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 163, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 187, 
+                        "Note": "May be more representative than having good coverage but only across part of the fleet/fishery range"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 161, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 166, 
+                        "Note": "Status estimates not based on entire stock; biomass-based reference points may not be meaningful"
+                    }, 
+                    {
+                        "Answer": null, 
+                        "QuestionID": 174, 
+                        "Note": "Motivation from buyers (and e.g. for export approval, chain of custody, RFMO affiliation)"
+                    }
+                ]
+            }, 
+            "Title": "Processor monitoring by trained enumerators", 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal - subsistance and local markets only", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "1", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 109, 
+            "Score": -1, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "None": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 163, 
+                        "Note": "Assumption that CDRs are continuous"
+                    }
+                ], 
+                "green": [
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 161, 
+                        "Note": "Assumption that CDRs are continuous"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 187, 
+                        "Note": "May be more representative than having good coverage but only across part of the fleet/fishery range"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 166, 
+                        "Note": "May not be representative of entire stock"
+                    }, 
+                    {
+                        "Answer": null, 
+                        "QuestionID": 174, 
+                        "Note": "Requires database infrastructure and capability; potential for misreporting (especially for fisheries with low cooperation/subsistence/low GVP/low research capacity); ? Potential to work well if done in a capacity building context with external capacity (also technological developments - e.g. tablets); Accuracy can be improved by tying data reporting requirement to secure catch right as a responsibility in return for the right (e.g., area license to fish in a TURF, or catch share)"
+                    }
+                ]
+            }, 
+            "Title": "Catch disposal records/sales docket/traceability", 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "1", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 137, 
+            "Score": 0, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 153, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 156, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 163, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 187, 
+                        "Note": "May be more representative than having good coverage but only across part of the fleet/fishery range"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 161, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 170, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": null, 
+                        "QuestionID": 174, 
+                        "Note": "Motivation from buyers (and e.g. for export approval, chain of custody, RFMO affiliation)"
+                    }
+                ]
+            }, 
+            "Title": "Processor monitoring by trained enumerators", 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal - subsistance and local markets only", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "1", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 107, 
+            "Score": 0, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "orange": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 170, 
+                        "Note": "May not be representative"
+                    }
+                ], 
+                "green": [
+                    {
+                        "Answer": "Regional, State, or National", 
+                        "QuestionID": 152, 
+                        "Note": "Easier if at least at regional level"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 153, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 163, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 164, 
+                        "Note": "Easier to facilitate for smaller fishing area"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 161, 
+                        "Note": "May not be representative if biology thought to be temporally variable"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 166, 
+                        "Note": "May not be representative of entire stock"
+                    }, 
+                    {
+                        "Answer": null, 
+                        "QuestionID": 174, 
+                        "Note": "provides no fishery dependent information; selectivity may be different to that of fishing fleet"
+                    }
+                ]
+            }, 
+            "Title": "Independent surveys (could include one-offs, pre-seasons, annual, monitoring on reserves) (i.e. visual surveys, charters, independent RVs)", 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate-high", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "2", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "moderate-high", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 122, 
+            "Score": 0, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "orange": [
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 161, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 170, 
+                        "Note": "May not be representative"
+                    }
+                ], 
+                "green": [
+                    {
+                        "Answer": "Regional, State, or National", 
+                        "QuestionID": 152, 
+                        "Note": "Easier if at least at regional level"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 153, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 163, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 164, 
+                        "Note": "Easier to facilitate for smaller fishing area"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 166, 
+                        "Note": "Status estimates not based on entire stock; biomass-based reference points may not be meaningful"
+                    }, 
+                    {
+                        "Answer": null, 
+                        "QuestionID": 174, 
+                        "Note": "provides no fishery dependent information; selectivity may be different to that of fishing fleet"
+                    }
+                ]
+            }, 
+            "Title": "Independent surveys (could include one-offs, pre-seasons, annual, monitoring on reserves) (i.e. visual surveys, charters, independent RVs)", 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate-high", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "moderate-high", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "2", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "moderate-high", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 123, 
+            "Score": 0, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "None": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 163, 
+                        "Note": "Assumption that CDRs are continuous"
+                    }
+                ], 
+                "green": [
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 161, 
+                        "Note": "Assumption that CDRs are continuous"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 187, 
+                        "Note": "May be more representative than having good coverage but only across part of the fleet/fishery range"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": null, 
+                        "QuestionID": 174, 
+                        "Note": "Requires database infrastructure and capability; potential for misreporting (especially for fisheries with low cooperation/subsistence/low GVP/low research capacity); ? Potential to work well if done in a capacity building context with external capacity (also technological developments - e.g. tablets); Accuracy can be improved by tying data reporting requirement to secure catch right as a responsibility in return for the right (e.g., area license to fish in a TURF, or catch share)"
+                    }
+                ]
+            }, 
+            "Title": "Catch disposal records/sales docket/traceability", 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "1", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 135, 
+            "Score": 1, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "None": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 163, 
+                        "Note": "Assumption that CDRs are continuous"
+                    }
+                ], 
+                "green": [
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 161, 
+                        "Note": "Assumption that CDRs are continuous"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 187, 
+                        "Note": "May be more representative than having good coverage but only across part of the fleet/fishery range"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": null, 
+                        "QuestionID": 174, 
+                        "Note": "Requires database infrastructure and capability; potential for misreporting (especially for fisheries with low cooperation/subsistence/low GVP/low research capacity); ? Potential to work well if done in a capacity building context with external capacity (also technological developments - e.g. tablets); Accuracy can be improved by tying data reporting requirement to secure catch right as a responsibility in return for the right (e.g., area license to fish in a TURF, or catch share)"
+                    }
+                ]
+            }, 
+            "Title": "Catch disposal records/sales docket/traceability", 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "1", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 136, 
+            "Score": 1, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 153, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 156, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 163, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 187, 
+                        "Note": "May be more representative than having good coverage but only across part of the fleet/fishery range"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 161, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 170, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": null, 
+                        "QuestionID": 174, 
+                        "Note": "Motivation from buyers (and e.g. for export approval, chain of custody, RFMO affiliation)"
+                    }
+                ]
+            }, 
+            "Title": "Processor monitoring by trained enumerators", 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal - subsistance and local markets only", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "1", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 106, 
+            "Score": 1, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 153, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 156, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 157, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 158, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "IF ENFORCED, AND RESPECTED", 
+                        "QuestionID": 159, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 164, 
+                        "Note": "Easier to facilitate for smaller fishing area"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 187, 
+                        "Note": "May be more representative than having good coverage but only across part of the fleet/fishery range"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": "Regional, State, or National", 
+                        "QuestionID": 152, 
+                        "Note": "Easier if community-based"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 161, 
+                        "Note": "May not be representative if biology thought to be temporally variable"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 166, 
+                        "Note": "May not be representative of entire stock"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 170, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": null, 
+                        "QuestionID": 174, 
+                        "Note": "Anecdotal; time consuming; moderately expensive; level of detail usually broadbrush; data may not be quantitative"
+                    }
+                ]
+            }, 
+            "Title": "Interviews - not specific to a trip/fishing event", 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal - subsistance and local markets only", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "3", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 112, 
+            "Score": 1, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "orange": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 170, 
+                        "Note": "May not be representative"
+                    }
+                ], 
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 153, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 156, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 157, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 158, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "IF ENFORCED, AND RESPECTED", 
+                        "QuestionID": 159, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 164, 
+                        "Note": "Easier to facilitate for smaller fishing area"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 187, 
+                        "Note": "May be more representative than having good coverage but only across part of the fleet/fishery range"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Regional, State, or National", 
+                        "QuestionID": 152, 
+                        "Note": "Easier if community-based"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 161, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 166, 
+                        "Note": "Status estimates not based on entire stock; biomass-based reference points may not be meaningful"
+                    }, 
+                    {
+                        "Answer": null, 
+                        "QuestionID": 174, 
+                        "Note": "Anecdotal; time consuming; moderately expensive; level of detail usually broadbrush; data may not be quantitative"
+                    }
+                ]
+            }, 
+            "Title": "Interviews - not specific to a trip/fishing event", 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal - subsistance and local markets only", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "3", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 113, 
+            "Score": 1, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 153, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 156, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 157, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 158, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "IF ENFORCED, AND RESPECTED", 
+                        "QuestionID": 159, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 164, 
+                        "Note": "Easier to facilitate for smaller fishing area"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 187, 
+                        "Note": "May be more representative than having good coverage but only across part of the fleet/fishery range"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": "Regional, State, or National", 
+                        "QuestionID": 152, 
+                        "Note": "Easier if community-based"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 161, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 170, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": null, 
+                        "QuestionID": 174, 
+                        "Note": "Anecdotal; time consuming; moderately expensive; level of detail usually broadbrush; data may not be quantitative"
+                    }
+                ]
+            }, 
+            "Title": "Interviews - not specific to a trip/fishing event", 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal - subsistance and local markets only", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "3", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 111, 
+            "Score": 2, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "orange": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 161, 
+                        "Note": "May not be representative if biology thought to be temporally variable"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 166, 
+                        "Note": "May not be representative of entire stock"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 170, 
+                        "Note": "May not be representative"
+                    }
+                ], 
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 153, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 156, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 157, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 158, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "IF ENFORCED, AND RESPECTED", 
+                        "QuestionID": 159, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 163, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 164, 
+                        "Note": "Easier to facilitate for smaller fishing area"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": null, 
+                        "QuestionID": 174, 
+                        "Note": "?Operator error; cost of designing may be high (if expect to be effective) - or use with caution; ; motivation from buyers (and e.g. for export approval, RFMO affiliation)"
+                    }
+                ]
+            }, 
+            "Title": "Snapshot data gathering - biology/life history geared", 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "moderate (NB less expensive if industry/company chartered, or via academia)", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "2", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 117, 
+            "Score": 2, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "orange": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "May not be representative"
+                    }
+                ], 
+                "None": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 163, 
+                        "Note": "Assumption is that logbooks are continuous"
+                    }
+                ], 
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 153, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 156, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 157, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 158, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "IF ENFORCED, AND RESPECTED", 
+                        "QuestionID": 159, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 161, 
+                        "Note": "Assumption is that logbooks are continuous"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 187, 
+                        "Note": "May be more representative than having good coverage but only across part of the fleet/fishery range"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Regional, State, or National", 
+                        "QuestionID": 152, 
+                        "Note": "Easier if community-based"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 166, 
+                        "Note": "Status estimates not based on entire stock; biomass-based reference points may not be meaningful"
+                    }, 
+                    {
+                        "Answer": null, 
+                        "QuestionID": 174, 
+                        "Note": "Requires database infrastructure and capability; potential for misreporting (especially for fisheries with low cooperation/subsistence/low GVP/low research capacity); ? Potential to work well if done in a capacity building context with external capacity (also technological developments - e.g. tablets); Accuracy of logbooks can be improved by tying data reporting requirement to secure catch right as a responsibility in return for the right (e.g., area license to fish in a TURF, or catch share)"
+                    }
+                ]
+            }, 
+            "Title": "Logbooks: informal", 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate BUT can be low if lower number of participants", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "3", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 130, 
+            "Score": 3, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "orange": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "May not be representative"
+                    }
+                ], 
+                "None": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 163, 
+                        "Note": "Assumption is that logbooks are continuous"
+                    }
+                ], 
+                "green": [
+                    {
+                        "Answer": "Regional, State, or National", 
+                        "QuestionID": 152, 
+                        "Note": "Easier if at least at regional level"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 153, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 158, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "IF ENFORCED, AND RESPECTED", 
+                        "QuestionID": 159, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 161, 
+                        "Note": "Assumption is that logbooks are continuous"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 187, 
+                        "Note": "May be more representative than having good coverage but only across part of the fleet/fishery range"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 166, 
+                        "Note": "Status estimates not based on entire stock; biomass-based reference points may not be meaningful"
+                    }, 
+                    {
+                        "Answer": null, 
+                        "QuestionID": 174, 
+                        "Note": "Requires database infrastructure and capability; potential for misreporting (especially for fisheries with low cooperation/subsistence/low GVP/low research capacity); ? Potential to work well if done in a capacity building context with external capacity (also technological developments - e.g. tablets); Accuracy of logbooks can be improved by tying data reporting requirement to secure catch right as a responsibility in return for the right (e.g., area license to fish in a TURF, or catch share)"
+                    }
+                ]
+            }, 
+            "Title": "Logbooks: formal government (licensing) requirement", 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "high", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "moderate-high", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "3", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "moderate-high", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 134, 
+            "Score": 3, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 153, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 156, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 157, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 158, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "IF ENFORCED, AND RESPECTED", 
+                        "QuestionID": 159, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 163, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 164, 
+                        "Note": "Easier to facilitate for smaller fishing area"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 187, 
+                        "Note": "May be more representative than having good coverage but only across part of the fleet/fishery range"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 161, 
+                        "Note": "May not be representative if biology thought to be temporally variable"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 166, 
+                        "Note": "May not be representative of entire stock"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 170, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": null, 
+                        "QuestionID": 174, 
+                        "Note": "Potential for misreporting (especially for fisheries with low cooperation/subsistence/low GVP/low research capacity) - but less incentive to misreport given that the context is not about C,E, and enforcement. Could also be about selling less valuable component of catch informally (for e.g.). Also, motivation from buyers (and e.g. for export approval, chain of custody, RFMO affiliation)"
+                    }
+                ]
+            }, 
+            "Title": "Port/landing site monitoring by trained enumerators", 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "subsistence", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "2", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 104, 
+            "Score": 3, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "orange": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 170, 
+                        "Note": "May not be representative"
+                    }
+                ], 
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 153, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 156, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 157, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 158, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "IF ENFORCED, AND RESPECTED", 
+                        "QuestionID": 159, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 163, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 164, 
+                        "Note": "Easier to facilitate for smaller fishing area"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 187, 
+                        "Note": "May be more representative than having good coverage but only across part of the fleet/fishery range"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 161, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 166, 
+                        "Note": "Status estimates not based on entire stock; biomass-based reference points may not be meaningful"
+                    }, 
+                    {
+                        "Answer": null, 
+                        "QuestionID": 174, 
+                        "Note": "Potential for misreporting (especially for fisheries with low cooperation/subsistence/low GVP/low research capacity) - but less incentive to misreport given that the context is not about C,E, and enforcement. Could also be about selling less valuable component of catch informally (for e.g.). Also, motivation from buyers (and e.g. for export approval, chain of custody, RFMO affiliation)"
+                    }
+                ]
+            }, 
+            "Title": "Port/landing site monitoring by trained enumerators", 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "subsistence", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "2", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 105, 
+            "Score": 3, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 153, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 156, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 157, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 158, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "IF ENFORCED, AND RESPECTED", 
+                        "QuestionID": 159, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 164, 
+                        "Note": "Easier to facilitate for smaller fishing area"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 187, 
+                        "Note": "May be more representative than having good coverage but only across part of the fleet/fishery range"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Regional, State, or National", 
+                        "QuestionID": 152, 
+                        "Note": "Easier if community-based"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 161, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 170, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": null, 
+                        "QuestionID": 174, 
+                        "Note": "Anecdotal; time consuming; moderately expensive; level of detail usually broadbrush; data may not be quantitative"
+                    }
+                ]
+            }, 
+            "Title": "Interviews - not specific to a trip/fishing event", 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal - subsistance and local markets only", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "2", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 110, 
+            "Score": 3, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "None": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 163, 
+                        "Note": "Assumption is that logbooks are continuous"
+                    }
+                ], 
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 153, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 156, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 157, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 158, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "IF ENFORCED, AND RESPECTED", 
+                        "QuestionID": 159, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 161, 
+                        "Note": "Assumption is that logbooks are continuous"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 187, 
+                        "Note": "May be more representative than having good coverage but only across part of the fleet/fishery range"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Regional, State, or National", 
+                        "QuestionID": 152, 
+                        "Note": "Easier if community-based"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 166, 
+                        "Note": "May not be representative of entire stock"
+                    }, 
+                    {
+                        "Answer": null, 
+                        "QuestionID": 174, 
+                        "Note": "Requires database infrastructure and capability; potential for misreporting (especially for fisheries with low cooperation/subsistence/low GVP/low research capacity); ? Potential to work well if done in a capacity building context with external capacity (also technological developments - e.g. tablets); Accuracy of logbooks can be improved by tying data reporting requirement to secure catch right as a responsibility in return for the right (e.g., area license to fish in a TURF, or catch share)"
+                    }
+                ]
+            }, 
+            "Title": "Logbooks: informal", 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate BUT can be low if lower number of participants", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "3", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 129, 
+            "Score": 4, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "None": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 163, 
+                        "Note": "Assumption is that logbooks are continuous"
+                    }
+                ], 
+                "green": [
+                    {
+                        "Answer": "Regional, State, or National", 
+                        "QuestionID": 152, 
+                        "Note": "Easier if at least at regional level"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 153, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 158, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "IF ENFORCED, AND RESPECTED", 
+                        "QuestionID": 159, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 161, 
+                        "Note": "Assumption is that logbooks are continuous"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 187, 
+                        "Note": "May be more representative than having good coverage but only across part of the fleet/fishery range"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 166, 
+                        "Note": "May not be representative of entire stock"
+                    }, 
+                    {
+                        "Answer": null, 
+                        "QuestionID": 174, 
+                        "Note": "Requires database infrastructure and capability; potential for misreporting (especially for fisheries with low cooperation/subsistence/low GVP/low research capacity); ? Potential to work well if done in a capacity building context with external capacity (also technological developments - e.g. tablets); Accuracy of logbooks can be improved by tying data reporting requirement to secure catch right as a responsibility in return for the right (e.g., area license to fish in a TURF, or catch share)"
+                    }
+                ]
+            }, 
+            "Title": "Logbooks: formal government (licensing) requirement", 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "high", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "moderate-high", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "3", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "moderate-high", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 133, 
+            "Score": 4, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 153, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 156, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 157, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 158, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "IF ENFORCED, AND RESPECTED", 
+                        "QuestionID": 159, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 163, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 164, 
+                        "Note": "Easier to facilitate for smaller fishing area"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 187, 
+                        "Note": "May be more representative than having good coverage but only across part of the fleet/fishery range"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 161, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 170, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": null, 
+                        "QuestionID": 174, 
+                        "Note": "Potential for misreporting (especially for fisheries with low cooperation/subsistence/low GVP/low research capacity) - but less incentive to misreport given that the context is not about C,E, and enforcement. Could also be about selling less valuable component of catch informally (for e.g.). Also, motivation from buyers (and e.g. for export approval, chain of custody, RFMO affiliation)"
+                    }
+                ]
+            }, 
+            "Title": "Port/landing site monitoring by trained enumerators", 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "subsistence", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "2", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "moderate", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 103, 
+            "Score": 4, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "None": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 163, 
+                        "Note": "Assumption is that logbooks are continuous"
+                    }
+                ], 
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 153, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 156, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 157, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 158, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "IF ENFORCED, AND RESPECTED", 
+                        "QuestionID": 159, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 161, 
+                        "Note": "Assumption is that logbooks are continuous"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 187, 
+                        "Note": "May be more representative than having good coverage but only across part of the fleet/fishery range"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Regional, State, or National", 
+                        "QuestionID": 152, 
+                        "Note": "Easier if community-based"
+                    }, 
+                    {
+                        "Answer": null, 
+                        "QuestionID": 174, 
+                        "Note": "Requires database infrastructure and capability; potential for misreporting (especially for fisheries with low cooperation/subsistence/low GVP/low research capacity); ? Potential to work well if done in a capacity building context with external capacity (also technological developments - e.g. tablets); Accuracy of logbooks can be improved by tying data reporting requirement to secure catch right as a responsibility in return for the right (e.g., area license to fish in a TURF, or catch share)"
+                    }
+                ]
+            }, 
+            "Title": "Logbooks: informal", 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate BUT can be low if lower number of participants", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "3", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 128, 
+            "Score": 5, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "None": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 163, 
+                        "Note": "Assumption is that logbooks are continuous"
+                    }
+                ], 
+                "green": [
+                    {
+                        "Answer": "Regional, State, or National", 
+                        "QuestionID": 152, 
+                        "Note": "Easier if at least at regional level"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 153, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 158, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "IF ENFORCED, AND RESPECTED", 
+                        "QuestionID": 159, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 161, 
+                        "Note": "Assumption is that logbooks are continuous"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 187, 
+                        "Note": "May be more representative than having good coverage but only across part of the fleet/fishery range"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": null, 
+                        "QuestionID": 174, 
+                        "Note": "Requires database infrastructure and capability; potential for misreporting (especially for fisheries with low cooperation/subsistence/low GVP/low research capacity); ? Potential to work well if done in a capacity building context with external capacity (also technological developments - e.g. tablets); Accuracy of logbooks can be improved by tying data reporting requirement to secure catch right as a responsibility in return for the right (e.g., area license to fish in a TURF, or catch share)"
+                    }
+                ]
+            }, 
+            "Title": "Logbooks: formal government (licensing) requirement", 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "high", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "moderate-high", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "3", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "moderate-high", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 131, 
+            "Score": 5, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "None": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 163, 
+                        "Note": "Assumption is that logbooks are continuous"
+                    }
+                ], 
+                "green": [
+                    {
+                        "Answer": "Regional, State, or National", 
+                        "QuestionID": 152, 
+                        "Note": "Easier if at least at regional level"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 153, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 158, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "IF ENFORCED, AND RESPECTED", 
+                        "QuestionID": 159, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 161, 
+                        "Note": "Assumption is that logbooks are continuous"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 187, 
+                        "Note": "May be more representative than having good coverage but only across part of the fleet/fishery range"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": null, 
+                        "QuestionID": 174, 
+                        "Note": "Requires database infrastructure and capability; potential for misreporting (especially for fisheries with low cooperation/subsistence/low GVP/low research capacity); ? Potential to work well if done in a capacity building context with external capacity (also technological developments - e.g. tablets); Accuracy of logbooks can be improved by tying data reporting requirement to secure catch right as a responsibility in return for the right (e.g., area license to fish in a TURF, or catch share)"
+                    }
+                ]
+            }, 
+            "Title": "Logbooks: formal government (licensing) requirement", 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "high", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "moderate-high", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "3", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "moderate-high", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 132, 
+            "Score": 5, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 153, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 156, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 157, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 158, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "IF ENFORCED, AND RESPECTED", 
+                        "QuestionID": 159, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 163, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 164, 
+                        "Note": "Easier to facilitate for smaller fishing area"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 187, 
+                        "Note": "May be more representative than having good coverage but only across part of the fleet/fishery range"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 161, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 170, 
+                        "Note": "May not be representative"
+                    }, 
+                    {
+                        "Answer": null, 
+                        "QuestionID": 174, 
+                        "Note": "Potential for misreporting (especially for fisheries with low cooperation/subsistence/low GVP/low research capacity) - but less incentive to misreport given that the context is not about C,E, and enforcement. Could also be about selling less valuable component of catch informally (for e.g.). Also, motivation from buyers (and e.g. for export approval, chain of custody, RFMO affiliation)"
+                    }
+                ]
+            }, 
+            "Title": "Port/landing site monitoring by trained enumerators", 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "subsistence", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "2", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 102, 
+            "Score": 5, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "None": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 163, 
+                        "Note": "Assumption is that logbooks are continuous"
+                    }
+                ], 
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 153, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 156, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 157, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 158, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "IF ENFORCED, AND RESPECTED", 
+                        "QuestionID": 159, 
+                        "Note": "Helpful if so"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 161, 
+                        "Note": "Assumption is that logbooks are continuous"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 187, 
+                        "Note": "May be more representative than having good coverage but only across part of the fleet/fishery range"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Regional, State, or National", 
+                        "QuestionID": 152, 
+                        "Note": "Easier if community-based"
+                    }, 
+                    {
+                        "Answer": null, 
+                        "QuestionID": 174, 
+                        "Note": "Requires database infrastructure and capability; potential for misreporting (especially for fisheries with low cooperation/subsistence/low GVP/low research capacity); ? Potential to work well if done in a capacity building context with external capacity (also technological developments - e.g. tablets); Accuracy of logbooks can be improved by tying data reporting requirement to secure catch right as a responsibility in return for the right (e.g., area license to fish in a TURF, or catch share)"
+                    }
+                ]
+            }, 
+            "Title": "Logbooks: informal", 
+            "Criteria": [
+                {
+                    "Answer": "high", 
+                    "QuestionID": 63, 
+                    "Threshold": "moderate BUT can be low if lower number of participants", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "QuestionID": 118, 
+                    "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "high", 
+                    "QuestionID": 119, 
+                    "Threshold": "low-moderate", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "3", 
+                    "QuestionID": 120, 
+                    "Threshold": "3", 
+                    "Pass": true
+                }, 
+                {
+                    "Answer": "moderate-high", 
+                    "QuestionID": 150, 
+                    "Threshold": "low", 
+                    "Pass": true
+                }
+            ], 
+            "TargetID": 127, 
+            "Score": 5, 
+            "Pass": true
+        }
+    ], 
+    "Selector": "Monitoring"
+}

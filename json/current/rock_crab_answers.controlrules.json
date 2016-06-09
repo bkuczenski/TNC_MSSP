@@ -1,0 +1,1910 @@
+{
+    "FisheryGuide": "rock_crab_answers", 
+    "NonQualifyingTargets": [], 
+    "QualifyingTargets": [
+        {
+            "Caveats": {
+                "orange": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 91, 
+                        "Note": "Caution re: interpretation and use of data"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 110, 
+                        "Note": "NO - effectiveness may be compromised by activation of latent effort"
+                    }
+                ], 
+                "green": [
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 63, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 109, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 119, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 121, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 126, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 127, 
+                        "Note": "YES"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "NO - unless for key/high-risk/aggregate of species"
+                    }, 
+                    {
+                        "Answer": "moderate", 
+                        "QuestionID": 122, 
+                        "Note": "Difficult to enforce"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 125, 
+                        "Note": "CAUTION"
+                    }
+                ], 
+                "red": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 111, 
+                        "Note": "NO"
+                    }
+                ]
+            }, 
+            "Title": "adjust by fixed proportions up or down (no feedback control rule)", 
+            "Criteria": [], 
+            "TargetID": 58, 
+            "Score": -9, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "orange": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 91, 
+                        "Note": "Caution re: interpretation and use of data"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 110, 
+                        "Note": "NO - effectiveness may be compromised by activation of latent effort"
+                    }
+                ], 
+                "green": [
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 63, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 109, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 119, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 121, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 126, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 127, 
+                        "Note": "YES"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "NO - unless for key/high-risk/aggregate of species"
+                    }, 
+                    {
+                        "Answer": "moderate", 
+                        "QuestionID": 122, 
+                        "Note": "Difficult to enforce"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 125, 
+                        "Note": "CAUTION"
+                    }
+                ], 
+                "red": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 111, 
+                        "Note": "NO"
+                    }
+                ]
+            }, 
+            "Title": "according to assessment outcomes (feedback control rule): i)  target- or trend based, no F- or biomass-based reference point - empirical target only", 
+            "Criteria": [], 
+            "TargetID": 59, 
+            "Score": -9, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "orange": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 91, 
+                        "Note": "Caution re: interpretation and use of data"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 110, 
+                        "Note": "NO - effectiveness may be compromised by activation of latent effort"
+                    }
+                ], 
+                "green": [
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 63, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 109, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 119, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 121, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 126, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 127, 
+                        "Note": "YES"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "NO - unless for key/high-risk/aggregate of species"
+                    }, 
+                    {
+                        "Answer": "moderate", 
+                        "QuestionID": 122, 
+                        "Note": "Difficult to enforce"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 125, 
+                        "Note": "CAUTION"
+                    }
+                ], 
+                "red": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 111, 
+                        "Note": "NO"
+                    }
+                ]
+            }, 
+            "Title": "according to assessment outcomes (feedback): ii) target based with F- or biomass-based reference point", 
+            "Criteria": [], 
+            "TargetID": 60, 
+            "Score": -9, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "orange": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 91, 
+                        "Note": "Caution re: interpretation and use of data"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 110, 
+                        "Note": "NO - effectiveness may be compromised by activation of latent effort"
+                    }
+                ], 
+                "green": [
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 63, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 109, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 119, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 121, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 126, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 127, 
+                        "Note": "YES"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "NO - unless for key/high-risk/aggregate of species"
+                    }, 
+                    {
+                        "Answer": "moderate", 
+                        "QuestionID": 122, 
+                        "Note": "Difficult to enforce"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 125, 
+                        "Note": "CAUTION"
+                    }
+                ], 
+                "red": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 111, 
+                        "Note": "NO"
+                    }
+                ]
+            }, 
+            "Title": "from monitoring closed areas or marine protected areas (e.g. Babcock and MacCall (2011); McGilliard et al. (2011) ; Wilson et al. (2010))", 
+            "Criteria": [], 
+            "TargetID": 61, 
+            "Score": -9, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "orange": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 110, 
+                        "Note": "NO - effectiveness may be compromised by activation of latent effort"
+                    }
+                ], 
+                "green": [
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 63, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 109, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 121, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 126, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 127, 
+                        "Note": "YES"
+                    }
+                ], 
+                "red": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 111, 
+                        "Note": "NO"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "moderate", 
+                        "QuestionID": 122, 
+                        "Note": "Difficult to enforce"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 125, 
+                        "Note": "CAUTION"
+                    }
+                ]
+            }, 
+            "Title": "Fixed gear unit limits not adjusted in response to performance measures ", 
+            "Criteria": [], 
+            "TargetID": 65, 
+            "Score": -8, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "orange": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 110, 
+                        "Note": "NO - effectiveness may be compromised by activation of latent effort"
+                    }
+                ], 
+                "green": [
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 63, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 109, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 121, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 126, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 127, 
+                        "Note": "YES"
+                    }
+                ], 
+                "red": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 111, 
+                        "Note": "NO"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "moderate", 
+                        "QuestionID": 122, 
+                        "Note": "Difficult to enforce"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 125, 
+                        "Note": "CAUTION"
+                    }
+                ]
+            }, 
+            "Title": "Maxmimum soak time for hooks/traps/other gear", 
+            "Criteria": [], 
+            "TargetID": 66, 
+            "Score": -8, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "orange": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 110, 
+                        "Note": "NO - effectiveness may be compromised by activation of latent effort"
+                    }
+                ], 
+                "green": [
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 63, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 91, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 109, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 119, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 121, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 126, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 127, 
+                        "Note": "YES"
+                    }
+                ], 
+                "red": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 111, 
+                        "Note": "NO"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "moderate", 
+                        "QuestionID": 122, 
+                        "Note": "Difficult to enforce"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 125, 
+                        "Note": "CAUTION"
+                    }
+                ]
+            }, 
+            "Title": "Limited entry", 
+            "Criteria": [], 
+            "TargetID": 67, 
+            "Score": -6, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 125, 
+                        "Note": "YES"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 109, 
+                        "Note": "Consider augmenting with spatial measures corresponding to spawning seasons of key/bycatch/ETP species"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 110, 
+                        "Note": "Does not directly address latent effort - augment"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 111, 
+                        "Note": "Does not directly address latent effort - augment"
+                    }
+                ]
+            }, 
+            "Title": "Adjust season duration (e.g. for highly productive, short-lived species subject to management by a fishing season of fixed duration, real-time within-season management may be applied to adjust season duration)", 
+            "Criteria": [], 
+            "TargetID": 75, 
+            "Score": -2, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 125, 
+                        "Note": "YES"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 109, 
+                        "Note": "Consider augmenting with spatial measures corresponding to spawning seasons of key/bycatch/ETP species"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 110, 
+                        "Note": "Does not directly address latent effort - augment"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 111, 
+                        "Note": "Does not directly address latent effort - augment"
+                    }
+                ]
+            }, 
+            "Title": "Seasonal closure", 
+            "Criteria": [], 
+            "TargetID": 76, 
+            "Score": -2, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 125, 
+                        "Note": "YES"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 75, 
+                        "Note": "May have to consider what life history stage is being targeted"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 110, 
+                        "Note": "Does not directly address latent effort - augment"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 111, 
+                        "Note": "Does not directly address latent effort - augment"
+                    }
+                ]
+            }, 
+            "Title": "Size slot", 
+            "Criteria": [], 
+            "TargetID": 80, 
+            "Score": -2, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "orange": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 91, 
+                        "Note": "Caution re: interpretation and use of data"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 110, 
+                        "Note": "NO - effectiveness may be compromised by activation of latent effort"
+                    }
+                ], 
+                "green": [
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 63, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 119, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 121, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 126, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 127, 
+                        "Note": "YES"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "NO - unless for key/high-risk/aggregate of species"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 109, 
+                        "Note": "Non-catch quota may be easier; unless by key/high-risk or aggregate of species"
+                    }, 
+                    {
+                        "Answer": "moderate", 
+                        "QuestionID": 122, 
+                        "Note": "Difficult to enforce"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 125, 
+                        "Note": "CAUTION"
+                    }
+                ]
+            }, 
+            "Title": "adjust by fixed proportions up or down (no feedback control rule)", 
+            "Criteria": [], 
+            "TargetID": 50, 
+            "Score": -1, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "orange": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 91, 
+                        "Note": "Caution re: interpretation and use of data"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 110, 
+                        "Note": "NO - effectiveness may be compromised by activation of latent effort"
+                    }
+                ], 
+                "green": [
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 63, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 119, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 121, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 126, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 127, 
+                        "Note": "YES"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "NO - unless for key/high-risk/aggregate of species"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 109, 
+                        "Note": "Non-catch quota may be easier; unless by key/high-risk or aggregate of species"
+                    }, 
+                    {
+                        "Answer": "moderate", 
+                        "QuestionID": 122, 
+                        "Note": "Difficult to enforce"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 125, 
+                        "Note": "CAUTION"
+                    }
+                ]
+            }, 
+            "Title": "according to assessment outcomes (feedback control rule): i)  target- or trend based, no F- or biomass-based reference point - empirical target only", 
+            "Criteria": [], 
+            "TargetID": 51, 
+            "Score": -1, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "orange": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 91, 
+                        "Note": "Caution re: interpretation and use of data"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 110, 
+                        "Note": "NO - effectiveness may be compromised by activation of latent effort"
+                    }
+                ], 
+                "green": [
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 63, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 119, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 121, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 126, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 127, 
+                        "Note": "YES"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "NO - unless for key/high-risk/aggregate of species"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 109, 
+                        "Note": "Non-catch quota may be easier; unless by key/high-risk or aggregate of species"
+                    }, 
+                    {
+                        "Answer": "moderate", 
+                        "QuestionID": 122, 
+                        "Note": "Difficult to enforce"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 125, 
+                        "Note": "CAUTION"
+                    }
+                ]
+            }, 
+            "Title": "according to assessment outcomes (feedback): ii) target based with F- or biomass-based reference point", 
+            "Criteria": [], 
+            "TargetID": 52, 
+            "Score": -1, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "orange": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 91, 
+                        "Note": "Caution re: interpretation and use of data"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 110, 
+                        "Note": "NO - effectiveness may be compromised by activation of latent effort"
+                    }
+                ], 
+                "green": [
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 63, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 119, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 121, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 126, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 127, 
+                        "Note": "YES"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "NO - unless for key/high-risk/aggregate of species"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 109, 
+                        "Note": "Non-catch quota may be easier; unless by key/high-risk or aggregate of species"
+                    }, 
+                    {
+                        "Answer": "moderate", 
+                        "QuestionID": 122, 
+                        "Note": "Difficult to enforce"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 125, 
+                        "Note": "CAUTION"
+                    }
+                ]
+            }, 
+            "Title": "from monitoring closed areas or marine protected areas (e.g. Babcock and MacCall (2011); McGilliard et al. (2011) ; Wilson et al. (2010))", 
+            "Criteria": [], 
+            "TargetID": 53, 
+            "Score": -1, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 63, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 119, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 121, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 126, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 127, 
+                        "Note": "YES"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "Unlikely to be useful"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 91, 
+                        "Note": "Caution re: interpretation and use of data"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 109, 
+                        "Note": "Non-catch quota may be easier; unless by key/high-risk or aggregate of species"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 110, 
+                        "Note": "NO unless this is a secondary control rule - effectiveness may be compromised by activation of latent effort"
+                    }, 
+                    {
+                        "Answer": "moderate", 
+                        "QuestionID": 122, 
+                        "Note": "Difficult to enforce"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 125, 
+                        "Note": "CAUTION"
+                    }
+                ]
+            }, 
+            "Title": "Catch restrictions by time (e.g. seasons) (whether informed by formal assessment or not)", 
+            "Criteria": [], 
+            "TargetID": 55, 
+            "Score": -1, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 109, 
+                        "Note": "YES"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 110, 
+                        "Note": "NO - do not directly address latent effort"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 111, 
+                        "Note": "NO - do not directly address effort creep"
+                    }
+                ]
+            }, 
+            "Title": "e.g. mesh/hook sizes; trap escape rings; use of light sticks, cod ends, escape hatches", 
+            "Criteria": [], 
+            "TargetID": 68, 
+            "Score": -1, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 109, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 125, 
+                        "Note": "YES"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 75, 
+                        "Note": "May have to consider what life history stage is being targeted"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 110, 
+                        "Note": "Does not directly address latent effort - augment"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 111, 
+                        "Note": "Does not directly address latent effort - augment"
+                    }
+                ]
+            }, 
+            "Title": "Minimum Legal Size", 
+            "Criteria": [], 
+            "TargetID": 79, 
+            "Score": -1, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 109, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 125, 
+                        "Note": "YES"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 75, 
+                        "Note": "May have to consider what life history stage is being targeted"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 110, 
+                        "Note": "Does not directly address latent effort - augment"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 111, 
+                        "Note": "Does not directly address latent effort - augment"
+                    }
+                ]
+            }, 
+            "Title": "Maximum legal size", 
+            "Criteria": [], 
+            "TargetID": 81, 
+            "Score": -1, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 63, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 75, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 119, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 121, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 126, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 127, 
+                        "Note": "YES"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "Unlikely to be useful"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 91, 
+                        "Note": "Caution re: interpretation and use of data"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 109, 
+                        "Note": "Non-catch quota may be easier; unless by key/high-risk or aggregate of species"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 110, 
+                        "Note": "NO unless this is a secondary control rule - effectiveness may be compromised by activation of latent effort"
+                    }, 
+                    {
+                        "Answer": "moderate", 
+                        "QuestionID": 122, 
+                        "Note": "Difficult to enforce"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 125, 
+                        "Note": "CAUTION"
+                    }
+                ]
+            }, 
+            "Title": "Catch restrictions by area (whether informed by formal assessment or not)", 
+            "Criteria": [], 
+            "TargetID": 54, 
+            "Score": 0, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "orange": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 110, 
+                        "Note": "NO - effectiveness may be compromised by activation of latent effort"
+                    }
+                ], 
+                "green": [
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 63, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 119, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 121, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 126, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 127, 
+                        "Note": "YES"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "NO - unless for key/high-risk/aggregate of species"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 109, 
+                        "Note": "Non-catch quota may be easier; unless by key/high-risk or aggregate of species"
+                    }, 
+                    {
+                        "Answer": "moderate", 
+                        "QuestionID": 122, 
+                        "Note": "Difficult to enforce"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 125, 
+                        "Note": "CAUTION"
+                    }
+                ]
+            }, 
+            "Title": "Daily trip limit; with or without TAC", 
+            "Criteria": [], 
+            "TargetID": 56, 
+            "Score": 0, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "orange": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 110, 
+                        "Note": "NO - effectiveness may be compromised by activation of latent effort"
+                    }
+                ], 
+                "green": [
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 63, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 119, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 121, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 126, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 127, 
+                        "Note": "YES"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "NO - unless for key/high-risk/aggregate of species"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 109, 
+                        "Note": "Non-catch quota may be easier; unless by key/high-risk or aggregate of species"
+                    }, 
+                    {
+                        "Answer": "moderate", 
+                        "QuestionID": 122, 
+                        "Note": "Difficult to enforce"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 125, 
+                        "Note": "CAUTION"
+                    }
+                ]
+            }, 
+            "Title": "Limit  per gear unit (e.g. maximum catch per trap); with or without TAC", 
+            "Criteria": [], 
+            "TargetID": 57, 
+            "Score": 0, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 109, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 125, 
+                        "Note": "YES"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 110, 
+                        "Note": "NO - do not directly address latent effort"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 111, 
+                        "Note": "NO - do not directly address effort creep"
+                    }
+                ]
+            }, 
+            "Title": "NB these are focussed on avoiding limits rather than on achieving targets; may be related to avoiding capture of vulnerable/at risk bycatch species, or related to selectivity (e.g. avoid catching juveniles). e.g. removal of seines, dredges, destrcutive gears  (remove non-selective techniques)", 
+            "Criteria": [], 
+            "TargetID": 69, 
+            "Score": 0, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 109, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 125, 
+                        "Note": "YES"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 110, 
+                        "Note": "Does not directly address latent effort - augment"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 111, 
+                        "Note": "Does not directly address latent effort - augment"
+                    }
+                ]
+            }, 
+            "Title": "Adjust time of day allowed to fish (e.g. no day setting of longlines to avoid capturing seabirds)", 
+            "Criteria": [], 
+            "TargetID": 74, 
+            "Score": 0, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {}, 
+            "Title": "This does not confer the necessity to immediately analyse the collected data. Data may be archived against a time when required and/or the GVP/capability exists to analyse it.", 
+            "Criteria": [], 
+            "TargetID": 85, 
+            "Score": 0, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {}, 
+            "Title": "no title", 
+            "Criteria": [], 
+            "TargetID": 88, 
+            "Score": 0, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {}, 
+            "Title": "no title", 
+            "Criteria": [], 
+            "TargetID": 89, 
+            "Score": 0, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {}, 
+            "Title": "no title", 
+            "Criteria": [], 
+            "TargetID": 90, 
+            "Score": 0, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 75, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 109, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 125, 
+                        "Note": "YES - though caution re: effort creep"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 110, 
+                        "Note": "Does not directly address latent effort - augment"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 111, 
+                        "Note": "Does not directly address latent effort - augment"
+                    }
+                ]
+            }, 
+            "Title": "Permanent no-take zones", 
+            "Criteria": [], 
+            "TargetID": 70, 
+            "Score": 1, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 75, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 109, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 125, 
+                        "Note": "YES - though caution re: effort creep"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 110, 
+                        "Note": "Does not directly address latent effort - augment"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 111, 
+                        "Note": "Does not directly address latent effort - augment"
+                    }
+                ]
+            }, 
+            "Title": "Fixed seasonal closure on (for e.g.) spawning grounds", 
+            "Criteria": [], 
+            "TargetID": 71, 
+            "Score": 1, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 75, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 109, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 125, 
+                        "Note": "YES - though caution re: effort creep"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 110, 
+                        "Note": "Does not directly address latent effort - augment"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 111, 
+                        "Note": "Does not directly address latent effort - augment"
+                    }
+                ]
+            }, 
+            "Title": "Closures invoked in response to some perceived stock status (feedback-driven): rotational/in response to trigger being reached/stock status indicating overfished", 
+            "Criteria": [], 
+            "TargetID": 72, 
+            "Score": 1, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 75, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 109, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 125, 
+                        "Note": "YES - though caution re: effort creep"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 110, 
+                        "Note": "Does not directly address latent effort - augment"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 111, 
+                        "Note": "Does not directly address latent effort - augment"
+                    }
+                ]
+            }, 
+            "Title": "move-on provisions", 
+            "Criteria": [], 
+            "TargetID": 73, 
+            "Score": 1, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 109, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 125, 
+                        "Note": "YES"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 110, 
+                        "Note": "Does not directly address latent effort - augment"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 111, 
+                        "Note": "Does not directly address latent effort - augment"
+                    }
+                ]
+            }, 
+            "Title": "Closure in response to trigger being reached/stock status indicating overfished (feedback-driven)", 
+            "Criteria": [], 
+            "TargetID": 77, 
+            "Score": 1, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 110, 
+                        "Note": "YES"
+                    }
+                ]
+            }, 
+            "Title": "(could argue that these should be included in all harvest strategies, on the proviso they are scientifically defensible)", 
+            "Criteria": [], 
+            "TargetID": 87, 
+            "Score": 1, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 91, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 109, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 125, 
+                        "Note": "YES"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 110, 
+                        "Note": "Does not directly address latent effort - augment"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 111, 
+                        "Note": "Does not directly address latent effort - augment"
+                    }
+                ]
+            }, 
+            "Title": "Fixed season length or number of fishing days, independent of performance measures", 
+            "Criteria": [], 
+            "TargetID": 78, 
+            "Score": 2, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 79, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 125, 
+                        "Note": "YES"
+                    }
+                ]
+            }, 
+            "Title": "Take of one gender (usualy females) prohibited", 
+            "Criteria": [], 
+            "TargetID": 82, 
+            "Score": 2, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 79, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 125, 
+                        "Note": "YES"
+                    }
+                ]
+            }, 
+            "Title": "Gender-specific size limits", 
+            "Criteria": [], 
+            "TargetID": 83, 
+            "Score": 2, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 79, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 125, 
+                        "Note": "YES"
+                    }
+                ]
+            }, 
+            "Title": "Restrictions or prohibitions on taking gravid females", 
+            "Criteria": [], 
+            "TargetID": 84, 
+            "Score": 2, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 91, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 110, 
+                        "Note": "YES"
+                    }
+                ]
+            }, 
+            "Title": "These measures can be applied to the existing control rules (e.g. ramp catch down even further over that suggested by assessment outcomes), AND/OR applied as a separate measure (e.g. impose some spatial closures in additon to having size limits)", 
+            "Criteria": [], 
+            "TargetID": 86, 
+            "Score": 2, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 91, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 109, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 119, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 121, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 125, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 126, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 127, 
+                        "Note": "YES"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 110, 
+                        "Note": "Effectiveness may be compromised by activation of latent effort"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 111, 
+                        "Note": "Effectiveness may be compromised by activation of latent effort"
+                    }, 
+                    {
+                        "Answer": "moderate", 
+                        "QuestionID": 122, 
+                        "Note": "Difficult to enforce"
+                    }
+                ]
+            }, 
+            "Title": "Daily effort limit; with or without TAE", 
+            "Criteria": [], 
+            "TargetID": 64, 
+            "Score": 5, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 75, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 91, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 109, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 119, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 121, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 125, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 126, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 127, 
+                        "Note": "YES"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 110, 
+                        "Note": "Effectiveness may be compromised by activation of latent effort"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 111, 
+                        "Note": "Effectiveness may be compromised by activation of latent effort"
+                    }, 
+                    {
+                        "Answer": "moderate", 
+                        "QuestionID": 122, 
+                        "Note": "Difficult to enforce"
+                    }
+                ]
+            }, 
+            "Title": "Effort restrictions by time (e.g. seasons) (whether informed by formal assessment or not)", 
+            "Criteria": [], 
+            "TargetID": 63, 
+            "Score": 6, 
+            "Pass": true
+        }, 
+        {
+            "Caveats": {
+                "green": [
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 75, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 89, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 91, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 109, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 110, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "Yes", 
+                        "QuestionID": 111, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 119, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 121, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "No", 
+                        "QuestionID": 125, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 126, 
+                        "Note": "YES"
+                    }, 
+                    {
+                        "Answer": "high", 
+                        "QuestionID": 127, 
+                        "Note": "YES"
+                    }
+                ], 
+                "yellow": [
+                    {
+                        "Answer": "moderate", 
+                        "QuestionID": 122, 
+                        "Note": "Difficult to enforce"
+                    }
+                ]
+            }, 
+            "Title": "Effort restrictions by area (whether informed by formal assessment or not)", 
+            "Criteria": [], 
+            "TargetID": 62, 
+            "Score": 10, 
+            "Pass": true
+        }
+    ], 
+    "Selector": "ControlRules"
+}
