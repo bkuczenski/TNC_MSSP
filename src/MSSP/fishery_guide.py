@@ -3,6 +3,8 @@
 """
 
 from __future__ import print_function
+
+from eight import input
 from MSSP.utils import ifinput, defaultdir
 from MSSP import selectors
 from collections import defaultdict
@@ -22,7 +24,7 @@ def get_answer_value(valid_answers, cur=None):
             else:
                 print(' %d ' % v)
         if cur is None:
-            choice = int(raw_input('Enter a value: '))
+            choice = int(input('Enter a value: '))
         else:
             choice = int(ifinput('Enter a value: ', valid_answers[cur]))
         try:
@@ -36,7 +38,7 @@ def get_answer_value(valid_answers, cur=None):
             else:
                 print(' %d: %s ' % (k+1, v))
         if cur is None:
-            choice = int(raw_input('Select an answer 1-%d:' % len(valid_answers)))
+            choice = int(input('Select an answer 1-%d:' % len(valid_answers)))
         else:
             choice = int(ifinput('Select an answer 1-%d:' % len(valid_answers), cur+1))
         choice -= 1
@@ -49,7 +51,7 @@ def get_selector():
         print('What kind of target would you like to study?')
         for i in selectors:
             print('[%s]%s' % (i[0], i[1:]))
-        choice = raw_input('Enter choice: ').lower()
+        choice = input('Enter choice: ').lower()
         sels = [k for k in selectors if k[0].lower() == choice]
         if len(sels) == 1:
             sel = sels[0]
@@ -141,7 +143,7 @@ class FisheryGuide(object):
             for q in self._engine.caveats_for(sel):
                 print('Question ID %3d: %-30.30s "%s"' % (q, self.my_answer(q), self._engine.title(question=q)))
 
-    def print_target_criteria(self, criteria):
+    def _print_target_criteria(self, criteria):
         for c in criteria:
             if c['Pass']:
                 print(' pass  - Question ID %3d [%s >= %s]' % (c['QuestionID'], self.my_answer(c['QuestionID']),
@@ -166,7 +168,7 @@ class FisheryGuide(object):
         return criteria
 
     @staticmethod
-    def print_target_score(scores):
+    def _print_target_score(scores):
         """
 
         :param scores: a dict of color keys containing lists of 'QuestionID', 'Answer', 'Note' dicts
@@ -286,7 +288,7 @@ class FisheryGuide(object):
     def show_non_qualifying_targets(self, sel):
         for i in self._nonqualifying_targets(sel):
             self._engine.show(target=i)
-            self.print_target_criteria(self.qualify_target(i))
+            self._print_target_criteria(self.qualify_target(i))
 
     def guide(self, sel=None):
         """
@@ -305,19 +307,19 @@ class FisheryGuide(object):
             'NonQualifyingTargets': self.score_nonqualifying_targets(sel)
         }
 
-    def export_answers(self):
+    def _export_answers(self):
         return {
             "answers": [{'QuestionID': k, 'Answer': v} for k, v in self._answers.items()]
         }
 
-    def import_answers(self, json_in):
+    def _import_answers(self, json_in):
         for a in json_in['answers']:
             self._answers[int(a['QuestionID'])] = int(a['Answer'])
 
     def save_answers(self, filename=None):
         filename = self.get_abs_path(filename)
         with open(filename, 'w') as fp:
-            json.dump(self.export_answers(), fp, indent=4)
+            json.dump(self._export_answers(), fp, indent=4)
         print('Answers written to %s' % filename)
         self._filename = filename
 
@@ -325,7 +327,7 @@ class FisheryGuide(object):
         filename = self.get_abs_path(filename)
         with open(filename, 'r') as fp:
             j = json.load(fp)
-        self.import_answers(j)
+        self._import_answers(j)
         self._filename = filename
 
     def save_guide(self, guide, filename=None):

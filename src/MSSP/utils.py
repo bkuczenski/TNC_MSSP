@@ -1,4 +1,8 @@
-from exceptions import *
+from __future__ import print_function, unicode_literals
+
+from eight import input, str
+
+from MSSP.exceptions import *
 from re import match
 from os.path import expanduser
 from datetime import datetime
@@ -35,7 +39,7 @@ def convert_subject_to_reference(subject):
         # row ref
         record = (int(g.groups()[2]), None)
     else:
-        print "Regex did not match input string."
+        print("Regex did not match input string.")
         record = (None, None)
 
     reference = (sel, record)
@@ -49,7 +53,7 @@ def grab_suffix(record):
         suffix += get_column_letter(record[1])
     if record[1] is None:
         # row ref
-        suffix += unicode(record[0])
+        suffix += str(record[0])
     return suffix
 
 
@@ -80,7 +84,7 @@ def convert_record_to_label(record):
 
 
 def ifinput(prompt, default):
-    g = raw_input('%s [%s]: ' % (prompt, default))
+    g = input('%s [%s]: ' % (prompt, default))
     if len(g) == 0:
         g = default
     return g
