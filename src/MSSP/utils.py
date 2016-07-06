@@ -84,7 +84,7 @@ def convert_record_to_label(record):
 
 
 def ifinput(prompt, default):
-    g = input('%s [%s]: ' % (prompt, default))
+    g = raw_input('%s [%s]: ' % (prompt, default))
     if len(g) == 0:
         g = default
     return g

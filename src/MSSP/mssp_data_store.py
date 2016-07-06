@@ -570,6 +570,9 @@ class MsspDataStore(object):
         :param mapping: a list of ints where mapping[old_index] = new_index
         :return: critera, caveats -- edited copies of the original arrays
         """
+        print('Remapping answers with mapping %s' % mapping)
+        print('map from: %s' % self._questions[question].valid_answers)
+
         local_cri = self._criteria.copy()
         local_cav = self._caveats.copy()
         local_cri.loc[local_cri['QuestionID'] == question, 'Threshold'] = \
