@@ -1,0 +1,2642 @@
+[
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 42, 
+        "TargetID": 8
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 42, 
+        "TargetID": 9
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 42, 
+        "TargetID": 10
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 42, 
+        "TargetID": 11
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 42, 
+        "TargetID": 12
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 42, 
+        "TargetID": 13
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 42, 
+        "TargetID": 14
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 42, 
+        "TargetID": 15
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 42, 
+        "TargetID": 16
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 42, 
+        "TargetID": 17
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 42, 
+        "TargetID": 18
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 42, 
+        "TargetID": 22
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 42, 
+        "TargetID": 23
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 42, 
+        "TargetID": 24
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 42, 
+        "TargetID": 25
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 42, 
+        "TargetID": 26
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 42, 
+        "TargetID": 27
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 42, 
+        "TargetID": 28
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 42, 
+        "TargetID": 29
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 42, 
+        "TargetID": 31
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 42, 
+        "TargetID": 32
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 42, 
+        "TargetID": 34
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 42, 
+        "TargetID": 35
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 42, 
+        "TargetID": 36
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 42, 
+        "TargetID": 37
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 42, 
+        "TargetID": 38
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 42, 
+        "TargetID": 39
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 42, 
+        "TargetID": 40
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 42, 
+        "TargetID": 41
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 42, 
+        "TargetID": 42
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 42, 
+        "TargetID": 43
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 42, 
+        "TargetID": 44
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 42, 
+        "TargetID": 45
+    }, 
+    {
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
+        "QuestionID": 21, 
+        "TargetID": 3
+    }, 
+    {
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
+        "QuestionID": 21, 
+        "TargetID": 5
+    }, 
+    {
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
+        "QuestionID": 21, 
+        "TargetID": 19
+    }, 
+    {
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
+        "QuestionID": 21, 
+        "TargetID": 21
+    }, 
+    {
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
+        "QuestionID": 34, 
+        "TargetID": 20
+    }, 
+    {
+        "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
+        "QuestionID": 14, 
+        "TargetID": 45
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 1, 
+        "TargetID": 3
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 1, 
+        "TargetID": 6
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 1, 
+        "TargetID": 39
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 5, 
+        "TargetID": 44
+    }, 
+    {
+        "Threshold": "1 - able to be inferred", 
+        "QuestionID": 39, 
+        "TargetID": 7
+    }, 
+    {
+        "Threshold": "1 - able to be inferred", 
+        "QuestionID": 39, 
+        "TargetID": 14
+    }, 
+    {
+        "Threshold": "1 - able to be inferred", 
+        "QuestionID": 39, 
+        "TargetID": 15
+    }, 
+    {
+        "Threshold": "1 - able to be inferred", 
+        "QuestionID": 39, 
+        "TargetID": 18
+    }, 
+    {
+        "Threshold": "1 - able to be inferred", 
+        "QuestionID": 39, 
+        "TargetID": 24
+    }, 
+    {
+        "Threshold": "1 - able to be inferred", 
+        "QuestionID": 39, 
+        "TargetID": 26
+    }, 
+    {
+        "Threshold": "1 - able to be inferred", 
+        "QuestionID": 39, 
+        "TargetID": 30
+    }, 
+    {
+        "Threshold": "1 - able to be inferred", 
+        "QuestionID": 39, 
+        "TargetID": 31
+    }, 
+    {
+        "Threshold": "1 - able to be inferred", 
+        "QuestionID": 39, 
+        "TargetID": 32
+    }, 
+    {
+        "Threshold": "1 - able to be inferred", 
+        "QuestionID": 39, 
+        "TargetID": 33
+    }, 
+    {
+        "Threshold": "1 - able to be inferred", 
+        "QuestionID": 39, 
+        "TargetID": 38
+    }, 
+    {
+        "Threshold": "1 - able to be inferred", 
+        "QuestionID": 39, 
+        "TargetID": 39
+    }, 
+    {
+        "Threshold": "1 - able to be inferred", 
+        "QuestionID": 39, 
+        "TargetID": 40
+    }, 
+    {
+        "Threshold": "1 - able to be inferred", 
+        "QuestionID": 39, 
+        "TargetID": 41
+    }, 
+    {
+        "Threshold": "1 - able to be inferred", 
+        "QuestionID": 39, 
+        "TargetID": 42
+    }, 
+    {
+        "Threshold": "1 - able to be inferred", 
+        "QuestionID": 39, 
+        "TargetID": 43
+    }, 
+    {
+        "Threshold": "1 - able to be inferred", 
+        "QuestionID": 39, 
+        "TargetID": 44
+    }, 
+    {
+        "Threshold": "1 - able to be inferred", 
+        "QuestionID": 39, 
+        "TargetID": 45
+    }, 
+    {
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
+        "QuestionID": 16, 
+        "TargetID": 11
+    }, 
+    {
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
+        "QuestionID": 16, 
+        "TargetID": 17
+    }, 
+    {
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
+        "QuestionID": 16, 
+        "TargetID": 24
+    }, 
+    {
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
+        "QuestionID": 16, 
+        "TargetID": 28
+    }, 
+    {
+        "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
+        "QuestionID": 16, 
+        "TargetID": 35
+    }, 
+    {
+        "Threshold": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+        "QuestionID": 16, 
+        "TargetID": 36
+    }, 
+    {
+        "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
+        "QuestionID": 16, 
+        "TargetID": 37
+    }, 
+    {
+        "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
+        "QuestionID": 16, 
+        "TargetID": 38
+    }, 
+    {
+        "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
+        "QuestionID": 16, 
+        "TargetID": 41
+    }, 
+    {
+        "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
+        "QuestionID": 16, 
+        "TargetID": 42
+    }, 
+    {
+        "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
+        "QuestionID": 16, 
+        "TargetID": 43
+    }, 
+    {
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
+        "QuestionID": 16, 
+        "TargetID": 44
+    }, 
+    {
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
+        "QuestionID": 16, 
+        "TargetID": 46
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 0, 
+        "TargetID": 0
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 0, 
+        "TargetID": 1
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 0, 
+        "TargetID": 2
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 0, 
+        "TargetID": 3
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 0, 
+        "TargetID": 4
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 0, 
+        "TargetID": 6
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 0, 
+        "TargetID": 7
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 0, 
+        "TargetID": 14
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 0, 
+        "TargetID": 19
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 0, 
+        "TargetID": 24
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 0, 
+        "TargetID": 25
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 0, 
+        "TargetID": 30
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 0, 
+        "TargetID": 31
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 0, 
+        "TargetID": 32
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 0, 
+        "TargetID": 33
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 0, 
+        "TargetID": 34
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 0, 
+        "TargetID": 36
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 0, 
+        "TargetID": 37
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 0, 
+        "TargetID": 38
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 0, 
+        "TargetID": 41
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 0, 
+        "TargetID": 42
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 0, 
+        "TargetID": 44
+    }, 
+    {
+        "Threshold": "1 - borrowed - outside expert", 
+        "QuestionID": 27, 
+        "TargetID": 4
+    }, 
+    {
+        "Threshold": "2 - in situ - local expert", 
+        "QuestionID": 27, 
+        "TargetID": 5
+    }, 
+    {
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
+        "QuestionID": 30, 
+        "TargetID": 2
+    }, 
+    {
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
+        "QuestionID": 30, 
+        "TargetID": 6
+    }, 
+    {
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
+        "QuestionID": 30, 
+        "TargetID": 22
+    }, 
+    {
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
+        "QuestionID": 30, 
+        "TargetID": 23
+    }, 
+    {
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
+        "QuestionID": 30, 
+        "TargetID": 29
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 4, 
+        "TargetID": 31
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 4, 
+        "TargetID": 32
+    }, 
+    {
+        "Threshold": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+        "QuestionID": 18, 
+        "TargetID": 13
+    }, 
+    {
+        "Threshold": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+        "QuestionID": 18, 
+        "TargetID": 16
+    }, 
+    {
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
+        "QuestionID": 18, 
+        "TargetID": 17
+    }, 
+    {
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
+        "QuestionID": 18, 
+        "TargetID": 19
+    }, 
+    {
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
+        "QuestionID": 18, 
+        "TargetID": 21
+    }, 
+    {
+        "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
+        "QuestionID": 18, 
+        "TargetID": 40
+    }, 
+    {
+        "Threshold": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+        "QuestionID": 31, 
+        "TargetID": 14
+    }, 
+    {
+        "Threshold": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+        "QuestionID": 31, 
+        "TargetID": 25
+    }, 
+    {
+        "Threshold": "2 - in situ but poor", 
+        "QuestionID": 8, 
+        "TargetID": 45
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 3, 
+        "TargetID": 6
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 3, 
+        "TargetID": 7
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 3, 
+        "TargetID": 14
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 3, 
+        "TargetID": 18
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 3, 
+        "TargetID": 25
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 3, 
+        "TargetID": 32
+    }, 
+    {
+        "Threshold": "2 - in situ but poor", 
+        "QuestionID": 3, 
+        "TargetID": 39
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 3, 
+        "TargetID": 41
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 3, 
+        "TargetID": 42
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 3, 
+        "TargetID": 44
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 3, 
+        "TargetID": 46
+    }, 
+    {
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
+        "QuestionID": 33, 
+        "TargetID": 18
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 150, 
+        "TargetID": 98
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 150, 
+        "TargetID": 99
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 150, 
+        "TargetID": 100
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 150, 
+        "TargetID": 101
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 150, 
+        "TargetID": 102
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 150, 
+        "TargetID": 103
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 150, 
+        "TargetID": 104
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 150, 
+        "TargetID": 105
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 150, 
+        "TargetID": 106
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 150, 
+        "TargetID": 107
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 150, 
+        "TargetID": 108
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 150, 
+        "TargetID": 109
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 150, 
+        "TargetID": 110
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 150, 
+        "TargetID": 111
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 150, 
+        "TargetID": 112
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 150, 
+        "TargetID": 113
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 150, 
+        "TargetID": 114
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 150, 
+        "TargetID": 115
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 150, 
+        "TargetID": 116
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 150, 
+        "TargetID": 117
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 150, 
+        "TargetID": 118
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 150, 
+        "TargetID": 119
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 150, 
+        "TargetID": 120
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 150, 
+        "TargetID": 121
+    }, 
+    {
+        "Threshold": "moderate-high", 
+        "QuestionID": 150, 
+        "TargetID": 122
+    }, 
+    {
+        "Threshold": "moderate-high", 
+        "QuestionID": 150, 
+        "TargetID": 123
+    }, 
+    {
+        "Threshold": "high", 
+        "QuestionID": 150, 
+        "TargetID": 124
+    }, 
+    {
+        "Threshold": "high", 
+        "QuestionID": 150, 
+        "TargetID": 125
+    }, 
+    {
+        "Threshold": "high", 
+        "QuestionID": 150, 
+        "TargetID": 126
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 150, 
+        "TargetID": 127
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 150, 
+        "TargetID": 128
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 150, 
+        "TargetID": 129
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 150, 
+        "TargetID": 130
+    }, 
+    {
+        "Threshold": "moderate-high", 
+        "QuestionID": 150, 
+        "TargetID": 131
+    }, 
+    {
+        "Threshold": "moderate-high", 
+        "QuestionID": 150, 
+        "TargetID": 132
+    }, 
+    {
+        "Threshold": "moderate-high", 
+        "QuestionID": 150, 
+        "TargetID": 133
+    }, 
+    {
+        "Threshold": "moderate-high", 
+        "QuestionID": 150, 
+        "TargetID": 134
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 150, 
+        "TargetID": 135
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 150, 
+        "TargetID": 136
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 150, 
+        "TargetID": 137
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 150, 
+        "TargetID": 138
+    }, 
+    {
+        "Threshold": "high", 
+        "QuestionID": 150, 
+        "TargetID": 139
+    }, 
+    {
+        "Threshold": "high", 
+        "QuestionID": 150, 
+        "TargetID": 140
+    }, 
+    {
+        "Threshold": "high", 
+        "QuestionID": 150, 
+        "TargetID": 141
+    }, 
+    {
+        "Threshold": "high", 
+        "QuestionID": 150, 
+        "TargetID": 142
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 9, 
+        "TargetID": 3
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 9, 
+        "TargetID": 6
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 9, 
+        "TargetID": 7
+    }, 
+    {
+        "Threshold": "3 - in situ, reliable", 
+        "QuestionID": 9, 
+        "TargetID": 32
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 9, 
+        "TargetID": 34
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 9, 
+        "TargetID": 41
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 9, 
+        "TargetID": 42
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 9, 
+        "TargetID": 44
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 9, 
+        "TargetID": 45
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 43, 
+        "TargetID": 8
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 43, 
+        "TargetID": 9
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 43, 
+        "TargetID": 10
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 43, 
+        "TargetID": 11
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 43, 
+        "TargetID": 12
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 43, 
+        "TargetID": 14
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 43, 
+        "TargetID": 16
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 43, 
+        "TargetID": 17
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 43, 
+        "TargetID": 22
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 43, 
+        "TargetID": 23
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 43, 
+        "TargetID": 24
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 43, 
+        "TargetID": 25
+    }, 
+    {
+        "Threshold": "spatial consistency preferred; if changes in effort together with spatial changes, this is also important", 
+        "QuestionID": 43, 
+        "TargetID": 27
+    }, 
+    {
+        "Threshold": "spatial consistency preferred; if changes in effort together with spatial changes, this is also important", 
+        "QuestionID": 43, 
+        "TargetID": 28
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 43, 
+        "TargetID": 29
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 43, 
+        "TargetID": 31
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 43, 
+        "TargetID": 32
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 43, 
+        "TargetID": 34
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 43, 
+        "TargetID": 35
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 43, 
+        "TargetID": 36
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 43, 
+        "TargetID": 37
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 43, 
+        "TargetID": 38
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 43, 
+        "TargetID": 39
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 43, 
+        "TargetID": 40
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 43, 
+        "TargetID": 41
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 43, 
+        "TargetID": 42
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 43, 
+        "TargetID": 43
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 43, 
+        "TargetID": 44
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 43, 
+        "TargetID": 45
+    }, 
+    {
+        "Threshold": "Y if spatial variation in size structure suspected", 
+        "QuestionID": 43, 
+        "TargetID": 46
+    }, 
+    {
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
+        "QuestionID": 22, 
+        "TargetID": 3
+    }, 
+    {
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
+        "QuestionID": 22, 
+        "TargetID": 5
+    }, 
+    {
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
+        "QuestionID": 22, 
+        "TargetID": 19
+    }, 
+    {
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
+        "QuestionID": 22, 
+        "TargetID": 21
+    }, 
+    {
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
+        "QuestionID": 17, 
+        "TargetID": 10
+    }, 
+    {
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
+        "QuestionID": 17, 
+        "TargetID": 24
+    }, 
+    {
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
+        "QuestionID": 17, 
+        "TargetID": 27
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 119, 
+        "TargetID": 98
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 119, 
+        "TargetID": 99
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 119, 
+        "TargetID": 100
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 119, 
+        "TargetID": 101
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 119, 
+        "TargetID": 102
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 119, 
+        "TargetID": 103
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 119, 
+        "TargetID": 104
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 119, 
+        "TargetID": 105
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 119, 
+        "TargetID": 106
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 119, 
+        "TargetID": 107
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 119, 
+        "TargetID": 108
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 119, 
+        "TargetID": 109
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 119, 
+        "TargetID": 110
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 119, 
+        "TargetID": 111
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 119, 
+        "TargetID": 112
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 119, 
+        "TargetID": 113
+    }, 
+    {
+        "Threshold": "moderate (NB less expensive if industry/company chartered, or via academia)", 
+        "QuestionID": 119, 
+        "TargetID": 114
+    }, 
+    {
+        "Threshold": "moderate (NB less expensive if industry/company chartered, or via academia)", 
+        "QuestionID": 119, 
+        "TargetID": 115
+    }, 
+    {
+        "Threshold": "moderate (NB less expensive if industry/company chartered, or via academia)", 
+        "QuestionID": 119, 
+        "TargetID": 116
+    }, 
+    {
+        "Threshold": "moderate (NB less expensive if industry/company chartered, or via academia)", 
+        "QuestionID": 119, 
+        "TargetID": 117
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 119, 
+        "TargetID": 118
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 119, 
+        "TargetID": 119
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 119, 
+        "TargetID": 120
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 119, 
+        "TargetID": 121
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 119, 
+        "TargetID": 122
+    }, 
+    {
+        "Threshold": "moderate-high", 
+        "QuestionID": 119, 
+        "TargetID": 123
+    }, 
+    {
+        "Threshold": "high", 
+        "QuestionID": 119, 
+        "TargetID": 124
+    }, 
+    {
+        "Threshold": "high", 
+        "QuestionID": 119, 
+        "TargetID": 125
+    }, 
+    {
+        "Threshold": "high", 
+        "QuestionID": 119, 
+        "TargetID": 126
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 119, 
+        "TargetID": 127
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 119, 
+        "TargetID": 128
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 119, 
+        "TargetID": 129
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 119, 
+        "TargetID": 130
+    }, 
+    {
+        "Threshold": "moderate-high", 
+        "QuestionID": 119, 
+        "TargetID": 131
+    }, 
+    {
+        "Threshold": "moderate-high", 
+        "QuestionID": 119, 
+        "TargetID": 132
+    }, 
+    {
+        "Threshold": "moderate-high", 
+        "QuestionID": 119, 
+        "TargetID": 133
+    }, 
+    {
+        "Threshold": "moderate-high", 
+        "QuestionID": 119, 
+        "TargetID": 134
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 119, 
+        "TargetID": 135
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 119, 
+        "TargetID": 136
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 119, 
+        "TargetID": 137
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 119, 
+        "TargetID": 138
+    }, 
+    {
+        "Threshold": "moderate-high", 
+        "QuestionID": 119, 
+        "TargetID": 139
+    }, 
+    {
+        "Threshold": "moderate-high", 
+        "QuestionID": 119, 
+        "TargetID": 140
+    }, 
+    {
+        "Threshold": "moderate-high", 
+        "QuestionID": 119, 
+        "TargetID": 141
+    }, 
+    {
+        "Threshold": "high", 
+        "QuestionID": 119, 
+        "TargetID": 142
+    }, 
+    {
+        "Threshold": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+        "QuestionID": 32, 
+        "TargetID": 15
+    }, 
+    {
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
+        "QuestionID": 32, 
+        "TargetID": 26
+    }, 
+    {
+        "Threshold": "1", 
+        "QuestionID": 130, 
+        "TargetID": 98
+    }, 
+    {
+        "Threshold": "1", 
+        "QuestionID": 130, 
+        "TargetID": 99
+    }, 
+    {
+        "Threshold": "1", 
+        "QuestionID": 130, 
+        "TargetID": 100
+    }, 
+    {
+        "Threshold": "1", 
+        "QuestionID": 130, 
+        "TargetID": 101
+    }, 
+    {
+        "Threshold": "2", 
+        "QuestionID": 130, 
+        "TargetID": 102
+    }, 
+    {
+        "Threshold": "2", 
+        "QuestionID": 130, 
+        "TargetID": 103
+    }, 
+    {
+        "Threshold": "2", 
+        "QuestionID": 130, 
+        "TargetID": 104
+    }, 
+    {
+        "Threshold": "2", 
+        "QuestionID": 130, 
+        "TargetID": 105
+    }, 
+    {
+        "Threshold": "1", 
+        "QuestionID": 130, 
+        "TargetID": 106
+    }, 
+    {
+        "Threshold": "1", 
+        "QuestionID": 130, 
+        "TargetID": 107
+    }, 
+    {
+        "Threshold": "1", 
+        "QuestionID": 130, 
+        "TargetID": 108
+    }, 
+    {
+        "Threshold": "1", 
+        "QuestionID": 130, 
+        "TargetID": 109
+    }, 
+    {
+        "Threshold": "2", 
+        "QuestionID": 130, 
+        "TargetID": 110
+    }, 
+    {
+        "Threshold": "3", 
+        "QuestionID": 130, 
+        "TargetID": 111
+    }, 
+    {
+        "Threshold": "3", 
+        "QuestionID": 130, 
+        "TargetID": 112
+    }, 
+    {
+        "Threshold": "3", 
+        "QuestionID": 130, 
+        "TargetID": 113
+    }, 
+    {
+        "Threshold": "2", 
+        "QuestionID": 130, 
+        "TargetID": 114
+    }, 
+    {
+        "Threshold": "2", 
+        "QuestionID": 130, 
+        "TargetID": 115
+    }, 
+    {
+        "Threshold": "2", 
+        "QuestionID": 130, 
+        "TargetID": 116
+    }, 
+    {
+        "Threshold": "2", 
+        "QuestionID": 130, 
+        "TargetID": 117
+    }, 
+    {
+        "Threshold": "4", 
+        "QuestionID": 130, 
+        "TargetID": 118
+    }, 
+    {
+        "Threshold": "4", 
+        "QuestionID": 130, 
+        "TargetID": 119
+    }, 
+    {
+        "Threshold": "4", 
+        "QuestionID": 130, 
+        "TargetID": 120
+    }, 
+    {
+        "Threshold": "4", 
+        "QuestionID": 130, 
+        "TargetID": 121
+    }, 
+    {
+        "Threshold": "2", 
+        "QuestionID": 130, 
+        "TargetID": 122
+    }, 
+    {
+        "Threshold": "2", 
+        "QuestionID": 130, 
+        "TargetID": 123
+    }, 
+    {
+        "Threshold": "2", 
+        "QuestionID": 130, 
+        "TargetID": 124
+    }, 
+    {
+        "Threshold": "2", 
+        "QuestionID": 130, 
+        "TargetID": 125
+    }, 
+    {
+        "Threshold": "2", 
+        "QuestionID": 130, 
+        "TargetID": 126
+    }, 
+    {
+        "Threshold": "3", 
+        "QuestionID": 130, 
+        "TargetID": 127
+    }, 
+    {
+        "Threshold": "3", 
+        "QuestionID": 130, 
+        "TargetID": 128
+    }, 
+    {
+        "Threshold": "3", 
+        "QuestionID": 130, 
+        "TargetID": 129
+    }, 
+    {
+        "Threshold": "3", 
+        "QuestionID": 130, 
+        "TargetID": 130
+    }, 
+    {
+        "Threshold": "3", 
+        "QuestionID": 130, 
+        "TargetID": 131
+    }, 
+    {
+        "Threshold": "3", 
+        "QuestionID": 130, 
+        "TargetID": 132
+    }, 
+    {
+        "Threshold": "3", 
+        "QuestionID": 130, 
+        "TargetID": 133
+    }, 
+    {
+        "Threshold": "3", 
+        "QuestionID": 130, 
+        "TargetID": 134
+    }, 
+    {
+        "Threshold": "1", 
+        "QuestionID": 130, 
+        "TargetID": 135
+    }, 
+    {
+        "Threshold": "1", 
+        "QuestionID": 130, 
+        "TargetID": 136
+    }, 
+    {
+        "Threshold": "1", 
+        "QuestionID": 130, 
+        "TargetID": 137
+    }, 
+    {
+        "Threshold": "1", 
+        "QuestionID": 130, 
+        "TargetID": 138
+    }, 
+    {
+        "Threshold": "2", 
+        "QuestionID": 130, 
+        "TargetID": 139
+    }, 
+    {
+        "Threshold": "2", 
+        "QuestionID": 130, 
+        "TargetID": 140
+    }, 
+    {
+        "Threshold": "2", 
+        "QuestionID": 130, 
+        "TargetID": 141
+    }, 
+    {
+        "Threshold": "2", 
+        "QuestionID": 130, 
+        "TargetID": 142
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 63, 
+        "TargetID": 98
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 63, 
+        "TargetID": 99
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 63, 
+        "TargetID": 100
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 63, 
+        "TargetID": 101
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 63, 
+        "TargetID": 102
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 63, 
+        "TargetID": 103
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 63, 
+        "TargetID": 104
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 63, 
+        "TargetID": 105
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 63, 
+        "TargetID": 106
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 63, 
+        "TargetID": 107
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 63, 
+        "TargetID": 108
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 63, 
+        "TargetID": 109
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 63, 
+        "TargetID": 110
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 63, 
+        "TargetID": 111
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 63, 
+        "TargetID": 112
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 63, 
+        "TargetID": 113
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 63, 
+        "TargetID": 114
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 63, 
+        "TargetID": 115
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 63, 
+        "TargetID": 116
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 63, 
+        "TargetID": 117
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 63, 
+        "TargetID": 118
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 63, 
+        "TargetID": 119
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 63, 
+        "TargetID": 120
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 63, 
+        "TargetID": 121
+    }, 
+    {
+        "Threshold": "moderate-high", 
+        "QuestionID": 63, 
+        "TargetID": 122
+    }, 
+    {
+        "Threshold": "moderate-high", 
+        "QuestionID": 63, 
+        "TargetID": 123
+    }, 
+    {
+        "Threshold": "high", 
+        "QuestionID": 63, 
+        "TargetID": 124
+    }, 
+    {
+        "Threshold": "high", 
+        "QuestionID": 63, 
+        "TargetID": 125
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 63, 
+        "TargetID": 126
+    }, 
+    {
+        "Threshold": "moderate BUT can be low if lower number of participants", 
+        "QuestionID": 63, 
+        "TargetID": 127
+    }, 
+    {
+        "Threshold": "moderate BUT can be low if lower number of participants", 
+        "QuestionID": 63, 
+        "TargetID": 128
+    }, 
+    {
+        "Threshold": "moderate BUT can be low if lower number of participants", 
+        "QuestionID": 63, 
+        "TargetID": 129
+    }, 
+    {
+        "Threshold": "moderate BUT can be low if lower number of participants", 
+        "QuestionID": 63, 
+        "TargetID": 130
+    }, 
+    {
+        "Threshold": "high", 
+        "QuestionID": 63, 
+        "TargetID": 131
+    }, 
+    {
+        "Threshold": "high", 
+        "QuestionID": 63, 
+        "TargetID": 132
+    }, 
+    {
+        "Threshold": "high", 
+        "QuestionID": 63, 
+        "TargetID": 133
+    }, 
+    {
+        "Threshold": "high", 
+        "QuestionID": 63, 
+        "TargetID": 134
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 63, 
+        "TargetID": 135
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 63, 
+        "TargetID": 136
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 63, 
+        "TargetID": 137
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 63, 
+        "TargetID": 138
+    }, 
+    {
+        "Threshold": "high", 
+        "QuestionID": 63, 
+        "TargetID": 139
+    }, 
+    {
+        "Threshold": "high", 
+        "QuestionID": 63, 
+        "TargetID": 140
+    }, 
+    {
+        "Threshold": "high", 
+        "QuestionID": 63, 
+        "TargetID": 141
+    }, 
+    {
+        "Threshold": "high", 
+        "QuestionID": 63, 
+        "TargetID": 142
+    }, 
+    {
+        "Threshold": "subsistence", 
+        "QuestionID": 118, 
+        "TargetID": 98
+    }, 
+    {
+        "Threshold": "subsistence", 
+        "QuestionID": 118, 
+        "TargetID": 99
+    }, 
+    {
+        "Threshold": "subsistence", 
+        "QuestionID": 118, 
+        "TargetID": 100
+    }, 
+    {
+        "Threshold": "subsistence", 
+        "QuestionID": 118, 
+        "TargetID": 101
+    }, 
+    {
+        "Threshold": "subsistence", 
+        "QuestionID": 118, 
+        "TargetID": 102
+    }, 
+    {
+        "Threshold": "subsistence", 
+        "QuestionID": 118, 
+        "TargetID": 103
+    }, 
+    {
+        "Threshold": "subsistence", 
+        "QuestionID": 118, 
+        "TargetID": 104
+    }, 
+    {
+        "Threshold": "subsistence", 
+        "QuestionID": 118, 
+        "TargetID": 105
+    }, 
+    {
+        "Threshold": "Artisinal - subsistance and local markets only", 
+        "QuestionID": 118, 
+        "TargetID": 106
+    }, 
+    {
+        "Threshold": "Artisinal - subsistance and local markets only", 
+        "QuestionID": 118, 
+        "TargetID": 107
+    }, 
+    {
+        "Threshold": "Artisinal - subsistance and local markets only", 
+        "QuestionID": 118, 
+        "TargetID": 108
+    }, 
+    {
+        "Threshold": "Artisinal - subsistance and local markets only", 
+        "QuestionID": 118, 
+        "TargetID": 109
+    }, 
+    {
+        "Threshold": "Artisinal - subsistance and local markets only", 
+        "QuestionID": 118, 
+        "TargetID": 110
+    }, 
+    {
+        "Threshold": "Artisinal - subsistance and local markets only", 
+        "QuestionID": 118, 
+        "TargetID": 111
+    }, 
+    {
+        "Threshold": "Artisinal - subsistance and local markets only", 
+        "QuestionID": 118, 
+        "TargetID": 112
+    }, 
+    {
+        "Threshold": "Artisinal - subsistance and local markets only", 
+        "QuestionID": 118, 
+        "TargetID": 113
+    }, 
+    {
+        "Threshold": "Artisinal - subsistance and local markets only", 
+        "QuestionID": 118, 
+        "TargetID": 114
+    }, 
+    {
+        "Threshold": "Artisinal - subsistance and local markets only", 
+        "QuestionID": 118, 
+        "TargetID": 115
+    }, 
+    {
+        "Threshold": "Artisinal - subsistance and local markets only", 
+        "QuestionID": 118, 
+        "TargetID": 116
+    }, 
+    {
+        "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+        "QuestionID": 118, 
+        "TargetID": 117
+    }, 
+    {
+        "Threshold": "Artisinal - subsistance and local markets only", 
+        "QuestionID": 118, 
+        "TargetID": 118
+    }, 
+    {
+        "Threshold": "Artisinal - subsistance and local markets only", 
+        "QuestionID": 118, 
+        "TargetID": 119
+    }, 
+    {
+        "Threshold": "Artisinal - subsistance and local markets only", 
+        "QuestionID": 118, 
+        "TargetID": 120
+    }, 
+    {
+        "Threshold": "Artisinal - subsistance and local markets only", 
+        "QuestionID": 118, 
+        "TargetID": 121
+    }, 
+    {
+        "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+        "QuestionID": 118, 
+        "TargetID": 122
+    }, 
+    {
+        "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+        "QuestionID": 118, 
+        "TargetID": 123
+    }, 
+    {
+        "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+        "QuestionID": 118, 
+        "TargetID": 124
+    }, 
+    {
+        "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+        "QuestionID": 118, 
+        "TargetID": 125
+    }, 
+    {
+        "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+        "QuestionID": 118, 
+        "TargetID": 126
+    }, 
+    {
+        "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+        "QuestionID": 118, 
+        "TargetID": 127
+    }, 
+    {
+        "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+        "QuestionID": 118, 
+        "TargetID": 128
+    }, 
+    {
+        "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+        "QuestionID": 118, 
+        "TargetID": 129
+    }, 
+    {
+        "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+        "QuestionID": 118, 
+        "TargetID": 130
+    }, 
+    {
+        "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+        "QuestionID": 118, 
+        "TargetID": 131
+    }, 
+    {
+        "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+        "QuestionID": 118, 
+        "TargetID": 132
+    }, 
+    {
+        "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+        "QuestionID": 118, 
+        "TargetID": 133
+    }, 
+    {
+        "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+        "QuestionID": 118, 
+        "TargetID": 134
+    }, 
+    {
+        "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+        "QuestionID": 118, 
+        "TargetID": 135
+    }, 
+    {
+        "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+        "QuestionID": 118, 
+        "TargetID": 136
+    }, 
+    {
+        "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+        "QuestionID": 118, 
+        "TargetID": 137
+    }, 
+    {
+        "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+        "QuestionID": 118, 
+        "TargetID": 138
+    }, 
+    {
+        "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+        "QuestionID": 118, 
+        "TargetID": 139
+    }, 
+    {
+        "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+        "QuestionID": 118, 
+        "TargetID": 140
+    }, 
+    {
+        "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+        "QuestionID": 118, 
+        "TargetID": 141
+    }, 
+    {
+        "Threshold": "Artisinal -commerical (large range of boats - may sell locally and/or for export)", 
+        "QuestionID": 118, 
+        "TargetID": 142
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 36, 
+        "TargetID": 35
+    }, 
+    {
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
+        "QuestionID": 12, 
+        "TargetID": 3
+    }, 
+    {
+        "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
+        "QuestionID": 12, 
+        "TargetID": 7
+    }, 
+    {
+        "Threshold": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+        "QuestionID": 12, 
+        "TargetID": 14
+    }, 
+    {
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
+        "QuestionID": 12, 
+        "TargetID": 21
+    }, 
+    {
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
+        "QuestionID": 12, 
+        "TargetID": 24
+    }, 
+    {
+        "Threshold": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+        "QuestionID": 12, 
+        "TargetID": 25
+    }, 
+    {
+        "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
+        "QuestionID": 12, 
+        "TargetID": 30
+    }, 
+    {
+        "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
+        "QuestionID": 12, 
+        "TargetID": 31
+    }, 
+    {
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
+        "QuestionID": 12, 
+        "TargetID": 32
+    }, 
+    {
+        "Threshold": "3 - 10+ regular years (i.e. not necessarily every year)", 
+        "QuestionID": 12, 
+        "TargetID": 33
+    }, 
+    {
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
+        "QuestionID": 12, 
+        "TargetID": 39
+    }, 
+    {
+        "Threshold": "1 - Snapshots/intermittent/<5years", 
+        "QuestionID": 35, 
+        "TargetID": 34
+    }, 
+    {
+        "Threshold": "1 - borrowed - outside expert", 
+        "QuestionID": 26, 
+        "TargetID": 4
+    }, 
+    {
+        "Threshold": "2 - in situ - local expert", 
+        "QuestionID": 26, 
+        "TargetID": 5
+    }, 
+    {
+        "Threshold": "2 - in situ - local expert", 
+        "QuestionID": 26, 
+        "TargetID": 19
+    }, 
+    {
+        "Threshold": "2 - in situ - local expert", 
+        "QuestionID": 24, 
+        "TargetID": 3
+    }, 
+    {
+        "Threshold": "2 - in situ - local expert", 
+        "QuestionID": 24, 
+        "TargetID": 4
+    }, 
+    {
+        "Threshold": "2 - in situ - local expert", 
+        "QuestionID": 24, 
+        "TargetID": 5
+    }, 
+    {
+        "Threshold": "1 - borrowed - outside expert", 
+        "QuestionID": 24, 
+        "TargetID": 6
+    }, 
+    {
+        "Threshold": "1 - borrowed - outside expert", 
+        "QuestionID": 24, 
+        "TargetID": 7
+    }, 
+    {
+        "Threshold": "1 - borrowed - outside expert", 
+        "QuestionID": 24, 
+        "TargetID": 14
+    }, 
+    {
+        "Threshold": "2 - in situ - local expert", 
+        "QuestionID": 24, 
+        "TargetID": 19
+    }, 
+    {
+        "Threshold": "1 - borrowed - outside expert", 
+        "QuestionID": 24, 
+        "TargetID": 20
+    }, 
+    {
+        "Threshold": "2 - in situ - local expert", 
+        "QuestionID": 24, 
+        "TargetID": 24
+    }, 
+    {
+        "Threshold": "1 - borrowed - outside expert", 
+        "QuestionID": 24, 
+        "TargetID": 25
+    }, 
+    {
+        "Threshold": "1 - borrowed - outside expert", 
+        "QuestionID": 24, 
+        "TargetID": 35
+    }, 
+    {
+        "Threshold": "1 - borrowed - outside expert", 
+        "QuestionID": 24, 
+        "TargetID": 36
+    }, 
+    {
+        "Threshold": "2 - in situ - local expert", 
+        "QuestionID": 24, 
+        "TargetID": 37
+    }, 
+    {
+        "Threshold": "1 - borrowed - outside expert", 
+        "QuestionID": 24, 
+        "TargetID": 38
+    }, 
+    {
+        "Threshold": "1 - borrowed - outside expert", 
+        "QuestionID": 24, 
+        "TargetID": 42
+    }, 
+    {
+        "Threshold": "1 - borrowed - outside expert", 
+        "QuestionID": 24, 
+        "TargetID": 44
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 6, 
+        "TargetID": 44
+    }, 
+    {
+        "Threshold": "1 - borrowed - outside expert", 
+        "QuestionID": 25, 
+        "TargetID": 0
+    }, 
+    {
+        "Threshold": "2 - in situ - local expert", 
+        "QuestionID": 25, 
+        "TargetID": 1
+    }, 
+    {
+        "Threshold": "2 - in situ - local expert", 
+        "QuestionID": 25, 
+        "TargetID": 2
+    }, 
+    {
+        "Threshold": "2 - in situ - local expert", 
+        "QuestionID": 25, 
+        "TargetID": 3
+    }, 
+    {
+        "Threshold": "2 - in situ - local expert", 
+        "QuestionID": 25, 
+        "TargetID": 4
+    }, 
+    {
+        "Threshold": "2 - in situ - local expert", 
+        "QuestionID": 25, 
+        "TargetID": 5
+    }, 
+    {
+        "Threshold": "1 - borrowed - outside expert", 
+        "QuestionID": 25, 
+        "TargetID": 6
+    }, 
+    {
+        "Threshold": "1 - borrowed - outside expert", 
+        "QuestionID": 25, 
+        "TargetID": 7
+    }, 
+    {
+        "Threshold": "2 - in situ - local expert", 
+        "QuestionID": 25, 
+        "TargetID": 10
+    }, 
+    {
+        "Threshold": "2 - in situ - local expert", 
+        "QuestionID": 25, 
+        "TargetID": 11
+    }, 
+    {
+        "Threshold": "2 - in situ - local expert", 
+        "QuestionID": 25, 
+        "TargetID": 12
+    }, 
+    {
+        "Threshold": "2 - in situ - local expert", 
+        "QuestionID": 25, 
+        "TargetID": 13
+    }, 
+    {
+        "Threshold": "2 - in situ - local expert", 
+        "QuestionID": 25, 
+        "TargetID": 14
+    }, 
+    {
+        "Threshold": "2 - in situ - local expert", 
+        "QuestionID": 25, 
+        "TargetID": 19
+    }, 
+    {
+        "Threshold": "2 - in situ - local expert", 
+        "QuestionID": 25, 
+        "TargetID": 20
+    }, 
+    {
+        "Threshold": "2 - in situ - local expert", 
+        "QuestionID": 25, 
+        "TargetID": 24
+    }, 
+    {
+        "Threshold": "2 - in situ - local expert", 
+        "QuestionID": 25, 
+        "TargetID": 25
+    }, 
+    {
+        "Threshold": "2 - in situ - local expert", 
+        "QuestionID": 25, 
+        "TargetID": 30
+    }, 
+    {
+        "Threshold": "2 - in situ - local expert", 
+        "QuestionID": 25, 
+        "TargetID": 31
+    }, 
+    {
+        "Threshold": "2 - in situ - local expert", 
+        "QuestionID": 25, 
+        "TargetID": 32
+    }, 
+    {
+        "Threshold": "2 - in situ - local expert", 
+        "QuestionID": 25, 
+        "TargetID": 33
+    }, 
+    {
+        "Threshold": "1 - borrowed - outside expert", 
+        "QuestionID": 25, 
+        "TargetID": 46
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 7, 
+        "TargetID": 41
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 7, 
+        "TargetID": 44
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 63, 
+        "TargetID": 0
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 63, 
+        "TargetID": 1
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 63, 
+        "TargetID": 2
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 63, 
+        "TargetID": 3
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 63, 
+        "TargetID": 4
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 63, 
+        "TargetID": 5
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 63, 
+        "TargetID": 6
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 63, 
+        "TargetID": 7
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 63, 
+        "TargetID": 8
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 63, 
+        "TargetID": 9
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 63, 
+        "TargetID": 10
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 63, 
+        "TargetID": 11
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 63, 
+        "TargetID": 12
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 63, 
+        "TargetID": 13
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 63, 
+        "TargetID": 14
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 63, 
+        "TargetID": 15
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 63, 
+        "TargetID": 16
+    }, 
+    {
+        "Threshold": "high (due to intensive within-season updating)", 
+        "QuestionID": 63, 
+        "TargetID": 17
+    }, 
+    {
+        "Threshold": "low", 
+        "QuestionID": 63, 
+        "TargetID": 18
+    }, 
+    {
+        "Threshold": "high", 
+        "QuestionID": 63, 
+        "TargetID": 19
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 63, 
+        "TargetID": 20
+    }, 
+    {
+        "Threshold": "high", 
+        "QuestionID": 63, 
+        "TargetID": 21
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 63, 
+        "TargetID": 22
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 63, 
+        "TargetID": 23
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 63, 
+        "TargetID": 24
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 63, 
+        "TargetID": 25
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 63, 
+        "TargetID": 26
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 63, 
+        "TargetID": 27
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 63, 
+        "TargetID": 28
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 63, 
+        "TargetID": 29
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 63, 
+        "TargetID": 31
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 63, 
+        "TargetID": 32
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 63, 
+        "TargetID": 34
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 63, 
+        "TargetID": 35
+    }, 
+    {
+        "Threshold": "moderate-high", 
+        "QuestionID": 63, 
+        "TargetID": 36
+    }, 
+    {
+        "Threshold": "moderate-high", 
+        "QuestionID": 63, 
+        "TargetID": 37
+    }, 
+    {
+        "Threshold": "moderate-high", 
+        "QuestionID": 63, 
+        "TargetID": 38
+    }, 
+    {
+        "Threshold": "low-moderate", 
+        "QuestionID": 63, 
+        "TargetID": 39
+    }, 
+    {
+        "Threshold": "moderate-high", 
+        "QuestionID": 63, 
+        "TargetID": 40
+    }, 
+    {
+        "Threshold": "moderate-high", 
+        "QuestionID": 63, 
+        "TargetID": 41
+    }, 
+    {
+        "Threshold": "moderate-high", 
+        "QuestionID": 63, 
+        "TargetID": 42
+    }, 
+    {
+        "Threshold": "moderate-high", 
+        "QuestionID": 63, 
+        "TargetID": 43
+    }, 
+    {
+        "Threshold": "high", 
+        "QuestionID": 63, 
+        "TargetID": 44
+    }, 
+    {
+        "Threshold": "moderate-high", 
+        "QuestionID": 63, 
+        "TargetID": 45
+    }, 
+    {
+        "Threshold": "moderate", 
+        "QuestionID": 63, 
+        "TargetID": 46
+    }, 
+    {
+        "Threshold": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+        "QuestionID": 11, 
+        "TargetID": 8
+    }, 
+    {
+        "Threshold": "2 - 5-10 regular years (i.e. not necessarily every year)", 
+        "QuestionID": 11, 
+        "TargetID": 9
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 44, 
+        "TargetID": 13
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 44, 
+        "TargetID": 14
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 44, 
+        "TargetID": 16
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 44, 
+        "TargetID": 17
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 44, 
+        "TargetID": 22
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 44, 
+        "TargetID": 29
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 44, 
+        "TargetID": 35
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 44, 
+        "TargetID": 36
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 44, 
+        "TargetID": 37
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 44, 
+        "TargetID": 38
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 44, 
+        "TargetID": 40
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 44, 
+        "TargetID": 41
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 44, 
+        "TargetID": 42
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 44, 
+        "TargetID": 43
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 44, 
+        "TargetID": 44
+    }, 
+    {
+        "Threshold": "Yes", 
+        "QuestionID": 44, 
+        "TargetID": 45
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 2, 
+        "TargetID": 3
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 2, 
+        "TargetID": 6
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 2, 
+        "TargetID": 32
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 2, 
+        "TargetID": 34
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 2, 
+        "TargetID": 37
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 2, 
+        "TargetID": 38
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 2, 
+        "TargetID": 41
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 2, 
+        "TargetID": 42
+    }, 
+    {
+        "Threshold": "1 - borrowed", 
+        "QuestionID": 2, 
+        "TargetID": 44
+    }
+]
