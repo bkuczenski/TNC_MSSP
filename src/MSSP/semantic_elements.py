@@ -143,6 +143,8 @@ class SemanticElementSet(object):
         return len(self._d)
 
     def __getitem__(self, key):
+        if key is None:
+            return SemanticElement('None')
         if not isinstance(key, uuid.UUID):
             key = uuid.UUID(key)
         return self._d[key]
